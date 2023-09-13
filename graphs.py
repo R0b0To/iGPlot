@@ -1,13 +1,11 @@
-import csv
-import sys
+import csv,sys
 import numpy as np
 import matplotlib.pyplot as plt
-from PyQt5.QtWidgets import QApplication, QMainWindow, QPushButton, QVBoxLayout, QWidget,QLineEdit,QHBoxLayout
+from PyQt5.QtWidgets import QApplication, QPushButton, QVBoxLayout, QWidget,QLineEdit,QHBoxLayout
 from PyQt5.QtGui import QIntValidator
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 import matplotlib.font_manager as fm  # For font management
-from matplotlib.patches import FancyBboxPatch,PathPatch,Polygon
-from matplotlib.path import Path
+from matplotlib.offsetbox import OffsetImage, AnnotationBbox
 
 
 # Initialize variables to store data
@@ -17,7 +15,18 @@ tyre = []
 results_date = []
 rules = {}
 driver_data = {}
-
+tyre = {'Super soft tyres': '#d66e67',
+          'Soft tyres': '#D9C777',
+          'Medium tyres': '#c9c9c9',
+          'Hard tyres': '#e77b00',
+          'Intermediate wet tyres': 'green',
+          'Full wet tyres': 'blue'}
+# Function to calculate brightness of a color
+def get_brightness(rgba_color):
+    r, g, b, _ = rgba_color
+    # Calculate brightness using the formula: brightness = 0.299*R + 0.587*G + 0.114*B
+    brightness = 0.299 * r + 0.587 * g + 0.114 * b
+    return brightness
 with open('full_report.csv', 'r',encoding='utf-8') as csv_file:
     csv_reader = csv.reader(csv_file)
 
@@ -58,11 +67,7 @@ with open('full_report.csv', 'r',encoding='utf-8') as csv_file:
                     "Average Speed":["Q"], 
                     "Lap": [["Q",row[3]]],
                     "Race Position": [row[6]]
-                }
-        
-       
-  
-
+                }             
 csv_file.close()
 
 class OvertakesWindow(QWidget):
@@ -74,9 +79,13 @@ class OvertakesWindow(QWidget):
     def initUI(self):
         # Create a Matplotlib figure and axis for the graph
         font = fm.FontProperties(fname='Roboto.ttf') 
-        self.figure, self.ax = plt.subplots(figsize=(6, 4))
-        self.figure.set_facecolor('black')
-        self.ax.set_facecolor('black')
+        self.figure, self.ax = plt.subplots()
+        self.figure.set_facecolor('#31333b')
+        self.ax.set_facecolor('#31333b')
+        self.ax.spines['top'].set_visible(False)
+        self.ax.spines['right'].set_visible(False)
+        self.ax.spines['bottom'].set_visible(False)
+        self.ax.spines['left'].set_visible(False)
         self.ax.tick_params(labelrotation=0, labelcolor='white', labelsize=12)
         self.canvas = FigureCanvas(self.figure)
         
@@ -87,7 +96,7 @@ class OvertakesWindow(QWidget):
 
         # Set window properties
         self.setWindowTitle('Graph Window')
-        self.setGeometry(200, 200, 600, 400)  # (x, y, width, height)
+        self.setGeometry(400, 400, 1200, 800)  # (x, y, width, height)
 
     def plot_graph(self):
         # Create sample data (a simple sine wave)
@@ -104,21 +113,27 @@ class OvertakesWindow(QWidget):
         overtakeslist = []
         qualilist = []
         endlaplist = []
+        starting_tyre = []
         names = list(driver_data)
-
+        
         
         # Iterate over the keys and values of the dictionary
         for key, value in driver_data.items():
             quali = int(driver_data[key]["Race Position"][0])
-            endlap = int(driver_data[key]["Race Position"][2])
-            overtakes = endlap - quali
+            if(len(driver_data[key]["Race Position"])>int(self.lap.text())):
+             endlap = int(driver_data[key]["Race Position"][int(self.lap.text())])         
+            else:
+             endlap = int(driver_data[key]["Race Position"][-1])
+            overtakes =  endlap - quali
             
+            starting_tyre.append(tyre[driver_data[key]["Lap"][0][1].split('/')[0].strip()])
             qualilist.append(quali)
             endlaplist.append(endlap)
             overtakeslist.append(overtakes)
-
-        # Sort the data by values in ascending order
+    
         
+
+
         int_array1 = np.array(overtakeslist, dtype=int)
         sorted_values = np.sort(int_array1)[::-1]
         sorted_qualilist = np.array(qualilist)[int_array1.argsort()][::-1]
@@ -129,38 +144,77 @@ class OvertakesWindow(QWidget):
         #fig = plt.figure(figsize=(8, 6), facecolor='lightgray')
         # Create a bar chart
         plt.barh(sorted_names, sorted_values, color=label_colors)
-        fontsize = 12  # Adjust this value to change the font size
-        fontweight = 'bold'  # Set to 'bold' for bold text
-        bbox_color = 'lightcoral'
-        text = ""
-        arrow_gain_properties = dict(arrowstyle="->", facecolor='red', edgecolor='green')
-        arrow_lose_properties = dict(arrowstyle="<-", facecolor='red', edgecolor='red')
-        arrows_location = 8
-        for i in range(len(sorted_names)):
-            x = sorted_values[i]
-            y = sorted_names[i]
-            if x < 0:
-                plt.text(x, i, str(abs(x)), va='center', ha='right', color="white",fontsize=fontsize,fontweight=fontweight)
-                plt.text(0.3, i, y, va='center', ha='left', color="white",fontsize=fontsize,fontweight=fontweight)
-                plt.text(arrows_location, i, sorted_qualilist[i], va='center', ha='right', color="white",fontsize=fontsize,fontweight=fontweight)
-                plt.annotate(text, xy=(arrows_location+1, y), xytext=(arrows_location+0.1, y),arrowprops=arrow_gain_properties)
-                plt.text(arrows_location+1.1, i, sorted_endlaplist[i], va='center', ha='left', color="white",fontsize=fontsize,fontweight=fontweight)
-
-            elif x > 0:
-                plt.text(x, i, str(abs(x)), va='center', ha='left',color="white",fontsize=fontsize, fontweight=fontweight)
-                plt.text(-0.3, i, y, va='center', ha='right', color="white",fontsize=fontsize,fontweight=fontweight)
-                plt.text(-arrows_location, i, sorted_qualilist[i], va='center', ha='left', color="white",fontsize=fontsize,fontweight=fontweight)
-                plt.annotate(text, xy=(-arrows_location-0.1, y), xytext=(-arrows_location-1, y),arrowprops=arrow_lose_properties)
-                plt.text(-arrows_location-1.1, i, sorted_endlaplist[i], va='center', ha='right', color="white",fontsize=fontsize,fontweight=fontweight)
+        # Set background colors for y-axis labels based on driver colors
+        for label, color in zip(self.ax.get_yticklabels(), label_colors):
+            label.set_bbox({'facecolor': color, 'pad': 0.2, 'edgecolor': 'none', 'boxstyle': 'round'})
+        # Automatically choose font color based on background color brightness
+        for label in self.ax.get_yticklabels():
+            background_color = label.get_bbox_patch().get_facecolor()
+            brightness = get_brightness(background_color)
+            if brightness < 0.5:  # You can adjust the threshold as needed
+                label.set_color('white')
             else:
-                #plt.text(0, i, '0', va='center', ha='center',color="white",fontsize=fontsize, fontweight=fontweight)
-                plt.text(0, i, y, va='center', ha='center', color="white",fontsize=fontsize,fontweight=fontweight)
+                label.set_color('black')
 
+        font_size = 12        
+        # Add images for each driver
+        for i, driver in enumerate(sorted_names):
+            img_path = f'downloaded_images/{driver}.png'  # Assuming images are in a folder named "images"
+            try:
+                label_color = self.ax.get_yticklabels()[i].get_color()
+                img = plt.imread(img_path)
+                imagebox = OffsetImage(img, zoom=0.15)
+                if sorted_values[i]<0:
+                    ab = AnnotationBbox(imagebox, (sorted_values[i], i), frameon=False,box_alignment=(0,0.5))
+                    self.ax.text(0, i, "P"+str(sorted_qualilist[i]), va='center', ha= "left", color=label_color, fontsize=font_size,weight='bold')
+                    self.ax.text(sorted_values[i], i, "P"+str(sorted_endlaplist[i]), va='center', ha= "right", color=label_color,fontsize=font_size,weight='bold')
+                    self.ax.text(sorted_values[i]/2, i, ">"*abs(sorted_values[i]), va='center', ha= "center", color=label_color,fontsize=font_size,weight='bold')
+                elif sorted_values[i]>0:  
+                    ab = AnnotationBbox(imagebox, (sorted_values[i], i), frameon=False,box_alignment=(1,0.5))
+                    self.ax.text(0, i, "P"+str(sorted_qualilist[i]), va='center', ha= "right", color=label_color,fontsize=font_size,weight='bold')
+                    self.ax.text(sorted_values[i], i, "P"+str(sorted_endlaplist[i]), va='center', ha= "left", color=label_color,fontsize=font_size,weight='bold')
+                    self.ax.text(sorted_values[i]/2, i, "<"*abs(sorted_values[i]), va='center', ha= "center", color=label_color,fontsize=font_size,weight='bold')
+                else:
+                    ab = AnnotationBbox(imagebox, (sorted_values[i], i), frameon=False,box_alignment=(0,0.5))  
+                self.ax.add_artist(ab)
+            except FileNotFoundError:
+                pass  # If image file not found, continue without adding an image
+            
+        plt.xlim(sorted_values[-1]-1, sorted_values[0]+1)
+        plt.yticks(weight='bold')
+        
+        self.ax.set_yticks(np.arange(len(sorted_names)))
+        self.ax.get_xaxis().set_visible(False)
+        ax2 = self.ax.twinx()
+        ax2.barh(sorted_names, sorted_values, alpha=0) 
+        ax2.spines['right'].set_position(('axes',0))  # Adjust the position of the right axis
+   
+        ax2.set_yticklabels( (sorted_values) )
 
-        # Add labels and a title
-        plt.axis("off")
-        plt.ylabel('Driver', fontname="Comic Sans MS")
-        plt.title("Overtakes at the end of lap "+self.lap.text(),color="white")
+        for label in ax2.get_yticklabels():
+            int_label = int(label.get_text())
+            if int_label > 0:
+                label.set_bbox({'facecolor': "#ba5e5e", 'pad': 0.2, 'edgecolor': 'none', 'boxstyle': 'round'})
+            elif int_label < 0:
+                label.set_bbox({'facecolor': "#5eba7d", 'pad': 0.2, 'edgecolor': 'none', 'boxstyle': 'round'})
+            else:
+                label.set_bbox({'facecolor': "#f1f2f3", 'pad': 0.2, 'edgecolor': 'none', 'boxstyle': 'round'})
+        ax2.set_yticklabels( abs(sorted_values) )
+        ax2.tick_params(labelcolor='white', labelsize=12)
+        for label in ax2.get_yticklabels():
+            background_color = label.get_bbox_patch().get_facecolor()
+            brightness = get_brightness(background_color)
+            if brightness < 0.7:  # You can adjust the threshold as needed
+                label.set_color('white')
+            else:
+                label.set_color('black')
+        self.ax.invert_xaxis()
+        ax2.spines['top'].set_visible(False)
+        ax2.spines['right'].set_visible(False)
+        ax2.spines['bottom'].set_visible(False)
+        ax2.spines['left'].set_visible(False)
+        ax2.set_xlabel('Position')
+        plt.title("Overtakes at the end of lap "+self.lap.text(),color="white",fontsize=16,weight='bold')
         #plt.show()
         # Redraw the canvas
         self.canvas.draw()
@@ -204,7 +258,6 @@ class MyWindow(QWidget):
         self.setWindowTitle('iGP Graphs')
         #self.setGeometry(100, 100, 400, 200)  # (x, y, width, height)
     def open_graph_window(self,lap):
-        print(driver_data["E Tanolo"]["Race Position"][int(lap.text())])
         self.graph_window = OvertakesWindow(lap)
         self.graph_window.plot_graph()
         self.graph_window.show()
