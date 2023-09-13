@@ -1,4 +1,5 @@
 import csv,sys
+from datetime import timedelta
 import numpy as np
 import matplotlib.pyplot as plt
 from PyQt5.QtWidgets import QApplication, QPushButton, QVBoxLayout, QWidget,QLineEdit,QHBoxLayout
@@ -15,12 +16,14 @@ tyre = []
 results_date = []
 rules = {}
 driver_data = {}
-tyre = {'Super soft tyres': '#d66e67',
-          'Soft tyres': '#D9C777',
-          'Medium tyres': '#c9c9c9',
-          'Hard tyres': '#e77b00',
-          'Intermediate wet tyres': 'green',
-          'Full wet tyres': 'blue'}
+tyre = {'Super soft tyres': '#d66e67','Soft tyres': '#D9C777','Medium tyres': '#c9c9c9','Hard tyres': '#e77b00','Intermediate wet tyres': 'green','Full wet tyres': 'blue'}
+color_mapping = {}
+with open("colors.txt", "r",encoding='utf-8') as file:
+    for line in file:
+        line = line.strip()
+        if line:
+            name, color_hex = line.split(":")
+            color_mapping[name.strip()] = color_hex.strip()
 # Function to calculate brightness of a color
 def get_brightness(rgba_color):
     r, g, b, _ = rgba_color
@@ -67,7 +70,38 @@ with open('full_report.csv', 'r',encoding='utf-8') as csv_file:
                     "Average Speed":["Q"], 
                     "Lap": [["Q",row[3]]],
                     "Race Position": [row[6]]
-                }             
+                }
+    def time_str_to_timedelta(time_str):
+        minutes, seconds = map(float, time_str.split(":"))
+        return timedelta(minutes=minutes, seconds=seconds)
+    for driver in driver_data:
+        print(driver)
+        driver_data[driver]
+        indexes = [i for i, item in enumerate(driver_data[driver]["Lap"][1:]) if isinstance(item, list)]
+
+        valid_indexes = []
+
+        for i in indexes:
+            if i >= 2 and i <= len(driver_data[driver]["Lap"]) - 4:
+                if i - 2 not in indexes and i - 1 not in indexes and i + 1 not in indexes and i + 2 not in indexes:
+                    valid_indexes.append(i + 1)  # Adding 1 to adjust for the exclusion of the first element
+        driver_data[driver]["Box Time Lost"] = []
+        for index in valid_indexes:
+        # You can access each valid index within the loop
+            a = driver_data[driver]["Lap Time"][index]
+            b = driver_data[driver]["Lap Time"][index+1]
+            c = driver_data[driver]["Lap Time"][index-1]
+            d = driver_data[driver]["Lap Time"][index+2]
+            time_lost = (time_str_to_timedelta(a) + time_str_to_timedelta(b)) - (time_str_to_timedelta(c) + time_str_to_timedelta(d))
+            # Convert the result back to minutes and seconds
+            total_seconds = time_lost.total_seconds()
+            minutes = int(total_seconds // 60)
+            seconds = total_seconds % 60
+            #driver_data[driver]["Box Time Lost"].append(f"{minutes}:{seconds:.3f}")
+            driver_data[driver]["Box Time Lost"].append(total_seconds)
+        print(driver_data[driver]["Box Time Lost"])    
+
+                              
 csv_file.close()
 
 class OvertakesWindow(QWidget):
@@ -103,13 +137,7 @@ class OvertakesWindow(QWidget):
         # Data
         # Create a figure with a specified background color
         
-        color_mapping = {}
-        with open("colors.txt", "r",encoding='utf-8') as file:
-             for line in file:
-                line = line.strip()
-                if line:
-                    name, color_hex = line.split(":")
-                    color_mapping[name.strip()] = color_hex.strip()
+        
         overtakeslist = []
         qualilist = []
         endlaplist = []
@@ -189,7 +217,7 @@ class OvertakesWindow(QWidget):
         ax2.barh(sorted_names, sorted_values, alpha=0) 
         ax2.spines['right'].set_position(('axes',0))  # Adjust the position of the right axis
    
-        ax2.set_yticklabels( (sorted_values) )
+        ax2.set_yticklabels( (sorted_values), fontproperties=fm.FontProperties(weight='bold') )
 
         for label in ax2.get_yticklabels():
             int_label = int(label.get_text())
@@ -218,6 +246,78 @@ class OvertakesWindow(QWidget):
         #plt.show()
         # Redraw the canvas
         self.canvas.draw()
+class PitTimesWindow(QWidget):
+    def __init__(self):
+        super().__init__()
+        self.initUI()
+
+    def initUI(self):
+        # Create a Matplotlib figure and axis for the graph
+        font = fm.FontProperties(fname='Roboto.ttf') 
+        self.figure, self.ax = plt.subplots()
+        self.figure.set_facecolor('#31333b')
+        self.ax.set_facecolor('#31333b')
+        self.ax.spines['top'].set_visible(False)
+        self.ax.spines['right'].set_visible(False)
+        self.ax.spines['bottom'].set_visible(False)
+        self.ax.spines['left'].set_visible(False)
+        self.ax.tick_params(labelrotation=0, labelcolor='white', labelsize=12)
+        self.canvas = FigureCanvas(self.figure)
+        
+        # Create a vertical layout for the graph
+        layout = QVBoxLayout()
+        layout.addWidget(self.canvas)
+        self.setLayout(layout)
+
+        # Set window properties
+        self.setWindowTitle('Graph Window')
+        self.setGeometry(400, 400, 1200, 800)  # (x, y, width, height)
+
+    def plot_graph(self):
+        # Create sample data (a simple sine wave)
+        # Data
+        # Create a figure with a specified background color
+        
+        # Calculate medians for each dataset
+        medians = {name: int(sorted(driver_data[name]["Box Time Lost"])[len(driver_data[name]["Box Time Lost"]) // 2]* 10) / 10.0 for name in driver_data}
+        # Sort the data by lower median
+        sorted_data = dict(sorted(driver_data.items(), key=lambda item: medians[item[0]]))
+
+
+        names = list(sorted_data)
+        label_colors = [color_mapping[name] for name in names]
+        times = [sorted_data[name]["Box Time Lost"] for name in names]
+
+        #label_colors = [color_mapping[name] for name in names]
+        #fig = plt.figure(figsize=(8, 6), facecolor='lightgray')
+        # Create a bar chart
+        boxes =self.ax.boxplot(times, labels=names, vert=False, patch_artist=True)
+        ax2 = self.ax.twinx()
+        ax2.boxplot(times, labels=names, vert=False)
+
+        for label, color in zip(self.ax.get_yticklabels(), label_colors):
+            label.set_bbox({'facecolor': color, 'pad': 0.2, 'edgecolor': 'none', 'boxstyle': 'round'})
+        for label in self.ax.get_yticklabels():
+            background_color = label.get_bbox_patch().get_facecolor()
+            brightness = get_brightness(background_color)
+            if brightness < 0.5:  # You can adjust the threshold as needed
+                label.set_color('white')
+            else:
+                label.set_color('black')
+        # Set the box colors
+        for box, color in zip(boxes['boxes'], label_colors):
+            box.set(facecolor=color)
+        ax2.spines['right'].set_position(('axes',0))  # Adjust the position of the right axis
+   
+        sorted_medians = dict(sorted(medians.items(), key=lambda item: item[1]))
+        ax2.set_yticklabels(sorted_medians.values())
+        ax2.tick_params(labelcolor='white', labelsize=12)
+        average_median = np.mean(list(medians.values()))
+        plt.axvline(x=average_median, color='red', linestyle='--', label=f'Average Median ({average_median:.2f})',alpha =0.5)
+        plt.legend(loc='lower right')
+        #plt.show()
+        # Redraw the canvas
+        self.canvas.draw()
 class MyWindow(QWidget):
     def __init__(self):
         super().__init__()
@@ -227,7 +327,7 @@ class MyWindow(QWidget):
         input_field = QLineEdit(self)
         # Create three buttons
         button1 = QPushButton('Overtakes at the end of lap', self)
-        button2 = QPushButton('Button 2', self)
+        button2 = QPushButton('pit time loss', self)
         button3 = QPushButton('Button 3', self)
 
         # Create a validator to accept only integers from 0 to 99 (2 digits)
@@ -250,6 +350,7 @@ class MyWindow(QWidget):
 
          # Connect the button click event to the print_value function
         button1.clicked.connect(lambda: self.open_graph_window(input_field))
+        button2.clicked.connect(lambda: self.open_graph_window_pit_times())
 
         # Set the layout for the window
         self.setLayout(vbox)
@@ -259,6 +360,10 @@ class MyWindow(QWidget):
         #self.setGeometry(100, 100, 400, 200)  # (x, y, width, height)
     def open_graph_window(self,lap):
         self.graph_window = OvertakesWindow(lap)
+        self.graph_window.plot_graph()
+        self.graph_window.show()
+    def open_graph_window_pit_times(self):
+        self.graph_window = PitTimesWindow()
         self.graph_window.plot_graph()
         self.graph_window.show()
 if __name__ == '__main__':
