@@ -1,5 +1,7 @@
 import csv,sys
+import os
 from datetime import timedelta
+from matplotlib.legend_handler import HandlerTuple
 import numpy as np
 import matplotlib.pyplot as plt
 from PyQt5.QtWidgets import QApplication, QPushButton, QVBoxLayout, QWidget,QLineEdit,QHBoxLayout
@@ -7,6 +9,7 @@ from PyQt5.QtGui import QIntValidator
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 import matplotlib.font_manager as fm  # For font management
 from matplotlib.offsetbox import OffsetImage, AnnotationBbox
+from PyQt5.QtCore import Qt
 
 
 # Initialize variables to store data
@@ -68,14 +71,13 @@ with open('full_report.csv', 'r',encoding='utf-8') as csv_file:
                     "Lap Time":["Q"], #Q is for qualifying
                     "Gap":["Q"],
                     "Average Speed":["Q"], 
-                    "Lap": [["Q",row[3]]],
+                    "Lap": [["0",row[3]]],
                     "Race Position": [row[6]]
                 }
     def time_str_to_timedelta(time_str):
         minutes, seconds = map(float, time_str.split(":"))
         return timedelta(minutes=minutes, seconds=seconds)
     for driver in driver_data:
-        print(driver)
         driver_data[driver]
         indexes = [i for i, item in enumerate(driver_data[driver]["Lap"][1:]) if isinstance(item, list)]
 
@@ -99,7 +101,7 @@ with open('full_report.csv', 'r',encoding='utf-8') as csv_file:
             seconds = total_seconds % 60
             #driver_data[driver]["Box Time Lost"].append(f"{minutes}:{seconds:.3f}")
             driver_data[driver]["Box Time Lost"].append(total_seconds)
-        print(driver_data[driver]["Box Time Lost"])    
+
 
                               
 csv_file.close()
@@ -121,16 +123,7 @@ class OvertakesWindow(QWidget):
         self.ax.spines['bottom'].set_visible(False)
         self.ax.spines['left'].set_visible(False)
         self.ax.tick_params(labelrotation=0, labelcolor='white', labelsize=12)
-        self.canvas = FigureCanvas(self.figure)
-        
-        # Create a vertical layout for the graph
-        layout = QVBoxLayout()
-        layout.addWidget(self.canvas)
-        self.setLayout(layout)
-
-        # Set window properties
-        self.setWindowTitle('Graph Window')
-        self.setGeometry(400, 400, 1200, 800)  # (x, y, width, height)
+ 
 
     def plot_graph(self):
         # Create sample data (a simple sine wave)
@@ -243,10 +236,8 @@ class OvertakesWindow(QWidget):
         ax2.spines['left'].set_visible(False)
         ax2.set_xlabel('Position')
         plt.title("Overtakes at the end of lap "+self.lap.text(),color="white",fontsize=16,weight='bold')
-        #plt.show()
-        # Redraw the canvas
-        self.canvas.draw()
-class PitTimesWindow(QWidget):
+        plt.show()
+class PitTimesWindow():
     def __init__(self):
         super().__init__()
         self.initUI()
@@ -262,21 +253,10 @@ class PitTimesWindow(QWidget):
         self.ax.spines['bottom'].set_visible(False)
         self.ax.spines['left'].set_visible(False)
         self.ax.tick_params(labelrotation=0, labelcolor='white', labelsize=12)
-        self.canvas = FigureCanvas(self.figure)
-        
-        # Create a vertical layout for the graph
-        layout = QVBoxLayout()
-        layout.addWidget(self.canvas)
-        self.setLayout(layout)
-
-        # Set window properties
-        self.setWindowTitle('Graph Window')
-        self.setGeometry(400, 400, 1200, 800)  # (x, y, width, height)
+       
+         
 
     def plot_graph(self):
-        # Create sample data (a simple sine wave)
-        # Data
-        # Create a figure with a specified background color
         
         # Calculate medians for each dataset
         medians = {name: int(sorted(driver_data[name]["Box Time Lost"])[len(driver_data[name]["Box Time Lost"]) // 2]* 10) / 10.0 for name in driver_data}
@@ -288,12 +268,13 @@ class PitTimesWindow(QWidget):
         label_colors = [color_mapping[name] for name in names]
         times = [sorted_data[name]["Box Time Lost"] for name in names]
 
-        #label_colors = [color_mapping[name] for name in names]
-        #fig = plt.figure(figsize=(8, 6), facecolor='lightgray')
-        # Create a bar chart
         boxes =self.ax.boxplot(times, labels=names, vert=False, patch_artist=True)
         ax2 = self.ax.twinx()
-        ax2.boxplot(times, labels=names, vert=False)
+
+        box =ax2.boxplot(times,labels=names, vert=False)
+        for element in ['medians', 'whiskers', 'caps','boxes','fliers']:
+            for item in box[element]:
+                item.set_alpha(0.0)  # Set alpha value to 0 to make them transparent
 
         for label, color in zip(self.ax.get_yticklabels(), label_colors):
             label.set_bbox({'facecolor': color, 'pad': 0.2, 'edgecolor': 'none', 'boxstyle': 'round'})
@@ -307,17 +288,97 @@ class PitTimesWindow(QWidget):
         # Set the box colors
         for box, color in zip(boxes['boxes'], label_colors):
             box.set(facecolor=color)
+        for i, (whisker1, whisker2, fliers,cap1,cap2) in enumerate(zip(boxes['whiskers'][::2], boxes['whiskers'][1::2],boxes['fliers'],boxes["caps"][::2],boxes["caps"][1::2])):
+            cap1.set(color=label_colors[i])
+            cap2.set(color=label_colors[i])
+            whisker1.set(color=label_colors[i])
+            whisker2.set(color=label_colors[i])
+            fliers.set(marker='o', color=label_colors[i], markersize=8, markerfacecolor=label_colors[i], markeredgecolor='black', linestyle='none')
+        
+
+        
+        #for i, color in enumerate(label_colors):
+        #    boxes['whiskers'][i].set_color(color)
+        #    boxes['fliers'][i].set(marker='o', color=label_colors[i], markersize=8, markerfacecolor=label_colors[i], markeredgecolor='black', linestyle='none')
+
+
         ax2.spines['right'].set_position(('axes',0))  # Adjust the position of the right axis
    
         sorted_medians = dict(sorted(medians.items(), key=lambda item: item[1]))
         ax2.set_yticklabels(sorted_medians.values())
         ax2.tick_params(labelcolor='white', labelsize=12)
         average_median = np.mean(list(medians.values()))
-        plt.axvline(x=average_median, color='red', linestyle='--', label=f'Average Median ({average_median:.2f})',alpha =0.5)
-        plt.legend(loc='lower right')
-        #plt.show()
-        # Redraw the canvas
-        self.canvas.draw()
+        plt.axvline(x=average_median, color='#5865F2', linestyle='--', label=f'Average Median ({average_median:.2f})',alpha =1)
+        self.ax.text(average_median, len(driver_data)+1, 'Average Median', fontsize=12, ha='center', va='center', color="white",bbox=dict(facecolor='#5865F2',edgecolor= 'none', boxstyle='round'))
+        self.ax.text(average_median, -0.1, f"{average_median:.1f}", fontsize=12, ha='center', va='center', color="white",bbox=dict(facecolor='#5865F2',edgecolor= 'none', boxstyle='round'))
+        ax2.spines['top'].set_visible(False)
+        ax2.spines['right'].set_visible(False)
+        #ax2.spines['bottom'].set_visible(False)
+        ax2.spines['left'].set_visible(False)
+        plt.yticks(weight='bold')
+        self.ax.set_yticklabels(names,fontweight='bold')
+        plt.show()
+class PitRecap():
+    def __init__(self):
+        super().__init__()
+        self.initUI()
+
+    def initUI(self):
+        self.figure, self.ax = plt.subplots()
+        self.figure.set_facecolor('#31333b')
+        self.ax.set_facecolor('#31333b')
+    def plot_graph(self):
+        # Define a custom sorting key function to extract the last lap time
+        def get_last_lap_time(driver):
+            return  int(driver["Race Position"][-1])
+        sorted_drivers = sorted(driver_data.items(), key=lambda x: get_last_lap_time(x[1]))
+        sorted_driver_data = dict(sorted_drivers)
+        pit_history = []
+        for driver in (sorted_driver_data):    
+            sublists = [item for item in sorted_driver_data[driver]["Lap"] if isinstance(item, list)]
+            sublists.append([sorted_driver_data[driver]["Lap"][-1]])
+            pit_history.append(sublists)
+        pit_history_laps_list = []
+        for item in (pit_history):
+            pit = []
+            for i in range(len(item) - 1):
+                diff = int(item[i + 1][0]) - int(item[i][0])
+                color = item[i][1]
+                pit.append([diff, tyre[color.split("/")[0].strip()]])
+            pit_history_laps_list.append(pit)
+        # Create a horizontal stacked bar chart for each set of data
+        bottoms = [0] * len(sorted_driver_data)
+        for data, label in zip(pit_history_laps_list, list(sorted_driver_data)):
+            for item in data:
+                size, color = item
+                bar =self.ax.barh(label, size, color=color, left=bottoms[list(sorted_driver_data).index(label)],height=0.5)
+                bottoms[list(sorted_driver_data).index(label)] += size
+                # Calculate the x-coordinate for the text by adding half of the size to the current bottom
+                text_x = -size + bottoms[list(sorted_driver_data).index(label)]
+                self.ax.text(text_x+1, bar[0].get_y() + bar[0].get_height() / 2, str(size)+"Laps", ha='left', va='center', color='black')
+                img_path = f'tyres/{color}.png'
+                image = plt.imread(img_path)
+
+                # Create an OffsetImage with the loaded image
+                imagebox = OffsetImage(image, zoom=0.15) 
+                ab = AnnotationBbox(imagebox, (text_x,bar[0].get_y() + bar[0].get_height() / 2), frameon=False)
+                self.ax.add_artist(ab)
+        label_colors = [color_mapping[name] for name in list(sorted_driver_data)]
+        # Set background colors for y-axis labels based on driver colors
+        for label, color in zip(self.ax.get_yticklabels(), label_colors):
+            label.set_bbox({'facecolor': color, 'pad': 0.2, 'edgecolor': 'none', 'boxstyle': 'round'})
+        # Automatically choose font color based on background color brightness
+        for label in self.ax.get_yticklabels():
+            background_color = label.get_bbox_patch().get_facecolor()
+            brightness = get_brightness(background_color)
+            if brightness < 0.5:  # You can adjust the threshold as needed
+                label.set_color('white')
+            else:
+                label.set_color('black') 
+        plt.yticks(weight='bold')               
+        self.ax.invert_yaxis()
+        plt.show()
+
 class MyWindow(QWidget):
     def __init__(self):
         super().__init__()
@@ -351,6 +412,8 @@ class MyWindow(QWidget):
          # Connect the button click event to the print_value function
         button1.clicked.connect(lambda: self.open_graph_window(input_field))
         button2.clicked.connect(lambda: self.open_graph_window_pit_times())
+        button3.clicked.connect(lambda: self.open_graph_window_pit_recap())
+
 
         # Set the layout for the window
         self.setLayout(vbox)
@@ -361,11 +424,13 @@ class MyWindow(QWidget):
     def open_graph_window(self,lap):
         self.graph_window = OvertakesWindow(lap)
         self.graph_window.plot_graph()
-        self.graph_window.show()
     def open_graph_window_pit_times(self):
         self.graph_window = PitTimesWindow()
         self.graph_window.plot_graph()
-        self.graph_window.show()
+    def open_graph_window_pit_recap(self):
+        self.graph_window = PitRecap()
+        self.graph_window.plot_graph()
+     
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     window = MyWindow()

@@ -1,51 +1,42 @@
+import os
 import matplotlib.pyplot as plt
-import numpy as np
+from matplotlib.offsetbox import OffsetImage, AnnotationBbox
 
-# Your data
-data = {
-    "D Mansell": {"times": [26.373, 25.933, 26.511, 26.926]},
-    "A Johnson": {"times": [27.123, 25.832, 27.456, 27.789]},
-    "B Smith": {"times": [28.567, 29.012, 28.123, 28.456]}
-}
+# Sample data
+data = [[14, 'white'], [14, 'white'], [14, 'white'], [8, 'yellow']]
 
-# Calculate medians for each dataset
-medians = {name: np.median(data[name]["times"]) for name in data}
+# Create a figure and axis
+fig, ax = plt.subplots()
 
-# Sort the data by lower median
-sorted_data = dict(sorted(data.items(), key=lambda item: medians[item[0]]))
+# Create a horizontal stacked bar chart
+bottom = 0
+for size, color in data:
+    ax.barh(0, size, color=color, left=bottom)
+    bottom += size
 
-# Extract names and times from the sorted data dictionary
-names = list(sorted_data.keys())
-times = [sorted_data[name]["times"] for name in names]
 
-# Calculate the average median of all drivers
-average_median = np.mean(list(medians.values()))
+# List image files in the directory
+image_files = [f for f in os.listdir('tyres') if f.endswith('.png')]  # Adjust the file extension as needed
 
-# Define custom colors for the boxes
-box_colors = ['lightblue', 'lightgreen', 'lightcoral']
+# Loop through image files and add them to the plot
+for i, image_file in enumerate(image_files):
+    # Load the image
+    image_path = os.path.join('tyres', image_file)
+    image = plt.imread(image_path)
 
-# Create a horizontal box plot for each name with custom box colors
-plt.figure(figsize=(8, 6))
+    # Create an OffsetImage with the loaded image
+    imagebox = OffsetImage(image, zoom=0.1)  # Adjust the zoom factor as needed
 
-# Use patch_artist=True to access the box objects
-boxes = plt.boxplot(times, labels=names, vert=False, patch_artist=True)
+    # Define the coordinates where you want to place each image
+    image_x = 5 + i * 10  # Adjust the x-coordinate to separate the images
+    image_y = 0  # Adjust the y-coordinate
 
-# Set the box colors
-for box, color in zip(boxes['boxes'], box_colors):
-    box.set(facecolor=color)
+    # Create an AnnotationBbox to display the image
+    ab = AnnotationBbox(imagebox, (image_x, image_y), frameon=False)
+    ax.add_artist(ab)
 
-# Add a horizontal line for the average median
-plt.axvline(x=average_median, color='red', linestyle='--', label=f'Average Median ({average_median:.2f})')
+ax.set_xlabel('Category')
+ax.set_ylabel('Value')
+ax.set_title('Horizontal Stacked Bar Chart')
 
-# Add median text annotations next to each box
-for name, median in medians.items():
-    plt.text(median, names.index(name) + 1, f'{median:.2f}', va='center', ha='left', color='black')
-
-plt.title("Horizontal Box Plot of Average Time (Sorted by Lower Median)")
-plt.xlabel("Average Time")
-plt.ylabel("Name")
-plt.grid(True)
-plt.legend()  # Add a legend for the average median line
-
-# Show the plot
 plt.show()
