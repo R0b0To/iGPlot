@@ -11,7 +11,7 @@ from matplotlib.offsetbox import OffsetImage, AnnotationBbox
 #config
 background_color = '#31333b'
 font_size = 12 
-
+default_color = 'white'
 
 
 
@@ -153,7 +153,9 @@ class OvertakesWindow(QWidget):
         sorted_endlaplist = np.array(endlaplist)[int_array1.argsort()][::-1]
         sorted_names= np.array(names)[int_array1.argsort()][::-1]
 
-        label_colors = [color_mapping[name] for name in sorted_names]
+        print(color_mapping)
+        print(sorted_names)
+        label_colors = [color_mapping.get(name,default_color) for name in sorted_names]
 
         plt.barh(sorted_names, sorted_values, color=label_colors)
        
@@ -242,7 +244,7 @@ class PitTimesWindow():
 
 
         names = list(sorted_data)
-        label_colors = [color_mapping[name] for name in names]
+        label_colors = [color_mapping.get(name,default_color) for name in names]
         times = [sorted_data[name]["Box Time Lost"] for name in names]
 
         boxes =self.ax.boxplot(times, labels=names, vert=False, patch_artist=True)
@@ -345,7 +347,7 @@ class PitRecap():
                 self.ax.add_artist(ab)
                 self.ax.text(text_x, bar[0].get_y() + bar[0].get_height() / 2, str(size), ha='center', va='center', color='white', weight="bold",fontsize=10)
             
-        label_colors = [color_mapping[name] for name in list(sorted_driver_data)]
+        label_colors = [color_mapping.get(name,default_color) for name in list(sorted_driver_data)]
 
         for label, color in zip(self.ax.get_yticklabels(), label_colors):
             label.set_bbox({'facecolor': color, 'pad': 0.2, 'edgecolor': 'none', 'boxstyle': 'round'})
