@@ -21,6 +21,13 @@ rules = {}
 driver_data = {}
 tyre = {'Super soft tyres': '#d66e67','Soft tyres': '#D9C777','Medium tyres': '#c9c9c9','Hard tyres': '#e77b00','Intermediate wet tyres': 'green','Full wet tyres': 'blue'}
 color_mapping = {}
+default_border_settings = {
+    'figure.subplot.left': 0.09,
+    'figure.subplot.right': 1.0,
+    'figure.subplot.bottom': 0.03,
+    'figure.subplot.top': 0.960,
+}
+plt.rcParams.update(default_border_settings)
 with open("colors.txt", "r",encoding='utf-8') as file:
     for line in file:
         line = line.strip()
@@ -324,15 +331,23 @@ class PitRecap():
         self.initUI()
 
     def initUI(self):
+        
         self.figure, self.ax = plt.subplots()
         self.figure.set_facecolor('#31333b')
         self.ax.set_facecolor('#31333b')
+        
+        
     def plot_graph(self):
+        
         # Define a custom sorting key function to extract the last lap time
         def get_last_lap_time(driver):
             return  int(driver["Race Position"][-1])
         sorted_drivers = sorted(driver_data.items(), key=lambda x: get_last_lap_time(x[1]))
         sorted_driver_data = dict(sorted_drivers)
+
+        plt.xticks(np.arange(len(sorted_drivers[0][1]["Lap"]),step=1))
+        self.ax.set_xlim(-1, len(sorted_drivers[0][1]["Lap"]))
+        self.ax.set_ylim(-.5,len(sorted_drivers))
         pit_history = []
         for driver in (sorted_driver_data):    
             sublists = [item for item in sorted_driver_data[driver]["Lap"] if isinstance(item, list)]
@@ -352,22 +367,28 @@ class PitRecap():
             for item in data:
                 size, color = item
                 bar =self.ax.barh(label, size, color=color, left=bottoms[list(sorted_driver_data).index(label)],height=0.5)
+              
                 bottoms[list(sorted_driver_data).index(label)] += size
                 # Calculate the x-coordinate for the text by adding half of the size to the current bottom
                 text_x = -size + bottoms[list(sorted_driver_data).index(label)]
-                self.ax.text(text_x+1, bar[0].get_y() + bar[0].get_height() / 2, str(size)+"Laps", ha='left', va='center', color='black')
+                
                 img_path = f'tyres/{color}.png'
                 image = plt.imread(img_path)
+                
 
                 # Create an OffsetImage with the loaded image
-                imagebox = OffsetImage(image, zoom=0.15) 
+                imagebox = OffsetImage(image, zoom=0.2) 
+                imagebox.image.axes = self.ax
                 ab = AnnotationBbox(imagebox, (text_x,bar[0].get_y() + bar[0].get_height() / 2), frameon=False)
                 self.ax.add_artist(ab)
+                self.ax.text(text_x, bar[0].get_y() + bar[0].get_height() / 2, str(size), ha='center', va='center', color='white', weight="bold",fontsize=10)
+            
         label_colors = [color_mapping[name] for name in list(sorted_driver_data)]
         # Set background colors for y-axis labels based on driver colors
         for label, color in zip(self.ax.get_yticklabels(), label_colors):
             label.set_bbox({'facecolor': color, 'pad': 0.2, 'edgecolor': 'none', 'boxstyle': 'round'})
         # Automatically choose font color based on background color brightness
+        self.ax.tick_params(labelrotation=0, labelsize=12)
         for label in self.ax.get_yticklabels():
             background_color = label.get_bbox_patch().get_facecolor()
             brightness = get_brightness(background_color)
@@ -375,8 +396,24 @@ class PitRecap():
                 label.set_color('white')
             else:
                 label.set_color('black') 
-        plt.yticks(weight='bold')               
+        plt.yticks(weight='bold')
+        self.ax.tick_params(axis='x', labelcolor='white')
+       
+        #ax2 = self.ax.twiny()  
+        #ax2.set_xlim(self.ax.get_xlim())  
+        #ax2.tick_params(axis='x', labelcolor='white')
+        xticks = self.ax.get_xticks()
+        xticklabels = list(map(str, xticks)) 
+        xticklabels[0] = 'Start'
+        self.ax.set_xticks(xticks, xticklabels)
+        self.ax.xaxis.set_ticks_position('top')
+        self.ax.xaxis.set_label_position('top')        
         self.ax.invert_yaxis()
+        self.ax.spines['top'].set_visible(False)
+        self.ax.spines['right'].set_visible(False)
+        self.ax.spines['bottom'].set_visible(False)
+        self.ax.spines['left'].set_visible(False)
+        #self.ax.grid(axis='x', linestyle='--', alpha=0.7)
         plt.show()
 
 class MyWindow(QWidget):
