@@ -237,8 +237,8 @@ class OvertakesWindow(QWidget):
         ax2.spines['right'].set_visible(False)
         ax2.spines['bottom'].set_visible(False)
         ax2.spines['left'].set_visible(False)
-        ax2.set_xlabel('Position')
-        plt.title("Overtakes at the end of lap "+self.lap.text(),color="white",fontsize=16,weight='bold')
+    
+        #plt.title("Overtakes at the end of lap "+self.lap.text(),color="white",fontsize=16,weight='bold')
         plt.show()
         #plt.tight_layout()
 class PitTimesWindow():
