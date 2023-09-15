@@ -1,30 +1,35 @@
 import csv,sys
-import os
 from datetime import timedelta
-from matplotlib.legend_handler import HandlerTuple
+from matplotlib.patches import FancyBboxPatch
 import numpy as np
 import matplotlib.pyplot as plt
 from PyQt5.QtWidgets import QApplication, QPushButton, QVBoxLayout, QWidget,QLineEdit,QHBoxLayout
 from PyQt5.QtGui import QIntValidator
-from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 import matplotlib.font_manager as fm  # For font management
 from matplotlib.offsetbox import OffsetImage, AnnotationBbox
-from PyQt5.QtCore import Qt
+
+
+
+#config
+background_color = '#31333b'
+font_size = 12 
+
+
+
+
 
 
 # Initialize variables to store data
 track = ""
-fuel = []
-tyre = []
-results_date = []
+fuel, tyre, results_date = [], [], []
 rules = {}
 driver_data = {}
-tyre = {'Super soft tyres': '#d66e67','Soft tyres': '#D9C777','Medium tyres': '#c9c9c9','Hard tyres': '#e77b00','Intermediate wet tyres': 'green','Full wet tyres': 'blue'}
+tyre = {'Super soft tyres': '#d66e67','Soft tyres': '#D9C777','Medium tyres': '#c9c9c9','Hard tyres': '#e77b00','Intermediate wet tyres': '#82a674','Full wet tyres': '#4786b3'}
 color_mapping = {}
 default_border_settings = {
-    'figure.subplot.left': 0.09,
-    'figure.subplot.right': 1.0,
-    'figure.subplot.bottom': 0.03,
+    'figure.subplot.left': 0.088,
+    'figure.subplot.right': .992,
+    'figure.subplot.bottom': 0.015,
     'figure.subplot.top': 0.960,
 }
 plt.rcParams.update(default_border_settings)
@@ -108,11 +113,20 @@ with open('full_report.csv', 'r',encoding='utf-8') as csv_file:
             seconds = total_seconds % 60
             #driver_data[driver]["Box Time Lost"].append(f"{minutes}:{seconds:.3f}")
             driver_data[driver]["Box Time Lost"].append(total_seconds)
-
-
-                              
+                             
 csv_file.close()
-
+def basic_graph():
+    figure, ax = plt.subplots()
+    figure.set_facecolor(background_color)
+    ax.set_facecolor(background_color)
+    figure.canvas.manager.window.showMaximized()
+    ax.spines['top'].set_visible(False)
+    ax.spines['right'].set_visible(False)
+    ax.spines['bottom'].set_visible(False)
+    ax.spines['left'].set_visible(False)
+    ax.tick_params(labelrotation=0, labelcolor='white', labelsize=font_size)
+   
+    return(figure,ax)  
 class OvertakesWindow(QWidget):
     def __init__(self,lap):
         super().__init__()
@@ -120,24 +134,9 @@ class OvertakesWindow(QWidget):
         self.initUI()
 
     def initUI(self):
-        # Create a Matplotlib figure and axis for the graph
-        font = fm.FontProperties(fname='Roboto.ttf') 
-        self.figure, self.ax = plt.subplots()
-        self.figure.set_facecolor('#31333b')
-        self.ax.set_facecolor('#31333b')
-        self.ax.spines['top'].set_visible(False)
-        self.ax.spines['right'].set_visible(False)
-        self.ax.spines['bottom'].set_visible(False)
-        self.ax.spines['left'].set_visible(False)
-        self.ax.tick_params(labelrotation=0, labelcolor='white', labelsize=12)
- 
-
+        self.figure, self.ax = basic_graph()
     def plot_graph(self):
-        # Create sample data (a simple sine wave)
-        # Data
-        # Create a figure with a specified background color
-        
-        
+
         overtakeslist = []
         qualilist = []
         endlaplist = []
@@ -158,10 +157,7 @@ class OvertakesWindow(QWidget):
             qualilist.append(quali)
             endlaplist.append(endlap)
             overtakeslist.append(overtakes)
-    
-        
-
-
+         
         int_array1 = np.array(overtakeslist, dtype=int)
         sorted_values = np.sort(int_array1)[::-1]
         sorted_qualilist = np.array(qualilist)[int_array1.argsort()][::-1]
@@ -169,9 +165,9 @@ class OvertakesWindow(QWidget):
         sorted_names= np.array(names)[int_array1.argsort()][::-1]
 
         label_colors = [color_mapping[name] for name in sorted_names]
-        #fig = plt.figure(figsize=(8, 6), facecolor='lightgray')
-        # Create a bar chart
+
         plt.barh(sorted_names, sorted_values, color=label_colors)
+       
         # Set background colors for y-axis labels based on driver colors
         for label, color in zip(self.ax.get_yticklabels(), label_colors):
             label.set_bbox({'facecolor': color, 'pad': 0.2, 'edgecolor': 'none', 'boxstyle': 'round'})
@@ -184,7 +180,7 @@ class OvertakesWindow(QWidget):
             else:
                 label.set_color('black')
 
-        font_size = 12        
+               
         # Add images for each driver
         for i, driver in enumerate(sorted_names):
             img_path = f'downloaded_images/{driver}.png'  # Assuming images are in a folder named "images"
@@ -207,7 +203,7 @@ class OvertakesWindow(QWidget):
                 self.ax.add_artist(ab)
             except FileNotFoundError:
                 pass  # If image file not found, continue without adding an image
-            
+        
         plt.xlim(sorted_values[-1]-1, sorted_values[0]+1)
         plt.yticks(weight='bold')
         
@@ -217,7 +213,7 @@ class OvertakesWindow(QWidget):
         ax2.barh(sorted_names, sorted_values, alpha=0) 
         ax2.spines['right'].set_position(('axes',0))  # Adjust the position of the right axis
    
-        ax2.set_yticklabels( (sorted_values), fontproperties=fm.FontProperties(weight='bold') )
+        ax2.set_yticklabels( (sorted_values), fontweight='bold' )
 
         for label in ax2.get_yticklabels():
             int_label = int(label.get_text())
@@ -228,7 +224,7 @@ class OvertakesWindow(QWidget):
             else:
                 label.set_bbox({'facecolor': "#f1f2f3", 'pad': 0.2, 'edgecolor': 'none', 'boxstyle': 'round'})
         ax2.set_yticklabels( abs(sorted_values) )
-        ax2.tick_params(labelcolor='white', labelsize=12)
+        ax2.tick_params(labelcolor='white', labelsize=font_size)
         for label in ax2.get_yticklabels():
             background_color = label.get_bbox_patch().get_facecolor()
             brightness = get_brightness(background_color)
@@ -244,24 +240,15 @@ class OvertakesWindow(QWidget):
         ax2.set_xlabel('Position')
         plt.title("Overtakes at the end of lap "+self.lap.text(),color="white",fontsize=16,weight='bold')
         plt.show()
+        #plt.tight_layout()
 class PitTimesWindow():
     def __init__(self):
         super().__init__()
         self.initUI()
 
     def initUI(self):
-        # Create a Matplotlib figure and axis for the graph
-        font = fm.FontProperties(fname='Roboto.ttf') 
-        self.figure, self.ax = plt.subplots()
-        self.figure.set_facecolor('#31333b')
-        self.ax.set_facecolor('#31333b')
-        self.ax.spines['top'].set_visible(False)
-        self.ax.spines['right'].set_visible(False)
-        self.ax.spines['bottom'].set_visible(False)
-        self.ax.spines['left'].set_visible(False)
-        self.ax.tick_params(labelrotation=0, labelcolor='white', labelsize=12)
+         self.figure, self.ax = basic_graph()
        
-         
 
     def plot_graph(self):
         
@@ -303,17 +290,11 @@ class PitTimesWindow():
             fliers.set(marker='o', color=label_colors[i], markersize=8, markerfacecolor=label_colors[i], markeredgecolor='black', linestyle='none')
         
 
-        
-        #for i, color in enumerate(label_colors):
-        #    boxes['whiskers'][i].set_color(color)
-        #    boxes['fliers'][i].set(marker='o', color=label_colors[i], markersize=8, markerfacecolor=label_colors[i], markeredgecolor='black', linestyle='none')
-
-
         ax2.spines['right'].set_position(('axes',0))  # Adjust the position of the right axis
    
         sorted_medians = dict(sorted(medians.items(), key=lambda item: item[1]))
         ax2.set_yticklabels(sorted_medians.values())
-        ax2.tick_params(labelcolor='white', labelsize=12)
+        ax2.tick_params(labelcolor='white', labelsize=font_size)
         average_median = np.mean(list(medians.values()))
         plt.axvline(x=average_median, color='#5865F2', linestyle='--', label=f'Average Median ({average_median:.2f})',alpha =1)
         self.ax.text(average_median, len(driver_data)+1, 'Average Median', fontsize=12, ha='center', va='center', color="white",bbox=dict(facecolor='#5865F2',edgecolor= 'none', boxstyle='round'))
@@ -325,16 +306,16 @@ class PitTimesWindow():
         plt.yticks(weight='bold')
         self.ax.set_yticklabels(names,fontweight='bold')
         plt.show()
+        
 class PitRecap():
     def __init__(self):
         super().__init__()
         self.initUI()
 
     def initUI(self):
-        
-        self.figure, self.ax = plt.subplots()
-        self.figure.set_facecolor('#31333b')
-        self.ax.set_facecolor('#31333b')
+        self.figure, self.ax = basic_graph()
+        self.ax.xaxis.set_ticks_position('top')
+        self.ax.xaxis.set_label_position('top')
         
         
     def plot_graph(self):
@@ -388,7 +369,7 @@ class PitRecap():
         for label, color in zip(self.ax.get_yticklabels(), label_colors):
             label.set_bbox({'facecolor': color, 'pad': 0.2, 'edgecolor': 'none', 'boxstyle': 'round'})
         # Automatically choose font color based on background color brightness
-        self.ax.tick_params(labelrotation=0, labelsize=12)
+        self.ax.tick_params(labelrotation=0, labelsize=font_size)
         for label in self.ax.get_yticklabels():
             background_color = label.get_bbox_patch().get_facecolor()
             brightness = get_brightness(background_color)
@@ -399,21 +380,13 @@ class PitRecap():
         plt.yticks(weight='bold')
         self.ax.tick_params(axis='x', labelcolor='white')
        
-        #ax2 = self.ax.twiny()  
-        #ax2.set_xlim(self.ax.get_xlim())  
-        #ax2.tick_params(axis='x', labelcolor='white')
         xticks = self.ax.get_xticks()
         xticklabels = list(map(str, xticks)) 
         xticklabels[0] = 'Start'
         self.ax.set_xticks(xticks, xticklabels)
-        self.ax.xaxis.set_ticks_position('top')
-        self.ax.xaxis.set_label_position('top')        
+                
         self.ax.invert_yaxis()
-        self.ax.spines['top'].set_visible(False)
-        self.ax.spines['right'].set_visible(False)
-        self.ax.spines['bottom'].set_visible(False)
-        self.ax.spines['left'].set_visible(False)
-        #self.ax.grid(axis='x', linestyle='--', alpha=0.7)
+
         plt.show()
 
 class MyWindow(QWidget):
@@ -426,7 +399,7 @@ class MyWindow(QWidget):
         # Create three buttons
         button1 = QPushButton('Overtakes at the end of lap', self)
         button2 = QPushButton('pit time loss', self)
-        button3 = QPushButton('Button 3', self)
+        button3 = QPushButton('pit recap', self)
 
         # Create a validator to accept only integers from 0 to 99 (2 digits)
         validator = QIntValidator(0, 99)
@@ -461,12 +434,15 @@ class MyWindow(QWidget):
     def open_graph_window(self,lap):
         self.graph_window = OvertakesWindow(lap)
         self.graph_window.plot_graph()
+
     def open_graph_window_pit_times(self):
         self.graph_window = PitTimesWindow()
         self.graph_window.plot_graph()
+
     def open_graph_window_pit_recap(self):
         self.graph_window = PitRecap()
         self.graph_window.plot_graph()
+
      
 if __name__ == '__main__':
     app = QApplication(sys.argv)

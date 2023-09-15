@@ -1,25 +1,23 @@
 import matplotlib.pyplot as plt
-import numpy as np
+from tkinter import Tk
 
-# Create some example data that starts at x = 0
-x = np.arange(0, 6)  # Data starts at x = 0
-y = [1, 4, 2, 5, 3, 6]
+# Create your Matplotlib figure
+fig, ax = plt.subplots()
 
-# Create the first set of axes
-fig, ax1 = plt.subplots()
+# Your plotting code or other actions here
+# For example:
+# ax.plot([1, 2, 3, 4], [1, 4, 9, 16])
 
-# Plot the data on the first set of axes
-ax1.plot(x, y, label='Y1', color='b')
-ax1.set_xlabel('X-axis')
+# Create a Tkinter root window
+root = Tk()
 
-# Set the x-axis limits to start at x = -1
-ax1.set_xlim(-1, max(x))  # Adjust the x-axis limits to start at -1
+# Maximize the root window
+root.state('zoomed')  # 'zoomed' maximizes the window
 
-# Change the label of the first tick to "Start at the coords (0,0)"
-new_xticklabels = ["Start at the coords (0,0)"] + [str(val) for val in x[1:]]
-ax1.set_xticklabels(new_xticklabels)
+# Embed the Matplotlib figure in the Tkinter root window
+canvas = plt.backends.backend_tkagg.FigureCanvasTk(fig, master=root)
+canvas.get_tk_widget().pack(fill='both', expand=True)
 
-# Add a legend
-ax1.legend(loc='upper left')
-
+# Show the plot
 plt.show()
+plt.tight_layout()
