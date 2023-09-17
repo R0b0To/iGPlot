@@ -304,11 +304,19 @@ class PitRecap():
         
         
     def plot_graph(self):
-        
-        def get_last_lap_time(driver):
-            return  int(driver["Race Position"][-1])
-        sorted_drivers = sorted(driver_data.items(), key=lambda x: get_last_lap_time(x[1]))
+        drivers_to_remove  = []
+        race_laps = max(len(driver["Race Position"]) for driver in driver_data.values())
+        def get_last_lap_time(driver_name,driver):
+            if(len(driver["Race Position"])<race_laps):
+                drivers_to_remove.append(driver_name)
+                return 99
+            else:
+                return  int(driver["Race Position"][-1])
+        sorted_drivers = sorted(driver_data.items(), key=lambda x: get_last_lap_time(x[0],x[1]))
         sorted_driver_data = dict(sorted_drivers)
+        for key in drivers_to_remove:
+            if key in sorted_driver_data:
+                del sorted_driver_data[key]
 
         plt.xticks(np.arange(len(sorted_drivers[0][1]["Lap"]),step=1))
         self.ax.set_xlim(-1, len(sorted_drivers[0][1]["Lap"]))
