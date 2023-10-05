@@ -154,7 +154,7 @@ class OvertakesWindow(QWidget):
         sorted_names= np.array(names)[int_array1.argsort()][::-1]
 
         print(color_mapping)
-        print(sorted_names)
+        print(sorted_values)
         label_colors = [color_mapping.get(name,default_color) for name in sorted_names]
 
         plt.barh(sorted_names, sorted_values, color=label_colors)
@@ -379,6 +379,104 @@ class PitRecap():
         self.ax.invert_yaxis()
 
         plt.show()
+class Overtakes():
+    def __init__(self):
+        super().__init__()
+        self.initUI()
+        self.data_dict = {}
+        with open('overtakes.csv', 'r',encoding='utf-8') as file:
+             csv_reader = csv.reader(file)
+              # Iterate over each row in the CSV file
+             for row in csv_reader:
+      
+                if len(row) >= 2:
+            
+                    key = row[0].strip()  # Remove any leading/trailing whitespace
+                    value = int(row[1])  # Convert the value to a float if needed
+            
+                    self.data_dict[key] = value
+        self.sorted_items = sorted(self.data_dict.items(), key=lambda x: x[1],reverse=True)
+        print(self.sorted_items)
+    def initUI(self):
+        self.figure, self.ax = basic_graph()
+        self.ax.xaxis.set_ticks_position('top')
+        self.ax.xaxis.set_label_position('top')
+    def plot_graph(self):
+        
+        
+        names =  np.array([item[0] for item in self.sorted_items])
+        sorted_values = np.array([item[1] for item in self.sorted_items])
+        print (names)
+        print(sorted_values)
+
+        label_colors = [color_mapping.get(name,default_color) for name in names]
+
+        plt.barh(names, sorted_values, color=label_colors)
+       
+        for label, color in zip(self.ax.get_yticklabels(), label_colors):
+            label.set_bbox({'facecolor': color, 'pad': 0.2, 'edgecolor': 'none', 'boxstyle': 'round'})
+        for label in self.ax.get_yticklabels():
+            background_color = label.get_bbox_patch().get_facecolor()
+            brightness = get_brightness(background_color)
+            if brightness < 0.5: 
+                label.set_color('white')
+            else:
+                label.set_color('black')
+
+               
+        for i, driver in enumerate(names):
+            img_path = f'downloaded_images/{driver}.png'  
+            try:
+                label_color = self.ax.get_yticklabels()[i].get_color()
+                img = plt.imread(img_path)
+                imagebox = OffsetImage(img, zoom=0.15)
+                if sorted_values[i]<0:
+                    ab = AnnotationBbox(imagebox, (sorted_values[i], i), frameon=False,box_alignment=(0,0.5))
+                   # self.ax.text(sorted_values[i]/2, i, ">"*abs(sorted_values[i]), va='center', ha= "center", color=label_color,fontsize=font_size,weight='bold')
+                elif sorted_values[i]>0:  
+                    ab = AnnotationBbox(imagebox, (sorted_values[i], i), frameon=False,box_alignment=(1,0.5))
+                    #self.ax.text(sorted_values[i]/2, i, "<"*abs(sorted_values[i]), va='center', ha= "center", color=label_color,fontsize=font_size,weight='bold')
+                else:
+                    ab = AnnotationBbox(imagebox, (sorted_values[i], i), frameon=False,box_alignment=(0,0.5))  
+                self.ax.add_artist(ab)
+            except FileNotFoundError:
+                pass 
+        
+        plt.xlim(sorted_values[-1]-1, sorted_values[0]+1)
+        plt.yticks(weight='bold')
+        
+        self.ax.set_yticks(np.arange(len(names)))
+        self.ax.get_xaxis().set_visible(False)
+        ax2 = self.ax.twinx()
+        ax2.barh(names, sorted_values, alpha=0) 
+        ax2.spines['right'].set_position(('axes',0))  
+   
+        ax2.set_yticklabels( (sorted_values), fontweight='bold' )
+
+        for label in ax2.get_yticklabels():
+            int_label = int(label.get_text())
+            if int_label > 0:
+                label.set_bbox({'facecolor': "#ba5e5e", 'pad': 0.2, 'edgecolor': 'none', 'boxstyle': 'round'})
+            elif int_label < 0:
+                label.set_bbox({'facecolor': "#5eba7d", 'pad': 0.2, 'edgecolor': 'none', 'boxstyle': 'round'})
+            else:
+                label.set_bbox({'facecolor': "#f1f2f3", 'pad': 0.2, 'edgecolor': 'none', 'boxstyle': 'round'})
+        ax2.set_yticklabels( abs(sorted_values) )
+        ax2.tick_params(labelcolor='white', labelsize=font_size)
+        for label in ax2.get_yticklabels():
+            background_color = label.get_bbox_patch().get_facecolor()
+            brightness = get_brightness(background_color)
+            if brightness < 0.7: 
+                label.set_color('white')
+            else:
+                label.set_color('black')
+        self.ax.invert_xaxis()
+        ax2.spines['top'].set_visible(False)
+        ax2.spines['right'].set_visible(False)
+        ax2.spines['bottom'].set_visible(False)
+        ax2.spines['left'].set_visible(False)
+    
+        plt.show()
 
 class MyWindow(QWidget):
     def __init__(self):
@@ -391,6 +489,7 @@ class MyWindow(QWidget):
         button1 = QPushButton('Overtakes at the end of lap', self)
         button2 = QPushButton('pit time loss', self)
         button3 = QPushButton('pit recap', self)
+        button4 = QPushButton('Overtakes', self)
 
         validator = QIntValidator(0, 99)
         input_field.setValidator(validator)
@@ -405,11 +504,11 @@ class MyWindow(QWidget):
         vbox.addLayout(button1_layout)
         vbox.addWidget(button2)
         vbox.addWidget(button3)
-
+        vbox.addWidget(button4)
         button1.clicked.connect(lambda: self.open_graph_window(input_field))
         button2.clicked.connect(lambda: self.open_graph_window_pit_times())
         button3.clicked.connect(lambda: self.open_graph_window_pit_recap())
-
+        button4.clicked.connect(lambda: self.open_graph_window_overtakes())
         self.setLayout(vbox)
 
         self.setWindowTitle('iGP Graphs')
@@ -425,7 +524,9 @@ class MyWindow(QWidget):
     def open_graph_window_pit_recap(self):
         self.graph_window = PitRecap()
         self.graph_window.plot_graph()
-
+    def open_graph_window_overtakes(self):
+        self.graph_window = Overtakes()
+        self.graph_window.plot_graph()
      
 if __name__ == '__main__':
     app = QApplication(sys.argv)
