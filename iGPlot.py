@@ -1,10 +1,18 @@
-import csv,sys
+import csv,sys,re
 import numpy as np
 import matplotlib.pyplot as plt
 from datetime import timedelta
 from PyQt5.QtWidgets import QApplication, QPushButton, QVBoxLayout, QWidget,QLineEdit,QHBoxLayout
 from PyQt5.QtGui import QIntValidator
 from matplotlib.offsetbox import OffsetImage, AnnotationBbox
+from matplotlib.animation import FuncAnimation
+import os
+from scipy.stats import rankdata
+
+def clear_terminal():
+    os.system('cls' if os.name == 'nt' else 'clear')
+
+
 
 
 
@@ -37,7 +45,14 @@ with open("colors.txt", "r",encoding='utf-8') as file:
         if line:
             name, color_hex = line.split(":")
             color_mapping[name.strip()] = color_hex.strip()
-
+def toMs(time_duration):
+    match = re.match(r'\+ (\d+):(\d+\.\d+)', time_duration)
+    if match:
+        minutes, seconds = map(float, match.groups())
+        milliseconds = (minutes * 60 + seconds) * 1000
+        return milliseconds
+    else:
+        return time_duration
 def get_brightness(rgba_color):
     r, g, b, _ = rgba_color
     brightness = 0.299 * r + 0.587 * g + 0.114 * b
@@ -65,6 +80,7 @@ with open('full_report.csv', 'r',encoding='utf-8') as csv_file:
                 else:
                     driver_data[driver_name]["Lap"].append(row[2])
                     driver_data[driver_name]["Lap Time"].append(row[3])
+                    if(row[4]=="-"):row[4]='0'
                     driver_data[driver_name]["Gap"].append(row[4])
                     driver_data[driver_name]["Average Speed"].append(row[5])
                     driver_data[driver_name]["Race Position"].append(row[6])
@@ -87,7 +103,7 @@ with open('full_report.csv', 'r',encoding='utf-8') as csv_file:
         indexes = [i for i, item in enumerate(driver_data[driver]["Lap"][1:]) if isinstance(item, list)]
 
         valid_indexes = []
-
+        print(driver,indexes)
         for i in indexes:
             if i >= 2 and i <= len(driver_data[driver]["Lap"]) - 4:
                 if i - 2 not in indexes and i - 1 not in indexes and i + 1 not in indexes and i + 2 not in indexes:
@@ -103,7 +119,8 @@ with open('full_report.csv', 'r',encoding='utf-8') as csv_file:
             minutes = int(total_seconds // 60)
             seconds = total_seconds % 60
             driver_data[driver]["Box Time Lost"].append(total_seconds)
-                             
+        if(len(driver_data[driver]["Box Time Lost"])==0): 
+            driver_data[driver]["Box Time Lost"].append(20)                    
 csv_file.close()
 def basic_graph():
     figure, ax = plt.subplots()
@@ -247,8 +264,8 @@ class PitTimesWindow():
         label_colors = [color_mapping.get(name,default_color) for name in names]
         times = [sorted_data[name]["Box Time Lost"] for name in names]
 
-        boxes =self.ax.boxplot(times, labels=names, vert=False, patch_artist=True)
-        ax2 = self.ax.twinx()
+        boxes =plt.boxplot(times, labels=names, vert=False, patch_artist=True)
+        ax2 = plt.twinx()
 
         box =ax2.boxplot(times,labels=names, vert=False)
         for element in ['medians', 'whiskers', 'caps','boxes','fliers']:
@@ -282,7 +299,7 @@ class PitTimesWindow():
         ax2.tick_params(labelcolor='white', labelsize=font_size)
         average_median = np.mean(list(medians.values()))
         plt.axvline(x=average_median, color='#5865F2', linestyle='--', label=f'Average Median ({average_median:.2f})',alpha =1)
-        self.ax.text(average_median, len(driver_data)+1, 'Average Median', fontsize=12, ha='center', va='center', color="white",bbox=dict(facecolor='#5865F2',edgecolor= 'none', boxstyle='round'))
+        plt.text(average_median, len(driver_data)+1, 'Average Median', fontsize=12, ha='center', va='center', color="white",bbox=dict(facecolor='#5865F2',edgecolor= 'none', boxstyle='round'))
         self.ax.text(average_median, -0.1, f"{average_median:.1f}", fontsize=12, ha='center', va='center', color="white",bbox=dict(facecolor='#5865F2',edgecolor= 'none', boxstyle='round'))
         ax2.spines['top'].set_visible(False)
         ax2.spines['right'].set_visible(False)
@@ -406,8 +423,6 @@ class Overtakes():
         
         names =  np.array([item[0] for item in self.sorted_items])
         sorted_values = np.array([item[1] for item in self.sorted_items])
-        print (names)
-        print(sorted_values)
 
         label_colors = [color_mapping.get(name,default_color) for name in names]
 
@@ -477,7 +492,101 @@ class Overtakes():
         ax2.spines['left'].set_visible(False)
     
         plt.show()
+class RaceVisualized():
+    def __init__(self):
+        self.fig, self.ax = plt.subplots(figsize=(14, 8))
+        
+  
+    def plot_graph(self):
+        # Generate lap numbers as a range
+        incremental_value = 0  # Initialize the incremental value
+        for key, value in driver_data.items():
+            for i in range(len(value['Gap'])):
+                if value['Gap'][i] == 'Q':
+                    value['Gap'][i] = str(incremental_value)  # Replace 'Q' with the current incremental value
+                    incremental_value += 0.3  # Increment the value for the next 'Q'
+        # Extract all gaps at all positions
+        #gaps_at_all_positions = [[float(toMs(info['Gap'][i])) for i in range(len(info['Gap']))] for info in driver_data.values()]
+        # Create a list of names
+        names = list(driver_data.keys())
 
+        # Interpolate the data for smoother animation
+        max_length = max(len(item['Gap']) for item in driver_data.values())
+        # Specify the number of frames (interpolated values) to add
+        num_frames = 24
+        # Initialize an empty result array with the adjusted length
+        adjusted_length = max_length + num_frames * (max_length - 1)
+        interpolated_data = [[] for _ in range(adjusted_length)]
+
+        # Interpolate and fill in the result array
+        for key, item in driver_data.items():
+            gap_array = [float(toMs(value)) for value in item['Gap']]  # Convert values to float
+            x = np.arange(len(gap_array))
+            x_interp = np.linspace(0, len(gap_array) - 1, adjusted_length)  # Interpolation positions
+            gap_interp = np.interp(x_interp, x, gap_array)  # Perform linear interpolation
+            for i, value in enumerate(gap_interp):
+                interpolated_data[i].append(value)
+
+
+        def calculate_average(arr):
+            if len(arr) == 0:
+                return 0  # Avoid division by zero if the array is empty.
+            else:
+                total = sum(arr)
+                average = total / len(arr)
+                return average
+        def update(frame):
+            self.ax.cla()
+            current_positions = interpolated_data[frame]
+            average = calculate_average(current_positions)
+            plt.xlim(right=average*2) 
+            plt.xlim(left=-7000) 
+            plt.ylim(-3,23)  # Set y-axis limits from 0 to 20  
+            self.ax.grid(axis='y', linestyle='--', alpha=0.6)
+            self.fig.gca().invert_xaxis()
+            self.fig.gca().invert_yaxis()
+            # Plot the current frame
+            #print(interpolated_data[frame])
+            
+            for i in range(len(names)):
+
+                if(current_positions[i]>100000):
+                    print('-------------->',current_positions[i],names[i])
+                    #return
+                maxE = max(current_positions)
+                if (maxE>50000):
+                    maxE = 50000
+                rankings = rankdata(current_positions)
+                y_pos = rankings[i]
+                #y_pos =np.interp(current_positions[i], [0, maxE], [0, len(names) - 1])
+                
+                
+                self.ax.plot(current_positions[i], y_pos, 'o', markersize=10, color='skyblue')
+                self.ax.annotate(names[i], (current_positions[i], y_pos), xytext=(5, 0), textcoords='offset points', va='center')
+                img_path = f'downloaded_images/{names[i]}.png'  
+                try:
+                    #label_color = self.ax.get_yticklabels()[i].get_color()
+                    img = plt.imread(img_path)
+                    imagebox = OffsetImage(img, zoom=0.15)
+                    ab = AnnotationBbox(imagebox, (current_positions[i], y_pos), frameon=False,box_alignment=(0,0.5))
+                    self.ax.add_artist(ab)
+                except FileNotFoundError:
+                    pass 
+            #clear_terminal()    
+            print('frame',frame+1)            
+            self.ax.set_xlabel('Gap Values (ms)')
+            self.ax.set_title(f'Frame {frame + 1}/{len(interpolated_data)}')    
+
+        print('starting')
+        
+        self.ani= FuncAnimation(plt.gcf(), update, frames=len(interpolated_data), repeat=False, interval=100,blit=True)
+        plt.tight_layout()
+        plt.show()
+        self.ani.save('orbita.mp4', writer='ffmpeg', fps=24)
+        
+
+
+        
 class MyWindow(QWidget):
     def __init__(self):
         super().__init__()
@@ -490,6 +599,7 @@ class MyWindow(QWidget):
         button2 = QPushButton('pit time loss', self)
         button3 = QPushButton('pit recap', self)
         button4 = QPushButton('Overtakes', self)
+        button5 = QPushButton('Race visualized', self)
 
         validator = QIntValidator(0, 99)
         input_field.setValidator(validator)
@@ -504,11 +614,13 @@ class MyWindow(QWidget):
         vbox.addLayout(button1_layout)
         vbox.addWidget(button2)
         vbox.addWidget(button3)
+        vbox.addWidget(button5)
         vbox.addWidget(button4)
         button1.clicked.connect(lambda: self.open_graph_window(input_field))
         button2.clicked.connect(lambda: self.open_graph_window_pit_times())
         button3.clicked.connect(lambda: self.open_graph_window_pit_recap())
         button4.clicked.connect(lambda: self.open_graph_window_overtakes())
+        button5.clicked.connect(lambda: self.open_graph_race())
         self.setLayout(vbox)
 
         self.setWindowTitle('iGP Graphs')
@@ -526,6 +638,9 @@ class MyWindow(QWidget):
         self.graph_window.plot_graph()
     def open_graph_window_overtakes(self):
         self.graph_window = Overtakes()
+        self.graph_window.plot_graph()
+    def open_graph_race(self):
+        self.graph_window = RaceVisualized()
         self.graph_window.plot_graph()
      
 if __name__ == '__main__':
