@@ -597,9 +597,9 @@ class MyWindow(QWidget):
         # Create three buttons
         button1 = QPushButton('Overtakes at the end of lap', self)
         button2 = QPushButton('pit time loss', self)
-        button3 = QPushButton('pit recap', self)
-        button4 = QPushButton('Overtakes', self)
-        button5 = QPushButton('Race visualized', self)
+        button3 = QPushButton('strategy', self)
+        button4 = QPushButton('manual overtakes', self)
+        #button5 = QPushButton('Race visualized', self)
 
         validator = QIntValidator(0, 99)
         input_field.setValidator(validator)
@@ -614,13 +614,13 @@ class MyWindow(QWidget):
         vbox.addLayout(button1_layout)
         vbox.addWidget(button2)
         vbox.addWidget(button3)
-        vbox.addWidget(button5)
+        #vbox.addWidget(button5)
         vbox.addWidget(button4)
         button1.clicked.connect(lambda: self.open_graph_window(input_field))
         button2.clicked.connect(lambda: self.open_graph_window_pit_times())
         button3.clicked.connect(lambda: self.open_graph_window_pit_recap())
         button4.clicked.connect(lambda: self.open_graph_window_overtakes())
-        button5.clicked.connect(lambda: self.open_graph_race())
+        #button5.clicked.connect(lambda: self.open_graph_race())
         self.setLayout(vbox)
 
         self.setWindowTitle('iGP Graphs')
