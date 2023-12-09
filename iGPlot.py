@@ -74,8 +74,11 @@ with open('full_report.csv', 'r',encoding='utf-8') as csv_file:
         if len(row) >= 1:
          driver_name = row[0]
          if driver_name in driver_data:
-                if(row[2] == "PIT"):
+                if(row[2] == "PIT"):                  
                     pit_info = row[3].split("/")
+
+                    driver_data[driver_name]["PitStop"].append(pit_info[0].strip())
+                    print(driver_data[driver_name]["PitStop"])
                     driver_data[driver_name]["Lap"][-1] = [driver_data[driver_name]["Lap"][-1],pit_info[1].strip(),pit_info[0].strip()]
                 else:
                     driver_data[driver_name]["Lap"].append(row[2])
@@ -93,7 +96,8 @@ with open('full_report.csv', 'r',encoding='utf-8') as csv_file:
                     "Gap":["Q"],
                     "Average Speed":["Q"], 
                     "Lap": [["0",row[3]]],
-                    "Race Position": [row[6]]
+                    "Race Position": [row[6]],
+                    "PitStop":[]
                 }
     def time_str_to_timedelta(time_str):
         minutes, seconds = map(float, time_str.split(":"))
@@ -103,7 +107,6 @@ with open('full_report.csv', 'r',encoding='utf-8') as csv_file:
         indexes = [i for i, item in enumerate(driver_data[driver]["Lap"][1:]) if isinstance(item, list)]
 
         valid_indexes = []
-        print(driver,indexes)
         for i in indexes:
             if i >= 2 and i <= len(driver_data[driver]["Lap"]) - 4:
                 if i - 2 not in indexes and i - 1 not in indexes and i + 1 not in indexes and i + 2 not in indexes:
@@ -170,8 +173,6 @@ class OvertakesWindow(QWidget):
         sorted_endlaplist = np.array(endlaplist)[int_array1.argsort()][::-1]
         sorted_names= np.array(names)[int_array1.argsort()][::-1]
 
-        print(color_mapping)
-        print(sorted_values)
         label_colors = [color_mapping.get(name,default_color) for name in sorted_names]
 
         plt.barh(sorted_names, sorted_values, color=label_colors)
@@ -413,7 +414,6 @@ class Overtakes():
             
                     self.data_dict[key] = value
         self.sorted_items = sorted(self.data_dict.items(), key=lambda x: x[1],reverse=True)
-        print(self.sorted_items)
     def initUI(self):
         self.figure, self.ax = basic_graph()
         self.ax.xaxis.set_ticks_position('top')
@@ -573,11 +573,10 @@ class RaceVisualized():
                 except FileNotFoundError:
                     pass 
             #clear_terminal()    
-            print('frame',frame+1)            
+         
             self.ax.set_xlabel('Gap Values (ms)')
             self.ax.set_title(f'Frame {frame + 1}/{len(interpolated_data)}')    
 
-        print('starting')
         
         self.ani= FuncAnimation(plt.gcf(), update, frames=len(interpolated_data), repeat=False, interval=100,blit=True)
         plt.tight_layout()
