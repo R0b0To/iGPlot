@@ -50,7 +50,6 @@ function parseAttributes(personData) {
     if (height[1] == '\'') // If the height is in feet and inches, split the value into feet and inches
     {
       const [feet, inches] = height.split(' ');
-      // Convert the feet and inches to centimeters and add them together
       valueInCentimeters = ((parseInt(feet) * units.ft)) + (parseInt(inches) * units.in);
     }
     else if (height[1] == '.')
