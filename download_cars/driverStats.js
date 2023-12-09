@@ -1,41 +1,45 @@
-const separator = '	'
-const tier = 'elite'
-const leagueType = document.getElementById(tier).querySelector('h2').textContent.split('/')[1]
-const table = document.querySelector(`#${tier} > table > tbody`);
-let csv=`Manager${separator}Driver${separator}Livery${separator}Talent${separator}Grade${separator}Special${separator}Rating${separator}FavTrack${separator}Height${separator}BMI\n`;
+var separator = '	'
+var tier = 'elite'
+var leagueType = document.getElementById(tier).querySelector('h2').textContent.split('/')[1]
+var table = document.querySelector(`#${tier} > table > tbody`);
+var csv=`Manager${separator}Driver${separator}Livery${separator}Talent${separator}Grade${separator}Special${separator}Rating${separator}FavTrack${separator}Height${separator}BMI\n`;
+
+async function fetchManager(manager){
+  const response = await fetch(`https://igpmanager.com/index.php?action=fetch&d=profile&manager=${manager.id}&csrfName=&csrfToken=`)
+  return await response.json()
+}
+const managers = [];
 for (var i = 0; i < table.rows.length; i++) {
-    managerID = table.rows[i].childNodes[1].childNodes[1].href.match(/\d+/)[0];
-    manager = table.rows[i].childNodes[1].childNodes[3].textContent.substring(1);
-    managerData = await fetch("https://igpmanager.com/index.php?action=fetch&d=profile&manager="+managerID+"&csrfName=&csrfToken=")
-    .then(response => response.json())
-    .then(data => {return data})
-    
-    driverId = {};
+  managers.push({name:table.rows[i].childNodes[1].childNodes[3].textContent.substring(1),id:table.rows[i].childNodes[1].childNodes[1].href.match(/\d+/)[0]});
+}
+Promise.all(
+  managers.map(async (manager) => {
+    const managerData = await fetchManager(manager);
+    console.log('fetching',manager)
+    const driverId = {};
     driverId.d1 = /\d+/.exec(managerData.vars.driver1)[0];
     if(leagueType == 16)
-    {
       driverId.d2 = /\d+/.exec(managerData.vars.driver2)[0];
-    }
     for(id in driverId)
     {
-     driverData = await fetch(`https://igpmanager.com/index.php?action=fetch&d=driver&id=${driverId[id]}&csrfName=&csrfToken=`)
-    .then(response => response.json())
-    .then(data => {return data})
-    driver = parseAttributes(driverData);
-    bmiColor = /block-(.*)">/.exec(driverData.vars.sBmi)[1];
-    livery = document.createElement("img");
-    livery.innerHTML = managerData.vars.liveryS;
-    imgLink = livery.childNodes[0].src;
-    bmi ={"red":"❌","orange":"❎","green":"✅"};
-    special={specialA0:"",specialA1:"Common",specialA2:"Rare",specialA3:"Legendary"}
-    driverName = /\/>(.*)/.exec(driverData.vars.dName)[1];
-    console.log("...")
-    csv +=(`${manager}${separator}${driver.dName}${separator}${imgLink}${separator}${driver.sTalent}${separator}${special[driver.sSpecial.grade]}${separator}${driver.sSpecial.name}${separator}${driver.starRating}${separator}${driver.favTrack}${separator}${driver.sHeight}${separator}${bmi[driver.sBmi]}\n`);
+     const response = await fetch(`https://igpmanager.com/index.php?action=fetch&d=driver&id=${driverId[id]}&csrfName=&csrfToken=`)
+     const driverData = await response.json()
+     const driver = parseAttributes(driverData);
+     const livery = document.createElement("img");
+     livery.innerHTML = managerData.vars.liveryS;
+     const imgLink = livery.childNodes[0].src;
+     const bmi ={"red":"❌","orange":"❎","green":"✅"};
+     const special={specialA0:"",specialA1:"Common",specialA2:"Rare",specialA3:"Legendary"}
+     const string =(`${manager.name}${separator}${driver.dName}${separator}${imgLink}${separator}${driver.sTalent}${separator}${special[driver.sSpecial.grade]}${separator}${driver.sSpecial.name}${separator}${driver.starRating}${separator}${driver.favTrack}${separator}${driver.sHeight}${separator}${bmi[driver.sBmi]}`);
+     manager.stat = string;
     }
-    
-  }
-console.log(csv);
-copyToClipboard(csv)
+  }),
+).then(()=>{
+  const managerStats = managers.map(manager => manager.stat);
+  csv += managerStats.join('\n ');
+  console.log(csv);
+  copyToClipboard(csv)}
+  );
 
 function parseAttributes(personData) {
   function toCentimeters(height) {
