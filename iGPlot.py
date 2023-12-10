@@ -20,7 +20,7 @@ def clear_terminal():
 background_color = '#31333b'
 font_size = 12 
 default_color = 'white'
-
+labels_config = 3 # 1=team 2=driver 3=both
 
 
 
@@ -53,6 +53,15 @@ def toMs(time_duration):
         return milliseconds
     else:
         return time_duration
+def construct_label_string(team, name, setting):
+    if setting == 1:
+        return name
+    elif setting == 2:
+        return team
+    elif setting == 3:
+        return f"{team} - {name}"
+    else:
+        return "Invalid setting"
 def get_brightness(rgba_color):
     r, g, b, _ = rgba_color
     brightness = 0.299 * r + 0.587 * g + 0.114 * b
@@ -152,8 +161,7 @@ class OvertakesWindow(QWidget):
         endlaplist = []
         starting_tyre = []
         names = list(driver_data)
-        
-        
+        teams = []
         for key, value in driver_data.items():
             quali = int(driver_data[key]["Race Position"][0])
             if(len(driver_data[key]["Race Position"])>int(self.lap.text())):
@@ -161,21 +169,22 @@ class OvertakesWindow(QWidget):
             else:
              endlap = int(driver_data[key]["Race Position"][-1])
             overtakes =  endlap - quali
-            
+            teams.append(driver_data[key]["Team"])
             starting_tyre.append(tyre[driver_data[key]["Lap"][0][1].split('/')[0].strip()])
             qualilist.append(quali)
             endlaplist.append(endlap)
             overtakeslist.append(overtakes)
-         
+
+       
         int_array1 = np.array(overtakeslist, dtype=int)
         sorted_values = np.sort(int_array1)[::-1]
         sorted_qualilist = np.array(qualilist)[int_array1.argsort()][::-1]
         sorted_endlaplist = np.array(endlaplist)[int_array1.argsort()][::-1]
         sorted_names= np.array(names)[int_array1.argsort()][::-1]
-
+        sorted_teams = np.array(teams)[int_array1.argsort()][::-1]
         label_colors = [color_mapping.get(name,default_color) for name in sorted_names]
-
-        plt.barh(sorted_names, sorted_values, color=label_colors)
+        label_text = [construct_label_string(x, y, labels_config) for x, y in zip(sorted_teams, sorted_names)]
+        plt.barh(label_text, sorted_values, color=label_colors)
        
         for label, color in zip(self.ax.get_yticklabels(), label_colors):
             label.set_bbox({'facecolor': color, 'pad': 0.2, 'edgecolor': 'none', 'boxstyle': 'round'})
@@ -262,9 +271,12 @@ class PitTimesWindow():
 
 
         names = list(sorted_data)
+
+        
         label_colors = [color_mapping.get(name,default_color) for name in names]
         times = [sorted_data[name]["Box Time Lost"] for name in names]
-
+        teams = [sorted_data[name]["Team"] for name in names]
+        label_text = [construct_label_string(x, y, labels_config) for x, y in zip(teams, names)]
         boxes =plt.boxplot(times, labels=names, vert=False, patch_artist=True)
         ax2 = plt.twinx()
 
@@ -307,7 +319,7 @@ class PitTimesWindow():
         #ax2.spines['bottom'].set_visible(False)
         ax2.spines['left'].set_visible(False)
         plt.yticks(weight='bold')
-        self.ax.set_yticklabels(names,fontweight='bold')
+        self.ax.set_yticklabels(label_text,fontweight='bold')
         plt.show()
         
 class PitRecap():
@@ -322,29 +334,37 @@ class PitRecap():
         
         
     def plot_graph(self):
-        drivers_to_remove  = []
+        # race_laps is the max number of laps completed
         race_laps = max(len(driver["Race Position"]) for driver in driver_data.values())
-        def get_last_lap_time(driver_name,driver):
-            if(len(driver["Race Position"])<race_laps):
+        # drivers_to_remove is the list of drivers who didn't complete all the laps 
+        drivers_to_remove  = []
+        
+        # function that checks if driver did all the laps
+        def get_last_lap_time(driver_name,driver_report):
+            if(len(driver_report["Race Position"])<race_laps):
+                # add driver to the drivers_to_remove list
                 drivers_to_remove.append(driver_name)
-                return 99
-            else:
-                return  int(driver["Race Position"][-1])
+            # Return the driver's position on the last lap
+            return  int(driver_report["Race Position"][-1])
+        
+        # sort drivers by race finish order
         sorted_drivers = sorted(driver_data.items(), key=lambda x: get_last_lap_time(x[0],x[1]))
         sorted_driver_data = dict(sorted_drivers)
+        # removing the drivers that didn't complete all the laps from the data
         for key in drivers_to_remove:
             if key in sorted_driver_data:
                 del sorted_driver_data[key]
-
-        plt.xticks(np.arange(len(sorted_drivers[0][1]["Lap"]),step=1))
-        self.ax.set_xlim(-1, len(sorted_drivers[0][1]["Lap"]))
+        plt.xticks(np.arange(race_laps,step=1))
+        self.ax.set_xlim(-1, race_laps)
         self.ax.set_ylim(-.5,len(sorted_drivers))
         pit_history = []
-        for driver in (sorted_driver_data):    
+        for driver in (sorted_driver_data):
+            # get the pit stop laps and tyres    
             sublists = [item for item in sorted_driver_data[driver]["Lap"] if isinstance(item, list)]
             sublists.append([sorted_driver_data[driver]["Lap"][-1]])
             pit_history.append(sublists)
         pit_history_laps_list = []
+        # replace the tyre name with the color that will be used in the graph
         for item in (pit_history):
             pit = []
             for i in range(len(item) - 1):
@@ -353,19 +373,22 @@ class PitRecap():
                 pit.append([diff, tyre[color.split("/")[0].strip()]])
             pit_history_laps_list.append(pit)
 
+
         bottoms = [0] * len(sorted_driver_data)
-        for data, label in zip(pit_history_laps_list, list(sorted_driver_data)):
+        driver_list = list(sorted_driver_data)
+        for data, label in zip(pit_history_laps_list, driver_list):
             for item in data:
                 size, color = item
-                bar =self.ax.barh(label, size, color=color, left=bottoms[list(sorted_driver_data).index(label)],height=0.5)
+
+                team = construct_label_string(sorted_driver_data[label]["Team"],label,labels_config)
+
+                bar = self.ax.barh(team, size, color=color, left=bottoms[driver_list.index(label)],height=0.5)
               
-                bottoms[list(sorted_driver_data).index(label)] += size
-                text_x = -size + bottoms[list(sorted_driver_data).index(label)]
-                
+                bottoms[driver_list.index(label)] += size
+                text_x = -size + bottoms[driver_list.index(label)]
                 img_path = f'tyres/{color}.png'
                 image = plt.imread(img_path)
                 
-
 
                 imagebox = OffsetImage(image, zoom=0.2) 
                 imagebox.image.axes = self.ax
@@ -373,7 +396,7 @@ class PitRecap():
                 self.ax.add_artist(ab)
                 self.ax.text(text_x, bar[0].get_y() + bar[0].get_height() / 2, str(size), ha='center', va='center', color='white', weight="bold",fontsize=10)
             
-        label_colors = [color_mapping.get(name,default_color) for name in list(sorted_driver_data)]
+        label_colors = [color_mapping.get(name,default_color) for name in driver_list]
 
         for label, color in zip(self.ax.get_yticklabels(), label_colors):
             label.set_bbox({'facecolor': color, 'pad': 0.2, 'edgecolor': 'none', 'boxstyle': 'round'})
