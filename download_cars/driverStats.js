@@ -2,7 +2,7 @@ var separator = '	'
 var tier = 'elite'
 var leagueType = document.getElementById(tier).querySelector('h2').textContent.split('/')[1]
 var table = document.querySelector(`#${tier} > table > tbody`);
-var csv=`Manager${separator}Driver${separator}Livery${separator}Talent${separator}Grade${separator}Special${separator}Rating${separator}FavTrack${separator}Height${separator}BMI${separator}Color\n`;
+var csv=`Team${separator}Manager${separator}Driver${separator}Livery${separator}Talent${separator}Grade${separator}Special${separator}Rating${separator}FavTrack${separator}Height${separator}BMI${separator}Color\n`;
 
 async function fetchManager(manager){
   const response = await fetch(`https://igpmanager.com/index.php?action=fetch&d=profile&manager=${manager.id}&csrfName=&csrfToken=`)
@@ -10,7 +10,7 @@ async function fetchManager(manager){
 }
 const managers = [];
 for (var i = 0; i < table.rows.length; i++) {
-  managers.push({color:/#([0-9A-Fa-f]{3,6})\b/.exec(table.rows[i].firstChild.outerHTML)[0],name:table.rows[i].childNodes[1].childNodes[3].textContent.substring(1),id:table.rows[i].childNodes[1].childNodes[1].href.match(/\d+/)[0]});
+  managers.push({team:table.rows[i].childNodes[1].childNodes[5].textContent,color:/#([0-9A-Fa-f]{3,6})\b/.exec(table.rows[i].firstChild.outerHTML)[0],name:table.rows[i].childNodes[1].childNodes[3].textContent.substring(1),id:table.rows[i].childNodes[1].childNodes[1].href.match(/\d+/)[0]});
 }
 Promise.all(
   managers.map(async (manager) => {
@@ -30,7 +30,7 @@ Promise.all(
      const imgLink = livery.childNodes[0].src;
      const bmi ={"red":"❌","orange":"❎","green":"✅"};
      const special={specialA0:"",specialA1:"Common",specialA2:"Rare",specialA3:"Legendary"}
-     const string =(`${manager.name}${separator}${driver.dName}${separator}${imgLink}${separator}${driver.sTalent}${separator}${special[driver.sSpecial.grade]}${separator}${driver.sSpecial.name}${separator}${driver.starRating}${separator}${driver.favTrack}${separator}${driver.sHeight}${separator}${bmi[driver.sBmi]}${separator}${manager.color}`);
+     const string =(`${manager.team}${separator}${manager.name}${separator}${driver.dName}${separator}${imgLink}${separator}${driver.sTalent}${separator}${special[driver.sSpecial.grade]}${separator}${driver.sSpecial.name}${separator}${driver.starRating}${separator}${driver.favTrack}${separator}${driver.sHeight}${separator}${bmi[driver.sBmi]}${separator}${manager.color}`);
      manager.stat = string;
     }
   }),

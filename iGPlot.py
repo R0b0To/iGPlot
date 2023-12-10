@@ -277,10 +277,10 @@ class PitTimesWindow():
         times = [sorted_data[name]["Box Time Lost"] for name in names]
         teams = [sorted_data[name]["Team"] for name in names]
         label_text = [construct_label_string(x, y, labels_config) for x, y in zip(teams, names)]
-        boxes =plt.boxplot(times, labels=names, vert=False, patch_artist=True)
+        boxes =plt.boxplot(times, labels=label_text, vert=False, patch_artist=True)
         ax2 = plt.twinx()
 
-        box =ax2.boxplot(times,labels=names, vert=False)
+        box =ax2.boxplot(times,labels=label_text, vert=False)
         for element in ['medians', 'whiskers', 'caps','boxes','fliers']:
             for item in box[element]:
                 item.set_alpha(0.0) 
