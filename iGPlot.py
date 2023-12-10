@@ -86,8 +86,7 @@ with open('full_report.csv', 'r',encoding='utf-8') as csv_file:
                 if(row[2] == "PIT"):                  
                     pit_info = row[3].split("/")
 
-                    driver_data[driver_name]["PitStop"].append(pit_info[0].strip())
-                    print(driver_data[driver_name]["PitStop"])
+                    driver_data[driver_name]["PitStop"].append(pit_info[0].strip().split(' ',1)[0])
                     driver_data[driver_name]["Lap"][-1] = [driver_data[driver_name]["Lap"][-1],pit_info[1].strip(),pit_info[0].strip()]
                 else:
                     driver_data[driver_name]["Lap"].append(row[2])
@@ -108,6 +107,9 @@ with open('full_report.csv', 'r',encoding='utf-8') as csv_file:
                     "Race Position": [row[6]],
                     "PitStop":[]
                 }
+    for driver, test in driver_data.items():
+        print(f'{driver_data[driver]["Team"]: >50} {driver_data[driver]["PitStop"]}')
+        #print(f"{driver_data[driver]["Team"]: <5}: {driver_data[driver]["PitStop"]}")
     def time_str_to_timedelta(time_str):
         minutes, seconds = map(float, time_str.split(":"))
         return timedelta(minutes=minutes, seconds=seconds)
