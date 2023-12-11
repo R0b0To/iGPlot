@@ -86,7 +86,7 @@ with open('full_report.csv', 'r',encoding='utf-8') as csv_file:
                 if(row[2] == "PIT"):                  
                     pit_info = row[3].split("/")
 
-                    driver_data[driver_name]["PitStop"].append(pit_info[0].strip().split(' ',1)[0])
+                    driver_data[driver_name]["PitStop"].append(float(pit_info[0].strip().split(' ',1)[0]))
                     driver_data[driver_name]["Lap"][-1] = [driver_data[driver_name]["Lap"][-1],pit_info[1].strip(),pit_info[0].strip()]
                 else:
                     driver_data[driver_name]["Lap"].append(row[2])
@@ -254,7 +254,8 @@ class OvertakesWindow(QWidget):
         ax2.spines['right'].set_visible(False)
         ax2.spines['bottom'].set_visible(False)
         ax2.spines['left'].set_visible(False)
-    
+        plt.tight_layout()
+        plt.subplots_adjust(left=0.222,bottom=0.044)
         plt.show()
 
 class PitTimesWindow():
@@ -266,17 +267,26 @@ class PitTimesWindow():
          self.figure, self.ax = basic_graph()
        
 
-    def plot_graph(self):
+    def plot_graph(self,option):
+   
+        if (option == 1):
+            medians = {name: int(sorted(driver_data[name]["Box Time Lost"])[len(driver_data[name]["Box Time Lost"]) // 2]* 10) / 10.0 for name in driver_data}
         
-        medians = {name: int(sorted(driver_data[name]["Box Time Lost"])[len(driver_data[name]["Box Time Lost"]) // 2]* 10) / 10.0 for name in driver_data}
+        elif(option ==2):
+            medians = {name: int(sorted(driver_data[name]["PitStop"])[len(driver_data[name]["PitStop"]) // 2]* 10) / 10.0 for name in driver_data}
+        
         sorted_data = dict(sorted(driver_data.items(), key=lambda item: medians[item[0]]))
+
 
 
         names = list(sorted_data)
 
         
         label_colors = [color_mapping.get(name,default_color) for name in names]
-        times = [sorted_data[name]["Box Time Lost"] for name in names]
+        if (option == 1):
+            times = [sorted_data[name]["Box Time Lost"] for name in names]
+        elif(option ==2):    
+            times = [sorted_data[name]["PitStop"] for name in names]
         teams = [sorted_data[name]["Team"] for name in names]
         label_text = [construct_label_string(x, y, labels_config) for x, y in zip(teams, names)]
         boxes =plt.boxplot(times, labels=label_text, vert=False, patch_artist=True)
@@ -322,7 +332,11 @@ class PitTimesWindow():
         ax2.spines['left'].set_visible(False)
         plt.yticks(weight='bold')
         self.ax.set_yticklabels(label_text,fontweight='bold')
+        
+        plt.tight_layout()
+        plt.subplots_adjust(left=0.222,bottom=0.044)
         plt.show()
+        
         
 class PitRecap():
     def __init__(self):
@@ -420,7 +434,8 @@ class PitRecap():
         self.ax.set_xticks(xticks, xticklabels)
                 
         self.ax.invert_yaxis()
-
+        plt.tight_layout()
+        plt.subplots_adjust(left=0.222,bottom=0.044)
         plt.show()
 class Overtakes():
     def __init__(self):
@@ -611,7 +626,7 @@ class RaceVisualized():
 
 
         
-class MyWindow(QWidget):
+class MainWindow(QWidget):
     def __init__(self):
         super().__init__()
         self.initUI()   
@@ -619,11 +634,13 @@ class MyWindow(QWidget):
     def initUI(self):
         input_field = QLineEdit(self)
         # Create three buttons
+        button3 = QPushButton('strategy', self)
         button1 = QPushButton('Overtakes at the end of lap', self)
         button2 = QPushButton('pit time loss', self)
-        button3 = QPushButton('strategy', self)
+        button6 = QPushButton('pit stop time', self)
         button4 = QPushButton('manual overtakes', self)
         #button5 = QPushButton('Race visualized', self)
+        
 
         validator = QIntValidator(0, 99)
         input_field.setValidator(validator)
@@ -635,15 +652,20 @@ class MyWindow(QWidget):
         button1_layout.addWidget(input_field)
 
         vbox = QVBoxLayout()
+
+        vbox.addWidget(button3)
         vbox.addLayout(button1_layout)
         vbox.addWidget(button2)
-        vbox.addWidget(button3)
-        #vbox.addWidget(button5)
+        vbox.addWidget(button6)
         vbox.addWidget(button4)
+        #vbox.addWidget(button5)
+       
+        
         button1.clicked.connect(lambda: self.open_graph_window(input_field))
         button2.clicked.connect(lambda: self.open_graph_window_pit_times())
         button3.clicked.connect(lambda: self.open_graph_window_pit_recap())
         button4.clicked.connect(lambda: self.open_graph_window_overtakes())
+        button6.clicked.connect(lambda: self.open_graph_window_stationary_pit_times())
         #button5.clicked.connect(lambda: self.open_graph_race())
         self.setLayout(vbox)
 
@@ -655,8 +677,10 @@ class MyWindow(QWidget):
 
     def open_graph_window_pit_times(self):
         self.graph_window = PitTimesWindow()
-        self.graph_window.plot_graph()
-
+        self.graph_window.plot_graph(1)
+    def open_graph_window_stationary_pit_times(self):
+        self.graph_window = PitTimesWindow()
+        self.graph_window.plot_graph(2)    
     def open_graph_window_pit_recap(self):
         self.graph_window = PitRecap()
         self.graph_window.plot_graph()
@@ -669,7 +693,7 @@ class MyWindow(QWidget):
      
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    window = MyWindow()
+    window = MainWindow()
     window.show()
     sys.exit(app.exec_())
 
