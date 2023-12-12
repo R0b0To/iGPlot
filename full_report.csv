@@ -1,1692 +1,1488 @@
-Track,tr
+Track,be
 Fuel,true,Tyre,false
-Results posted 10 Dec 2023, 19:50
-G Gudmunsson,85 NOOTGP,START,Super soft tyres,,,1
-G Gudmunsson,85 NOOTGP,1,1:42.890,-,180.61,1
-G Gudmunsson,85 NOOTGP,2,1:38.763,-,188.16,1
-G Gudmunsson,85 NOOTGP,3,1:38.193,-,189.25,1
-G Gudmunsson,85 NOOTGP,4,1:38.672,-,188.33,1
-G Gudmunsson,85 NOOTGP,5,1:39.145,-,187.43,1
-G Gudmunsson,85 NOOTGP,6,1:55.431,+ 0:08.825,160.99,9
-G Gudmunsson,85 NOOTGP,PIT,2.6 seconds / Super soft tyres,,,
-G Gudmunsson,85 NOOTGP,7,1:40.277,+ 0:09.491,185.32,8
-G Gudmunsson,85 NOOTGP,8,1:38.231,+ 0:07.902,189.18,8
-G Gudmunsson,85 NOOTGP,9,1:36.777,+ 0:03.608,192.02,3
-G Gudmunsson,85 NOOTGP,10,1:37.366,+ 0:01.367,190.86,2
-G Gudmunsson,85 NOOTGP,11,1:37.953,-,189.72,1
-G Gudmunsson,85 NOOTGP,12,1:52.333,+ 0:11.062,165.43,16
-G Gudmunsson,85 NOOTGP,PIT,2.9 seconds / Soft tyres,,,
-G Gudmunsson,85 NOOTGP,13,1:40.013,+ 0:12.554,185.81,20
-G Gudmunsson,85 NOOTGP,14,1:38.427,+ 0:10.567,188.80,9
-G Gudmunsson,85 NOOTGP,15,1:37.974,+ 0:05.297,189.67,7
-G Gudmunsson,85 NOOTGP,16,1:37.668,+ 0:05.489,190.27,6
-G Gudmunsson,85 NOOTGP,17,1:37.465,+ 0:05.247,190.67,5
-G Gudmunsson,85 NOOTGP,18,1:37.173,-,191.24,1
-G Gudmunsson,85 NOOTGP,19,1:38.142,-,189.35,1
-G Gudmunsson,85 NOOTGP,20,1:52.326,+ 0:12.452,165.44,17
-G Gudmunsson,85 NOOTGP,PIT,2.7 seconds / Soft tyres,,,
-G Gudmunsson,85 NOOTGP,21,1:39.743,+ 0:14.648,186.31,20
-G Gudmunsson,85 NOOTGP,22,1:37.187,+ 0:06.306,191.21,9
-G Gudmunsson,85 NOOTGP,23,1:37.491,+ 0:06.251,190.61,9
-G Gudmunsson,85 NOOTGP,24,1:36.260,+ 0:05.079,193.05,5
-G Gudmunsson,85 NOOTGP,25,1:36.410,+ 0:03.900,192.75,3
-G Gudmunsson,85 NOOTGP,26,1:36.584,-,192.40,1
-G Gudmunsson,85 NOOTGP,27,1:37.450,-,190.69,1
-G Gudmunsson,85 NOOTGP,28,1:51.467,+ 0:14.291,166.71,13
-G Gudmunsson,85 NOOTGP,PIT,2.8 seconds / Soft tyres,,,
-G Gudmunsson,85 NOOTGP,29,1:39.481,+ 0:16.261,186.80,16
-G Gudmunsson,85 NOOTGP,30,1:36.856,+ 0:05.480,191.86,7
-G Gudmunsson,85 NOOTGP,31,1:36.359,+ 0:04.981,192.85,6
-G Gudmunsson,85 NOOTGP,32,1:36.200,+ 0:03.940,193.17,2
-G Gudmunsson,85 NOOTGP,33,1:36.683,+ 0:03.087,192.21,2
-G Gudmunsson,85 NOOTGP,34,1:36.982,-,191.61,1
-G Gudmunsson,85 NOOTGP,35,1:37.645,+ 0:00.827,190.31,2
-G Gudmunsson,85 NOOTGP,36,1:37.589,+ 0:02.127,190.42,2
-G Gudmunsson,85 NOOTGP,37,1:53.495,+ 0:18.751,163.74,20
-G Gudmunsson,85 NOOTGP,PIT,3.2 seconds / Soft tyres,,,
-G Gudmunsson,85 NOOTGP,38,1:37.965,+ 0:09.682,189.69,13
-G Gudmunsson,85 NOOTGP,39,1:37.103,+ 0:09.807,191.38,13
-G Gudmunsson,85 NOOTGP,40,1:36.711,+ 0:07.492,192.15,7
-G Gudmunsson,85 NOOTGP,41,1:36.974,+ 0:07.498,191.63,8
-G Gudmunsson,85 NOOTGP,42,1:36.110,+ 0:04.815,193.35,5
-G Gudmunsson,85 NOOTGP,43,1:36.851,+ 0:05.744,191.87,5
-G Gudmunsson,85 NOOTGP,44,1:37.240,+ 0:06.883,191.11,5
-G Gudmunsson,85 NOOTGP,45,1:37.550,+ 0:08.009,190.50,4
-G Gudmunsson,85 NOOTGP,46,1:52.992,+ 0:13.954,164.46,13
-G Gudmunsson,85 NOOTGP,PIT,2.7 seconds / Soft tyres,,,
-G Gudmunsson,85 NOOTGP,47,1:38.370,+ 0:15.681,188.91,13
-G Gudmunsson,85 NOOTGP,48,1:37.059,+ 0:11.803,191.46,9
-G Gudmunsson,85 NOOTGP,49,1:36.916,+ 0:12.665,191.75,11
-G Gudmunsson,85 NOOTGP,50,1:36.580,+ 0:13.402,192.41,13
-G Gudmunsson,85 NOOTGP,51,1:36.287,+ 0:14.073,193.00,15
-G Gudmunsson,85 NOOTGP,52,1:36.512,+ 0:14.700,192.55,16
-G Gudmunsson,85 NOOTGP,53,1:36.516,+ 0:15.062,192.54,16
-G Gudmunsson,85 NOOTGP,54,1:37.296,+ 0:16.610,191.00,15
-N Smith,29 Bentley Racing,START,Super soft tyres,,,2
-N Smith,29 Bentley Racing,1,1:42.706,+ 0:00.630,180.94,2
-N Smith,29 Bentley Racing,2,1:39.166,+ 0:01.033,187.39,2
-N Smith,29 Bentley Racing,3,1:37.869,+ 0:00.709,189.88,2
-N Smith,29 Bentley Racing,4,1:38.447,+ 0:00.484,188.76,2
-N Smith,29 Bentley Racing,5,1:39.105,+ 0:00.444,187.51,2
-N Smith,29 Bentley Racing,6,1:54.333,+ 0:08.171,162.54,8
-N Smith,29 Bentley Racing,PIT,3.1 seconds / Soft tyres,,,
-N Smith,29 Bentley Racing,7,1:42.006,+ 0:10.566,182.18,10
-N Smith,29 Bentley Racing,8,1:38.702,+ 0:09.448,188.28,10
-N Smith,29 Bentley Racing,9,1:38.528,+ 0:06.905,188.61,7
-N Smith,29 Bentley Racing,10,1:37.170,+ 0:04.469,191.24,7
-N Smith,29 Bentley Racing,11,1:38.099,+ 0:03.247,189.43,5
-N Smith,29 Bentley Racing,12,1:38.023,-,189.58,1
-N Smith,29 Bentley Racing,13,1:38.521,-,188.62,1
-N Smith,29 Bentley Racing,14,1:53.837,+ 0:13.422,163.24,14
-N Smith,29 Bentley Racing,PIT,2.7 seconds / Soft tyres,,,
-N Smith,29 Bentley Racing,15,1:40.012,+ 0:10.190,185.81,13
-N Smith,29 Bentley Racing,16,1:37.548,+ 0:10.262,190.50,12
-N Smith,29 Bentley Racing,17,1:36.616,+ 0:09.170,192.34,11
-N Smith,29 Bentley Racing,18,1:37.442,+ 0:04.192,190.71,5
-N Smith,29 Bentley Racing,19,1:37.053,+ 0:03.103,191.47,4
-N Smith,29 Bentley Racing,20,1:36.770,-,192.03,1
-N Smith,29 Bentley Racing,21,1:38.150,+ 0:00.602,189.33,2
-N Smith,29 Bentley Racing,22,1:52.946,+ 0:08.019,164.53,13
-N Smith,29 Bentley Racing,PIT,2.6 seconds / Super soft tyres,,,
-N Smith,29 Bentley Racing,23,1:38.806,+ 0:09.279,188.08,14
-N Smith,29 Bentley Racing,24,1:36.630,+ 0:08.476,192.31,9
-N Smith,29 Bentley Racing,25,1:36.395,+ 0:07.282,192.78,7
-N Smith,29 Bentley Racing,26,1:36.210,+ 0:03.007,193.15,5
-N Smith,29 Bentley Racing,27,1:38.001,+ 0:03.558,189.62,4
-N Smith,29 Bentley Racing,28,1:52.075,+ 0:18.458,165.81,22
-N Smith,29 Bentley Racing,PIT,2.5 seconds / Super soft tyres,,,
-N Smith,29 Bentley Racing,29,1:37.691,+ 0:18.638,190.22,21
-N Smith,29 Bentley Racing,30,1:35.811,+ 0:06.812,193.96,11
-N Smith,29 Bentley Racing,31,1:35.583,+ 0:05.537,194.42,7
-N Smith,29 Bentley Racing,32,1:36.152,+ 0:04.448,193.27,3
-N Smith,29 Bentley Racing,33,1:36.752,+ 0:03.664,192.07,3
-N Smith,29 Bentley Racing,34,1:51.734,+ 0:15.328,166.32,18
-N Smith,29 Bentley Racing,PIT,3 seconds / Soft tyres,,,
-N Smith,29 Bentley Racing,35,1:39.598,+ 0:18.109,186.58,23
-N Smith,29 Bentley Racing,36,1:36.493,+ 0:18.313,192.59,20
-N Smith,29 Bentley Racing,37,1:35.996,+ 0:17.438,193.58,18
-N Smith,29 Bentley Racing,38,1:36.110,+ 0:06.514,193.35,7
-N Smith,29 Bentley Racing,39,1:36.446,+ 0:05.982,192.68,6
-N Smith,29 Bentley Racing,40,1:36.221,+ 0:03.176,193.13,2
-N Smith,29 Bentley Racing,41,1:37.074,+ 0:03.282,191.43,3
-N Smith,29 Bentley Racing,42,1:52.568,+ 0:17.057,165.08,18
-N Smith,29 Bentley Racing,PIT,3.4 seconds / Medium tyres,,,
-N Smith,29 Bentley Racing,43,1:39.788,+ 0:20.922,186.23,25
-N Smith,29 Bentley Racing,44,1:36.288,+ 0:21.110,193.00,25
-N Smith,29 Bentley Racing,45,1:36.590,+ 0:21.276,192.39,22
-N Smith,29 Bentley Racing,46,1:36.985,+ 0:11.214,191.61,11
-N Smith,29 Bentley Racing,47,1:37.012,+ 0:11.582,191.56,11
-N Smith,29 Bentley Racing,48,1:36.377,+ 0:07.023,192.82,5
-N Smith,29 Bentley Racing,49,1:35.721,+ 0:06.690,194.14,4
-N Smith,29 Bentley Racing,50,1:36.777,+ 0:07.623,192.02,5
-N Smith,29 Bentley Racing,51,1:37.932,+ 0:09.940,189.76,6
-N Smith,29 Bentley Racing,52,1:38.082,+ 0:12.137,189.47,9
-N Smith,29 Bentley Racing,53,1:38.238,+ 0:14.220,189.17,13
-N Smith,29 Bentley Racing,54,1:38.891,+ 0:17.364,187.92,18
-M Wood,7 Dule,START,Super soft tyres,,,3
-M Wood,7 Dule,1,1:42.990,+ 0:01.406,180.44,4
-M Wood,7 Dule,2,1:39.654,+ 0:02.297,186.48,4
-M Wood,7 Dule,3,1:37.826,+ 0:01.930,189.96,4
-M Wood,7 Dule,4,1:38.184,+ 0:01.442,189.27,4
-M Wood,7 Dule,5,1:38.945,+ 0:01.243,187.81,4
-M Wood,7 Dule,6,1:54.800,+ 0:09.438,161.87,10
-M Wood,7 Dule,PIT,2.8 seconds / Soft tyres,,,
-M Wood,7 Dule,7,1:41.384,+ 0:11.211,183.30,12
-M Wood,7 Dule,8,1:39.000,+ 0:10.391,187.71,12
-M Wood,7 Dule,9,1:38.219,+ 0:07.540,189.20,9
-M Wood,7 Dule,10,1:37.918,+ 0:05.851,189.78,9
-M Wood,7 Dule,11,1:38.097,+ 0:04.628,189.44,8
-M Wood,7 Dule,12,1:37.430,+ 0:00.787,190.73,2
-M Wood,7 Dule,13,1:39.054,+ 0:01.320,187.61,2
-M Wood,7 Dule,14,1:54.015,+ 0:14.921,162.99,17
-M Wood,7 Dule,PIT,2.7 seconds / Soft tyres,,,
-M Wood,7 Dule,15,1:41.522,+ 0:13.199,183.05,16
-M Wood,7 Dule,16,1:38.719,+ 0:14.442,188.24,16
-M Wood,7 Dule,17,1:37.248,+ 0:13.983,191.09,14
-M Wood,7 Dule,18,1:37.391,+ 0:08.953,190.81,8
-M Wood,7 Dule,19,1:37.446,+ 0:08.258,190.70,8
-M Wood,7 Dule,20,1:37.617,+ 0:06.002,190.37,4
-M Wood,7 Dule,21,1:37.628,+ 0:06.082,190.35,4
-M Wood,7 Dule,22,1:52.817,+ 0:13.371,164.72,19
-M Wood,7 Dule,PIT,2.7 seconds / Soft tyres,,,
-M Wood,7 Dule,23,1:39.737,+ 0:15.563,186.32,19
-M Wood,7 Dule,24,1:37.758,+ 0:15.888,190.09,15
-M Wood,7 Dule,25,1:36.514,+ 0:14.814,192.54,13
-M Wood,7 Dule,26,1:36.950,+ 0:11.278,191.68,11
-M Wood,7 Dule,27,1:36.997,+ 0:10.826,191.59,8
-M Wood,7 Dule,28,1:36.340,+ 0:09.991,192.89,6
-M Wood,7 Dule,29,1:36.557,+ 0:09.037,192.46,4
-M Wood,7 Dule,30,1:51.736,+ 0:13.136,166.31,18
-M Wood,7 Dule,PIT,2.7 seconds / Soft tyres,,,
-M Wood,7 Dule,31,1:39.967,+ 0:16.246,185.89,19
-M Wood,7 Dule,32,1:35.959,+ 0:14.964,193.66,14
-M Wood,7 Dule,33,1:36.446,+ 0:13.874,192.68,13
-M Wood,7 Dule,34,1:36.261,+ 0:10.065,193.05,11
-M Wood,7 Dule,35,1:36.130,+ 0:09.378,193.31,10
-M Wood,7 Dule,36,1:36.531,+ 0:09.619,192.51,7
-M Wood,7 Dule,37,1:36.814,+ 0:09.561,191.95,6
-M Wood,7 Dule,38,1:52.115,+ 0:14.642,165.75,16
-M Wood,7 Dule,PIT,2.7 seconds / Soft tyres,,,
-M Wood,7 Dule,39,1:38.764,+ 0:16.428,188.16,16
-M Wood,7 Dule,40,1:36.065,+ 0:13.466,193.44,10
-M Wood,7 Dule,41,1:36.238,+ 0:12.736,193.10,9
-M Wood,7 Dule,42,1:36.518,+ 0:10.461,192.54,8
-M Wood,7 Dule,43,1:35.441,+ 0:09.978,194.71,7
-M Wood,7 Dule,44,1:36.182,+ 0:10.061,193.21,7
-M Wood,7 Dule,45,1:36.005,+ 0:09.642,193.56,5
-M Wood,7 Dule,46,1:50.133,+ 0:12.728,168.73,12
-M Wood,7 Dule,PIT,2.6 seconds / Soft tyres,,,
-M Wood,7 Dule,47,1:38.854,+ 0:14.939,187.99,12
-M Wood,7 Dule,48,1:36.232,+ 0:10.234,193.11,6
-M Wood,7 Dule,49,1:35.912,+ 0:10.092,193.75,6
-M Wood,7 Dule,50,1:35.632,+ 0:09.879,194.32,6
-M Wood,7 Dule,51,1:34.793,+ 0:09.057,196.04,5
-M Wood,7 Dule,52,1:34.682,+ 0:07.853,196.27,4
-M Wood,7 Dule,53,1:34.769,+ 0:06.468,196.09,3
-M Wood,7 Dule,54,1:34.938,+ 0:05.659,195.74,2
-T Folger,5 Stellaron Hunter,START,Super soft tyres,,,4
-T Folger,5 Stellaron Hunter,1,1:42.452,+ 0:01.208,181.38,3
-T Folger,5 Stellaron Hunter,2,1:39.252,+ 0:01.696,187.23,3
-T Folger,5 Stellaron Hunter,3,1:37.810,+ 0:01.313,189.99,3
-T Folger,5 Stellaron Hunter,4,1:38.322,+ 0:00.963,189.00,3
-T Folger,5 Stellaron Hunter,5,1:39.119,+ 0:00.938,187.48,3
-T Folger,5 Stellaron Hunter,6,1:56.014,+ 0:10.347,160.18,12
-T Folger,5 Stellaron Hunter,PIT,2.9 seconds / Soft tyres,,,
-T Folger,5 Stellaron Hunter,7,1:41.776,+ 0:12.511,182.59,14
-T Folger,5 Stellaron Hunter,8,1:38.551,+ 0:11.242,188.56,13
-T Folger,5 Stellaron Hunter,9,1:38.554,+ 0:08.725,188.56,10
-T Folger,5 Stellaron Hunter,10,1:38.384,+ 0:07.503,188.88,10
-T Folger,5 Stellaron Hunter,11,1:37.210,+ 0:05.392,191.17,9
-T Folger,5 Stellaron Hunter,12,1:38.025,+ 0:02.146,189.58,3
-T Folger,5 Stellaron Hunter,13,1:38.049,+ 0:01.674,189.53,3
-T Folger,5 Stellaron Hunter,14,1:38.739,-,188.21,1
-T Folger,5 Stellaron Hunter,15,1:54.441,+ 0:11.197,162.38,14
-T Folger,5 Stellaron Hunter,PIT,2.9 seconds / Soft tyres,,,
-T Folger,5 Stellaron Hunter,16,1:40.815,+ 0:14.536,184.33,17
-T Folger,5 Stellaron Hunter,17,1:38.370,+ 0:15.198,188.91,17
-T Folger,5 Stellaron Hunter,18,1:38.165,+ 0:10.943,189.31,12
-T Folger,5 Stellaron Hunter,19,1:37.414,+ 0:10.215,190.77,11
-T Folger,5 Stellaron Hunter,20,1:37.368,+ 0:07.709,190.86,7
-T Folger,5 Stellaron Hunter,21,1:37.596,+ 0:07.758,190.41,6
-T Folger,5 Stellaron Hunter,22,1:37.770,-,190.07,1
-T Folger,5 Stellaron Hunter,23,1:38.731,+ 0:01.185,188.22,3
-T Folger,5 Stellaron Hunter,24,1:53.446,+ 0:17.199,163.81,18
-T Folger,5 Stellaron Hunter,PIT,2.9 seconds / Soft tyres,,,
-T Folger,5 Stellaron Hunter,25,1:38.029,+ 0:17.639,189.57,18
-T Folger,5 Stellaron Hunter,26,1:36.882,+ 0:14.037,191.81,17
-T Folger,5 Stellaron Hunter,27,1:36.653,+ 0:13.240,192.27,12
-T Folger,5 Stellaron Hunter,28,1:36.698,+ 0:12.762,192.18,10
-T Folger,5 Stellaron Hunter,29,1:36.214,+ 0:11.465,193.14,7
-T Folger,5 Stellaron Hunter,30,1:36.172,-,193.23,1
-T Folger,5 Stellaron Hunter,31,1:37.569,+ 0:00.711,190.46,2
-T Folger,5 Stellaron Hunter,32,1:52.674,+ 0:16.144,164.93,16
-T Folger,5 Stellaron Hunter,PIT,3 seconds / Soft tyres,,,
-T Folger,5 Stellaron Hunter,33,1:39.315,+ 0:17.923,187.11,18
-T Folger,5 Stellaron Hunter,34,1:36.768,+ 0:14.621,192.04,17
-T Folger,5 Stellaron Hunter,35,1:36.428,+ 0:14.232,192.72,16
-T Folger,5 Stellaron Hunter,36,1:35.507,+ 0:13.450,194.57,10
-T Folger,5 Stellaron Hunter,37,1:34.549,+ 0:11.128,196.55,9
-T Folger,5 Stellaron Hunter,38,1:35.905,-,193.77,1
-T Folger,5 Stellaron Hunter,39,1:36.978,-,191.62,1
-T Folger,5 Stellaron Hunter,40,1:52.298,+ 0:13.270,165.48,9
-T Folger,5 Stellaron Hunter,PIT,2.8 seconds / Soft tyres,,,
-T Folger,5 Stellaron Hunter,41,1:38.741,+ 0:15.043,188.20,13
-T Folger,5 Stellaron Hunter,42,1:36.125,+ 0:12.376,193.32,11
-T Folger,5 Stellaron Hunter,43,1:35.709,+ 0:12.162,194.16,11
-T Folger,5 Stellaron Hunter,44,1:35.915,+ 0:11.976,193.75,11
-T Folger,5 Stellaron Hunter,45,1:36.072,+ 0:11.624,193.43,8
-T Folger,5 Stellaron Hunter,46,1:35.422,-,194.75,1
-T Folger,5 Stellaron Hunter,47,1:36.643,-,192.29,1
-T Folger,5 Stellaron Hunter,48,1:51.809,+ 0:10.872,166.20,7
-T Folger,5 Stellaron Hunter,PIT,2.8 seconds / Super soft tyres,,,
-T Folger,5 Stellaron Hunter,49,1:37.516,+ 0:12.334,190.57,9
-T Folger,5 Stellaron Hunter,50,1:35.089,+ 0:11.579,195.43,8
-T Folger,5 Stellaron Hunter,51,1:34.751,+ 0:10.715,196.13,8
-T Folger,5 Stellaron Hunter,52,1:35.460,+ 0:10.289,194.67,6
-T Folger,5 Stellaron Hunter,53,1:35.051,+ 0:09.187,195.51,5
-T Folger,5 Stellaron Hunter,54,1:35.808,+ 0:09.248,193.96,5
-D Girard,93 Brawn GP,START,Super soft tyres,,,5
-D Girard,93 Brawn GP,1,1:42.808,+ 0:01.864,180.76,8
-D Girard,93 Brawn GP,2,1:40.457,+ 0:03.558,184.99,9
-D Girard,93 Brawn GP,3,1:38.337,+ 0:03.702,188.97,8
-D Girard,93 Brawn GP,4,1:38.655,+ 0:03.685,188.37,8
-D Girard,93 Brawn GP,5,1:38.629,+ 0:03.169,188.42,7
-D Girard,93 Brawn GP,6,1:54.671,+ 0:11.235,162.06,14
-D Girard,93 Brawn GP,PIT,2.7 seconds / Soft tyres,,,
-D Girard,93 Brawn GP,7,1:41.557,+ 0:13.181,182.98,15
-D Girard,93 Brawn GP,8,1:38.693,+ 0:12.054,188.29,15
-D Girard,93 Brawn GP,9,1:38.402,+ 0:09.385,188.85,11
-D Girard,93 Brawn GP,10,1:38.037,+ 0:07.816,189.55,11
-D Girard,93 Brawn GP,11,1:37.606,+ 0:06.101,190.39,10
-D Girard,93 Brawn GP,12,1:37.897,+ 0:02.728,189.82,4
-D Girard,93 Brawn GP,13,1:37.994,+ 0:02.201,189.64,4
-D Girard,93 Brawn GP,14,1:54.351,+ 0:16.137,162.51,20
-D Girard,93 Brawn GP,PIT,2.9 seconds / Soft tyres,,,
-D Girard,93 Brawn GP,15,1:40.666,+ 0:13.560,184.60,17
-D Girard,93 Brawn GP,16,1:37.603,+ 0:13.686,190.40,14
-D Girard,93 Brawn GP,17,1:34.932,+ 0:10.911,195.75,13
-D Girard,93 Brawn GP,18,1:36.842,+ 0:05.332,191.89,7
-D Girard,93 Brawn GP,19,1:37.012,+ 0:04.203,191.56,7
-D Girard,93 Brawn GP,20,1:36.990,+ 0:01.320,191.60,3
-D Girard,93 Brawn GP,21,1:37.546,+ 0:01.319,190.51,3
-D Girard,93 Brawn GP,22,1:52.846,+ 0:08.636,164.68,14
-D Girard,93 Brawn GP,PIT,2.9 seconds / Soft tyres,,,
-D Girard,93 Brawn GP,23,1:39.383,+ 0:10.473,186.99,16
-D Girard,93 Brawn GP,24,1:37.532,+ 0:10.572,190.53,11
-D Girard,93 Brawn GP,25,1:36.304,+ 0:09.288,192.96,10
-D Girard,93 Brawn GP,26,1:36.593,+ 0:05.396,192.39,8
-D Girard,93 Brawn GP,27,1:35.717,+ 0:03.664,194.15,5
-D Girard,93 Brawn GP,28,1:36.893,+ 0:03.380,191.79,2
-D Girard,93 Brawn GP,29,1:37.399,+ 0:03.268,190.79,2
-D Girard,93 Brawn GP,30,1:52.106,+ 0:07.737,165.76,13
-D Girard,93 Brawn GP,PIT,2.7 seconds / Soft tyres,,,
-D Girard,93 Brawn GP,31,1:37.398,+ 0:08.278,190.80,13
-D Girard,93 Brawn GP,32,1:36.555,+ 0:07.592,192.46,7
-D Girard,93 Brawn GP,33,1:36.470,+ 0:06.526,192.63,7
-D Girard,93 Brawn GP,34,1:36.220,+ 0:02.676,193.13,5
-D Girard,93 Brawn GP,35,1:37.116,+ 0:02.976,191.35,5
-D Girard,93 Brawn GP,36,1:36.268,+ 0:02.954,193.04,3
-D Girard,93 Brawn GP,37,1:36.543,+ 0:02.625,192.49,2
-D Girard,93 Brawn GP,38,1:52.150,+ 0:07.742,165.70,10
-D Girard,93 Brawn GP,PIT,2.9 seconds / Soft tyres,,,
-D Girard,93 Brawn GP,39,1:38.513,+ 0:09.277,188.64,12
-D Girard,93 Brawn GP,40,1:36.323,+ 0:06.573,192.93,6
-D Girard,93 Brawn GP,41,1:36.510,+ 0:06.115,192.55,6
-D Girard,93 Brawn GP,42,1:36.219,+ 0:03.542,193.13,4
-D Girard,93 Brawn GP,43,1:36.147,+ 0:03.765,193.28,4
-D Girard,93 Brawn GP,44,1:35.629,+ 0:03.295,194.33,3
-D Girard,93 Brawn GP,45,1:36.726,+ 0:03.597,192.12,3
-D Girard,93 Brawn GP,46,1:51.679,+ 0:08.229,166.40,7
-D Girard,93 Brawn GP,PIT,2.9 seconds / Soft tyres,,,
-D Girard,93 Brawn GP,47,1:39.480,+ 0:11.066,186.80,10
-D Girard,93 Brawn GP,48,1:35.969,+ 0:06.098,193.64,4
-D Girard,93 Brawn GP,49,1:36.767,+ 0:06.811,192.04,5
-D Girard,93 Brawn GP,50,1:35.870,+ 0:06.837,193.84,4
-D Girard,93 Brawn GP,51,1:36.220,+ 0:07.441,193.13,4
-D Girard,93 Brawn GP,52,1:36.848,+ 0:08.403,191.88,5
-D Girard,93 Brawn GP,53,1:37.555,+ 0:09.804,190.49,6
-D Girard,93 Brawn GP,54,1:37.598,+ 0:11.655,190.41,7
-M Master,2 Porsche,START,Super soft tyres,,,6
-M Master,2 Porsche,1,1:42.195,+ 0:01.494,181.84,5
-M Master,2 Porsche,2,1:40.177,+ 0:02.908,185.50,6
-M Master,2 Porsche,3,1:38.015,+ 0:02.729,189.60,5
-M Master,2 Porsche,4,1:38.112,+ 0:02.170,189.41,5
-M Master,2 Porsche,5,1:39.002,+ 0:02.028,187.71,5
-M Master,2 Porsche,6,1:54.785,+ 0:10.207,161.90,11
-M Master,2 Porsche,PIT,2.4 seconds / Super soft tyres,,,
-M Master,2 Porsche,7,1:39.488,+ 0:10.084,186.79,9
-M Master,2 Porsche,8,1:37.202,+ 0:07.466,191.18,7
-M Master,2 Porsche,9,1:37.793,+ 0:04.189,190.03,4
-M Master,2 Porsche,10,1:37.539,+ 0:02.121,190.52,3
-M Master,2 Porsche,11,1:37.819,+ 0:00.620,189.98,2
-M Master,2 Porsche,12,1:52.483,+ 0:11.832,165.21,18
-M Master,2 Porsche,PIT,2.7 seconds / Super soft tyres,,,
-M Master,2 Porsche,13,1:38.075,+ 0:11.387,189.48,17
-M Master,2 Porsche,14,1:35.727,+ 0:06.700,194.13,3
-M Master,2 Porsche,15,1:36.544,-,192.48,1
-M Master,2 Porsche,16,1:37.476,-,190.64,1
-M Master,2 Porsche,17,1:37.707,-,190.19,1
-M Master,2 Porsche,18,1:53.827,+ 0:11.406,163.26,14
-M Master,2 Porsche,PIT,2.8 seconds / Soft tyres,,,
-M Master,2 Porsche,19,1:39.397,+ 0:12.662,186.96,17
-M Master,2 Porsche,20,1:37.342,+ 0:10.131,190.91,12
-M Master,2 Porsche,21,1:37.248,+ 0:09.831,191.09,11
-M Master,2 Porsche,22,1:36.093,+ 0:00.395,193.39,2
-M Master,2 Porsche,23,1:37.150,-,191.28,1
-M Master,2 Porsche,24,1:37.433,-,190.73,1
-M Master,2 Porsche,25,1:37.588,-,190.43,1
-M Master,2 Porsche,26,1:52.901,+ 0:12.416,164.60,14
-M Master,2 Porsche,PIT,2.6 seconds / Soft tyres,,,
-M Master,2 Porsche,27,1:38.936,+ 0:13.902,187.83,13
-M Master,2 Porsche,28,1:36.790,+ 0:13.516,192.00,11
-M Master,2 Porsche,29,1:36.823,+ 0:12.828,191.93,10
-M Master,2 Porsche,30,1:36.413,+ 0:01.604,192.75,3
-M Master,2 Porsche,31,1:36.320,+ 0:01.066,192.93,3
-M Master,2 Porsche,32,1:36.174,-,193.22,1
-M Master,2 Porsche,33,1:37.536,-,190.53,1
-M Master,2 Porsche,34,1:52.656,+ 0:12.585,164.96,13
-M Master,2 Porsche,PIT,2.8 seconds / Soft tyres,,,
-M Master,2 Porsche,35,1:38.896,+ 0:14.665,187.91,17
-M Master,2 Porsche,36,1:36.914,+ 0:15.289,191.75,14
-M Master,2 Porsche,37,1:36.183,+ 0:14.601,193.21,12
-M Master,2 Porsche,38,1:36.033,+ 0:03.600,193.51,3
-M Master,2 Porsche,39,1:35.942,+ 0:02.564,193.69,2
-M Master,2 Porsche,40,1:36.462,-,192.65,1
-M Master,2 Porsche,41,1:36.968,-,191.64,1
-M Master,2 Porsche,42,1:52.117,+ 0:13.324,165.75,13
-M Master,2 Porsche,PIT,2.8 seconds / Super soft tyres,,,
-M Master,2 Porsche,43,1:37.352,+ 0:14.753,190.89,15
-M Master,2 Porsche,44,1:35.836,+ 0:14.489,193.91,15
-M Master,2 Porsche,45,1:35.670,+ 0:13.734,194.24,12
-M Master,2 Porsche,46,1:35.455,+ 0:02.143,194.68,2
-M Master,2 Porsche,47,1:36.273,+ 0:01.773,193.03,2
-M Master,2 Porsche,48,1:52.022,+ 0:12.858,165.89,12
-M Master,2 Porsche,PIT,2.6 seconds / Super soft tyres,,,
-M Master,2 Porsche,49,1:37.072,+ 0:13.876,191.44,14
-M Master,2 Porsche,50,1:35.513,+ 0:13.545,194.56,14
-M Master,2 Porsche,51,1:35.015,+ 0:12.945,195.58,11
-M Master,2 Porsche,52,1:35.568,+ 0:12.628,194.45,11
-M Master,2 Porsche,53,1:36.357,+ 0:12.831,192.86,10
-M Master,2 Porsche,54,1:37.149,+ 0:14.233,191.29,13
-M Dumont,91 String Cheese,START,Super soft tyres,,,7
-M Dumont,91 String Cheese,1,1:42.232,+ 0:01.760,181.77,6
-M Dumont,91 String Cheese,2,1:39.704,+ 0:02.700,186.38,5
-M Dumont,91 String Cheese,3,1:38.706,+ 0:03.214,188.27,6
-M Dumont,91 String Cheese,4,1:38.865,+ 0:03.407,187.97,7
-M Dumont,91 String Cheese,5,1:39.359,+ 0:03.621,187.03,8
-M Dumont,91 String Cheese,6,1:55.101,+ 0:12.116,161.45,16
-M Dumont,91 String Cheese,PIT,2.6 seconds / Soft tyres,,,
-M Dumont,91 String Cheese,7,1:41.631,+ 0:14.136,182.85,18
-M Dumont,91 String Cheese,8,1:38.895,+ 0:13.211,187.91,17
-M Dumont,91 String Cheese,9,1:38.360,+ 0:10.500,188.93,13
-M Dumont,91 String Cheese,10,1:38.079,+ 0:08.972,189.47,13
-M Dumont,91 String Cheese,11,1:37.810,+ 0:07.461,189.99,12
-M Dumont,91 String Cheese,12,1:38.096,+ 0:04.287,189.44,6
-M Dumont,91 String Cheese,13,1:38.130,+ 0:03.896,189.37,6
-M Dumont,91 String Cheese,14,1:53.566,+ 0:17.047,163.63,21
-M Dumont,91 String Cheese,PIT,2.8 seconds / Soft tyres,,,
-M Dumont,91 String Cheese,15,1:40.703,+ 0:14.507,184.53,20
-M Dumont,91 String Cheese,16,1:38.335,+ 0:15.365,188.98,19
-M Dumont,91 String Cheese,17,1:37.452,+ 0:15.110,190.69,16
-M Dumont,91 String Cheese,18,1:37.633,+ 0:10.323,190.34,11
-M Dumont,91 String Cheese,19,1:37.636,+ 0:09.817,190.33,10
-M Dumont,91 String Cheese,20,1:37.230,+ 0:07.174,191.13,6
-M Dumont,91 String Cheese,21,1:38.220,+ 0:07.846,189.20,7
-M Dumont,91 String Cheese,22,1:53.916,+ 0:16.234,163.13,22
-M Dumont,91 String Cheese,PIT,2.5 seconds / Soft tyres,,,
-M Dumont,91 String Cheese,23,1:37.983,+ 0:16.671,189.66,21
-M Dumont,91 String Cheese,24,1:36.998,+ 0:16.237,191.58,16
-M Dumont,91 String Cheese,25,1:37.199,+ 0:15.848,191.19,15
-M Dumont,91 String Cheese,26,1:36.739,+ 0:12.102,192.10,13
-M Dumont,91 String Cheese,27,1:36.741,+ 0:11.394,192.09,9
-M Dumont,91 String Cheese,28,1:36.598,+ 0:10.816,192.38,7
-M Dumont,91 String Cheese,29,1:36.599,+ 0:09.904,192.37,5
-M Dumont,91 String Cheese,30,1:52.197,+ 0:14.463,165.63,20
-M Dumont,91 String Cheese,PIT,2.6 seconds / Soft tyres,,,
-M Dumont,91 String Cheese,31,1:39.027,+ 0:16.633,187.66,20
-M Dumont,91 String Cheese,32,1:35.073,+ 0:14.464,195.46,13
-M Dumont,91 String Cheese,33,1:36.017,+ 0:12.946,193.54,12
-M Dumont,91 String Cheese,34,1:36.522,+ 0:09.398,192.53,10
-M Dumont,91 String Cheese,35,1:35.903,+ 0:08.484,193.77,8
-M Dumont,91 String Cheese,36,1:36.335,+ 0:08.530,192.90,5
-M Dumont,91 String Cheese,37,1:37.655,+ 0:09.314,190.29,5
-M Dumont,91 String Cheese,38,1:51.809,+ 0:14.089,166.20,15
-M Dumont,91 String Cheese,PIT,2.8 seconds / Soft tyres,,,
-M Dumont,91 String Cheese,39,1:39.401,+ 0:16.512,186.95,17
-M Dumont,91 String Cheese,40,1:36.588,+ 0:14.073,192.40,11
-M Dumont,91 String Cheese,41,1:35.995,+ 0:13.100,193.59,10
-M Dumont,91 String Cheese,42,1:35.713,+ 0:10.020,194.16,7
-M Dumont,91 String Cheese,43,1:36.516,+ 0:10.614,192.54,8
-M Dumont,91 String Cheese,44,1:36.044,+ 0:10.558,193.49,8
-M Dumont,91 String Cheese,45,1:36.659,+ 0:10.792,192.26,6
-M Dumont,91 String Cheese,46,1:50.839,+ 0:14.585,167.66,14
-M Dumont,91 String Cheese,PIT,2.7 seconds / Soft tyres,,,
-M Dumont,91 String Cheese,47,1:38.239,+ 0:16.180,189.16,14
-M Dumont,91 String Cheese,48,1:35.986,+ 0:11.230,193.60,8
-M Dumont,91 String Cheese,49,1:35.404,+ 0:10.580,194.78,7
-M Dumont,91 String Cheese,50,1:35.680,+ 0:10.416,194.22,7
-M Dumont,91 String Cheese,51,1:35.435,+ 0:10.235,194.72,7
-M Dumont,91 String Cheese,52,1:36.850,+ 0:11.200,191.88,7
-M Dumont,91 String Cheese,53,1:37.097,+ 0:12.144,191.39,8
-M Dumont,91 String Cheese,54,1:37.548,+ 0:13.945,190.50,11
-O Bearman,99 Porsche,START,Super soft tyres,,,8
-O Bearman,99 Porsche,1,1:42.317,+ 0:02.035,181.62,9
-O Bearman,99 Porsche,2,1:39.998,+ 0:03.270,185.84,8
-O Bearman,99 Porsche,3,1:38.965,+ 0:04.042,187.78,9
-O Bearman,99 Porsche,4,1:39.096,+ 0:04.466,187.53,12
-O Bearman,99 Porsche,5,1:40.082,+ 0:05.403,185.68,13
-O Bearman,99 Porsche,6,1:55.541,+ 0:14.339,160.84,21
-O Bearman,99 Porsche,PIT,2.9 seconds / Super soft tyres,,,
-O Bearman,99 Porsche,7,1:38.924,+ 0:13.652,187.85,16
-O Bearman,99 Porsche,8,1:37.562,+ 0:11.393,190.48,14
-O Bearman,99 Porsche,9,1:37.123,+ 0:07.445,191.34,8
-O Bearman,99 Porsche,10,1:37.410,+ 0:05.249,190.77,8
-O Bearman,99 Porsche,11,1:38.339,+ 0:04.267,188.97,7
-O Bearman,99 Porsche,12,1:54.188,+ 0:17.184,162.74,27
-O Bearman,99 Porsche,PIT,2.5 seconds / Super soft tyres,,,
-O Bearman,99 Porsche,13,1:37.849,+ 0:16.512,189.92,25
-O Bearman,99 Porsche,14,1:36.529,+ 0:12.626,192.51,12
-O Bearman,99 Porsche,15,1:35.730,+ 0:05.113,194.12,6
-O Bearman,99 Porsche,16,1:36.907,+ 0:04.544,191.76,4
-O Bearman,99 Porsche,17,1:37.818,+ 0:04.655,189.98,4
-O Bearman,99 Porsche,18,1:53.044,+ 0:15.278,164.39,21
-O Bearman,99 Porsche,PIT,2.5 seconds / Super soft tyres,,,
-O Bearman,99 Porsche,19,1:38.446,+ 0:15.582,188.77,22
-O Bearman,99 Porsche,20,1:36.416,+ 0:12.125,192.74,16
-O Bearman,99 Porsche,21,1:36.774,+ 0:11.352,192.03,15
-O Bearman,99 Porsche,22,1:36.267,+ 0:02.090,193.04,3
-O Bearman,99 Porsche,23,1:36.321,+ 0:00.866,192.93,2
-O Bearman,99 Porsche,24,1:54.166,+ 0:17.599,162.77,19
-O Bearman,99 Porsche,PIT,2.7 seconds / Soft tyres,,,
-O Bearman,99 Porsche,25,1:40.028,+ 0:20.038,185.78,22
-O Bearman,99 Porsche,26,1:37.226,+ 0:16.780,191.13,22
-O Bearman,99 Porsche,27,1:36.889,+ 0:16.219,191.80,19
-O Bearman,99 Porsche,28,1:36.593,+ 0:15.636,192.39,17
-O Bearman,99 Porsche,29,1:36.242,+ 0:14.367,193.09,12
-O Bearman,99 Porsche,30,1:36.646,+ 0:03.376,192.28,4
-O Bearman,99 Porsche,31,1:37.554,+ 0:04.072,190.49,4
-O Bearman,99 Porsche,32,1:52.750,+ 0:19.582,164.82,20
-O Bearman,99 Porsche,PIT,2.8 seconds / Soft tyres,,,
-O Bearman,99 Porsche,33,1:39.022,+ 0:21.067,187.67,22
-O Bearman,99 Porsche,34,1:36.592,+ 0:17.589,192.39,22
-O Bearman,99 Porsche,35,1:36.324,+ 0:17.096,192.92,21
-O Bearman,99 Porsche,36,1:36.091,+ 0:16.897,193.39,17
-O Bearman,99 Porsche,37,1:35.886,+ 0:15.912,193.81,14
-O Bearman,99 Porsche,38,1:36.283,+ 0:05.161,193.01,5
-O Bearman,99 Porsche,39,1:37.779,+ 0:05.962,190.05,5
-O Bearman,99 Porsche,40,1:52.537,+ 0:19.472,165.13,21
-O Bearman,99 Porsche,PIT,2.9 seconds / Soft tyres,,,
-O Bearman,99 Porsche,41,1:38.716,+ 0:21.220,188.25,23
-O Bearman,99 Porsche,42,1:36.500,+ 0:18.928,192.57,23
-O Bearman,99 Porsche,43,1:36.475,+ 0:19.480,192.62,23
-O Bearman,99 Porsche,44,1:36.489,+ 0:19.870,192.59,22
-O Bearman,99 Porsche,45,1:36.418,+ 0:19.863,192.74,19
-O Bearman,99 Porsche,46,1:36.474,+ 0:09.291,192.62,9
-O Bearman,99 Porsche,47,1:36.662,+ 0:09.309,192.25,8
-O Bearman,99 Porsche,48,1:51.539,+ 0:19.912,166.61,23
-O Bearman,99 Porsche,PIT,2.9 seconds / Super soft tyres,,,
-O Bearman,99 Porsche,49,1:37.054,+ 0:20.912,191.47,23
-O Bearman,99 Porsche,50,1:34.979,+ 0:20.046,195.66,21
-O Bearman,99 Porsche,51,1:34.777,+ 0:19.208,196.07,21
-O Bearman,99 Porsche,52,1:34.809,+ 0:18.132,196.01,20
-O Bearman,99 Porsche,53,1:35.973,+ 0:17.951,193.63,21
-O Bearman,99 Porsche,54,1:36.605,+ 0:18.810,192.36,22
-O Girard,14 Williams,START,Super soft tyres,,,9
-O Girard,14 Williams,1,1:42.667,+ 0:02.579,181.00,14
-O Girard,14 Williams,2,1:40.361,+ 0:04.176,185.16,14
-O Girard,14 Williams,3,1:39.533,+ 0:05.516,186.70,16
-O Girard,14 Williams,4,1:38.502,+ 0:05.347,188.66,16
-O Girard,14 Williams,5,1:39.506,+ 0:05.708,186.75,15
-O Girard,14 Williams,6,1:56.604,+ 0:15.707,159.37,24
-O Girard,14 Williams,PIT,3 seconds / Soft tyres,,,
-O Girard,14 Williams,7,1:40.861,+ 0:16.956,184.25,24
-O Girard,14 Williams,8,1:38.930,+ 0:16.066,187.84,23
-O Girard,14 Williams,9,1:38.556,+ 0:13.551,188.55,18
-O Girard,14 Williams,10,1:38.358,+ 0:12.303,188.93,18
-O Girard,14 Williams,11,1:38.066,+ 0:11.048,189.50,17
-O Girard,14 Williams,12,1:38.218,+ 0:07.995,189.20,11
-O Girard,14 Williams,13,1:38.595,+ 0:08.069,188.48,11
-O Girard,14 Williams,14,1:38.449,+ 0:06.103,188.76,2
-O Girard,14 Williams,15,1:52.920,+ 0:15.780,164.57,22
-O Girard,14 Williams,PIT,3 seconds / Soft tyres,,,
-O Girard,14 Williams,16,1:40.343,+ 0:18.647,185.20,25
-O Girard,14 Williams,17,1:37.914,+ 0:18.853,189.79,23
-O Girard,14 Williams,18,1:37.323,+ 0:13.756,190.94,18
-O Girard,14 Williams,19,1:37.535,+ 0:13.149,190.53,18
-O Girard,14 Williams,20,1:37.355,+ 0:10.631,190.88,13
-O Girard,14 Williams,21,1:37.526,+ 0:10.610,190.55,13
-O Girard,14 Williams,22,1:38.236,+ 0:03.317,189.17,4
-O Girard,14 Williams,23,1:36.638,+ 0:02.410,192.30,4
-O Girard,14 Williams,24,1:53.268,+ 0:18.245,164.06,20
-O Girard,14 Williams,PIT,2.9 seconds / Soft tyres,,,
-O Girard,14 Williams,25,1:40.032,+ 0:20.689,185.77,23
-O Girard,14 Williams,26,1:37.161,+ 0:17.365,191.26,23
-O Girard,14 Williams,27,1:37.091,+ 0:17.006,191.40,20
-O Girard,14 Williams,28,1:36.567,+ 0:16.398,192.44,18
-O Girard,14 Williams,29,1:36.472,+ 0:15.358,192.63,15
-O Girard,14 Williams,30,1:36.298,+ 0:04.019,192.98,5
-O Girard,14 Williams,31,1:37.399,+ 0:04.560,190.79,5
-O Girard,14 Williams,32,1:52.763,+ 0:20.082,164.80,22
-O Girard,14 Williams,PIT,2.9 seconds / Soft tyres,,,
-O Girard,14 Williams,33,1:39.201,+ 0:21.747,187.33,23
-O Girard,14 Williams,34,1:36.551,+ 0:18.228,192.47,23
-O Girard,14 Williams,35,1:36.285,+ 0:17.696,193.00,22
-O Girard,14 Williams,36,1:36.070,+ 0:17.477,193.43,19
-O Girard,14 Williams,37,1:35.790,+ 0:16.395,194.00,17
-O Girard,14 Williams,38,1:36.369,+ 0:05.731,192.83,6
-O Girard,14 Williams,39,1:36.672,+ 0:05.424,192.23,4
-O Girard,14 Williams,40,1:52.060,+ 0:18.458,165.83,19
-O Girard,14 Williams,PIT,3.1 seconds / Soft tyres,,,
-O Girard,14 Williams,41,1:39.114,+ 0:20.604,187.49,21
-O Girard,14 Williams,42,1:36.293,+ 0:18.104,192.99,20
-O Girard,14 Williams,43,1:36.103,+ 0:18.284,193.37,19
-O Girard,14 Williams,44,1:36.011,+ 0:18.195,193.55,19
-O Girard,14 Williams,45,1:35.691,+ 0:17.463,194.20,15
-O Girard,14 Williams,46,1:36.164,+ 0:06.580,193.24,5
-O Girard,14 Williams,47,1:36.783,+ 0:06.719,192.01,4
-O Girard,14 Williams,48,1:50.356,+ 0:16.139,168.39,18
-O Girard,14 Williams,PIT,2.7 seconds / Super soft tyres,,,
-O Girard,14 Williams,49,1:37.691,+ 0:17.776,190.22,18
-O Girard,14 Williams,50,1:35.280,+ 0:17.212,195.04,18
-O Girard,14 Williams,51,1:34.310,+ 0:15.906,197.04,18
-O Girard,14 Williams,52,1:35.610,+ 0:15.631,194.36,18
-O Girard,14 Williams,53,1:36.212,+ 0:15.689,193.15,18
-O Girard,14 Williams,54,1:37.026,+ 0:16.968,191.53,16
-H Kowalski,69 Shadow,START,Super soft tyres,,,10
-H Kowalski,69 Shadow,1,1:41.707,+ 0:01.776,182.71,7
-H Kowalski,69 Shadow,2,1:39.989,+ 0:03.001,185.85,7
-H Kowalski,69 Shadow,3,1:38.649,+ 0:03.457,188.38,7
-H Kowalski,69 Shadow,4,1:38.076,+ 0:02.861,189.48,6
-H Kowalski,69 Shadow,5,1:38.981,+ 0:02.697,187.75,6
-H Kowalski,69 Shadow,6,1:54.898,+ 0:10.991,161.74,13
-H Kowalski,69 Shadow,PIT,2.6 seconds / Super soft tyres,,,
-H Kowalski,69 Shadow,7,1:39.687,+ 0:11.066,186.42,11
-H Kowalski,69 Shadow,8,1:37.415,+ 0:08.661,190.76,9
-H Kowalski,69 Shadow,9,1:37.197,+ 0:04.787,191.19,5
-H Kowalski,69 Shadow,10,1:37.818,+ 0:02.998,189.98,5
-H Kowalski,69 Shadow,11,1:38.980,+ 0:02.658,187.75,4
-H Kowalski,69 Shadow,12,1:53.395,+ 0:14.781,163.88,24
-H Kowalski,69 Shadow,PIT,2.9 seconds / Soft tyres,,,
-H Kowalski,69 Shadow,13,1:40.545,+ 0:16.806,184.82,26
-H Kowalski,69 Shadow,14,1:38.173,+ 0:14.564,189.29,16
-H Kowalski,69 Shadow,15,1:38.140,+ 0:09.460,189.35,12
-H Kowalski,69 Shadow,16,1:37.041,+ 0:09.024,191.50,10
-H Kowalski,69 Shadow,17,1:36.611,+ 0:07.928,192.35,9
-H Kowalski,69 Shadow,18,1:37.537,+ 0:03.044,190.52,4
-H Kowalski,69 Shadow,19,1:37.841,+ 0:02.743,189.93,3
-H Kowalski,69 Shadow,20,1:51.509,+ 0:14.378,166.65,21
-H Kowalski,69 Shadow,PIT,2.8 seconds / Soft tyres,,,
-H Kowalski,69 Shadow,21,1:40.832,+ 0:17.663,184.30,23
-H Kowalski,69 Shadow,22,1:36.635,+ 0:08.769,192.30,15
-H Kowalski,69 Shadow,23,1:36.879,+ 0:08.103,191.82,12
-H Kowalski,69 Shadow,24,1:36.857,+ 0:07.527,191.86,7
-H Kowalski,69 Shadow,25,1:36.601,+ 0:06.540,192.37,6
-H Kowalski,69 Shadow,26,1:36.587,+ 0:02.642,192.40,4
-H Kowalski,69 Shadow,27,1:38.011,+ 0:03.204,189.60,3
-H Kowalski,69 Shadow,28,1:38.509,+ 0:04.537,188.64,3
-H Kowalski,69 Shadow,29,1:53.675,+ 0:20.701,163.48,22
-H Kowalski,69 Shadow,PIT,2.7 seconds / Soft tyres,,,
-H Kowalski,69 Shadow,30,1:39.637,+ 0:12.700,186.51,17
-H Kowalski,69 Shadow,31,1:37.124,+ 0:12.967,191.33,17
-H Kowalski,69 Shadow,32,1:36.542,+ 0:12.268,192.49,10
-H Kowalski,69 Shadow,33,1:36.906,+ 0:11.638,191.77,10
-H Kowalski,69 Shadow,34,1:36.303,+ 0:07.871,192.97,8
-H Kowalski,69 Shadow,35,1:36.705,+ 0:07.759,192.16,7
-H Kowalski,69 Shadow,36,1:37.819,+ 0:09.288,189.98,6
-H Kowalski,69 Shadow,37,1:36.365,+ 0:08.782,192.84,4
-H Kowalski,69 Shadow,38,1:54.325,+ 0:16.073,162.55,19
-H Kowalski,69 Shadow,PIT,2.6 seconds / Soft tyres,,,
-H Kowalski,69 Shadow,39,1:39.326,+ 0:18.420,187.09,20
-H Kowalski,69 Shadow,40,1:36.469,+ 0:15.862,192.63,15
-H Kowalski,69 Shadow,41,1:36.586,+ 0:15.480,192.40,14
-H Kowalski,69 Shadow,42,1:36.101,+ 0:12.789,193.37,12
-H Kowalski,69 Shadow,43,1:35.922,+ 0:12.787,193.73,12
-H Kowalski,69 Shadow,44,1:36.125,+ 0:12.813,193.32,12
-H Kowalski,69 Shadow,45,1:36.211,+ 0:12.600,193.15,10
-H Kowalski,69 Shadow,46,1:51.438,+ 0:16.991,166.76,18
-H Kowalski,69 Shadow,PIT,2.5 seconds / Soft tyres,,,
-H Kowalski,69 Shadow,47,1:38.541,+ 0:18.889,188.58,18
-H Kowalski,69 Shadow,48,1:35.943,+ 0:13.895,193.69,14
-H Kowalski,69 Shadow,49,1:35.816,+ 0:13.657,193.95,13
-H Kowalski,69 Shadow,50,1:35.944,+ 0:13.757,193.69,15
-H Kowalski,69 Shadow,51,1:35.576,+ 0:13.717,194.43,13
-H Kowalski,69 Shadow,52,1:35.471,+ 0:13.303,194.65,12
-H Kowalski,69 Shadow,53,1:36.363,+ 0:13.511,192.85,11
-H Kowalski,69 Shadow,54,1:36.002,+ 0:13.766,193.57,10
-F Bauer,21 Miller United,START,Super soft tyres,,,11
-F Bauer,21 Miller United,1,1:43.040,+ 0:03.277,180.35,21
-F Bauer,21 Miller United,2,1:40.551,+ 0:05.065,184.81,21
-F Bauer,21 Miller United,3,1:39.547,+ 0:06.418,186.68,21
-F Bauer,21 Miller United,4,1:39.344,+ 0:07.091,187.06,21
-F Bauer,21 Miller United,5,1:40.117,+ 0:08.063,185.61,22
-F Bauer,21 Miller United,6,1:55.756,+ 0:17.214,160.54,28
-F Bauer,21 Miller United,PIT,3 seconds / Soft tyres,,,
-F Bauer,21 Miller United,7,1:43.088,+ 0:20.690,180.27,28
-F Bauer,21 Miller United,8,1:38.890,+ 0:19.761,187.92,28
-F Bauer,21 Miller United,9,1:39.651,+ 0:18.341,186.48,28
-F Bauer,21 Miller United,10,1:39.295,+ 0:18.030,187.15,28
-F Bauer,21 Miller United,11,1:39.071,+ 0:17.780,187.57,28
-F Bauer,21 Miller United,12,1:38.931,+ 0:15.441,187.84,26
-F Bauer,21 Miller United,13,1:38.734,+ 0:15.655,188.21,24
-F Bauer,21 Miller United,14,1:40.549,+ 0:15.789,184.82,18
-F Bauer,21 Miller United,15,1:55.537,+ 0:28.082,160.84,28
-F Bauer,21 Miller United,PIT,3.1 seconds / Soft tyres,,,
-F Bauer,21 Miller United,16,1:41.255,+ 0:31.861,183.53,28
-F Bauer,21 Miller United,17,1:38.677,+ 0:32.831,188.32,28
-F Bauer,21 Miller United,18,1:38.544,+ 0:28.955,188.58,28
-F Bauer,21 Miller United,19,1:38.299,+ 0:29.112,189.05,28
-F Bauer,21 Miller United,20,1:38.061,+ 0:27.300,189.51,28
-F Bauer,21 Miller United,21,1:36.979,+ 0:26.731,191.62,27
-F Bauer,21 Miller United,22,1:38.653,+ 0:19.855,188.37,27
-F Bauer,21 Miller United,23,1:38.954,+ 0:21.263,187.80,27
-F Bauer,21 Miller United,24,1:54.766,+ 0:38.596,161.92,27
-F Bauer,21 Miller United,PIT,2.6 seconds / Soft tyres,,,
-F Bauer,21 Miller United,25,1:40.391,+ 0:41.399,185.11,27
-F Bauer,21 Miller United,26,1:38.057,+ 0:38.971,189.51,27
-F Bauer,21 Miller United,27,1:37.869,+ 0:39.391,189.88,27
-F Bauer,21 Miller United,28,1:37.715,+ 0:39.931,190.18,27
-F Bauer,21 Miller United,29,1:37.418,+ 0:39.838,190.76,27
-F Bauer,21 Miller United,30,1:37.573,+ 0:29.774,190.45,27
-F Bauer,21 Miller United,31,1:37.993,+ 0:30.909,189.64,27
-F Bauer,21 Miller United,32,1:38.856,+ 0:32.524,187.98,27
-F Bauer,21 Miller United,33,1:53.817,+ 0:48.805,163.27,27
-F Bauer,21 Miller United,PIT,2.9 seconds / Soft tyres,,,
-F Bauer,21 Miller United,34,1:40.027,+ 0:48.762,185.78,27
-F Bauer,21 Miller United,35,1:37.545,+ 0:49.490,190.51,27
-F Bauer,21 Miller United,36,1:37.347,+ 0:50.548,190.90,27
-F Bauer,21 Miller United,37,1:37.355,+ 0:51.031,190.88,27
-F Bauer,21 Miller United,38,1:37.095,+ 0:41.092,191.39,27
-F Bauer,21 Miller United,39,1:37.181,+ 0:41.295,191.22,27
-F Bauer,21 Miller United,40,1:37.578,+ 0:39.847,190.44,27
-F Bauer,21 Miller United,41,1:38.001,+ 0:40.880,189.62,27
-F Bauer,21 Miller United,42,1:53.661,+ 0:55.749,163.50,27
-F Bauer,21 Miller United,PIT,2.9 seconds / Soft tyres,,,
-F Bauer,21 Miller United,43,1:39.655,+ 0:59.481,186.48,27
-F Bauer,21 Miller United,44,1:37.437,+ 1:00.818,190.72,27
-F Bauer,21 Miller United,45,1:37.002,+ 1:01.396,191.58,27
-F Bauer,21 Miller United,46,1:36.928,+ 0:51.277,191.72,27
-F Bauer,21 Miller United,47,1:36.643,+ 0:51.276,192.29,27
-F Bauer,21 Miller United,48,1:36.922,+ 0:47.262,191.73,27
-F Bauer,21 Miller United,49,1:37.419,+ 0:48.627,190.76,27
-F Bauer,21 Miller United,50,1:37.656,+ 0:50.438,190.29,27
-F Bauer,21 Miller United,51,1:53.131,+ 1:07.954,164.26,27
-F Bauer,21 Miller United,PIT,2.8 seconds / Soft tyres,,,
-F Bauer,21 Miller United,52,1:39.740,+ 1:11.808,186.32,27
-F Bauer,21 Miller United,53,1:36.947,+ 1:12.601,191.68,27
-F Bauer,21 Miller United,54,1:36.658,+ 1:13.513,192.26,27
-F Franjić,Dujic Racing,START,Super soft tyres,,,12
-F Franjić,Dujic Racing,1,1:42.196,+ 0:02.571,181.84,13
-F Franjić,Dujic Racing,2,1:40.323,+ 0:04.131,185.23,13
-F Franjić,Dujic Racing,3,1:38.665,+ 0:04.602,188.35,13
-F Franjić,Dujic Racing,4,1:38.750,+ 0:04.681,188.18,13
-F Franjić,Dujic Racing,5,1:39.689,+ 0:05.226,186.41,12
-F Franjić,Dujic Racing,6,1:54.725,+ 0:13.345,161.98,19
-F Franjić,Dujic Racing,PIT,2.8 seconds / Soft tyres,,,
-F Franjić,Dujic Racing,7,1:41.496,+ 0:15.229,183.09,20
-F Franjić,Dujic Racing,8,1:38.873,+ 0:14.283,187.95,19
-F Franjić,Dujic Racing,9,1:38.581,+ 0:11.793,188.51,15
-F Franjić,Dujic Racing,10,1:38.169,+ 0:10.355,189.30,15
-F Franjić,Dujic Racing,11,1:37.916,+ 0:08.951,189.79,14
-F Franjić,Dujic Racing,12,1:38.139,+ 0:05.819,189.36,8
-F Franjić,Dujic Racing,13,1:38.596,+ 0:05.894,188.48,8
-F Franjić,Dujic Racing,14,1:52.787,+ 0:18.267,164.76,23
-F Franjić,Dujic Racing,PIT,2.5 seconds / Soft tyres,,,
-F Franjić,Dujic Racing,15,1:40.071,+ 0:15.095,185.70,21
-F Franjić,Dujic Racing,16,1:38.322,+ 0:15.940,189.00,20
-F Franjić,Dujic Racing,17,1:37.804,+ 0:16.037,190.00,19
-F Franjić,Dujic Racing,18,1:37.774,+ 0:11.390,190.06,13
-F Franjić,Dujic Racing,19,1:37.802,+ 0:11.050,190.01,14
-F Franjić,Dujic Racing,20,1:37.302,+ 0:08.478,190.98,9
-F Franjić,Dujic Racing,21,1:37.931,+ 0:08.862,189.76,9
-F Franjić,Dujic Racing,22,1:53.410,+ 0:16.743,163.86,23
-F Franjić,Dujic Racing,PIT,3 seconds / Soft tyres,,,
-F Franjić,Dujic Racing,23,1:39.978,+ 0:19.175,185.87,23
-F Franjić,Dujic Racing,24,1:37.788,+ 0:19.531,190.04,23
-F Franjić,Dujic Racing,25,1:36.541,+ 0:18.484,192.49,19
-F Franjić,Dujic Racing,26,1:36.689,+ 0:14.689,192.20,18
-F Franjić,Dujic Racing,27,1:36.918,+ 0:14.157,191.74,14
-F Franjić,Dujic Racing,28,1:37.196,+ 0:14.177,191.19,12
-F Franjić,Dujic Racing,29,1:37.177,+ 0:13.842,191.23,11
-F Franjić,Dujic Racing,30,1:50.880,+ 0:17.085,167.60,23
-F Franjić,Dujic Racing,PIT,2.6 seconds / Soft tyres,,,
-F Franjić,Dujic Racing,31,1:39.392,+ 0:19.619,186.97,24
-F Franjić,Dujic Racing,32,1:37.413,+ 0:19.791,190.77,21
-F Franjić,Dujic Racing,33,1:37.873,+ 0:20.128,189.87,20
-F Franjić,Dujic Racing,34,1:36.056,+ 0:16.115,193.46,20
-F Franjić,Dujic Racing,35,1:36.282,+ 0:15.580,193.01,19
-F Franjić,Dujic Racing,36,1:36.810,+ 0:16.101,191.96,15
-F Franjić,Dujic Racing,37,1:37.127,+ 0:16.356,191.33,16
-F Franjić,Dujic Racing,38,1:52.934,+ 0:22.256,164.55,26
-F Franjić,Dujic Racing,PIT,2.9 seconds / Soft tyres,,,
-F Franjić,Dujic Racing,39,1:39.184,+ 0:24.462,187.36,26
-F Franjić,Dujic Racing,40,1:36.465,+ 0:21.899,192.64,25
-F Franjić,Dujic Racing,41,1:36.591,+ 0:21.522,192.39,24
-F Franjić,Dujic Racing,42,1:36.315,+ 0:19.044,192.94,24
-F Franjić,Dujic Racing,43,1:36.226,+ 0:19.347,193.12,22
-F Franjić,Dujic Racing,44,1:36.959,+ 0:20.206,191.66,24
-F Franjić,Dujic Racing,45,1:36.791,+ 0:20.573,191.99,21
-F Franjić,Dujic Racing,46,1:51.503,+ 0:25.029,166.66,24
-F Franjić,Dujic Racing,PIT,2.6 seconds / Soft tyres,,,
-F Franjić,Dujic Racing,47,1:39.182,+ 0:27.568,187.36,25
-F Franjić,Dujic Racing,48,1:35.517,+ 0:22.148,194.55,25
-F Franjić,Dujic Racing,49,1:35.832,+ 0:21.926,193.91,24
-F Franjić,Dujic Racing,50,1:35.645,+ 0:21.726,194.29,24
-F Franjić,Dujic Racing,51,1:35.048,+ 0:21.158,195.51,22
-F Franjić,Dujic Racing,52,1:33.574,+ 0:18.847,198.59,22
-F Franjić,Dujic Racing,53,1:36.158,+ 0:18.851,193.26,22
-F Franjić,Dujic Racing,54,1:35.412,+ 0:18.515,194.77,21
-V Aznabaev,8 Benetton,START,Super soft tyres,,,13
-V Aznabaev,8 Benetton,1,1:41.812,+ 0:02.319,182.52,11
-V Aznabaev,8 Benetton,2,1:40.284,+ 0:03.840,185.31,12
-V Aznabaev,8 Benetton,3,1:38.656,+ 0:04.302,188.36,11
-V Aznabaev,8 Benetton,4,1:38.648,+ 0:04.279,188.38,10
-V Aznabaev,8 Benetton,5,1:39.402,+ 0:04.536,186.95,10
-V Aznabaev,8 Benetton,6,1:54.676,+ 0:12.607,162.05,17
-V Aznabaev,8 Benetton,PIT,2.9 seconds / Super soft tyres,,,
-V Aznabaev,8 Benetton,7,1:39.199,+ 0:12.194,187.33,13
-V Aznabaev,8 Benetton,8,1:37.520,+ 0:09.894,190.56,11
-V Aznabaev,8 Benetton,9,1:36.913,+ 0:05.736,191.75,6
-V Aznabaev,8 Benetton,10,1:37.540,+ 0:03.670,190.52,6
-V Aznabaev,8 Benetton,11,1:37.795,+ 0:02.145,190.02,3
-V Aznabaev,8 Benetton,12,1:54.345,+ 0:15.219,162.52,25
-V Aznabaev,8 Benetton,PIT,2.4 seconds / Soft tyres,,,
-V Aznabaev,8 Benetton,13,1:40.689,+ 0:17.388,184.56,27
-V Aznabaev,8 Benetton,14,1:37.343,+ 0:14.317,190.90,15
-V Aznabaev,8 Benetton,15,1:36.905,+ 0:07.978,191.77,11
-V Aznabaev,8 Benetton,16,1:37.083,+ 0:07.584,191.42,9
-V Aznabaev,8 Benetton,17,1:36.895,+ 0:06.772,191.79,8
-V Aznabaev,8 Benetton,18,1:36.968,+ 0:01.319,191.64,2
-V Aznabaev,8 Benetton,19,1:38.306,+ 0:01.484,189.03,2
-V Aznabaev,8 Benetton,20,1:53.503,+ 0:15.114,163.72,22
-V Aznabaev,8 Benetton,PIT,2.7 seconds / Super soft tyres,,,
-V Aznabaev,8 Benetton,21,1:38.591,+ 0:16.158,188.49,21
-V Aznabaev,8 Benetton,22,1:36.110,+ 0:06.739,193.35,10
-V Aznabaev,8 Benetton,23,1:35.773,+ 0:04.967,194.03,8
-V Aznabaev,8 Benetton,24,1:35.712,+ 0:03.246,194.16,2
-V Aznabaev,8 Benetton,25,1:37.251,+ 0:02.909,191.08,2
-V Aznabaev,8 Benetton,26,1:52.867,+ 0:15.291,164.65,19
-V Aznabaev,8 Benetton,PIT,3 seconds / Super soft tyres,,,
-V Aznabaev,8 Benetton,27,1:38.051,+ 0:15.892,189.53,18
-V Aznabaev,8 Benetton,28,1:36.037,+ 0:14.753,193.50,15
-V Aznabaev,8 Benetton,29,1:35.232,+ 0:12.475,195.14,9
-V Aznabaev,8 Benetton,30,1:35.868,+ 0:00.706,193.84,2
-V Aznabaev,8 Benetton,31,1:36.152,-,193.27,1
-V Aznabaev,8 Benetton,32,1:52.350,+ 0:15.109,165.40,15
-V Aznabaev,8 Benetton,PIT,2.6 seconds / Soft tyres,,,
-V Aznabaev,8 Benetton,33,1:39.208,+ 0:16.781,187.32,15
-V Aznabaev,8 Benetton,34,1:37.414,+ 0:14.125,190.77,16
-V Aznabaev,8 Benetton,35,1:36.164,+ 0:13.472,193.24,14
-V Aznabaev,8 Benetton,36,1:36.898,+ 0:14.081,191.78,11
-V Aznabaev,8 Benetton,37,1:36.632,+ 0:13.842,192.31,10
-V Aznabaev,8 Benetton,38,1:36.436,+ 0:03.244,192.70,2
-V Aznabaev,8 Benetton,39,1:37.372,+ 0:03.638,190.85,3
-V Aznabaev,8 Benetton,40,1:53.162,+ 0:17.773,164.22,18
-V Aznabaev,8 Benetton,PIT,2.8 seconds / Soft tyres,,,
-V Aznabaev,8 Benetton,41,1:39.222,+ 0:20.028,187.29,19
-V Aznabaev,8 Benetton,42,1:37.274,+ 0:18.509,191.04,21
-V Aznabaev,8 Benetton,43,1:36.174,+ 0:18.759,193.22,20
-V Aznabaev,8 Benetton,44,1:36.851,+ 0:19.510,191.87,21
-V Aznabaev,8 Benetton,45,1:35.819,+ 0:18.905,193.94,16
-V Aznabaev,8 Benetton,46,1:36.249,+ 0:08.108,193.07,6
-V Aznabaev,8 Benetton,47,1:35.886,+ 0:07.350,193.81,5
-V Aznabaev,8 Benetton,48,1:52.701,+ 0:19.115,164.89,21
-V Aznabaev,8 Benetton,PIT,2.8 seconds / Super soft tyres,,,
-V Aznabaev,8 Benetton,49,1:37.400,+ 0:20.461,190.79,21
-V Aznabaev,8 Benetton,50,1:34.837,+ 0:19.453,195.95,20
-V Aznabaev,8 Benetton,51,1:34.948,+ 0:18.786,195.72,20
-V Aznabaev,8 Benetton,52,1:35.700,+ 0:18.601,194.18,21
-V Aznabaev,8 Benetton,53,1:35.086,+ 0:17.533,195.44,20
-V Aznabaev,8 Benetton,54,1:36.019,+ 0:17.805,193.54,20
-H Ydrogen,49 Phantom,START,Super soft tyres / 16 litres of fuel,,,14
-H Ydrogen,49 Phantom,1,1:42.027,+ 0:02.664,182.14,15
-H Ydrogen,49 Phantom,2,1:40.519,+ 0:04.420,184.87,15
-H Ydrogen,49 Phantom,3,1:39.411,+ 0:05.638,186.93,17
-H Ydrogen,49 Phantom,4,1:39.301,+ 0:06.268,187.14,18
-H Ydrogen,49 Phantom,5,1:39.164,+ 0:06.287,187.40,17
-H Ydrogen,49 Phantom,6,1:55.780,+ 0:15.462,160.50,23
-H Ydrogen,49 Phantom,PIT,3 seconds / Soft tyres / 22 litres of fuel,,,
-H Ydrogen,49 Phantom,7,1:41.721,+ 0:17.571,182.69,25
-H Ydrogen,49 Phantom,8,1:38.839,+ 0:16.589,188.01,24
-H Ydrogen,49 Phantom,9,1:38.625,+ 0:14.143,188.42,19
-H Ydrogen,49 Phantom,10,1:38.379,+ 0:12.916,188.89,19
-H Ydrogen,49 Phantom,11,1:38.082,+ 0:11.677,189.47,18
-H Ydrogen,49 Phantom,12,1:38.099,+ 0:08.506,189.43,12
-H Ydrogen,49 Phantom,13,1:38.601,+ 0:08.586,188.47,12
-H Ydrogen,49 Phantom,14,1:53.974,+ 0:22.145,163.05,28
-H Ydrogen,49 Phantom,PIT,2.9 seconds / Soft tyres / 22 litres of fuel,,,
-H Ydrogen,49 Phantom,15,1:41.249,+ 0:20.150,183.54,27
-H Ydrogen,49 Phantom,16,1:37.965,+ 0:20.639,189.69,26
-H Ydrogen,49 Phantom,17,1:37.433,+ 0:20.365,190.73,25
-H Ydrogen,49 Phantom,18,1:37.173,+ 0:15.117,191.24,20
-H Ydrogen,49 Phantom,19,1:37.134,+ 0:14.109,191.32,20
-H Ydrogen,49 Phantom,20,1:37.567,+ 0:11.802,190.47,15
-H Ydrogen,49 Phantom,21,1:37.848,+ 0:12.103,189.92,16
-H Ydrogen,49 Phantom,22,1:52.208,+ 0:18.783,165.61,26
-H Ydrogen,49 Phantom,PIT,2.6 seconds / Soft tyres / 22 litres of fuel,,,
-H Ydrogen,49 Phantom,23,1:39.712,+ 0:20.949,186.37,26
-H Ydrogen,49 Phantom,24,1:37.241,+ 0:20.757,191.10,25
-H Ydrogen,49 Phantom,25,1:36.601,+ 0:19.770,192.37,21
-H Ydrogen,49 Phantom,26,1:36.919,+ 0:16.204,191.74,21
-H Ydrogen,49 Phantom,27,1:36.567,+ 0:15.321,192.44,17
-H Ydrogen,49 Phantom,28,1:36.912,+ 0:15.057,191.75,16
-H Ydrogen,49 Phantom,29,1:37.487,+ 0:15.033,190.62,14
-H Ydrogen,49 Phantom,30,1:52.608,+ 0:20.004,165.03,26
-H Ydrogen,49 Phantom,PIT,2.5 seconds / Soft tyres / 22 litres of fuel,,,
-H Ydrogen,49 Phantom,31,1:39.526,+ 0:22.671,186.72,26
-H Ydrogen,49 Phantom,32,1:36.293,+ 0:21.724,192.99,23
-H Ydrogen,49 Phantom,33,1:35.222,+ 0:19.410,195.16,19
-H Ydrogen,49 Phantom,34,1:36.013,+ 0:15.354,193.55,19
-H Ydrogen,49 Phantom,35,1:36.129,+ 0:14.665,193.32,18
-H Ydrogen,49 Phantom,36,1:36.294,+ 0:14.670,192.98,12
-H Ydrogen,49 Phantom,37,1:36.582,+ 0:14.381,192.41,11
-H Ydrogen,49 Phantom,38,1:51.648,+ 0:18.995,166.44,22
-H Ydrogen,49 Phantom,PIT,2.5 seconds / Soft tyres / 22 litres of fuel,,,
-H Ydrogen,49 Phantom,39,1:39.008,+ 0:21.025,187.69,23
-H Ydrogen,49 Phantom,40,1:36.572,+ 0:18.570,192.43,20
-H Ydrogen,49 Phantom,41,1:36.252,+ 0:17.854,193.07,17
-H Ydrogen,49 Phantom,42,1:35.602,+ 0:14.663,194.38,16
-H Ydrogen,49 Phantom,43,1:34.883,+ 0:13.623,195.85,13
-H Ydrogen,49 Phantom,44,1:36.041,+ 0:13.565,193.49,13
-H Ydrogen,49 Phantom,45,1:36.352,+ 0:13.493,192.87,11
-H Ydrogen,49 Phantom,46,1:51.373,+ 0:17.819,166.86,19
-H Ydrogen,49 Phantom,PIT,2.5 seconds / Soft tyres / 22 litres of fuel,,,
-H Ydrogen,49 Phantom,47,1:38.686,+ 0:19.861,188.31,20
-H Ydrogen,49 Phantom,48,1:35.837,+ 0:14.762,193.90,15
-H Ydrogen,49 Phantom,49,1:35.799,+ 0:14.507,193.98,15
-H Ydrogen,49 Phantom,50,1:33.703,+ 0:12.366,198.32,9
-H Ydrogen,49 Phantom,51,1:34.931,+ 0:11.681,195.75,9
-H Ydrogen,49 Phantom,52,1:35.863,+ 0:11.659,193.85,8
-H Ydrogen,49 Phantom,53,1:36.135,+ 0:11.640,193.30,7
-H Ydrogen,49 Phantom,54,1:33.944,+ 0:09.837,197.81,6
-R Jones,34 Mercedes Petronas,START,Super soft tyres,,,15
-R Jones,34 Mercedes Petronas,1,1:42.032,+ 0:02.806,182.13,17
-R Jones,34 Mercedes Petronas,2,1:40.598,+ 0:04.640,184.73,17
-R Jones,34 Mercedes Petronas,3,1:38.802,+ 0:05.250,188.09,15
-R Jones,34 Mercedes Petronas,4,1:38.117,+ 0:04.695,189.40,14
-R Jones,34 Mercedes Petronas,5,1:39.304,+ 0:04.854,187.13,11
-R Jones,34 Mercedes Petronas,6,1:54.496,+ 0:12.745,162.30,18
-R Jones,34 Mercedes Petronas,PIT,2.6 seconds / Soft tyres,,,
-R Jones,34 Mercedes Petronas,7,1:41.487,+ 0:14.621,183.11,19
-R Jones,34 Mercedes Petronas,8,1:38.976,+ 0:13.777,187.75,18
-R Jones,34 Mercedes Petronas,9,1:38.413,+ 0:11.119,188.83,14
-R Jones,34 Mercedes Petronas,10,1:38.098,+ 0:09.610,189.44,14
-R Jones,34 Mercedes Petronas,11,1:38.025,+ 0:08.314,189.58,13
-R Jones,34 Mercedes Petronas,12,1:38.187,+ 0:05.231,189.26,7
-R Jones,34 Mercedes Petronas,13,1:37.795,+ 0:04.505,190.02,7
-R Jones,34 Mercedes Petronas,14,1:53.272,+ 0:17.362,164.06,22
-R Jones,34 Mercedes Petronas,PIT,2.7 seconds / Soft tyres,,,
-R Jones,34 Mercedes Petronas,15,1:40.151,+ 0:14.269,185.55,19
-R Jones,34 Mercedes Petronas,16,1:38.195,+ 0:14.988,189.25,18
-R Jones,34 Mercedes Petronas,17,1:38.189,+ 0:15.469,189.26,18
-R Jones,34 Mercedes Petronas,18,1:36.980,+ 0:10.028,191.62,10
-R Jones,34 Mercedes Petronas,19,1:37.385,+ 0:09.271,190.82,9
-R Jones,34 Mercedes Petronas,20,1:37.173,+ 0:06.571,191.24,5
-R Jones,34 Mercedes Petronas,21,1:38.406,+ 0:07.430,188.84,5
-R Jones,34 Mercedes Petronas,22,1:54.177,+ 0:16.079,162.76,21
-R Jones,34 Mercedes Petronas,PIT,3 seconds / Soft tyres,,,
-R Jones,34 Mercedes Petronas,23,1:38.768,+ 0:17.301,188.15,22
-R Jones,34 Mercedes Petronas,24,1:36.974,+ 0:16.842,191.63,17
-R Jones,34 Mercedes Petronas,25,1:36.945,+ 0:16.198,191.69,16
-R Jones,34 Mercedes Petronas,26,1:36.833,+ 0:12.546,191.91,15
-R Jones,34 Mercedes Petronas,27,1:36.823,+ 0:11.920,191.93,10
-R Jones,34 Mercedes Petronas,28,1:36.783,+ 0:11.528,192.01,8
-R Jones,34 Mercedes Petronas,29,1:37.055,+ 0:11.072,191.47,6
-R Jones,34 Mercedes Petronas,30,1:51.843,+ 0:15.278,166.15,21
-R Jones,34 Mercedes Petronas,PIT,2.7 seconds / Soft tyres,,,
-R Jones,34 Mercedes Petronas,31,1:39.460,+ 0:17.879,186.84,22
-R Jones,34 Mercedes Petronas,32,1:36.491,+ 0:17.130,192.59,17
-R Jones,34 Mercedes Petronas,33,1:36.488,+ 0:16.082,192.60,14
-R Jones,34 Mercedes Petronas,34,1:34.669,+ 0:10.681,196.30,12
-R Jones,34 Mercedes Petronas,35,1:36.174,+ 0:10.038,193.22,12
-R Jones,34 Mercedes Petronas,36,1:36.466,+ 0:10.215,192.64,8
-R Jones,34 Mercedes Petronas,37,1:36.864,+ 0:10.207,191.85,7
-R Jones,34 Mercedes Petronas,38,1:52.104,+ 0:15.278,165.77,17
-R Jones,34 Mercedes Petronas,PIT,2.9 seconds / Soft tyres,,,
-R Jones,34 Mercedes Petronas,39,1:38.778,+ 0:17.078,188.13,18
-R Jones,34 Mercedes Petronas,40,1:36.524,+ 0:14.575,192.52,12
-R Jones,34 Mercedes Petronas,41,1:36.108,+ 0:13.714,193.36,11
-R Jones,34 Mercedes Petronas,42,1:35.998,+ 0:10.920,193.58,9
-R Jones,34 Mercedes Petronas,43,1:35.961,+ 0:10.958,193.65,9
-R Jones,34 Mercedes Petronas,44,1:36.138,+ 0:10.996,193.30,9
-R Jones,34 Mercedes Petronas,45,1:36.794,+ 0:11.365,191.99,7
-R Jones,34 Mercedes Petronas,46,1:51.931,+ 0:16.250,166.02,16
-R Jones,34 Mercedes Petronas,PIT,2.9 seconds / Soft tyres,,,
-R Jones,34 Mercedes Petronas,47,1:38.593,+ 0:18.200,188.48,17
-R Jones,34 Mercedes Petronas,48,1:35.936,+ 0:13.200,193.70,13
-R Jones,34 Mercedes Petronas,49,1:36.057,+ 0:13.203,193.46,12
-R Jones,34 Mercedes Petronas,50,1:35.992,+ 0:13.351,193.59,12
-R Jones,34 Mercedes Petronas,51,1:36.135,+ 0:13.870,193.30,14
-R Jones,34 Mercedes Petronas,52,1:35.921,+ 0:13.905,193.73,13
-R Jones,34 Mercedes Petronas,53,1:36.559,+ 0:14.310,192.45,14
-R Jones,34 Mercedes Petronas,54,1:35.494,+ 0:14.057,194.60,12
-J Walker,72 Alfa Romeo,START,Super soft tyres,,,16
-J Walker,72 Alfa Romeo,1,1:42.216,+ 0:03.101,181.80,20
-J Walker,72 Alfa Romeo,2,1:40.498,+ 0:04.836,184.91,19
-J Walker,72 Alfa Romeo,3,1:39.323,+ 0:05.966,187.10,20
-J Walker,72 Alfa Romeo,4,1:39.367,+ 0:06.661,187.02,20
-J Walker,72 Alfa Romeo,5,1:39.518,+ 0:07.035,186.73,19
-J Walker,72 Alfa Romeo,6,1:55.667,+ 0:16.097,160.66,26
-J Walker,72 Alfa Romeo,PIT,2.5 seconds / Soft tyres,,,
-J Walker,72 Alfa Romeo,7,1:41.696,+ 0:18.181,182.73,27
-J Walker,72 Alfa Romeo,8,1:38.937,+ 0:17.298,187.83,26
-J Walker,72 Alfa Romeo,9,1:38.477,+ 0:14.705,188.71,21
-J Walker,72 Alfa Romeo,10,1:38.404,+ 0:13.502,188.85,20
-J Walker,72 Alfa Romeo,11,1:38.068,+ 0:12.250,189.49,19
-J Walker,72 Alfa Romeo,12,1:38.161,+ 0:09.140,189.31,13
-J Walker,72 Alfa Romeo,13,1:38.439,+ 0:09.059,188.78,13
-J Walker,72 Alfa Romeo,14,1:53.178,+ 0:21.822,164.19,27
-J Walker,72 Alfa Romeo,PIT,2.6 seconds / Soft tyres,,,
-J Walker,72 Alfa Romeo,15,1:38.817,+ 0:17.396,188.06,25
-J Walker,72 Alfa Romeo,16,1:37.960,+ 0:17.880,189.70,23
-J Walker,72 Alfa Romeo,17,1:37.706,+ 0:17.879,190.20,22
-J Walker,72 Alfa Romeo,18,1:37.399,+ 0:12.857,190.79,17
-J Walker,72 Alfa Romeo,19,1:37.005,+ 0:11.720,191.57,16
-J Walker,72 Alfa Romeo,20,1:37.788,+ 0:09.635,190.04,11
-J Walker,72 Alfa Romeo,21,1:37.897,+ 0:09.984,189.82,12
-J Walker,72 Alfa Romeo,22,1:53.164,+ 0:17.619,164.21,25
-J Walker,72 Alfa Romeo,PIT,2.7 seconds / Soft tyres,,,
-J Walker,72 Alfa Romeo,23,1:39.740,+ 0:19.813,186.32,24
-J Walker,72 Alfa Romeo,24,1:36.520,+ 0:18.900,192.53,21
-J Walker,72 Alfa Romeo,25,1:35.489,+ 0:16.801,194.61,17
-J Walker,72 Alfa Romeo,26,1:36.850,+ 0:13.166,191.88,16
-J Walker,72 Alfa Romeo,27,1:36.765,+ 0:12.481,192.04,11
-J Walker,72 Alfa Romeo,28,1:36.930,+ 0:12.236,191.72,9
-J Walker,72 Alfa Romeo,29,1:36.990,+ 0:11.714,191.60,8
-J Walker,72 Alfa Romeo,30,1:52.103,+ 0:16.180,165.77,22
+Results posted 11 Dec 2023, 19:45
+J Walker,72 Alfa Romeo,START,Super soft tyres,,,1
+J Walker,72 Alfa Romeo,1,1:52.861,-,224.58,1
+J Walker,72 Alfa Romeo,2,1:51.374,-,227.58,1
+J Walker,72 Alfa Romeo,3,1:50.897,+ 0:00.509,228.56,2
+J Walker,72 Alfa Romeo,4,1:58.350,+ 0:07.844,214.16,19
 J Walker,72 Alfa Romeo,PIT,2.9 seconds / Soft tyres,,,
-J Walker,72 Alfa Romeo,31,1:39.423,+ 0:18.745,186.91,23
-J Walker,72 Alfa Romeo,32,1:36.462,+ 0:17.966,192.65,19
-J Walker,72 Alfa Romeo,33,1:37.043,+ 0:17.473,191.49,17
-J Walker,72 Alfa Romeo,34,1:36.394,+ 0:13.797,192.78,15
-J Walker,72 Alfa Romeo,35,1:35.860,+ 0:12.840,193.86,13
-J Walker,72 Alfa Romeo,36,1:34.857,+ 0:11.407,195.91,9
-J Walker,72 Alfa Romeo,37,1:36.160,+ 0:10.696,193.25,8
-J Walker,72 Alfa Romeo,38,1:51.997,+ 0:15.659,165.93,18
-J Walker,72 Alfa Romeo,PIT,2.5 seconds / Soft tyres,,,
-J Walker,72 Alfa Romeo,39,1:39.296,+ 0:17.977,187.15,19
-J Walker,72 Alfa Romeo,40,1:36.296,+ 0:15.246,192.98,14
-J Walker,72 Alfa Romeo,41,1:36.004,+ 0:14.282,193.57,12
-J Walker,72 Alfa Romeo,42,1:35.991,+ 0:11.481,193.59,10
-J Walker,72 Alfa Romeo,43,1:35.813,+ 0:11.371,193.95,10
-J Walker,72 Alfa Romeo,44,1:36.143,+ 0:11.414,193.29,10
-J Walker,72 Alfa Romeo,45,1:36.704,+ 0:11.694,192.17,9
-J Walker,72 Alfa Romeo,46,1:51.382,+ 0:16.029,166.84,15
-J Walker,72 Alfa Romeo,PIT,2.8 seconds / Soft tyres,,,
-J Walker,72 Alfa Romeo,47,1:37.800,+ 0:17.186,190.01,16
-J Walker,72 Alfa Romeo,48,1:36.160,+ 0:12.409,193.25,11
-J Walker,72 Alfa Romeo,49,1:36.039,+ 0:12.394,193.50,10
-J Walker,72 Alfa Romeo,50,1:36.393,+ 0:12.942,192.79,11
-J Walker,72 Alfa Romeo,51,1:34.950,+ 0:12.277,195.72,10
-J Walker,72 Alfa Romeo,52,1:35.824,+ 0:12.216,193.93,10
-J Walker,72 Alfa Romeo,53,1:36.336,+ 0:12.397,192.90,9
-J Walker,72 Alfa Romeo,54,1:36.063,+ 0:12.713,193.45,8
-A Senna,88 BENETTON,START,Super soft tyres,,,17
-A Senna,88 BENETTON,1,1:41.386,+ 0:02.380,183.29,12
-A Senna,88 BENETTON,2,1:40.154,+ 0:03.770,185.55,11
-A Senna,88 BENETTON,3,1:38.470,+ 0:04.047,188.72,10
-A Senna,88 BENETTON,4,1:38.703,+ 0:04.079,188.27,9
-A Senna,88 BENETTON,5,1:38.963,+ 0:03.897,187.78,9
-A Senna,88 BENETTON,6,1:54.554,+ 0:11.846,162.22,15
-A Senna,88 BENETTON,PIT,2.6 seconds / Soft tyres,,,
-A Senna,88 BENETTON,7,1:41.447,+ 0:13.681,183.18,17
-A Senna,88 BENETTON,8,1:38.750,+ 0:12.611,188.18,16
-A Senna,88 BENETTON,9,1:38.384,+ 0:09.924,188.88,12
-A Senna,88 BENETTON,10,1:38.198,+ 0:08.515,189.24,12
-A Senna,88 BENETTON,11,1:37.640,+ 0:06.835,190.32,11
-A Senna,88 BENETTON,12,1:38.014,+ 0:03.578,189.60,5
-A Senna,88 BENETTON,13,1:37.865,+ 0:02.922,189.89,5
-A Senna,88 BENETTON,14,1:53.622,+ 0:16.130,163.55,19
-A Senna,88 BENETTON,PIT,2.7 seconds / Soft tyres,,,
-A Senna,88 BENETTON,15,1:39.716,+ 0:12.602,186.36,15
-A Senna,88 BENETTON,16,1:35.704,+ 0:10.830,194.17,13
-A Senna,88 BENETTON,17,1:36.844,+ 0:09.967,191.89,12
-A Senna,88 BENETTON,18,1:37.084,+ 0:04.631,191.41,6
-A Senna,88 BENETTON,19,1:37.116,+ 0:03.604,191.35,5
-A Senna,88 BENETTON,20,1:36.962,+ 0:00.693,191.65,2
-A Senna,88 BENETTON,21,1:36.854,-,191.87,1
-A Senna,88 BENETTON,22,1:52.901,+ 0:07.372,164.60,11
+J Walker,72 Alfa Romeo,5,1:57.417,+ 0:09.487,215.86,25
+J Walker,72 Alfa Romeo,6,1:50.273,+ 0:08.420,229.85,13
+J Walker,72 Alfa Romeo,7,1:49.761,+ 0:06.595,230.92,11
+J Walker,72 Alfa Romeo,8,1:49.805,+ 0:01.774,230.83,3
+J Walker,72 Alfa Romeo,9,1:50.301,+ 0:02.147,229.79,4
+J Walker,72 Alfa Romeo,10,1:50.459,-,229.46,1
+J Walker,72 Alfa Romeo,11,2:00.365,+ 0:05.079,210.58,5
+J Walker,72 Alfa Romeo,PIT,3.3 seconds / Soft tyres,,,
+J Walker,72 Alfa Romeo,12,1:56.967,+ 0:12.535,216.70,16
+J Walker,72 Alfa Romeo,13,1:50.077,+ 0:09.720,230.26,16
+J Walker,72 Alfa Romeo,14,1:50.080,+ 0:09.673,230.25,15
+J Walker,72 Alfa Romeo,15,1:49.707,+ 0:04.315,231.04,8
+J Walker,72 Alfa Romeo,16,1:48.963,+ 0:03.282,232.61,5
+J Walker,72 Alfa Romeo,17,1:49.884,-,230.66,1
+J Walker,72 Alfa Romeo,18,1:50.941,+ 0:01.163,228.47,3
+J Walker,72 Alfa Romeo,19,1:58.868,+ 0:10.879,213.23,8
+J Walker,72 Alfa Romeo,PIT,3.1 seconds / Soft tyres,,,
+J Walker,72 Alfa Romeo,20,1:56.379,+ 0:17.691,217.79,18
+J Walker,72 Alfa Romeo,21,1:49.403,+ 0:17.353,231.68,19
+J Walker,72 Alfa Romeo,22,1:49.544,+ 0:08.759,231.38,17
+J Walker,72 Alfa Romeo,23,1:48.577,+ 0:07.476,233.44,13
+J Walker,72 Alfa Romeo,24,1:48.730,+ 0:04.522,233.11,5
+J Walker,72 Alfa Romeo,25,1:48.527,+ 0:04.535,233.55,4
+J Walker,72 Alfa Romeo,26,1:48.605,+ 0:04.182,233.38,3
+J Walker,72 Alfa Romeo,27,2:00.031,+ 0:12.342,211.16,10
+J Walker,72 Alfa Romeo,PIT,3.1 seconds / Soft tyres,,,
+J Walker,72 Alfa Romeo,28,1:55.422,+ 0:18.821,219.60,23
+J Walker,72 Alfa Romeo,29,1:48.638,+ 0:10.843,233.31,20
+J Walker,72 Alfa Romeo,30,1:48.552,+ 0:08.291,233.49,16
+J Walker,72 Alfa Romeo,31,1:48.290,+ 0:05.168,234.06,5
+J Walker,72 Alfa Romeo,32,1:47.422,+ 0:03.641,235.95,4
+J Walker,72 Alfa Romeo,33,1:48.577,+ 0:03.277,233.44,4
+J Walker,72 Alfa Romeo,34,1:47.353,+ 0:02.346,236.10,3
+J Walker,72 Alfa Romeo,35,1:57.438,+ 0:11.055,215.83,7
+J Walker,72 Alfa Romeo,PIT,3.2 seconds / Soft tyres,,,
+J Walker,72 Alfa Romeo,36,1:54.838,+ 0:08.645,220.71,14
+J Walker,72 Alfa Romeo,37,1:48.350,+ 0:07.312,233.93,13
+J Walker,72 Alfa Romeo,38,1:47.421,+ 0:01.603,235.95,3
+J Walker,72 Alfa Romeo,39,1:47.695,+ 0:01.846,235.35,3
+J Walker,72 Alfa Romeo,40,1:47.624,+ 0:01.697,235.51,3
+J Walker,72 Alfa Romeo,41,1:47.788,+ 0:01.983,235.15,3
+J Walker,72 Alfa Romeo,42,1:49.374,+ 0:03.532,231.74,3
+J Walker,72 Alfa Romeo,43,1:49.884,+ 0:09.047,230.66,6
+T Folger,5 Stellaron Hunter,START,Super soft tyres,,,2
+T Folger,5 Stellaron Hunter,1,1:53.630,+ 0:00.987,223.06,2
+T Folger,5 Stellaron Hunter,2,1:51.292,+ 0:00.905,227.74,2
+T Folger,5 Stellaron Hunter,3,1:49.481,-,231.51,1
+T Folger,5 Stellaron Hunter,4,1:51.624,+ 0:00.609,227.07,2
+T Folger,5 Stellaron Hunter,5,1:59.117,+ 0:03.952,212.78,7
+T Folger,5 Stellaron Hunter,PIT,2.5 seconds / Super soft tyres,,,
+T Folger,5 Stellaron Hunter,6,1:55.117,+ 0:07.728,220.18,12
+T Folger,5 Stellaron Hunter,7,1:49.273,+ 0:05.415,231.95,8
+T Folger,5 Stellaron Hunter,8,1:49.211,-,232.08,1
+T Folger,5 Stellaron Hunter,9,1:50.655,+ 0:00.726,229.06,2
+T Folger,5 Stellaron Hunter,10,1:59.458,+ 0:07.577,212.18,5
+T Folger,5 Stellaron Hunter,PIT,2.9 seconds / Soft tyres,,,
+T Folger,5 Stellaron Hunter,11,1:57.202,+ 0:09.493,216.26,11
+T Folger,5 Stellaron Hunter,12,1:50.163,+ 0:10.146,230.08,11
+T Folger,5 Stellaron Hunter,13,1:50.045,+ 0:07.299,230.33,10
+T Folger,5 Stellaron Hunter,14,1:49.258,+ 0:06.430,231.98,6
+T Folger,5 Stellaron Hunter,15,1:48.634,-,233.32,1
+T Folger,5 Stellaron Hunter,16,1:50.606,+ 0:00.609,229.16,2
+T Folger,5 Stellaron Hunter,17,1:58.481,+ 0:05.924,213.93,6
+T Folger,5 Stellaron Hunter,PIT,2.8 seconds / Soft tyres,,,
+T Folger,5 Stellaron Hunter,18,1:55.437,+ 0:11.583,219.57,10
+T Folger,5 Stellaron Hunter,19,1:50.748,+ 0:13.178,228.86,10
+T Folger,5 Stellaron Hunter,20,1:48.415,+ 0:12.028,233.79,8
+T Folger,5 Stellaron Hunter,21,1:49.707,+ 0:11.994,231.04,7
+T Folger,5 Stellaron Hunter,22,1:47.968,+ 0:01.824,234.76,3
+T Folger,5 Stellaron Hunter,23,1:48.035,-,234.61,1
+T Folger,5 Stellaron Hunter,24,1:59.658,+ 0:07.973,211.82,7
+T Folger,5 Stellaron Hunter,PIT,2.9 seconds / Soft tyres,,,
+T Folger,5 Stellaron Hunter,25,1:56.437,+ 0:15.897,217.68,12
+T Folger,5 Stellaron Hunter,26,1:48.691,+ 0:15.630,233.19,11
+T Folger,5 Stellaron Hunter,27,1:48.159,+ 0:11.919,234.34,8
+T Folger,5 Stellaron Hunter,28,1:47.515,+ 0:10.490,235.75,5
+T Folger,5 Stellaron Hunter,29,1:49.217,+ 0:03.091,232.07,4
+T Folger,5 Stellaron Hunter,30,1:48.013,-,234.66,1
+T Folger,5 Stellaron Hunter,31,1:58.709,+ 0:07.296,213.52,6
+T Folger,5 Stellaron Hunter,PIT,2.9 seconds / Soft tyres,,,
+T Folger,5 Stellaron Hunter,32,1:54.301,+ 0:12.649,221.75,9
+T Folger,5 Stellaron Hunter,33,1:47.629,+ 0:11.336,235.50,7
+T Folger,5 Stellaron Hunter,34,1:49.335,+ 0:12.387,231.82,10
+T Folger,5 Stellaron Hunter,35,1:47.973,+ 0:11.631,234.75,8
+T Folger,5 Stellaron Hunter,36,1:47.404,+ 0:01.788,235.99,4
+T Folger,5 Stellaron Hunter,37,1:47.894,-,234.92,1
+T Folger,5 Stellaron Hunter,38,1:58.573,+ 0:05.442,213.76,6
+T Folger,5 Stellaron Hunter,PIT,2.6 seconds / Super soft tyres,,,
+T Folger,5 Stellaron Hunter,39,1:52.871,+ 0:10.860,224.56,7
+T Folger,5 Stellaron Hunter,40,1:46.907,+ 0:09.994,237.09,6
+T Folger,5 Stellaron Hunter,41,1:46.942,+ 0:09.434,237.01,5
+T Folger,5 Stellaron Hunter,42,1:43.455,+ 0:05.063,245.00,4
+T Folger,5 Stellaron Hunter,43,1:44.046,+ 0:04.741,243.61,3
+O Bearman,99 Porsche,START,Super soft tyres,,,3
+O Bearman,99 Porsche,1,1:54.284,+ 0:01.806,221.78,6
+O Bearman,99 Porsche,2,1:52.794,+ 0:03.227,224.71,9
+O Bearman,99 Porsche,3,1:50.644,+ 0:03.484,229.08,11
+O Bearman,99 Porsche,4,1:50.760,+ 0:03.229,228.84,8
+O Bearman,99 Porsche,5,2:00.404,+ 0:07.859,210.51,19
+O Bearman,99 Porsche,PIT,3 seconds / Super soft tyres,,,
+O Bearman,99 Porsche,6,1:56.009,+ 0:12.528,218.48,22
+O Bearman,99 Porsche,7,1:49.514,+ 0:10.455,231.44,20
+O Bearman,99 Porsche,8,1:49.169,+ 0:04.997,232.17,10
+O Bearman,99 Porsche,9,1:49.601,+ 0:04.670,231.26,9
+O Bearman,99 Porsche,10,1:59.781,+ 0:11.844,211.60,15
+O Bearman,99 Porsche,PIT,3.1 seconds / Soft tyres,,,
+O Bearman,99 Porsche,11,1:57.417,+ 0:13.975,215.86,23
+O Bearman,99 Porsche,12,1:50.172,+ 0:14.637,230.06,22
+O Bearman,99 Porsche,13,1:49.758,+ 0:11.503,230.93,21
+O Bearman,99 Porsche,14,1:48.682,+ 0:10.058,233.21,17
+O Bearman,99 Porsche,15,1:48.542,+ 0:03.535,233.52,5
+O Bearman,99 Porsche,16,1:48.582,+ 0:02.120,233.43,3
+O Bearman,99 Porsche,17,2:00.063,+ 0:09.017,211.11,14
+O Bearman,99 Porsche,PIT,2.8 seconds / Soft tyres,,,
+O Bearman,99 Porsche,18,1:56.234,+ 0:15.473,218.06,18
+O Bearman,99 Porsche,19,1:49.046,+ 0:15.367,232.44,15
+O Bearman,99 Porsche,20,1:48.864,+ 0:14.666,232.82,14
+O Bearman,99 Porsche,21,1:48.299,+ 0:13.224,234.04,11
+O Bearman,99 Porsche,22,1:48.953,+ 0:04.039,232.63,7
+O Bearman,99 Porsche,23,1:48.873,+ 0:03.052,232.81,3
+O Bearman,99 Porsche,24,1:57.912,+ 0:09.280,214.96,8
+O Bearman,99 Porsche,PIT,3 seconds / Soft tyres,,,
+O Bearman,99 Porsche,25,1:54.584,+ 0:15.351,221.20,11
+O Bearman,99 Porsche,26,1:48.221,+ 0:14.614,234.21,9
+O Bearman,99 Porsche,27,1:49.521,+ 0:12.265,231.43,9
+O Bearman,99 Porsche,28,1:48.254,+ 0:11.576,234.14,7
+O Bearman,99 Porsche,29,1:47.705,+ 0:02.665,235.33,3
+O Bearman,99 Porsche,30,1:49.511,+ 0:01.071,231.45,2
+O Bearman,99 Porsche,31,1:59.551,+ 0:09.210,212.01,9
+O Bearman,99 Porsche,PIT,3 seconds / Soft tyres,,,
+O Bearman,99 Porsche,32,1:54.856,+ 0:15.118,220.68,15
+O Bearman,99 Porsche,33,1:48.490,+ 0:14.667,233.63,15
+O Bearman,99 Porsche,34,1:47.936,+ 0:14.318,234.83,15
+O Bearman,99 Porsche,35,1:47.729,+ 0:13.318,235.28,13
+O Bearman,99 Porsche,36,1:47.854,+ 0:03.925,235.00,7
+O Bearman,99 Porsche,37,1:48.207,+ 0:02.449,234.24,5
+O Bearman,99 Porsche,38,1:57.158,+ 0:06.477,216.34,9
+O Bearman,99 Porsche,PIT,2.8 seconds / Super soft tyres,,,
+O Bearman,99 Porsche,39,1:53.147,+ 0:12.171,224.01,12
+O Bearman,99 Porsche,40,1:45.999,+ 0:10.398,239.12,7
+O Bearman,99 Porsche,41,1:46.851,+ 0:09.747,237.21,6
+O Bearman,99 Porsche,42,1:46.859,+ 0:08.780,237.19,5
+O Bearman,99 Porsche,43,1:46.365,+ 0:10.777,238.29,10
+H Ydrogen,49 Phantom,START,Super soft tyres / 18 litres of fuel,,,4
+H Ydrogen,49 Phantom,1,1:53.652,+ 0:01.304,223.02,3
+H Ydrogen,49 Phantom,2,1:51.583,+ 0:01.513,227.15,3
+H Ydrogen,49 Phantom,3,1:50.058,+ 0:01.185,230.30,3
+H Ydrogen,49 Phantom,4,1:49.830,-,230.78,1
+H Ydrogen,49 Phantom,5,2:00.731,+ 0:04.957,209.94,10
+H Ydrogen,49 Phantom,PIT,2.9 seconds / Super soft tyres / 18 litres of fuel,,,
+H Ydrogen,49 Phantom,6,1:55.341,+ 0:08.958,219.75,14
+H Ydrogen,49 Phantom,7,1:50.481,+ 0:07.852,229.42,13
+H Ydrogen,49 Phantom,8,1:48.851,+ 0:02.077,232.85,4
+H Ydrogen,49 Phantom,9,1:49.452,+ 0:01.601,231.57,3
+H Ydrogen,49 Phantom,10,1:59.878,+ 0:08.872,211.43,9
+H Ydrogen,49 Phantom,PIT,2.9 seconds / Soft tyres / 26 litres of fuel,,,
+H Ydrogen,49 Phantom,11,1:57.500,+ 0:11.086,215.71,15
+H Ydrogen,49 Phantom,12,1:50.335,+ 0:11.911,229.72,14
+H Ydrogen,49 Phantom,13,1:49.985,+ 0:09.004,230.45,15
+H Ydrogen,49 Phantom,14,1:49.302,+ 0:08.178,231.89,10
+H Ydrogen,49 Phantom,15,1:47.944,+ 0:01.058,234.81,2
+H Ydrogen,49 Phantom,16,1:48.938,-,232.67,1
+H Ydrogen,49 Phantom,17,2:00.076,+ 0:06.908,211.08,9
+H Ydrogen,49 Phantom,PIT,2.9 seconds / Super soft tyres / 18 litres of fuel,,,
+H Ydrogen,49 Phantom,18,1:53.019,+ 0:10.151,224.26,9
+H Ydrogen,49 Phantom,19,1:48.658,+ 0:09.656,233.27,7
+H Ydrogen,49 Phantom,20,1:48.200,+ 0:08.290,234.25,6
+H Ydrogen,49 Phantom,21,1:49.243,+ 0:07.792,232.02,5
+H Ydrogen,49 Phantom,22,1:58.008,+ 0:07.662,214.78,15
+H Ydrogen,49 Phantom,PIT,2.8 seconds / Soft tyres / 26 litres of fuel,,,
+H Ydrogen,49 Phantom,23,1:54.755,+ 0:12.557,220.87,19
+H Ydrogen,49 Phantom,24,1:50.140,+ 0:11.014,230.13,13
+H Ydrogen,49 Phantom,25,1:48.570,+ 0:11.070,233.45,7
+H Ydrogen,49 Phantom,26,1:47.793,+ 0:09.906,235.14,6
+H Ydrogen,49 Phantom,27,1:49.361,+ 0:07.397,231.77,6
+H Ydrogen,49 Phantom,28,1:48.471,+ 0:06.924,233.67,3
+H Ydrogen,49 Phantom,29,1:57.522,+ 0:07.830,215.67,12
+H Ydrogen,49 Phantom,PIT,2.9 seconds / Soft tyres / 26 litres of fuel,,,
+H Ydrogen,49 Phantom,30,1:56.120,+ 0:12.845,218.28,20
+H Ydrogen,49 Phantom,31,1:47.941,+ 0:09.374,234.82,10
+H Ydrogen,49 Phantom,32,1:49.484,+ 0:09.909,231.51,7
+H Ydrogen,49 Phantom,33,1:47.370,+ 0:08.338,236.06,5
+H Ydrogen,49 Phantom,34,1:48.634,+ 0:08.688,233.32,4
+H Ydrogen,49 Phantom,35,1:48.920,+ 0:08.879,232.70,3
+H Ydrogen,49 Phantom,36,1:58.810,+ 0:10.441,213.33,20
+H Ydrogen,49 Phantom,PIT,2.9 seconds / Soft tyres / 26 litres of fuel,,,
+H Ydrogen,49 Phantom,37,1:54.284,+ 0:15.043,221.78,17
+H Ydrogen,49 Phantom,38,1:49.287,+ 0:11.200,231.92,17
+H Ydrogen,49 Phantom,39,1:47.884,+ 0:11.632,234.94,9
+H Ydrogen,49 Phantom,40,1:47.729,+ 0:11.588,235.28,12
+H Ydrogen,49 Phantom,41,1:47.913,+ 0:11.999,234.88,13
+H Ydrogen,49 Phantom,42,1:48.071,+ 0:12.245,234.53,14
+H Ydrogen,49 Phantom,43,1:44.116,+ 0:11.994,243.44,12
+L Huett,13 Cappuccino,START,Super soft tyres,,,5
+L Huett,13 Cappuccino,1,1:53.778,+ 0:01.591,222.77,5
+L Huett,13 Cappuccino,2,1:52.191,+ 0:02.408,225.92,5
+L Huett,13 Cappuccino,3,1:50.146,+ 0:02.167,230.11,5
+L Huett,13 Cappuccino,4,1:50.859,+ 0:02.011,228.63,5
+L Huett,13 Cappuccino,5,1:59.950,+ 0:06.187,211.31,16
+L Huett,13 Cappuccino,PIT,2.5 seconds / Super soft tyres,,,
+L Huett,13 Cappuccino,6,1:56.545,+ 0:11.392,217.48,20
+L Huett,13 Cappuccino,7,1:49.721,+ 0:09.526,231.01,16
+L Huett,13 Cappuccino,8,1:49.279,+ 0:04.178,231.94,8
+L Huett,13 Cappuccino,9,1:49.810,+ 0:04.061,230.82,7
+L Huett,13 Cappuccino,10,1:59.848,+ 0:11.301,211.49,13
+L Huett,13 Cappuccino,PIT,3 seconds / Soft tyres,,,
+L Huett,13 Cappuccino,11,1:57.484,+ 0:13.500,215.74,22
+L Huett,13 Cappuccino,12,1:50.091,+ 0:14.079,230.23,20
+L Huett,13 Cappuccino,13,1:50.044,+ 0:11.232,230.33,20
+L Huett,13 Cappuccino,14,1:49.463,+ 0:10.567,231.55,18
+L Huett,13 Cappuccino,15,1:49.580,+ 0:05.083,231.30,11
+L Huett,13 Cappuccino,16,1:49.779,+ 0:04.865,230.88,7
+L Huett,13 Cappuccino,17,1:58.812,+ 0:10.510,213.33,15
+L Huett,13 Cappuccino,PIT,2.9 seconds / Soft tyres,,,
+L Huett,13 Cappuccino,18,1:56.254,+ 0:16.988,218.02,20
+L Huett,13 Cappuccino,19,1:49.333,+ 0:17.168,231.83,17
+L Huett,13 Cappuccino,20,1:48.835,+ 0:16.437,232.89,16
+L Huett,13 Cappuccino,21,1:48.935,+ 0:15.631,232.67,16
+L Huett,13 Cappuccino,22,1:49.223,+ 0:06.717,232.06,12
+L Huett,13 Cappuccino,23,1:49.448,+ 0:06.305,231.58,9
+L Huett,13 Cappuccino,24,1:58.862,+ 0:13.483,213.24,16
+L Huett,13 Cappuccino,PIT,3.1 seconds / Soft tyres,,,
+L Huett,13 Cappuccino,25,1:54.587,+ 0:19.556,221.20,20
+L Huett,13 Cappuccino,26,1:49.113,+ 0:19.711,232.29,19
+L Huett,13 Cappuccino,27,1:48.622,+ 0:16.462,233.34,18
+L Huett,13 Cappuccino,28,1:48.353,+ 0:15.872,233.92,17
+L Huett,13 Cappuccino,29,1:48.227,+ 0:07.483,234.19,11
+L Huett,13 Cappuccino,30,1:48.608,+ 0:04.987,233.37,9
+L Huett,13 Cappuccino,31,1:58.343,+ 0:11.918,214.18,15
+L Huett,13 Cappuccino,PIT,3 seconds / Soft tyres,,,
+L Huett,13 Cappuccino,32,1:55.036,+ 0:18.005,220.33,18
+L Huett,13 Cappuccino,33,1:47.740,+ 0:16.804,235.25,18
+L Huett,13 Cappuccino,34,1:48.276,+ 0:16.796,234.09,19
+L Huett,13 Cappuccino,35,1:47.800,+ 0:15.867,235.12,17
+L Huett,13 Cappuccino,36,1:47.400,+ 0:06.019,236.00,11
+L Huett,13 Cappuccino,37,1:48.195,+ 0:04.531,234.26,8
+L Huett,13 Cappuccino,38,1:57.357,+ 0:08.758,215.98,12
+L Huett,13 Cappuccino,PIT,2.6 seconds / Super soft tyres,,,
+L Huett,13 Cappuccino,39,1:52.799,+ 0:14.105,224.70,17
+L Huett,13 Cappuccino,40,1:46.268,+ 0:12.601,238.51,15
+L Huett,13 Cappuccino,41,1:46.435,+ 0:11.533,238.14,12
+L Huett,13 Cappuccino,42,1:47.374,+ 0:11.082,236.06,12
+L Huett,13 Cappuccino,43,1:45.517,+ 0:12.231,240.21,13
+M Master,2 Porsche,START,Super soft tyres,,,6
+M Master,2 Porsche,1,1:54.530,+ 0:02.464,221.31,12
+M Master,2 Porsche,2,1:52.553,+ 0:03.643,225.19,12
+M Master,2 Porsche,3,1:50.670,+ 0:03.927,229.02,13
+M Master,2 Porsche,4,1:50.956,+ 0:03.868,228.43,11
+M Master,2 Porsche,5,2:01.014,+ 0:09.108,209.45,22
+M Master,2 Porsche,PIT,2.5 seconds / Super soft tyres,,,
+M Master,2 Porsche,6,1:56.569,+ 0:14.337,217.44,26
+M Master,2 Porsche,7,1:49.579,+ 0:12.329,231.31,25
+M Master,2 Porsche,8,1:49.437,+ 0:07.139,231.61,15
+M Master,2 Porsche,9,1:49.817,+ 0:07.029,230.80,12
+M Master,2 Porsche,10,1:59.442,+ 0:13.864,212.21,18
+M Master,2 Porsche,PIT,3 seconds / Soft tyres,,,
+M Master,2 Porsche,11,1:56.549,+ 0:15.127,217.47,24
+M Master,2 Porsche,12,1:49.902,+ 0:15.518,230.63,23
+M Master,2 Porsche,13,1:49.701,+ 0:12.327,231.05,22
+M Master,2 Porsche,14,1:49.555,+ 0:11.754,231.36,20
+M Master,2 Porsche,15,1:49.124,+ 0:05.814,232.27,13
+M Master,2 Porsche,16,1:49.613,+ 0:05.430,231.23,8
+M Master,2 Porsche,17,1:59.179,+ 0:11.442,212.67,17
+M Master,2 Porsche,PIT,3 seconds / Soft tyres,,,
+M Master,2 Porsche,18,1:55.967,+ 0:17.632,218.56,22
+M Master,2 Porsche,19,1:49.271,+ 0:17.750,231.96,18
+M Master,2 Porsche,20,1:48.827,+ 0:17.011,232.90,17
+M Master,2 Porsche,21,1:48.613,+ 0:15.883,233.36,17
+M Master,2 Porsche,22,1:48.326,+ 0:06.071,233.98,10
+M Master,2 Porsche,23,1:48.890,+ 0:05.101,232.77,7
+M Master,2 Porsche,24,1:57.418,+ 0:10.836,215.86,12
+M Master,2 Porsche,PIT,2.7 seconds / Soft tyres,,,
+M Master,2 Porsche,25,1:55.684,+ 0:18.006,219.10,18
+M Master,2 Porsche,26,1:48.875,+ 0:17.924,232.80,16
+M Master,2 Porsche,27,1:48.285,+ 0:14.339,234.07,15
+M Master,2 Porsche,28,1:48.304,+ 0:13.699,234.03,13
+M Master,2 Porsche,29,1:46.910,+ 0:03.993,237.08,5
+M Master,2 Porsche,30,1:48.822,+ 0:01.711,232.91,3
+M Master,2 Porsche,31,1:57.697,+ 0:07.996,215.35,7
+M Master,2 Porsche,PIT,3 seconds / Soft tyres,,,
+M Master,2 Porsche,32,1:55.378,+ 0:14.425,219.68,13
+M Master,2 Porsche,33,1:48.282,+ 0:13.766,234.08,12
+M Master,2 Porsche,34,1:48.015,+ 0:13.497,234.65,13
+M Master,2 Porsche,35,1:47.699,+ 0:12.467,235.34,9
+M Master,2 Porsche,36,1:47.401,+ 0:02.620,236.00,5
+M Master,2 Porsche,37,1:48.281,+ 0:01.219,234.08,3
+M Master,2 Porsche,38,1:57.717,+ 0:05.805,215.31,7
+M Master,2 Porsche,PIT,2.7 seconds / Super soft tyres,,,
+M Master,2 Porsche,39,1:53.416,+ 0:11.769,223.48,10
+M Master,2 Porsche,40,1:47.282,+ 0:11.279,236.26,10
+M Master,2 Porsche,41,1:46.913,+ 0:10.690,237.07,10
+M Master,2 Porsche,42,1:47.096,+ 0:09.960,236.67,9
+M Master,2 Porsche,43,1:43.376,+ 0:08.968,245.18,5
+A Senna,88 BENETTON,START,Super soft tyres,,,7
+A Senna,88 BENETTON,1,1:53.823,+ 0:01.874,222.68,7
+A Senna,88 BENETTON,2,1:52.227,+ 0:02.728,225.85,6
+A Senna,88 BENETTON,3,1:50.132,+ 0:02.473,230.14,6
+A Senna,88 BENETTON,4,1:50.057,+ 0:01.516,230.30,4
+A Senna,88 BENETTON,5,1:59.436,+ 0:05.178,212.22,11
+A Senna,88 BENETTON,PIT,2.8 seconds / Super soft tyres,,,
+A Senna,88 BENETTON,6,1:56.011,+ 0:09.848,218.48,15
+A Senna,88 BENETTON,7,1:48.929,+ 0:07.190,232.69,12
+A Senna,88 BENETTON,8,1:48.282,+ 0:00.846,234.08,2
+A Senna,88 BENETTON,9,1:49.081,-,232.36,1
+A Senna,88 BENETTON,10,1:59.557,+ 0:06.949,212.00,3
+A Senna,88 BENETTON,PIT,2.4 seconds / Super soft tyres,,,
+A Senna,88 BENETTON,11,1:56.687,+ 0:08.351,217.22,7
+A Senna,88 BENETTON,12,1:48.251,+ 0:07.091,234.14,4
+A Senna,88 BENETTON,13,1:49.447,+ 0:03.646,231.58,4
+A Senna,88 BENETTON,14,1:48.334,+ 0:01.852,233.96,2
+A Senna,88 BENETTON,15,1:56.487,+ 0:03.275,217.59,4
 A Senna,88 BENETTON,PIT,2.9 seconds / Soft tyres,,,
-A Senna,88 BENETTON,23,1:39.099,+ 0:08.925,187.52,13
-A Senna,88 BENETTON,24,1:36.835,+ 0:08.327,191.91,8
-A Senna,88 BENETTON,25,1:36.919,+ 0:07.657,191.74,9
-A Senna,88 BENETTON,26,1:36.559,+ 0:03.732,192.45,6
-A Senna,88 BENETTON,27,1:36.167,+ 0:02.450,193.24,2
-A Senna,88 BENETTON,28,1:34.725,-,196.18,1
-A Senna,88 BENETTON,29,1:37.511,-,190.58,1
-A Senna,88 BENETTON,30,1:52.075,+ 0:04.437,165.81,6
-A Senna,88 BENETTON,PIT,2.7 seconds / Soft tyres,,,
-A Senna,88 BENETTON,31,1:39.659,+ 0:07.238,186.47,10
-A Senna,88 BENETTON,32,1:36.295,+ 0:06.292,192.98,5
-A Senna,88 BENETTON,33,1:36.079,+ 0:04.836,193.42,5
-A Senna,88 BENETTON,34,1:36.464,+ 0:01.230,192.64,3
-A Senna,88 BENETTON,35,1:35.586,-,194.41,1
-A Senna,88 BENETTON,36,1:36.289,-,192.99,1
-A Senna,88 BENETTON,37,1:36.871,-,191.83,1
-A Senna,88 BENETTON,38,1:51.447,+ 0:04.413,166.74,4
-A Senna,88 BENETTON,PIT,2.6 seconds / Soft tyres,,,
-A Senna,88 BENETTON,39,1:38.849,+ 0:06.284,188.00,7
-A Senna,88 BENETTON,40,1:36.437,+ 0:03.694,192.70,3
-A Senna,88 BENETTON,41,1:35.906,+ 0:02.632,193.76,2
-A Senna,88 BENETTON,42,1:36.160,-,193.25,1
-A Senna,88 BENETTON,43,1:35.923,-,193.73,1
-A Senna,88 BENETTON,44,1:36.100,-,193.37,1
-A Senna,88 BENETTON,45,1:36.424,-,192.72,1
-A Senna,88 BENETTON,46,1:51.377,+ 0:04.330,166.85,3
+A Senna,88 BENETTON,16,1:56.396,+ 0:09.674,217.76,14
+A Senna,88 BENETTON,17,1:48.486,+ 0:04.994,233.64,5
+A Senna,88 BENETTON,18,1:47.246,+ 0:02.463,236.34,4
+A Senna,88 BENETTON,19,1:48.000,+ 0:01.310,234.69,3
+A Senna,88 BENETTON,20,1:48.255,-,234.13,1
+A Senna,88 BENETTON,21,1:49.741,-,230.96,1
+A Senna,88 BENETTON,22,1:58.866,+ 0:00.728,213.23,2
 A Senna,88 BENETTON,PIT,2.9 seconds / Soft tyres,,,
-A Senna,88 BENETTON,47,1:38.369,+ 0:06.055,188.91,3
-A Senna,88 BENETTON,48,1:34.881,-,195.86,1
-A Senna,88 BENETTON,49,1:36.054,-,193.47,1
-A Senna,88 BENETTON,50,1:35.844,-,193.89,1
-A Senna,88 BENETTON,51,1:35.616,-,194.35,1
-A Senna,88 BENETTON,52,1:35.885,-,193.81,1
-A Senna,88 BENETTON,53,1:36.154,-,193.26,1
-A Senna,88 BENETTON,54,1:35.747,-,194.09,1
-O Hill,11 Mikki Racing,START,Super soft tyres,,,18
-O Hill,11 Mikki Racing,1,1:41.572,+ 0:02.675,182.96,16
-O Hill,11 Mikki Racing,2,1:40.834,+ 0:04.746,184.29,18
-O Hill,11 Mikki Racing,3,1:39.092,+ 0:05.645,187.53,18
-O Hill,11 Mikki Racing,4,1:39.389,+ 0:06.362,186.97,19
-O Hill,11 Mikki Racing,5,1:39.694,+ 0:06.911,186.40,18
-O Hill,11 Mikki Racing,6,1:55.807,+ 0:16.113,160.47,27
-O Hill,11 Mikki Racing,PIT,2.8 seconds / Soft tyres,,,
-O Hill,11 Mikki Racing,7,1:41.557,+ 0:18.059,182.98,26
-O Hill,11 Mikki Racing,8,1:39.274,+ 0:17.512,187.19,27
-O Hill,11 Mikki Racing,9,1:38.904,+ 0:15.346,187.89,23
-O Hill,11 Mikki Racing,10,1:38.390,+ 0:14.129,188.87,21
-O Hill,11 Mikki Racing,11,1:38.112,+ 0:12.920,189.41,20
-O Hill,11 Mikki Racing,12,1:38.343,+ 0:09.992,188.96,14
-O Hill,11 Mikki Racing,13,1:38.505,+ 0:09.977,188.65,14
-O Hill,11 Mikki Racing,14,1:39.143,+ 0:08.706,187.44,5
-O Hill,11 Mikki Racing,15,1:53.813,+ 0:19.275,163.28,26
-O Hill,11 Mikki Racing,PIT,2.9 seconds / Soft tyres,,,
-O Hill,11 Mikki Racing,16,1:39.353,+ 0:21.151,187.04,27
-O Hill,11 Mikki Racing,17,1:37.852,+ 0:21.296,189.91,26
-O Hill,11 Mikki Racing,18,1:37.324,+ 0:16.199,190.94,22
-O Hill,11 Mikki Racing,19,1:36.965,+ 0:15.022,191.65,21
-O Hill,11 Mikki Racing,20,1:37.732,+ 0:12.881,190.14,18
-O Hill,11 Mikki Racing,21,1:37.604,+ 0:12.937,190.39,17
-O Hill,11 Mikki Racing,22,1:38.386,+ 0:05.794,188.88,8
-O Hill,11 Mikki Racing,23,1:38.365,+ 0:06.613,188.92,10
-O Hill,11 Mikki Racing,24,1:52.489,+ 0:21.669,165.20,26
-O Hill,11 Mikki Racing,PIT,2.3 seconds / Soft tyres,,,
-O Hill,11 Mikki Racing,25,1:38.821,+ 0:22.902,188.05,25
-O Hill,11 Mikki Racing,26,1:36.455,+ 0:18.872,192.66,25
-O Hill,11 Mikki Racing,27,1:36.889,+ 0:18.311,191.80,23
-O Hill,11 Mikki Racing,28,1:36.906,+ 0:18.042,191.77,21
-O Hill,11 Mikki Racing,29,1:36.382,+ 0:16.913,192.81,18
-O Hill,11 Mikki Racing,30,1:37.353,+ 0:06.628,190.88,9
-O Hill,11 Mikki Racing,31,1:37.679,+ 0:07.450,190.25,11
-O Hill,11 Mikki Racing,32,1:52.728,+ 0:22.937,164.85,26
-O Hill,11 Mikki Racing,PIT,2.4 seconds / Soft tyres,,,
-O Hill,11 Mikki Racing,33,1:37.782,+ 0:23.183,190.05,25
-O Hill,11 Mikki Racing,34,1:36.615,+ 0:19.728,192.34,25
-O Hill,11 Mikki Racing,35,1:36.520,+ 0:19.431,192.53,25
-O Hill,11 Mikki Racing,36,1:36.274,+ 0:19.416,193.02,23
-O Hill,11 Mikki Racing,37,1:36.810,+ 0:19.354,191.96,22
-O Hill,11 Mikki Racing,38,1:36.491,+ 0:08.812,192.59,12
-O Hill,11 Mikki Racing,39,1:37.103,+ 0:08.937,191.38,11
-O Hill,11 Mikki Racing,40,1:52.252,+ 0:22.162,165.55,26
-O Hill,11 Mikki Racing,PIT,2.9 seconds / Soft tyres,,,
-O Hill,11 Mikki Racing,41,1:37.233,+ 0:22.427,191.12,25
-O Hill,11 Mikki Racing,42,1:36.243,+ 0:19.878,193.09,25
-O Hill,11 Mikki Racing,43,1:36.050,+ 0:20.005,193.47,24
-O Hill,11 Mikki Racing,44,1:35.980,+ 0:19.885,193.62,23
-O Hill,11 Mikki Racing,45,1:35.979,+ 0:19.439,193.62,18
-O Hill,11 Mikki Racing,46,1:36.351,+ 0:08.743,192.87,8
-O Hill,11 Mikki Racing,47,1:36.124,+ 0:08.224,193.33,6
-O Hill,11 Mikki Racing,48,1:51.063,+ 0:18.350,167.32,20
-O Hill,11 Mikki Racing,PIT,2.8 seconds / Super soft tyres,,,
-O Hill,11 Mikki Racing,49,1:36.787,+ 0:19.084,192.00,19
-O Hill,11 Mikki Racing,50,1:34.678,+ 0:17.917,196.28,19
-O Hill,11 Mikki Racing,51,1:34.811,+ 0:17.113,196.00,19
-O Hill,11 Mikki Racing,52,1:35.023,+ 0:16.250,195.57,19
-O Hill,11 Mikki Racing,53,1:36.001,+ 0:16.097,193.57,19
-O Hill,11 Mikki Racing,54,1:36.783,+ 0:17.133,192.01,17
-᥊ ᥊,0 　,START,Super soft tyres,,,19
-᥊ ᥊,0 　,1,1:41.860,+ 0:03.070,182.44,19
-᥊ ᥊,0 　,2,1:40.651,+ 0:04.957,184.63,20
-᥊ ᥊,0 　,3,1:39.045,+ 0:05.809,187.62,19
-᥊ ᥊,0 　,4,1:38.749,+ 0:05.886,188.19,17
-᥊ ᥊,0 　,5,1:39.217,+ 0:05.959,187.30,16
-᥊ ᥊,0 　,6,1:55.179,+ 0:14.532,161.34,22
-᥊ ᥊,0 　,PIT,2.6 seconds / Soft tyres,,,
-᥊ ᥊,0 　,7,1:41.335,+ 0:16.256,183.38,22
-᥊ ᥊,0 　,8,1:39.034,+ 0:15.470,187.64,21
-᥊ ᥊,0 　,9,1:38.531,+ 0:12.930,188.60,17
-᥊ ᥊,0 　,10,1:38.383,+ 0:11.706,188.89,17
-᥊ ᥊,0 　,11,1:38.094,+ 0:10.479,189.44,16
-᥊ ᥊,0 　,12,1:38.079,+ 0:07.288,189.47,10
-᥊ ᥊,0 　,13,1:38.442,+ 0:07.209,188.77,10
-᥊ ᥊,0 　,14,1:53.242,+ 0:20.036,164.10,26
-᥊ ᥊,0 　,PIT,2.3 seconds / Soft tyres,,,
-᥊ ᥊,0 　,15,1:39.884,+ 0:16.677,186.05,24
-᥊ ᥊,0 　,16,1:38.081,+ 0:17.281,189.47,22
-᥊ ᥊,0 　,17,1:37.687,+ 0:17.261,190.23,21
-᥊ ᥊,0 　,18,1:37.295,+ 0:12.135,191.00,16
-᥊ ᥊,0 　,19,1:37.406,+ 0:11.399,190.78,15
-᥊ ᥊,0 　,20,1:37.583,+ 0:09.109,190.43,10
-᥊ ᥊,0 　,21,1:37.941,+ 0:09.503,189.74,10
-᥊ ᥊,0 　,22,1:52.787,+ 0:16.761,164.76,24
-᥊ ᥊,0 　,PIT,2.5 seconds / Soft tyres,,,
-᥊ ᥊,0 　,23,1:40.697,+ 0:19.912,184.55,25
-᥊ ᥊,0 　,24,1:37.605,+ 0:20.084,190.39,24
-᥊ ᥊,0 　,25,1:36.944,+ 0:19.440,191.69,20
-᥊ ᥊,0 　,26,1:36.585,+ 0:15.540,192.40,20
-᥊ ᥊,0 　,27,1:36.644,+ 0:14.735,192.29,15
-᥊ ᥊,0 　,28,1:37.094,+ 0:14.653,191.39,14
-᥊ ᥊,0 　,29,1:37.540,+ 0:14.682,190.52,13
-᥊ ᥊,0 　,30,1:52.095,+ 0:19.141,165.78,25
-᥊ ᥊,0 　,PIT,2.6 seconds / Soft tyres,,,
-᥊ ᥊,0 　,31,1:39.789,+ 0:22.071,186.22,25
-᥊ ᥊,0 　,32,1:37.398,+ 0:22.228,190.80,25
-᥊ ᥊,0 　,33,1:35.745,+ 0:20.437,194.09,21
-᥊ ᥊,0 　,34,1:36.602,+ 0:16.969,192.37,21
-᥊ ᥊,0 　,35,1:36.041,+ 0:16.193,193.49,20
-᥊ ᥊,0 　,36,1:36.589,+ 0:16.493,192.39,16
-᥊ ᥊,0 　,37,1:36.595,+ 0:16.216,192.38,15
-᥊ ᥊,0 　,38,1:52.692,+ 0:21.874,164.90,25
-᥊ ᥊,0 　,PIT,3 seconds / Soft tyres,,,
-᥊ ᥊,0 　,39,1:38.320,+ 0:23.216,189.01,24
-᥊ ᥊,0 　,40,1:36.490,+ 0:20.679,192.59,23
-᥊ ᥊,0 　,41,1:36.594,+ 0:20.304,192.38,20
-᥊ ᥊,0 　,42,1:35.789,+ 0:17.301,194.00,19
-᥊ ᥊,0 　,43,1:34.395,+ 0:15.773,196.87,18
-᥊ ᥊,0 　,44,1:36.317,+ 0:15.990,192.94,17
-᥊ ᥊,0 　,45,1:35.128,+ 0:14.693,195.35,14
-᥊ ᥊,0 　,46,1:51.750,+ 0:19.397,166.29,22
-᥊ ᥊,0 　,PIT,2.9 seconds / Soft tyres,,,
-᥊ ᥊,0 　,47,1:38.530,+ 0:21.283,188.60,22
-᥊ ᥊,0 　,48,1:35.991,+ 0:16.338,193.59,19
-᥊ ᥊,0 　,49,1:35.992,+ 0:16.277,193.59,17
-᥊ ᥊,0 　,50,1:35.028,+ 0:15.461,195.55,17
-᥊ ᥊,0 　,51,1:35.467,+ 0:15.312,194.66,17
-᥊ ᥊,0 　,52,1:36.003,+ 0:15.430,193.57,17
-᥊ ᥊,0 　,53,1:35.709,+ 0:14.985,194.16,15
-᥊ ᥊,0 　,54,1:35.112,+ 0:14.350,195.38,14
-F Alonso,77 Greystar,START,Super soft tyres,,,20
-F Alonso,77 Greystar,1,1:40.814,+ 0:02.133,184.33,10
-F Alonso,77 Greystar,2,1:40.302,+ 0:03.671,185.27,10
-F Alonso,77 Greystar,3,1:39.035,+ 0:04.514,187.64,12
-F Alonso,77 Greystar,4,1:39.120,+ 0:04.962,187.48,15
-F Alonso,77 Greystar,5,1:39.608,+ 0:05.425,186.56,14
-F Alonso,77 Greystar,6,1:54.912,+ 0:13.732,161.72,20
-F Alonso,77 Greystar,PIT,2.5 seconds / Soft tyres,,,
-F Alonso,77 Greystar,7,1:41.620,+ 0:15.741,182.87,21
-F Alonso,77 Greystar,8,1:38.867,+ 0:14.787,187.96,20
-F Alonso,77 Greystar,9,1:38.609,+ 0:12.326,188.45,16
-F Alonso,77 Greystar,10,1:38.357,+ 0:11.077,188.94,16
-F Alonso,77 Greystar,11,1:37.988,+ 0:09.744,189.65,15
-F Alonso,77 Greystar,12,1:38.174,+ 0:06.648,189.29,9
-F Alonso,77 Greystar,13,1:38.196,+ 0:06.323,189.25,9
-F Alonso,77 Greystar,14,1:52.982,+ 0:18.890,164.48,24
-F Alonso,77 Greystar,PIT,2.5 seconds / Soft tyres,,,
-F Alonso,77 Greystar,15,1:40.182,+ 0:15.828,185.49,23
-F Alonso,77 Greystar,16,1:38.072,+ 0:16.424,189.49,21
-F Alonso,77 Greystar,17,1:37.859,+ 0:16.576,189.90,20
-F Alonso,77 Greystar,18,1:37.539,+ 0:11.695,190.52,15
-F Alonso,77 Greystar,19,1:37.305,+ 0:10.858,190.98,13
-F Alonso,77 Greystar,20,1:37.135,+ 0:08.120,191.31,8
-F Alonso,77 Greystar,21,1:37.784,+ 0:08.356,190.04,8
-F Alonso,77 Greystar,22,1:52.047,+ 0:14.874,165.85,20
-F Alonso,77 Greystar,PIT,2.7 seconds / Soft tyres,,,
-F Alonso,77 Greystar,23,1:38.679,+ 0:16.008,188.32,20
-F Alonso,77 Greystar,24,1:36.768,+ 0:15.344,192.04,14
-F Alonso,77 Greystar,25,1:37.720,+ 0:15.475,190.17,14
-F Alonso,77 Greystar,26,1:36.699,+ 0:11.690,192.18,12
-F Alonso,77 Greystar,27,1:36.027,+ 0:10.267,193.52,7
-F Alonso,77 Greystar,28,1:35.956,+ 0:09.048,193.66,4
-F Alonso,77 Greystar,29,1:37.135,+ 0:08.671,191.31,3
-F Alonso,77 Greystar,30,1:52.513,+ 0:13.548,165.16,19
-F Alonso,77 Greystar,PIT,2.5 seconds / Soft tyres,,,
-F Alonso,77 Greystar,31,1:38.987,+ 0:15.677,187.73,18
-F Alonso,77 Greystar,32,1:34.630,+ 0:13.067,196.38,12
-F Alonso,77 Greystar,33,1:35.623,+ 0:11.154,194.34,9
-F Alonso,77 Greystar,34,1:35.569,+ 0:06.653,194.45,6
-F Alonso,77 Greystar,35,1:36.115,+ 0:05.951,193.34,6
-F Alonso,77 Greystar,36,1:34.682,+ 0:04.344,196.27,4
-F Alonso,77 Greystar,37,1:35.871,+ 0:03.343,193.84,3
-F Alonso,77 Greystar,38,1:50.507,+ 0:06.816,168.16,8
-F Alonso,77 Greystar,PIT,2.5 seconds / Soft tyres,,,
-F Alonso,77 Greystar,39,1:38.555,+ 0:08.393,188.56,10
-F Alonso,77 Greystar,40,1:36.324,+ 0:05.690,192.92,5
-F Alonso,77 Greystar,41,1:35.670,+ 0:04.392,194.24,5
-F Alonso,77 Greystar,42,1:36.263,+ 0:01.862,193.05,3
-F Alonso,77 Greystar,43,1:35.594,+ 0:01.533,194.40,2
-F Alonso,77 Greystar,44,1:36.312,+ 0:01.745,192.95,2
-F Alonso,77 Greystar,45,1:36.615,+ 0:01.936,192.34,2
-F Alonso,77 Greystar,46,1:51.241,+ 0:06.130,167.05,4
-F Alonso,77 Greystar,PIT,2.4 seconds / Soft tyres,,,
-F Alonso,77 Greystar,47,1:39.093,+ 0:08.580,187.53,7
-F Alonso,77 Greystar,48,1:36.196,+ 0:03.839,193.18,2
-F Alonso,77 Greystar,49,1:36.202,+ 0:03.988,193.17,2
-F Alonso,77 Greystar,50,1:35.855,+ 0:03.999,193.87,2
-F Alonso,77 Greystar,51,1:35.718,+ 0:04.101,194.15,2
-F Alonso,77 Greystar,52,1:36.069,+ 0:04.285,193.44,2
-F Alonso,77 Greystar,53,1:36.370,+ 0:04.501,192.83,2
-F Alonso,77 Greystar,54,1:37.293,+ 0:06.047,191.00,3
-R TELLIOGLU,HONDA,START,Super soft tyres,,,21
-R TELLIOGLU,HONDA,1,1:41.600,+ 0:03.020,182.91,18
-R TELLIOGLU,HONDA,2,1:40.251,+ 0:04.508,185.37,16
-R TELLIOGLU,HONDA,3,1:38.762,+ 0:05.077,188.16,14
-R TELLIOGLU,HONDA,4,1:38.005,+ 0:04.410,189.61,11
-R TELLIOGLU,HONDA,5,1:54.144,+ 0:19.409,162.80,28
-R TELLIOGLU,HONDA,PIT,3.7 seconds / Medium tyres,,,
-R TELLIOGLU,HONDA,6,1:43.138,+ 0:15.942,180.18,25
-R TELLIOGLU,HONDA,7,1:40.456,+ 0:16.787,184.99,23
-R TELLIOGLU,HONDA,8,1:40.156,+ 0:17.122,185.54,25
-R TELLIOGLU,HONDA,9,1:40.159,+ 0:16.211,185.54,26
-R TELLIOGLU,HONDA,10,1:39.610,+ 0:16.214,186.56,24
-R TELLIOGLU,HONDA,11,1:39.104,+ 0:15.997,187.51,25
-R TELLIOGLU,HONDA,12,1:39.071,+ 0:13.797,187.57,21
-R TELLIOGLU,HONDA,13,1:38.837,+ 0:14.114,188.02,22
-R TELLIOGLU,HONDA,14,1:39.239,+ 0:12.939,187.26,13
-R TELLIOGLU,HONDA,15,1:37.981,+ 0:07.676,189.66,10
-R TELLIOGLU,HONDA,16,1:40.052,+ 0:10.251,185.74,11
-R TELLIOGLU,HONDA,17,1:53.550,+ 0:26.093,163.66,27
-R TELLIOGLU,HONDA,PIT,2.6 seconds / Soft tyres,,,
-R TELLIOGLU,HONDA,18,1:40.353,+ 0:24.025,185.18,27
-R TELLIOGLU,HONDA,19,1:37.636,+ 0:23.519,190.33,27
-R TELLIOGLU,HONDA,20,1:37.042,+ 0:20.688,191.50,26
-R TELLIOGLU,HONDA,21,1:36.060,+ 0:19.201,193.45,24
-R TELLIOGLU,HONDA,22,1:35.976,+ 0:09.649,193.62,16
-R TELLIOGLU,HONDA,23,1:37.782,+ 0:09.884,190.05,15
-R TELLIOGLU,HONDA,24,1:37.470,+ 0:09.922,190.66,10
-R TELLIOGLU,HONDA,25,1:51.771,+ 0:24.104,166.26,26
-R TELLIOGLU,HONDA,PIT,2.6 seconds / Soft tyres,,,
-R TELLIOGLU,HONDA,26,1:39.700,+ 0:23.320,186.39,26
-R TELLIOGLU,HONDA,27,1:37.380,+ 0:23.250,190.83,26
-R TELLIOGLU,HONDA,28,1:37.075,+ 0:23.149,191.43,26
-R TELLIOGLU,HONDA,29,1:36.624,+ 0:22.262,192.32,24
-R TELLIOGLU,HONDA,30,1:36.284,+ 0:10.909,193.00,14
-R TELLIOGLU,HONDA,31,1:37.787,+ 0:11.838,190.04,15
-R TELLIOGLU,HONDA,32,1:38.078,+ 0:12.675,189.47,11
-R TELLIOGLU,HONDA,33,1:52.664,+ 0:27.802,164.94,26
-R TELLIOGLU,HONDA,PIT,2.8 seconds / Soft tyres,,,
-R TELLIOGLU,HONDA,34,1:39.178,+ 0:26.910,187.37,26
-R TELLIOGLU,HONDA,35,1:36.725,+ 0:26.819,192.12,26
-R TELLIOGLU,HONDA,36,1:36.713,+ 0:27.243,192.15,26
-R TELLIOGLU,HONDA,37,1:36.382,+ 0:26.753,192.81,24
-R TELLIOGLU,HONDA,38,1:36.486,+ 0:16.205,192.60,20
-R TELLIOGLU,HONDA,39,1:36.584,+ 0:15.812,192.40,15
-R TELLIOGLU,HONDA,40,1:37.881,+ 0:14.666,189.86,13
-R TELLIOGLU,HONDA,41,1:51.742,+ 0:29.440,166.30,26
-R TELLIOGLU,HONDA,PIT,2.8 seconds / Soft tyres,,,
-R TELLIOGLU,HONDA,42,1:38.850,+ 0:29.498,187.99,26
-R TELLIOGLU,HONDA,43,1:36.296,+ 0:29.870,192.98,26
-R TELLIOGLU,HONDA,44,1:36.285,+ 0:30.055,193.00,26
-R TELLIOGLU,HONDA,45,1:36.254,+ 0:29.885,193.06,24
-R TELLIOGLU,HONDA,46,1:36.338,+ 0:19.177,192.90,21
-R TELLIOGLU,HONDA,47,1:36.823,+ 0:19.356,191.93,19
-R TELLIOGLU,HONDA,48,1:37.092,+ 0:15.512,191.40,16
-R TELLIOGLU,HONDA,49,1:51.337,+ 0:30.795,166.91,26
-R TELLIOGLU,HONDA,PIT,2.8 seconds / Soft tyres,,,
-R TELLIOGLU,HONDA,50,1:38.907,+ 0:33.858,187.89,26
-R TELLIOGLU,HONDA,51,1:36.231,+ 0:34.474,193.11,26
-R TELLIOGLU,HONDA,52,1:36.232,+ 0:34.820,193.11,26
-R TELLIOGLU,HONDA,53,1:36.014,+ 0:34.680,193.55,26
-R TELLIOGLU,HONDA,54,1:36.091,+ 0:35.024,193.39,26
-D Brown,63 Bentley Racing,START,Super soft tyres,,,22
-D Brown,63 Bentley Racing,1,1:56.318,+ 0:17.870,159.76,29
+A Senna,88 BENETTON,23,1:55.226,+ 0:06.094,219.97,8
+A Senna,88 BENETTON,24,1:48.604,+ 0:03.014,233.38,3
+A Senna,88 BENETTON,25,1:48.772,+ 0:03.273,233.02,3
+A Senna,88 BENETTON,26,1:50.141,+ 0:04.456,230.12,4
+A Senna,88 BENETTON,27,1:47.414,-,235.97,1
+A Senna,88 BENETTON,28,1:48.944,-,232.65,1
+A Senna,88 BENETTON,29,1:58.191,+ 0:01.575,214.45,2
+A Senna,88 BENETTON,PIT,3.1 seconds / Soft tyres,,,
+A Senna,88 BENETTON,30,1:55.120,+ 0:05.590,220.17,11
+A Senna,88 BENETTON,31,1:48.526,+ 0:02.703,233.55,3
+A Senna,88 BENETTON,32,1:49.055,+ 0:02.810,232.42,3
+A Senna,88 BENETTON,33,1:47.336,+ 0:01.205,236.14,2
+A Senna,88 BENETTON,34,1:47.079,-,236.71,1
+A Senna,88 BENETTON,35,1:49.440,+ 0:00.710,231.60,2
+A Senna,88 BENETTON,36,1:56.537,-,217.49,1
+A Senna,88 BENETTON,PIT,2.9 seconds / Soft tyres,,,
+A Senna,88 BENETTON,37,1:54.621,+ 0:04.938,221.13,10
+A Senna,88 BENETTON,38,1:48.192,-,234.27,1
+A Senna,88 BENETTON,39,1:48.619,+ 0:01.166,233.35,2
+A Senna,88 BENETTON,40,1:46.606,-,237.76,1
+A Senna,88 BENETTON,41,1:48.304,+ 0:00.801,234.03,2
+A Senna,88 BENETTON,42,1:47.023,-,236.83,1
+A Senna,88 BENETTON,43,1:48.570,+ 0:04.201,233.45,2
+M Dumont,91 String Cheese,START,Super soft tyres,,,8
+M Dumont,91 String Cheese,1,1:54.004,+ 0:02.186,222.33,9
+M Dumont,91 String Cheese,2,1:52.653,+ 0:03.465,224.99,11
+M Dumont,91 String Cheese,3,1:50.105,+ 0:03.183,230.20,9
+M Dumont,91 String Cheese,4,1:51.385,+ 0:03.553,227.55,10
+M Dumont,91 String Cheese,5,2:01.695,+ 0:09.475,208.28,24
+M Dumont,91 String Cheese,PIT,2.7 seconds / Soft tyres,,,
+M Dumont,91 String Cheese,6,1:58.249,+ 0:16.384,214.35,29
+M Dumont,91 String Cheese,7,1:50.507,+ 0:15.304,229.36,29
+M Dumont,91 String Cheese,8,1:50.056,+ 0:10.734,230.30,26
+M Dumont,91 String Cheese,9,1:49.848,+ 0:10.655,230.74,18
+M Dumont,91 String Cheese,10,1:49.641,+ 0:07.689,231.17,6
+M Dumont,91 String Cheese,11,1:50.516,+ 0:02.919,229.34,2
+M Dumont,91 String Cheese,12,2:00.958,+ 0:14.366,209.55,21
+M Dumont,91 String Cheese,PIT,2.8 seconds / Soft tyres,,,
+M Dumont,91 String Cheese,13,1:56.242,+ 0:17.715,218.05,30
+M Dumont,91 String Cheese,14,1:49.873,+ 0:17.461,230.69,29
+M Dumont,91 String Cheese,15,1:49.193,+ 0:11.589,232.12,26
+M Dumont,91 String Cheese,16,1:49.484,+ 0:11.077,231.51,19
+M Dumont,91 String Cheese,17,1:49.228,+ 0:07.138,232.05,10
+M Dumont,91 String Cheese,18,1:49.502,+ 0:06.863,231.47,6
+M Dumont,91 String Cheese,19,2:00.669,+ 0:18.380,210.05,19
+M Dumont,91 String Cheese,PIT,3.2 seconds / Soft tyres,,,
+M Dumont,91 String Cheese,20,1:55.723,+ 0:24.536,219.02,27
+M Dumont,91 String Cheese,21,1:48.910,+ 0:23.705,232.73,26
+M Dumont,91 String Cheese,22,1:50.506,+ 0:16.073,229.36,29
+M Dumont,91 String Cheese,23,1:49.082,+ 0:15.295,232.36,25
+M Dumont,91 String Cheese,24,1:48.203,+ 0:11.814,234.25,14
+M Dumont,91 String Cheese,25,1:48.931,+ 0:12.232,232.68,8
+M Dumont,91 String Cheese,26,1:48.141,+ 0:11.415,234.38,8
+M Dumont,91 String Cheese,27,1:59.096,+ 0:18.641,212.82,23
+M Dumont,91 String Cheese,PIT,3.3 seconds / Soft tyres,,,
+M Dumont,91 String Cheese,28,1:54.564,+ 0:24.262,221.24,26
+M Dumont,91 String Cheese,29,1:48.052,+ 0:15.698,234.57,26
+M Dumont,91 String Cheese,30,1:48.798,+ 0:13.392,232.97,21
+M Dumont,91 String Cheese,31,1:48.252,+ 0:10.231,234.14,12
+M Dumont,91 String Cheese,32,1:47.859,+ 0:09.142,234.99,6
+M Dumont,91 String Cheese,33,1:49.110,+ 0:09.310,232.30,6
+M Dumont,91 String Cheese,34,1:48.587,+ 0:09.613,233.42,5
+M Dumont,91 String Cheese,35,2:00.067,+ 0:20.951,211.10,24
+M Dumont,91 String Cheese,PIT,3.2 seconds / Soft tyres,,,
+M Dumont,91 String Cheese,36,1:55.384,+ 0:19.087,219.67,24
+M Dumont,91 String Cheese,37,1:47.728,+ 0:17.132,235.28,20
+M Dumont,91 String Cheese,38,1:48.005,+ 0:12.006,234.68,19
+M Dumont,91 String Cheese,39,1:48.322,+ 0:12.876,233.99,14
+M Dumont,91 String Cheese,40,1:48.229,+ 0:13.332,234.19,16
+M Dumont,91 String Cheese,41,1:49.354,+ 0:15.184,231.78,21
+M Dumont,91 String Cheese,42,1:49.100,+ 0:16.458,232.32,24
+M Dumont,91 String Cheese,43,1:48.874,+ 0:20.965,232.80,24
+D Brown,63 Bentley Racing,START,Super soft tyres,,,9
+D Brown,63 Bentley Racing,1,1:54.143,+ 0:02.416,222.06,11
+D Brown,63 Bentley Racing,2,1:52.020,+ 0:03.063,226.26,8
+D Brown,63 Bentley Racing,3,1:50.337,+ 0:03.013,229.72,8
+D Brown,63 Bentley Racing,4,1:59.446,+ 0:11.444,212.20,27
 D Brown,63 Bentley Racing,PIT,2.9 seconds / Soft tyres,,,
-D Brown,63 Bentley Racing,2,1:56.463,+ 0:35.569,159.56,29
-D Brown,63 Bentley Racing,PIT,2.7 seconds / Full wet tyres,,,
-D Brown,63 Bentley Racing,3,2:02.695,+ 1:00.071,151.46,29
-D Brown,63 Bentley Racing,PIT,3.2 seconds / Full wet tyres,,,
-D Brown,63 Bentley Racing,4,1:46.992,+ 1:08.391,173.69,29
-D Brown,63 Bentley Racing,5,1:45.331,+ 1:14.578,176.43,29
-D Brown,63 Bentley Racing,6,2:03.616,+ 1:31.589,150.33,29
-D Brown,63 Bentley Racing,PIT,3.3 seconds / Soft tyres,,,
-D Brown,63 Bentley Racing,7,1:56.762,+ 1:48.739,159.15,29
-D Brown,63 Bentley Racing,PIT,3 seconds / Full wet tyres,,,
-D Brown,63 Bentley Racing,8,1:47.381,+ 1:56.300,173.06,29
-D Brown,63 Bentley Racing,9,1:46.189,+ 2:01.418,175.00,29
-D Brown,63 Bentley Racing,10,1:46.364,+ 2:08.175,174.71,29
-D Brown,63 Bentley Racing,11,1:47.180,+ 2:16.035,173.38,29
-D Brown,63 Bentley Racing,12,1:48.075,+ 2:22.839,171.95,29
-D Brown,63 Bentley Racing,13,1:48.452,+ 2:32.770,171.35,29
-D Brown,63 Bentley Racing,14,2:04.331,+ 2:56.687,149.47,29
-D Brown,63 Bentley Racing,PIT,3 seconds / Full wet tyres,,,
-D Mansell,1 True Champions,START,Soft tyres,,,23
-D Mansell,1 True Champions,1,1:42.616,+ 0:04.265,181.09,24
-D Mansell,1 True Champions,2,1:41.484,+ 0:06.986,183.11,24
-D Mansell,1 True Champions,3,1:39.533,+ 0:08.326,186.70,24
-D Mansell,1 True Champions,4,1:39.161,+ 0:08.815,187.40,24
-D Mansell,1 True Champions,5,1:38.902,+ 0:08.572,187.90,23
-D Mansell,1 True Champions,6,1:39.410,+ 0:01.376,186.93,3
-D Mansell,1 True Champions,7,1:39.362,+ 0:01.127,187.03,3
-D Mansell,1 True Champions,8,1:39.803,+ 0:01.110,186.20,2
-D Mansell,1 True Champions,9,1:54.153,+ 0:14.192,162.79,20
-D Mansell,1 True Champions,PIT,2.7 seconds / Soft tyres,,,
-D Mansell,1 True Champions,10,1:40.824,+ 0:15.409,184.31,23
-D Mansell,1 True Champions,11,1:38.478,+ 0:14.567,188.70,22
-D Mansell,1 True Champions,12,1:38.104,+ 0:11.400,189.42,17
-D Mansell,1 True Champions,13,1:38.048,+ 0:10.927,189.53,16
-D Mansell,1 True Champions,14,1:38.434,+ 0:08.947,188.79,6
-D Mansell,1 True Champions,15,1:36.611,+ 0:02.315,192.35,3
-D Mansell,1 True Champions,16,1:37.927,+ 0:02.766,189.77,2
-D Mansell,1 True Champions,17,1:38.840,+ 0:03.899,188.01,2
-D Mansell,1 True Champions,18,1:54.732,+ 0:16.210,161.97,23
-D Mansell,1 True Champions,PIT,2.7 seconds / Soft tyres,,,
-D Mansell,1 True Champions,19,1:39.459,+ 0:17.528,186.84,23
-D Mansell,1 True Champions,20,1:35.785,+ 0:13.440,194.01,19
-D Mansell,1 True Champions,21,1:37.388,+ 0:13.280,190.82,18
-D Mansell,1 True Champions,22,1:36.812,+ 0:04.563,191.95,6
-D Mansell,1 True Champions,23,1:36.790,+ 0:03.808,192.00,6
-D Mansell,1 True Champions,24,1:37.554,+ 0:03.929,190.49,3
-D Mansell,1 True Champions,25,1:38.856,+ 0:05.197,187.98,5
-D Mansell,1 True Champions,26,1:37.366,+ 0:02.078,190.86,3
-D Mansell,1 True Champions,27,1:53.280,+ 0:17.909,164.05,22
-D Mansell,1 True Champions,PIT,2.8 seconds / Soft tyres,,,
-D Mansell,1 True Champions,28,1:38.099,+ 0:18.832,189.43,23
-D Mansell,1 True Champions,29,1:36.822,+ 0:18.143,191.93,20
-D Mansell,1 True Champions,30,1:37.001,+ 0:07.508,191.58,12
-D Mansell,1 True Champions,31,1:36.982,+ 0:07.632,191.61,12
-D Mansell,1 True Champions,32,1:36.596,+ 0:06.987,192.38,6
-D Mansell,1 True Champions,33,1:36.426,+ 0:05.877,192.72,6
-D Mansell,1 True Champions,34,1:36.412,+ 0:02.219,192.75,4
-D Mansell,1 True Champions,35,1:37.527,+ 0:02.929,190.54,4
-D Mansell,1 True Champions,36,1:52.381,+ 0:19.021,165.36,22
-D Mansell,1 True Champions,PIT,2.9 seconds / Soft tyres,,,
-D Mansell,1 True Champions,37,1:39.139,+ 0:21.289,187.45,23
-D Mansell,1 True Champions,38,1:37.205,+ 0:11.460,191.18,14
-D Mansell,1 True Champions,39,1:36.737,+ 0:11.219,192.10,14
-D Mansell,1 True Champions,40,1:35.892,+ 0:08.084,193.79,8
-D Mansell,1 True Champions,41,1:36.007,+ 0:07.123,193.56,7
-D Mansell,1 True Champions,42,1:37.104,+ 0:05.435,191.37,6
-D Mansell,1 True Champions,43,1:37.547,+ 0:07.058,190.51,6
-D Mansell,1 True Champions,44,1:37.540,+ 0:08.499,190.52,6
-D Mansell,1 True Champions,45,1:53.144,+ 0:25.219,164.24,23
-D Mansell,1 True Champions,PIT,2.8 seconds / Soft tyres,,,
-D Mansell,1 True Champions,46,1:38.649,+ 0:16.821,188.38,17
-D Mansell,1 True Champions,47,1:36.546,+ 0:16.723,192.48,15
-D Mansell,1 True Champions,48,1:36.270,+ 0:12.057,193.03,10
-D Mansell,1 True Champions,49,1:35.778,+ 0:11.781,194.02,8
-D Mansell,1 True Champions,50,1:36.695,+ 0:12.632,192.18,10
-D Mansell,1 True Champions,51,1:36.523,+ 0:13.540,192.53,12
-D Mansell,1 True Champions,52,1:36.807,+ 0:14.462,191.96,15
-D Mansell,1 True Champions,53,1:36.972,+ 0:15.280,191.63,17
-D Mansell,1 True Champions,54,1:38.122,+ 0:17.655,189.39,19
-D Pedrosa,28 STARK INDUSTRIES,START,Soft tyres,,,24
-D Pedrosa,28 STARK INDUSTRIES,1,1:42.285,+ 0:04.033,181.68,22
-D Pedrosa,28 STARK INDUSTRIES,2,1:40.549,+ 0:05.818,184.82,22
-D Pedrosa,28 STARK INDUSTRIES,3,1:39.385,+ 0:07.011,186.98,22
-D Pedrosa,28 STARK INDUSTRIES,4,1:39.048,+ 0:07.388,187.62,22
-D Pedrosa,28 STARK INDUSTRIES,5,1:39.201,+ 0:07.444,187.33,20
-D Pedrosa,28 STARK INDUSTRIES,6,1:39.161,-,187.40,1
-D Pedrosa,28 STARK INDUSTRIES,7,1:40.128,+ 0:00.516,185.59,2
-D Pedrosa,28 STARK INDUSTRIES,8,1:55.035,+ 0:15.731,161.54,22
+D Brown,63 Bentley Racing,5,1:58.517,+ 0:14.188,213.86,29
+D Brown,63 Bentley Racing,6,1:51.263,+ 0:14.110,227.80,25
+D Brown,63 Bentley Racing,7,1:51.242,+ 0:13.766,227.85,27
+D Brown,63 Bentley Racing,8,1:50.129,+ 0:09.268,230.15,22
+D Brown,63 Bentley Racing,9,1:50.059,+ 0:09.399,230.30,16
+D Brown,63 Bentley Racing,10,1:49.862,+ 0:06.655,230.71,2
+D Brown,63 Bentley Racing,11,2:01.207,+ 0:12.576,209.11,19
+D Brown,63 Bentley Racing,PIT,3.2 seconds / Soft tyres,,,
+D Brown,63 Bentley Racing,12,1:56.704,+ 0:19.769,217.18,30
+D Brown,63 Bentley Racing,13,1:49.804,+ 0:16.682,230.83,28
+D Brown,63 Bentley Racing,14,1:51.721,+ 0:18.275,226.87,30
+D Brown,63 Bentley Racing,15,1:49.030,+ 0:12.241,232.47,29
+D Brown,63 Bentley Racing,16,1:49.435,+ 0:11.679,231.61,21
+D Brown,63 Bentley Racing,17,1:49.517,+ 0:08.029,231.44,12
+D Brown,63 Bentley Racing,18,1:58.878,+ 0:17.130,213.21,21
+D Brown,63 Bentley Racing,PIT,3 seconds / Soft tyres,,,
+D Brown,63 Bentley Racing,19,1:55.633,+ 0:23.611,219.20,28
+D Brown,63 Bentley Racing,20,1:50.844,+ 0:24.889,228.67,28
+D Brown,63 Bentley Racing,21,1:48.907,+ 0:24.055,232.73,27
+D Brown,63 Bentley Racing,22,1:48.199,+ 0:14.116,234.26,26
+D Brown,63 Bentley Racing,23,1:48.649,+ 0:12.904,233.29,20
+D Brown,63 Bentley Racing,24,1:48.393,+ 0:09.614,233.84,9
+D Brown,63 Bentley Racing,25,1:59.064,+ 0:20.164,212.88,21
+D Brown,63 Bentley Racing,PIT,2.6 seconds / Soft tyres,,,
+D Brown,63 Bentley Racing,26,1:54.537,+ 0:25.743,221.29,25
+D Brown,63 Bentley Racing,27,1:49.440,+ 0:23.313,231.60,26
+D Brown,63 Bentley Racing,28,1:47.811,+ 0:22.180,235.10,24
+D Brown,63 Bentley Racing,29,1:48.551,+ 0:14.115,233.50,24
+D Brown,63 Bentley Racing,30,1:47.433,+ 0:10.444,235.93,18
+D Brown,63 Bentley Racing,31,1:59.721,+ 0:18.752,211.71,24
+D Brown,63 Bentley Racing,PIT,2.9 seconds / Soft tyres,,,
+D Brown,63 Bentley Racing,32,1:53.664,+ 0:23.468,222.99,25
+D Brown,63 Bentley Racing,33,1:46.450,+ 0:20.977,238.10,24
+D Brown,63 Bentley Racing,34,1:47.092,+ 0:19.785,236.68,24
+D Brown,63 Bentley Racing,35,1:47.425,+ 0:18.481,235.94,23
+D Brown,63 Bentley Racing,36,1:47.916,+ 0:09.149,234.87,17
+D Brown,63 Bentley Racing,37,1:58.399,+ 0:17.865,214.07,22
+D Brown,63 Bentley Racing,PIT,2.9 seconds / Soft tyres,,,
+D Brown,63 Bentley Racing,38,1:54.470,+ 0:19.205,221.42,24
+D Brown,63 Bentley Racing,39,1:47.189,+ 0:18.942,236.46,24
+D Brown,63 Bentley Racing,40,1:46.340,+ 0:17.509,238.35,23
+D Brown,63 Bentley Racing,41,1:46.268,+ 0:16.275,238.51,23
+D Brown,63 Bentley Racing,42,1:47.508,+ 0:15.957,235.76,22
+D Brown,63 Bentley Racing,43,1:49.145,+ 0:20.734,232.22,23
+F Bauer,21 Miller United,START,Super soft tyres,,,10
+F Bauer,21 Miller United,1,1:53.050,+ 0:01.453,224.20,4
+F Bauer,21 Miller United,2,1:52.012,+ 0:02.091,226.28,4
+F Bauer,21 Miller United,3,1:50.047,+ 0:01.751,230.32,4
+F Bauer,21 Miller United,4,1:50.452,+ 0:01.189,229.48,3
+F Bauer,21 Miller United,5,1:59.802,+ 0:05.216,211.57,12
+F Bauer,21 Miller United,PIT,2.6 seconds / Super soft tyres,,,
+F Bauer,21 Miller United,6,1:56.561,+ 0:10.437,217.45,16
+F Bauer,21 Miller United,7,1:49.798,+ 0:08.648,230.84,14
+F Bauer,21 Miller United,8,1:49.480,+ 0:03.503,231.51,7
+F Bauer,21 Miller United,9,1:49.556,+ 0:03.131,231.35,6
+F Bauer,21 Miller United,10,1:59.743,+ 0:10.267,211.67,11
+F Bauer,21 Miller United,PIT,3.2 seconds / Soft tyres,,,
+F Bauer,21 Miller United,11,1:57.209,+ 0:12.191,216.25,17
+F Bauer,21 Miller United,12,1:50.387,+ 0:13.066,229.61,17
+F Bauer,21 Miller United,13,1:49.879,+ 0:10.053,230.67,17
+F Bauer,21 Miller United,14,1:49.841,+ 0:09.767,230.75,16
+F Bauer,21 Miller United,15,1:50.095,+ 0:04.797,230.22,10
+F Bauer,21 Miller United,16,1:49.213,+ 0:04.013,232.08,6
+F Bauer,21 Miller United,17,1:49.923,+ 0:00.770,230.58,2
+F Bauer,21 Miller United,18,2:00.738,+ 0:11.731,209.93,11
+F Bauer,21 Miller United,PIT,3 seconds / Soft tyres,,,
+F Bauer,21 Miller United,19,1:55.929,+ 0:18.507,218.64,20
+F Bauer,21 Miller United,20,1:49.076,+ 0:18.017,232.37,19
+F Bauer,21 Miller United,21,1:48.634,+ 0:16.911,233.32,18
+F Bauer,21 Miller United,22,1:48.730,+ 0:07.503,233.11,14
+F Bauer,21 Miller United,23,1:49.001,+ 0:06.644,232.53,10
+F Bauer,21 Miller United,24,1:48.855,+ 0:03.815,232.84,4
+F Bauer,21 Miller United,25,1:57.666,+ 0:12.968,215.41,9
+F Bauer,21 Miller United,PIT,2.8 seconds / Soft tyres,,,
+F Bauer,21 Miller United,26,1:55.170,+ 0:19.180,220.08,18
+F Bauer,21 Miller United,27,1:48.532,+ 0:15.842,233.54,17
+F Bauer,21 Miller United,28,1:48.029,+ 0:14.927,234.62,15
+F Bauer,21 Miller United,29,1:48.081,+ 0:06.392,234.51,10
+F Bauer,21 Miller United,30,1:48.243,+ 0:03.531,234.16,7
+F Bauer,21 Miller United,31,1:48.673,+ 0:00.792,233.23,2
+F Bauer,21 Miller United,32,1:57.237,+ 0:09.080,216.20,5
+F Bauer,21 Miller United,PIT,3 seconds / Super soft tyres,,,
+F Bauer,21 Miller United,33,1:53.929,+ 0:14.068,222.47,13
+F Bauer,21 Miller United,34,1:47.199,+ 0:12.983,236.44,12
+F Bauer,21 Miller United,35,1:46.664,+ 0:10.918,237.63,6
+F Bauer,21 Miller United,36,1:47.404,+ 0:01.075,235.99,3
+F Bauer,21 Miller United,37,1:49.252,+ 0:00.644,232.00,2
+F Bauer,21 Miller United,38,1:57.344,+ 0:04.858,216.00,4
+F Bauer,21 Miller United,PIT,2.6 seconds / Super soft tyres,,,
+F Bauer,21 Miller United,39,1:53.165,+ 0:10.570,223.98,6
+F Bauer,21 Miller United,40,1:46.657,+ 0:09.455,237.64,5
+F Bauer,21 Miller United,41,1:48.090,+ 0:10.043,234.49,7
+F Bauer,21 Miller United,42,1:47.641,+ 0:09.858,235.47,8
+F Bauer,21 Miller United,43,1:45.011,+ 0:10.501,241.37,8
+F Alonso,77 Greystar,START,Super soft tyres,,,11
+F Alonso,77 Greystar,1,1:53.861,+ 0:02.360,222.61,10
+F Alonso,77 Greystar,2,1:52.360,+ 0:03.346,225.58,10
+F Alonso,77 Greystar,3,1:50.280,+ 0:03.239,229.83,10
+F Alonso,77 Greystar,4,1:50.528,+ 0:02.752,229.32,7
+F Alonso,77 Greystar,5,1:58.828,+ 0:05.807,213.30,14
+F Alonso,77 Greystar,PIT,2.3 seconds / Super soft tyres,,,
+F Alonso,77 Greystar,6,1:56.562,+ 0:11.028,217.45,18
+F Alonso,77 Greystar,7,1:49.570,+ 0:09.012,231.32,15
+F Alonso,77 Greystar,8,1:48.588,+ 0:02.973,233.42,6
+F Alonso,77 Greystar,9,1:49.183,+ 0:02.228,232.14,5
+F Alonso,77 Greystar,10,1:58.869,+ 0:08.490,213.23,8
+F Alonso,77 Greystar,PIT,2.7 seconds / Super soft tyres,,,
+F Alonso,77 Greystar,11,1:55.451,+ 0:08.656,219.54,8
+F Alonso,77 Greystar,12,1:48.809,+ 0:07.954,232.94,5
+F Alonso,77 Greystar,13,1:48.018,+ 0:03.079,234.65,3
+F Alonso,77 Greystar,14,1:49.618,+ 0:02.570,231.22,3
+F Alonso,77 Greystar,15,1:58.757,+ 0:06.263,213.43,14
+F Alonso,77 Greystar,PIT,2.5 seconds / Super soft tyres,,,
+F Alonso,77 Greystar,16,1:53.877,+ 0:10.143,222.58,16
+F Alonso,77 Greystar,17,1:47.064,+ 0:04.040,236.74,4
+F Alonso,77 Greystar,18,1:45.736,-,239.71,1
+F Alonso,77 Greystar,19,1:49.497,+ 0:00.344,231.48,2
+F Alonso,77 Greystar,20,1:57.033,+ 0:07.811,216.57,5
+F Alonso,77 Greystar,PIT,2.8 seconds / Soft tyres,,,
+F Alonso,77 Greystar,21,1:56.027,+ 0:14.097,218.45,13
+F Alonso,77 Greystar,22,1:48.868,+ 0:04.828,232.82,8
+F Alonso,77 Greystar,23,1:48.417,+ 0:03.384,233.78,4
+F Alonso,77 Greystar,24,1:48.299,-,234.04,1
+F Alonso,77 Greystar,25,1:49.395,+ 0:00.881,231.69,2
+F Alonso,77 Greystar,26,1:48.076,-,234.52,1
+F Alonso,77 Greystar,27,1:58.809,+ 0:06.938,213.34,4
+F Alonso,77 Greystar,PIT,2.7 seconds / Soft tyres,,,
+F Alonso,77 Greystar,28,1:55.482,+ 0:13.477,219.48,12
+F Alonso,77 Greystar,29,1:49.246,+ 0:06.107,232.01,9
+F Alonso,77 Greystar,30,1:48.160,+ 0:03.163,234.34,6
+F Alonso,77 Greystar,31,1:48.249,-,234.15,1
+F Alonso,77 Greystar,32,1:48.949,-,232.64,1
+F Alonso,77 Greystar,33,1:48.941,-,232.66,1
+F Alonso,77 Greystar,34,1:58.875,+ 0:10.590,213.22,6
+F Alonso,77 Greystar,PIT,3.3 seconds / Medium tyres,,,
+F Alonso,77 Greystar,35,1:55.951,+ 0:17.813,218.59,20
+F Alonso,77 Greystar,36,1:49.383,+ 0:09.948,231.72,19
+F Alonso,77 Greystar,37,1:48.770,+ 0:09.036,233.03,15
+F Alonso,77 Greystar,38,1:49.315,+ 0:05.220,231.86,5
+F Alonso,77 Greystar,39,1:48.834,+ 0:06.601,232.89,4
+F Alonso,77 Greystar,40,1:48.838,+ 0:07.666,232.88,4
+F Alonso,77 Greystar,41,1:48.733,+ 0:08.896,233.10,4
+F Alonso,77 Greystar,42,1:49.674,+ 0:10.745,231.10,11
+F Alonso,77 Greystar,43,1:48.616,+ 0:14.992,233.36,18
+D Pedrosa,28 STARK INDUSTRIES,START,Super soft tyres,,,12
+D Pedrosa,28 STARK INDUSTRIES,1,1:54.094,+ 0:02.704,222.15,13
+D Pedrosa,28 STARK INDUSTRIES,2,1:52.750,+ 0:04.081,224.80,14
+D Pedrosa,28 STARK INDUSTRIES,3,1:50.822,+ 0:04.516,228.71,15
+D Pedrosa,28 STARK INDUSTRIES,4,1:51.000,+ 0:04.501,228.34,13
+D Pedrosa,28 STARK INDUSTRIES,5,2:00.764,+ 0:09.491,209.88,26
+D Pedrosa,28 STARK INDUSTRIES,PIT,2.6 seconds / Super soft tyres,,,
+D Pedrosa,28 STARK INDUSTRIES,6,1:56.832,+ 0:14.983,216.95,27
+D Pedrosa,28 STARK INDUSTRIES,7,1:49.528,+ 0:12.924,231.41,26
+D Pedrosa,28 STARK INDUSTRIES,8,1:49.457,+ 0:07.754,231.56,18
+D Pedrosa,28 STARK INDUSTRIES,9,1:49.800,+ 0:07.627,230.84,13
+D Pedrosa,28 STARK INDUSTRIES,10,1:59.502,+ 0:14.522,212.10,20
+D Pedrosa,28 STARK INDUSTRIES,PIT,3 seconds / Soft tyres,,,
+D Pedrosa,28 STARK INDUSTRIES,11,1:56.941,+ 0:16.178,216.74,26
+D Pedrosa,28 STARK INDUSTRIES,12,1:50.096,+ 0:16.763,230.22,25
+D Pedrosa,28 STARK INDUSTRIES,13,1:49.707,+ 0:13.578,231.04,24
+D Pedrosa,28 STARK INDUSTRIES,14,1:49.424,+ 0:12.874,231.63,22
+D Pedrosa,28 STARK INDUSTRIES,15,1:49.581,+ 0:07.391,231.30,17
+D Pedrosa,28 STARK INDUSTRIES,16,1:49.800,+ 0:07.195,230.84,10
+D Pedrosa,28 STARK INDUSTRIES,17,1:58.319,+ 0:12.347,214.22,18
 D Pedrosa,28 STARK INDUSTRIES,PIT,2.9 seconds / Soft tyres,,,
-D Pedrosa,28 STARK INDUSTRIES,9,1:41.217,+ 0:15.877,183.60,25
-D Pedrosa,28 STARK INDUSTRIES,10,1:38.469,+ 0:14.740,188.72,22
-D Pedrosa,28 STARK INDUSTRIES,11,1:38.386,+ 0:13.805,188.88,21
-D Pedrosa,28 STARK INDUSTRIES,12,1:38.063,+ 0:10.597,189.50,15
-D Pedrosa,28 STARK INDUSTRIES,13,1:38.239,+ 0:10.315,189.16,15
-D Pedrosa,28 STARK INDUSTRIES,14,1:37.874,+ 0:07.775,189.87,4
-D Pedrosa,28 STARK INDUSTRIES,15,1:37.027,+ 0:01.558,191.53,2
-D Pedrosa,28 STARK INDUSTRIES,16,1:53.814,+ 0:17.896,163.28,24
-D Pedrosa,28 STARK INDUSTRIES,PIT,2.7 seconds / Soft tyres,,,
-D Pedrosa,28 STARK INDUSTRIES,17,1:39.473,+ 0:19.662,186.82,24
-D Pedrosa,28 STARK INDUSTRIES,18,1:37.256,+ 0:14.498,191.08,19
-D Pedrosa,28 STARK INDUSTRIES,19,1:37.393,+ 0:13.749,190.81,19
-D Pedrosa,28 STARK INDUSTRIES,20,1:37.338,+ 0:11.213,190.91,14
-D Pedrosa,28 STARK INDUSTRIES,21,1:37.455,+ 0:11.121,190.68,14
-D Pedrosa,28 STARK INDUSTRIES,22,1:37.881,+ 0:03.474,189.86,5
-D Pedrosa,28 STARK INDUSTRIES,23,1:37.184,+ 0:03.112,191.22,5
-D Pedrosa,28 STARK INDUSTRIES,24,1:53.432,+ 0:19.112,163.83,22
+D Pedrosa,28 STARK INDUSTRIES,18,1:55.923,+ 0:18.493,218.65,23
+D Pedrosa,28 STARK INDUSTRIES,19,1:49.552,+ 0:18.893,231.36,21
+D Pedrosa,28 STARK INDUSTRIES,20,1:49.215,+ 0:18.543,232.08,20
+D Pedrosa,28 STARK INDUSTRIES,21,1:49.187,+ 0:17.989,232.14,21
+D Pedrosa,28 STARK INDUSTRIES,22,1:49.204,+ 0:09.055,232.10,19
+D Pedrosa,28 STARK INDUSTRIES,23,1:49.218,+ 0:08.413,232.07,14
+D Pedrosa,28 STARK INDUSTRIES,24,1:58.292,+ 0:15.021,214.27,20
 D Pedrosa,28 STARK INDUSTRIES,PIT,2.9 seconds / Soft tyres,,,
-D Pedrosa,28 STARK INDUSTRIES,25,1:39.769,+ 0:21.293,186.26,24
-D Pedrosa,28 STARK INDUSTRIES,26,1:37.185,+ 0:17.993,191.21,24
-D Pedrosa,28 STARK INDUSTRIES,27,1:37.163,+ 0:17.707,191.26,21
-D Pedrosa,28 STARK INDUSTRIES,28,1:36.458,+ 0:16.989,192.66,19
-D Pedrosa,28 STARK INDUSTRIES,29,1:37.066,+ 0:16.544,191.45,17
-D Pedrosa,28 STARK INDUSTRIES,30,1:37.301,+ 0:06.208,190.99,8
-D Pedrosa,28 STARK INDUSTRIES,31,1:37.417,+ 0:06.767,190.76,9
-D Pedrosa,28 STARK INDUSTRIES,32,1:52.607,+ 0:22.133,165.03,24
-D Pedrosa,28 STARK INDUSTRIES,PIT,2.7 seconds / Soft tyres,,,
-D Pedrosa,28 STARK INDUSTRIES,33,1:37.996,+ 0:22.593,189.63,24
-D Pedrosa,28 STARK INDUSTRIES,34,1:36.554,+ 0:19.077,192.46,24
-D Pedrosa,28 STARK INDUSTRIES,35,1:36.341,+ 0:18.601,192.89,24
-D Pedrosa,28 STARK INDUSTRIES,36,1:36.562,+ 0:18.874,192.45,21
-D Pedrosa,28 STARK INDUSTRIES,37,1:36.040,+ 0:18.042,193.49,19
-D Pedrosa,28 STARK INDUSTRIES,38,1:36.545,+ 0:07.553,192.48,9
-D Pedrosa,28 STARK INDUSTRIES,39,1:36.592,+ 0:07.167,192.39,8
-D Pedrosa,28 STARK INDUSTRIES,40,1:51.771,+ 0:19.911,166.26,22
+D Pedrosa,28 STARK INDUSTRIES,25,1:55.900,+ 0:22.407,218.69,24
+D Pedrosa,28 STARK INDUSTRIES,26,1:48.092,+ 0:21.542,234.49,22
+D Pedrosa,28 STARK INDUSTRIES,27,1:48.392,+ 0:18.063,233.84,21
+D Pedrosa,28 STARK INDUSTRIES,28,1:48.283,+ 0:17.402,234.07,20
+D Pedrosa,28 STARK INDUSTRIES,29,1:48.310,+ 0:09.096,234.02,16
+D Pedrosa,28 STARK INDUSTRIES,30,1:48.601,+ 0:06.593,233.39,14
+D Pedrosa,28 STARK INDUSTRIES,31,1:58.776,+ 0:13.957,213.39,19
+D Pedrosa,28 STARK INDUSTRIES,PIT,3 seconds / Soft tyres,,,
+D Pedrosa,28 STARK INDUSTRIES,32,1:54.327,+ 0:19.335,221.70,21
+D Pedrosa,28 STARK INDUSTRIES,33,1:48.464,+ 0:18.859,233.68,21
+D Pedrosa,28 STARK INDUSTRIES,34,1:47.722,+ 0:18.296,235.29,21
+D Pedrosa,28 STARK INDUSTRIES,35,1:47.634,+ 0:17.201,235.49,19
+D Pedrosa,28 STARK INDUSTRIES,36,1:48.028,+ 0:07.982,234.63,13
+D Pedrosa,28 STARK INDUSTRIES,37,1:48.343,+ 0:06.642,233.94,12
+D Pedrosa,28 STARK INDUSTRIES,38,1:57.347,+ 0:10.858,215.99,16
 D Pedrosa,28 STARK INDUSTRIES,PIT,2.7 seconds / Super soft tyres,,,
-D Pedrosa,28 STARK INDUSTRIES,41,1:36.139,+ 0:19.082,193.30,18
-D Pedrosa,28 STARK INDUSTRIES,42,1:35.075,+ 0:15.364,195.46,17
-D Pedrosa,28 STARK INDUSTRIES,43,1:35.675,+ 0:15.117,194.23,16
-D Pedrosa,28 STARK INDUSTRIES,44,1:35.100,+ 0:14.117,195.41,14
-D Pedrosa,28 STARK INDUSTRIES,45,1:36.396,+ 0:14.090,192.78,13
-D Pedrosa,28 STARK INDUSTRIES,46,1:51.959,+ 0:19.002,165.98,20
-D Pedrosa,28 STARK INDUSTRIES,PIT,2.7 seconds / Soft tyres,,,
-D Pedrosa,28 STARK INDUSTRIES,47,1:38.297,+ 0:20.655,189.05,21
-D Pedrosa,28 STARK INDUSTRIES,48,1:36.012,+ 0:15.730,193.55,17
-D Pedrosa,28 STARK INDUSTRIES,49,1:35.632,+ 0:15.309,194.32,16
-D Pedrosa,28 STARK INDUSTRIES,50,1:35.089,+ 0:14.554,195.43,16
-D Pedrosa,28 STARK INDUSTRIES,51,1:35.675,+ 0:14.613,194.23,16
-D Pedrosa,28 STARK INDUSTRIES,52,1:35.227,+ 0:13.955,195.15,14
-D Pedrosa,28 STARK INDUSTRIES,53,1:36.183,+ 0:13.983,193.21,12
-D Pedrosa,28 STARK INDUSTRIES,54,1:35.432,+ 0:13.668,194.73,9
-P Riccardi,24 Nintendo,START,Soft tyres,,,25
-P Riccardi,24 Nintendo,1,1:42.309,+ 0:04.173,181.64,23
-P Riccardi,24 Nintendo,2,1:41.111,+ 0:06.521,183.79,23
-P Riccardi,24 Nintendo,3,1:39.415,+ 0:07.742,186.93,23
-P Riccardi,24 Nintendo,4,1:39.034,+ 0:08.105,187.64,23
-P Riccardi,24 Nintendo,5,1:38.680,+ 0:07.640,188.32,21
-P Riccardi,24 Nintendo,6,1:39.642,+ 0:00.677,186.50,2
-P Riccardi,24 Nintendo,7,1:38.934,-,187.83,1
-P Riccardi,24 Nintendo,8,1:39.820,-,186.17,1
-P Riccardi,24 Nintendo,9,1:56.411,+ 0:15.340,159.63,22
-P Riccardi,24 Nintendo,PIT,3.3 seconds / Soft tyres,,,
-P Riccardi,24 Nintendo,10,1:41.529,+ 0:17.263,183.03,26
-P Riccardi,24 Nintendo,11,1:38.582,+ 0:16.524,188.51,26
-P Riccardi,24 Nintendo,12,1:37.723,+ 0:12.976,190.16,20
-P Riccardi,24 Nintendo,13,1:37.972,+ 0:12.428,189.68,19
-P Riccardi,24 Nintendo,14,1:38.029,+ 0:10.043,189.57,8
-P Riccardi,24 Nintendo,15,1:37.532,+ 0:04.331,190.53,5
-P Riccardi,24 Nintendo,16,1:37.870,+ 0:04.724,189.88,5
-P Riccardi,24 Nintendo,17,1:38.818,+ 0:05.835,188.05,6
-P Riccardi,24 Nintendo,18,1:54.535,+ 0:17.950,162.25,25
+D Pedrosa,28 STARK INDUSTRIES,39,1:54.610,+ 0:18.016,221.15,23
+D Pedrosa,28 STARK INDUSTRIES,40,1:46.487,+ 0:16.730,238.02,22
+D Pedrosa,28 STARK INDUSTRIES,41,1:46.151,+ 0:15.379,238.77,22
+D Pedrosa,28 STARK INDUSTRIES,42,1:47.768,+ 0:15.321,235.19,21
+D Pedrosa,28 STARK INDUSTRIES,43,1:43.169,+ 0:14.121,245.68,17
+F Franjić,Dujic Racing,START,Super soft tyres,,,13
+F Franjić,Dujic Racing,1,1:53.161,+ 0:01.901,223.98,8
+F Franjić,Dujic Racing,2,1:52.403,+ 0:02.930,225.49,7
+F Franjić,Dujic Racing,3,1:50.324,+ 0:02.867,229.74,7
+F Franjić,Dujic Racing,4,1:50.505,+ 0:02.357,229.37,6
+F Franjić,Dujic Racing,5,2:00.126,+ 0:06.710,211.00,18
+F Franjić,Dujic Racing,PIT,2.8 seconds / Super soft tyres,,,
+F Franjić,Dujic Racing,6,1:56.560,+ 0:11.930,217.45,21
+F Franjić,Dujic Racing,7,1:49.491,+ 0:09.834,231.49,18
+F Franjić,Dujic Racing,8,1:49.291,+ 0:04.499,231.91,9
+F Franjić,Dujic Racing,9,1:49.809,+ 0:04.380,230.82,8
+F Franjić,Dujic Racing,10,1:59.147,+ 0:10.920,212.73,12
+F Franjić,Dujic Racing,PIT,3.1 seconds / Soft tyres,,,
+F Franjić,Dujic Racing,11,1:57.419,+ 0:13.053,215.86,21
+F Franjić,Dujic Racing,12,1:49.890,+ 0:13.432,230.65,18
+F Franjić,Dujic Racing,13,1:49.811,+ 0:10.351,230.82,18
+F Franjić,Dujic Racing,14,1:49.354,+ 0:09.577,231.78,14
+F Franjić,Dujic Racing,15,1:49.320,+ 0:03.832,231.85,6
+F Franjić,Dujic Racing,16,1:48.558,+ 0:02.395,233.48,4
+F Franjić,Dujic Racing,17,1:58.617,+ 0:07.845,213.68,11
+F Franjić,Dujic Racing,PIT,2.9 seconds / Soft tyres,,,
+F Franjić,Dujic Racing,18,1:56.277,+ 0:14.346,217.98,16
+F Franjić,Dujic Racing,19,1:49.486,+ 0:14.679,231.50,13
+F Franjić,Dujic Racing,20,1:48.723,+ 0:13.836,233.13,12
+F Franjić,Dujic Racing,21,1:48.826,+ 0:12.921,232.91,10
+F Franjić,Dujic Racing,22,1:48.939,+ 0:03.723,232.66,5
+F Franjić,Dujic Racing,23,1:48.308,+ 0:02.171,234.02,2
+F Franjić,Dujic Racing,24,1:59.732,+ 0:10.219,211.69,10
+F Franjić,Dujic Racing,PIT,3 seconds / Soft tyres,,,
+F Franjić,Dujic Racing,25,1:55.790,+ 0:17.496,218.90,17
+F Franjić,Dujic Racing,26,1:48.808,+ 0:17.346,232.94,15
+F Franjić,Dujic Racing,27,1:48.297,+ 0:13.773,234.04,14
+F Franjić,Dujic Racing,28,1:48.508,+ 0:13.338,233.59,11
+F Franjić,Dujic Racing,29,1:47.804,+ 0:04.526,235.11,6
+F Franjić,Dujic Racing,30,1:48.575,+ 0:01.996,233.44,4
+F Franjić,Dujic Racing,31,1:58.031,+ 0:08.614,214.74,8
+F Franjić,Dujic Racing,PIT,3 seconds / Soft tyres,,,
+F Franjić,Dujic Racing,32,1:55.045,+ 0:14.711,220.32,14
+F Franjić,Dujic Racing,33,1:48.341,+ 0:14.111,233.95,14
+F Franjić,Dujic Racing,34,1:48.042,+ 0:13.868,234.60,14
+F Franjić,Dujic Racing,35,1:47.724,+ 0:12.863,235.29,12
+F Franjić,Dujic Racing,36,1:47.629,+ 0:03.244,235.50,6
+F Franjić,Dujic Racing,37,1:47.979,+ 0:01.540,234.73,4
+F Franjić,Dujic Racing,38,1:57.513,+ 0:05.923,215.69,8
+F Franjić,Dujic Racing,PIT,2.6 seconds / Super soft tyres,,,
+F Franjić,Dujic Racing,39,1:53.846,+ 0:12.317,222.64,13
+F Franjić,Dujic Racing,40,1:45.908,+ 0:10.452,239.32,8
+F Franjić,Dujic Racing,41,1:47.137,+ 0:10.086,236.58,8
+F Franjić,Dujic Racing,42,1:47.297,+ 0:09.558,236.22,7
+F Franjić,Dujic Racing,43,1:42.906,+ 0:08.096,246.30,4
+A Sanchez,96 Rothmans Williams Renault,START,Super soft tyres,,,14
+A Sanchez,96 Rothmans Williams Renault,1,1:53.979,+ 0:02.794,222.38,15
+A Sanchez,96 Rothmans Williams Renault,2,1:52.506,+ 0:03.927,225.29,13
+A Sanchez,96 Rothmans Williams Renault,3,1:50.084,+ 0:03.624,230.24,12
+A Sanchez,96 Rothmans Williams Renault,4,1:50.723,+ 0:03.333,228.92,9
+A Sanchez,96 Rothmans Williams Renault,5,2:00.519,+ 0:08.078,210.31,20
+A Sanchez,96 Rothmans Williams Renault,PIT,2.7 seconds / Super soft tyres,,,
+A Sanchez,96 Rothmans Williams Renault,6,1:56.400,+ 0:13.137,217.75,23
+A Sanchez,96 Rothmans Williams Renault,7,1:49.475,+ 0:11.026,231.52,21
+A Sanchez,96 Rothmans Williams Renault,8,1:49.213,+ 0:05.613,232.08,11
+A Sanchez,96 Rothmans Williams Renault,9,1:49.583,+ 0:05.269,231.30,10
+A Sanchez,96 Rothmans Williams Renault,10,1:59.151,+ 0:11.813,212.72,14
+A Sanchez,96 Rothmans Williams Renault,PIT,2.6 seconds / Super soft tyres,,,
+A Sanchez,96 Rothmans Williams Renault,11,1:54.872,+ 0:11.399,220.65,16
+A Sanchez,96 Rothmans Williams Renault,12,1:47.633,+ 0:09.522,235.49,8
+A Sanchez,96 Rothmans Williams Renault,13,1:47.908,+ 0:04.538,234.89,5
+A Sanchez,96 Rothmans Williams Renault,14,1:49.166,+ 0:03.576,232.18,4
+A Sanchez,96 Rothmans Williams Renault,15,1:58.161,+ 0:06.673,214.51,15
+A Sanchez,96 Rothmans Williams Renault,PIT,3.3 seconds / Soft tyres,,,
+A Sanchez,96 Rothmans Williams Renault,16,1:55.701,+ 0:12.378,219.07,22
+A Sanchez,96 Rothmans Williams Renault,17,1:49.725,+ 0:08.937,231.00,13
+A Sanchez,96 Rothmans Williams Renault,18,1:48.969,+ 0:08.129,232.60,8
+A Sanchez,96 Rothmans Williams Renault,19,1:48.227,+ 0:07.203,234.19,6
+A Sanchez,96 Rothmans Williams Renault,20,1:48.653,+ 0:06.290,233.28,3
+A Sanchez,96 Rothmans Williams Renault,21,1:50.653,+ 0:07.201,229.06,4
+A Sanchez,96 Rothmans Williams Renault,22,1:50.936,-,228.48,1
+A Sanchez,96 Rothmans Williams Renault,23,2:00.431,+ 0:10.571,210.46,17
+A Sanchez,96 Rothmans Williams Renault,PIT,3.4 seconds / Soft tyres,,,
+A Sanchez,96 Rothmans Williams Renault,24,1:56.855,+ 0:15.742,216.90,21
+A Sanchez,96 Rothmans Williams Renault,25,1:49.276,+ 0:16.505,231.95,13
+A Sanchez,96 Rothmans Williams Renault,26,1:48.884,+ 0:16.431,232.78,13
+A Sanchez,96 Rothmans Williams Renault,27,1:48.892,+ 0:13.452,232.76,13
+A Sanchez,96 Rothmans Williams Renault,28,1:48.819,+ 0:13.328,232.92,10
+A Sanchez,96 Rothmans Williams Renault,29,1:49.359,+ 0:06.070,231.77,8
+A Sanchez,96 Rothmans Williams Renault,30,1:49.477,+ 0:04.442,231.52,8
+A Sanchez,96 Rothmans Williams Renault,31,1:58.227,+ 0:11.257,214.39,13
+A Sanchez,96 Rothmans Williams Renault,PIT,2.9 seconds / Soft tyres,,,
+A Sanchez,96 Rothmans Williams Renault,32,1:57.911,+ 0:20.219,214.96,23
+A Sanchez,96 Rothmans Williams Renault,33,1:48.257,+ 0:19.534,234.13,23
+A Sanchez,96 Rothmans Williams Renault,34,1:47.966,+ 0:19.216,234.76,23
+A Sanchez,96 Rothmans Williams Renault,35,1:47.743,+ 0:18.230,235.25,22
+A Sanchez,96 Rothmans Williams Renault,36,1:48.001,+ 0:08.983,234.68,16
+A Sanchez,96 Rothmans Williams Renault,37,1:48.294,+ 0:07.595,234.05,14
+A Sanchez,96 Rothmans Williams Renault,38,1:57.334,+ 0:11.798,216.02,18
+A Sanchez,96 Rothmans Williams Renault,PIT,2.4 seconds / Super soft tyres,,,
+A Sanchez,96 Rothmans Williams Renault,39,1:53.334,+ 0:17.680,223.64,22
+A Sanchez,96 Rothmans Williams Renault,40,1:45.698,+ 0:15.605,239.80,21
+A Sanchez,96 Rothmans Williams Renault,41,1:46.612,+ 0:14.715,237.74,19
+A Sanchez,96 Rothmans Williams Renault,42,1:47.449,+ 0:14.338,235.89,19
+A Sanchez,96 Rothmans Williams Renault,43,1:47.220,+ 0:17.191,236.39,20
+O Hill,11 Mikki Racing,START,Super soft tyres,,,15
+O Hill,11 Mikki Racing,1,1:53.938,+ 0:02.824,222.46,16
+O Hill,11 Mikki Racing,2,1:52.793,+ 0:04.243,224.71,15
+O Hill,11 Mikki Racing,3,1:50.365,+ 0:04.221,229.66,14
+O Hill,11 Mikki Racing,4,1:51.037,+ 0:04.244,228.27,12
+O Hill,11 Mikki Racing,5,2:00.119,+ 0:08.589,211.01,21
+O Hill,11 Mikki Racing,PIT,2.7 seconds / Super soft tyres,,,
+O Hill,11 Mikki Racing,6,1:56.460,+ 0:13.708,217.64,24
+O Hill,11 Mikki Racing,7,1:49.531,+ 0:11.652,231.41,23
+O Hill,11 Mikki Racing,8,1:49.412,+ 0:06.438,231.66,13
+O Hill,11 Mikki Racing,9,1:49.856,+ 0:06.366,230.72,11
+O Hill,11 Mikki Racing,10,1:58.650,+ 0:12.409,213.62,16
+O Hill,11 Mikki Racing,PIT,2.5 seconds / Super soft tyres,,,
+O Hill,11 Mikki Racing,11,1:55.278,+ 0:12.401,219.87,18
+O Hill,11 Mikki Racing,12,1:49.277,+ 0:12.167,231.94,15
+O Hill,11 Mikki Racing,13,1:48.829,+ 0:08.104,232.90,13
+O Hill,11 Mikki Racing,14,1:49.878,+ 0:07.854,230.68,9
+O Hill,11 Mikki Racing,15,1:59.225,+ 0:12.015,212.59,28
+O Hill,11 Mikki Racing,PIT,2.5 seconds / Soft tyres,,,
+O Hill,11 Mikki Racing,16,1:56.835,+ 0:18.853,216.94,30
+O Hill,11 Mikki Racing,17,1:49.851,+ 0:15.538,230.73,24
+O Hill,11 Mikki Racing,18,1:49.204,+ 0:14.965,232.10,17
+O Hill,11 Mikki Racing,19,1:49.193,+ 0:15.006,232.12,14
+O Hill,11 Mikki Racing,20,1:48.910,+ 0:14.350,232.73,13
+O Hill,11 Mikki Racing,21,1:49.207,+ 0:13.816,232.09,12
+O Hill,11 Mikki Racing,22,1:58.285,+ 0:13.963,214.28,24
+O Hill,11 Mikki Racing,PIT,2.8 seconds / Soft tyres,,,
+O Hill,11 Mikki Racing,23,1:55.956,+ 0:20.059,218.58,30
+O Hill,11 Mikki Racing,24,1:48.729,+ 0:17.104,233.11,25
+O Hill,11 Mikki Racing,25,1:48.760,+ 0:17.350,233.05,16
+O Hill,11 Mikki Racing,26,1:48.347,+ 0:16.740,233.94,14
+O Hill,11 Mikki Racing,27,1:48.308,+ 0:13.178,234.02,12
+O Hill,11 Mikki Racing,28,1:48.701,+ 0:12.935,233.17,9
+O Hill,11 Mikki Racing,29,1:57.566,+ 0:13.886,215.59,23
+O Hill,11 Mikki Racing,PIT,2.8 seconds / Soft tyres,,,
+O Hill,11 Mikki Racing,30,1:55.485,+ 0:18.266,219.48,29
+O Hill,11 Mikki Racing,31,1:47.887,+ 0:14.741,234.93,22
+O Hill,11 Mikki Racing,32,1:48.296,+ 0:14.088,234.05,12
+O Hill,11 Mikki Racing,33,1:47.980,+ 0:13.127,234.73,11
+O Hill,11 Mikki Racing,34,1:48.045,+ 0:12.887,234.59,11
+O Hill,11 Mikki Racing,35,1:48.330,+ 0:12.488,233.97,10
+O Hill,11 Mikki Racing,36,1:57.360,+ 0:12.600,215.97,22
+O Hill,11 Mikki Racing,PIT,2.8 seconds / Soft tyres,,,
+O Hill,11 Mikki Racing,37,1:56.033,+ 0:18.950,218.44,24
+O Hill,11 Mikki Racing,38,1:48.075,+ 0:13.894,234.52,21
+O Hill,11 Mikki Racing,39,1:47.937,+ 0:14.379,234.82,18
+O Hill,11 Mikki Racing,40,1:47.643,+ 0:14.250,235.47,19
+O Hill,11 Mikki Racing,41,1:47.451,+ 0:14.198,235.89,18
+O Hill,11 Mikki Racing,42,1:46.858,+ 0:13.231,237.20,17
+O Hill,11 Mikki Racing,43,1:45.042,+ 0:13.905,241.30,15
+᥊ ᥊,0 　,START,Super soft tyres,,,16
+᥊ ᥊,0 　,1,1:53.757,+ 0:02.763,222.81,14
+᥊ ᥊,0 　,2,1:53.096,+ 0:04.486,224.11,16
+᥊ ᥊,0 　,3,1:50.741,+ 0:04.840,228.88,16
+᥊ ᥊,0 　,4,1:50.929,+ 0:04.754,228.49,14
+᥊ ᥊,0 　,5,2:00.892,+ 0:09.872,209.66,27
+᥊ ᥊,0 　,PIT,2.8 seconds / Super soft tyres,,,
+᥊ ᥊,0 　,6,1:57.375,+ 0:15.907,215.94,28
+᥊ ᥊,0 　,7,1:50.038,+ 0:14.358,230.34,28
+᥊ ᥊,0 　,8,1:49.000,+ 0:08.733,232.53,21
+᥊ ᥊,0 　,9,1:50.069,+ 0:08.874,230.28,14
+᥊ ᥊,0 　,10,1:59.520,+ 0:15.787,212.07,24
+᥊ ᥊,0 　,PIT,2.7 seconds / Soft tyres,,,
+᥊ ᥊,0 　,11,1:57.602,+ 0:18.103,215.53,29
+᥊ ᥊,0 　,12,1:50.234,+ 0:18.826,229.93,28
+᥊ ᥊,0 　,13,1:51.306,+ 0:17.241,227.72,29
+᥊ ᥊,0 　,14,1:49.433,+ 0:16.546,231.61,27
+᥊ ᥊,0 　,15,1:48.556,+ 0:10.037,233.48,23
+᥊ ᥊,0 　,16,1:49.918,+ 0:09.959,230.59,15
+᥊ ᥊,0 　,17,1:58.820,+ 0:15.612,213.32,25
+᥊ ᥊,0 　,PIT,2.9 seconds / Soft tyres,,,
+᥊ ᥊,0 　,18,1:57.849,+ 0:23.684,215.07,30
+᥊ ᥊,0 　,19,1:49.759,+ 0:24.290,230.93,29
+᥊ ᥊,0 　,20,1:49.123,+ 0:23.847,232.27,26
+᥊ ᥊,0 　,21,1:50.225,+ 0:24.330,229.95,28
+᥊ ᥊,0 　,22,1:48.846,+ 0:15.038,232.86,27
+᥊ ᥊,0 　,23,1:49.192,+ 0:14.370,232.13,23
+᥊ ᥊,0 　,24,1:58.597,+ 0:21.284,213.72,27
+᥊ ᥊,0 　,PIT,2.9 seconds / Soft tyres,,,
+᥊ ᥊,0 　,25,1:56.676,+ 0:29.446,217.24,29
+᥊ ᥊,0 　,26,1:48.665,+ 0:29.153,233.25,28
+᥊ ᥊,0 　,27,1:49.983,+ 0:27.266,230.46,28
+᥊ ᥊,0 　,28,1:47.911,+ 0:26.233,234.88,27
+᥊ ᥊,0 　,29,1:49.580,+ 0:19.197,231.30,28
+᥊ ᥊,0 　,30,1:49.297,+ 0:17.390,231.90,25
+᥊ ᥊,0 　,31,1:56.981,+ 0:22.958,216.67,28
+᥊ ᥊,0 　,PIT,2.8 seconds / Soft tyres,,,
+᥊ ᥊,0 　,32,1:55.247,+ 0:29.256,219.93,28
+᥊ ᥊,0 　,33,1:49.467,+ 0:29.782,231.54,28
+᥊ ᥊,0 　,34,1:49.401,+ 0:30.898,231.68,29
+᥊ ᥊,0 　,35,1:48.007,+ 0:30.177,234.67,28
+᥊ ᥊,0 　,36,1:47.469,+ 0:20.398,235.85,25
+᥊ ᥊,0 　,37,1:47.892,+ 0:18.608,234.92,23
+᥊ ᥊,0 　,38,1:56.481,+ 0:21.959,217.60,25
+᥊ ᥊,0 　,PIT,2.5 seconds / Super soft tyres,,,
+᥊ ᥊,0 　,39,1:54.021,+ 0:28.527,222.29,26
+᥊ ᥊,0 　,40,1:47.843,+ 0:28.597,235.03,26
+᥊ ᥊,0 　,41,1:48.034,+ 0:29.129,234.61,27
+᥊ ᥊,0 　,42,1:47.440,+ 0:28.743,235.91,26
+᥊ ᥊,0 　,43,1:48.051,+ 0:32.426,234.58,28
+G Gudmunsson,85 NOOTGP,START,Soft tyres,,,17
+G Gudmunsson,85 NOOTGP,1,1:54.837,+ 0:03.953,220.71,18
+G Gudmunsson,85 NOOTGP,2,1:53.029,+ 0:05.608,224.25,18
+G Gudmunsson,85 NOOTGP,3,1:51.147,+ 0:06.368,228.04,18
+G Gudmunsson,85 NOOTGP,4,1:50.646,+ 0:05.999,229.07,16
+G Gudmunsson,85 NOOTGP,5,1:50.668,+ 0:00.893,229.03,2
+G Gudmunsson,85 NOOTGP,6,1:50.447,-,229.49,1
+G Gudmunsson,85 NOOTGP,7,2:01.217,+ 0:09.630,209.10,17
+G Gudmunsson,85 NOOTGP,PIT,3.1 seconds / Soft tyres,,,
+G Gudmunsson,85 NOOTGP,8,1:56.728,+ 0:11.732,217.14,28
+G Gudmunsson,85 NOOTGP,9,1:50.268,+ 0:12.072,229.86,20
+G Gudmunsson,85 NOOTGP,10,1:49.014,+ 0:08.479,232.50,7
+G Gudmunsson,85 NOOTGP,11,1:50.241,+ 0:03.434,229.92,3
+G Gudmunsson,85 NOOTGP,12,1:49.473,+ 0:03.397,231.53,2
+G Gudmunsson,85 NOOTGP,13,1:50.476,+ 0:00.981,229.43,2
+G Gudmunsson,85 NOOTGP,14,1:58.290,+ 0:09.143,214.27,12
+G Gudmunsson,85 NOOTGP,PIT,3 seconds / Soft tyres,,,
+G Gudmunsson,85 NOOTGP,15,1:56.667,+ 0:10.745,217.25,24
+G Gudmunsson,85 NOOTGP,16,1:49.534,+ 0:10.283,231.40,17
+G Gudmunsson,85 NOOTGP,17,1:49.464,+ 0:06.580,231.55,8
+G Gudmunsson,85 NOOTGP,18,1:46.761,+ 0:03.564,237.41,5
+G Gudmunsson,85 NOOTGP,19,1:47.991,+ 0:02.404,234.71,4
+G Gudmunsson,85 NOOTGP,20,1:48.388,+ 0:01.225,233.85,2
+G Gudmunsson,85 NOOTGP,21,1:50.610,+ 0:02.094,229.15,2
+G Gudmunsson,85 NOOTGP,22,2:00.074,+ 0:04.030,211.09,6
+G Gudmunsson,85 NOOTGP,PIT,3.4 seconds / Soft tyres,,,
+G Gudmunsson,85 NOOTGP,23,1:55.500,+ 0:09.670,219.45,16
+G Gudmunsson,85 NOOTGP,24,1:48.178,+ 0:06.164,234.30,6
+G Gudmunsson,85 NOOTGP,25,1:49.814,+ 0:07.464,230.81,5
+G Gudmunsson,85 NOOTGP,26,1:49.455,+ 0:07.962,231.57,5
+G Gudmunsson,85 NOOTGP,27,1:49.264,+ 0:05.355,231.97,2
+G Gudmunsson,85 NOOTGP,28,1:49.770,+ 0:06.182,230.90,2
+G Gudmunsson,85 NOOTGP,29,1:50.434,-,229.51,1
+G Gudmunsson,85 NOOTGP,30,1:59.474,+ 0:08.369,212.15,17
+G Gudmunsson,85 NOOTGP,PIT,2.9 seconds / Soft tyres,,,
+G Gudmunsson,85 NOOTGP,31,1:55.744,+ 0:12.700,218.98,17
+G Gudmunsson,85 NOOTGP,32,1:49.492,+ 0:13.244,231.49,10
+G Gudmunsson,85 NOOTGP,33,1:48.062,+ 0:12.365,234.55,9
+G Gudmunsson,85 NOOTGP,34,1:47.677,+ 0:11.757,235.39,8
+G Gudmunsson,85 NOOTGP,35,1:49.752,+ 0:12.780,230.94,11
+G Gudmunsson,85 NOOTGP,36,1:48.662,+ 0:04.195,233.26,9
+G Gudmunsson,85 NOOTGP,37,1:57.578,+ 0:12.090,215.57,16
+G Gudmunsson,85 NOOTGP,PIT,2.9 seconds / Super soft tyres,,,
+G Gudmunsson,85 NOOTGP,38,1:54.480,+ 0:13.440,221.40,20
+G Gudmunsson,85 NOOTGP,39,1:47.538,+ 0:13.526,235.70,16
+G Gudmunsson,85 NOOTGP,40,1:47.646,+ 0:13.399,235.46,17
+G Gudmunsson,85 NOOTGP,41,1:47.649,+ 0:13.546,235.45,17
+G Gudmunsson,85 NOOTGP,42,1:48.344,+ 0:14.064,233.94,18
+G Gudmunsson,85 NOOTGP,43,1:50.767,+ 0:20.463,228.82,22
+M Wood,7 Dule,START,Soft tyres,,,18
+M Wood,7 Dule,1,1:54.204,+ 0:03.426,221.94,17
+M Wood,7 Dule,2,1:52.922,+ 0:04.975,224.46,17
+M Wood,7 Dule,3,1:51.118,+ 0:05.706,228.10,17
+M Wood,7 Dule,4,1:50.461,+ 0:05.153,229.46,15
+M Wood,7 Dule,5,1:50.621,-,229.13,1
+M Wood,7 Dule,6,1:52.217,+ 0:00.876,225.87,2
+M Wood,7 Dule,7,1:50.711,-,228.94,1
+M Wood,7 Dule,8,2:00.614,+ 0:05.988,210.14,12
+M Wood,7 Dule,PIT,2.6 seconds / Super soft tyres,,,
+M Wood,7 Dule,9,1:55.240,+ 0:11.300,219.94,19
+M Wood,7 Dule,10,1:48.591,+ 0:07.283,233.41,4
+M Wood,7 Dule,11,1:48.002,-,234.68,1
+M Wood,7 Dule,12,1:49.511,-,231.45,1
+M Wood,7 Dule,13,1:59.362,+ 0:06.470,212.35,7
+M Wood,7 Dule,PIT,2.9 seconds / Soft tyres,,,
+M Wood,7 Dule,14,1:56.056,+ 0:12.399,218.40,21
+M Wood,7 Dule,15,1:49.373,+ 0:06.708,231.74,16
+M Wood,7 Dule,16,1:49.282,+ 0:05.993,231.93,9
+M Wood,7 Dule,17,1:48.860,+ 0:01.687,232.83,3
+M Wood,7 Dule,18,1:48.745,+ 0:00.655,233.08,2
+M Wood,7 Dule,19,1:48.497,-,233.61,1
+M Wood,7 Dule,20,1:59.175,+ 0:09.608,212.68,7
+M Wood,7 Dule,PIT,2.7 seconds / Soft tyres,,,
+M Wood,7 Dule,21,1:55.424,+ 0:15.291,219.59,15
+M Wood,7 Dule,22,1:48.594,+ 0:05.748,233.40,9
+M Wood,7 Dule,23,1:48.040,+ 0:03.927,234.60,5
+M Wood,7 Dule,24,1:48.506,+ 0:00.749,233.59,2
+M Wood,7 Dule,25,1:47.764,-,235.20,1
+M Wood,7 Dule,26,1:49.774,+ 0:00.816,230.89,2
+M Wood,7 Dule,27,1:58.397,+ 0:07.343,214.08,5
+M Wood,7 Dule,PIT,3.9 seconds / Medium tyres,,,
+M Wood,7 Dule,28,1:56.821,+ 0:15.221,216.97,16
+M Wood,7 Dule,29,1:49.782,+ 0:08.387,230.88,14
+M Wood,7 Dule,30,1:49.206,+ 0:06.489,232.10,13
+M Wood,7 Dule,31,1:48.365,+ 0:03.441,233.90,4
+M Wood,7 Dule,32,1:47.706,+ 0:02.198,235.33,2
+M Wood,7 Dule,33,1:48.803,+ 0:02.060,232.95,3
+M Wood,7 Dule,34,1:47.407,+ 0:01.182,235.98,2
+M Wood,7 Dule,35,1:47.546,-,235.68,1
+M Wood,7 Dule,36,1:58.174,+ 0:00.925,214.48,2
+M Wood,7 Dule,PIT,2.9 seconds / Soft tyres,,,
+M Wood,7 Dule,37,1:54.506,+ 0:05.749,221.35,11
+M Wood,7 Dule,38,1:47.920,+ 0:00.538,234.86,2
+M Wood,7 Dule,39,1:46.914,-,237.07,1
+M Wood,7 Dule,40,1:48.511,+ 0:00.738,233.58,2
+M Wood,7 Dule,41,1:46.764,-,237.40,1
+M Wood,7 Dule,42,1:48.669,+ 0:00.843,233.24,2
+M Wood,7 Dule,43,1:43.525,-,244.83,1
+D Mansell,1 True Champions,START,Soft tyres,,,19
+D Mansell,1 True Champions,1,1:55.252,+ 0:04.559,219.92,21
+D Mansell,1 True Champions,2,1:53.920,+ 0:07.105,222.49,21
+D Mansell,1 True Champions,3,1:51.997,+ 0:08.715,226.31,22
+D Mansell,1 True Champions,4,1:51.557,+ 0:09.257,227.20,22
+D Mansell,1 True Champions,5,1:51.046,+ 0:04.530,228.25,8
+D Mansell,1 True Champions,6,1:51.158,+ 0:04.348,228.02,7
+D Mansell,1 True Champions,7,1:51.691,+ 0:04.452,226.93,6
+D Mansell,1 True Champions,8,2:00.518,+ 0:10.344,210.31,25
+D Mansell,1 True Champions,PIT,2.9 seconds / Soft tyres,,,
+D Mansell,1 True Champions,9,1:56.836,+ 0:17.252,216.94,27
+D Mansell,1 True Champions,10,1:50.040,+ 0:14.685,230.34,21
+D Mansell,1 True Champions,11,1:49.829,+ 0:09.229,230.78,10
+D Mansell,1 True Champions,12,1:49.790,+ 0:09.508,230.86,7
+D Mansell,1 True Champions,13,1:49.731,+ 0:06.347,230.98,6
+D Mansell,1 True Champions,14,1:51.377,+ 0:07.596,227.57,8
+D Mansell,1 True Champions,15,1:59.267,+ 0:11.799,212.52,27
+D Mansell,1 True Champions,PIT,2.8 seconds / Soft tyres,,,
+D Mansell,1 True Champions,16,1:55.707,+ 0:17.509,219.05,27
+D Mansell,1 True Champions,17,1:50.678,+ 0:15.021,229.01,23
+D Mansell,1 True Champions,18,1:48.836,+ 0:14.080,232.88,15
+D Mansell,1 True Champions,19,1:48.637,+ 0:13.564,233.31,11
+D Mansell,1 True Champions,20,1:48.757,+ 0:12.755,233.05,9
+D Mansell,1 True Champions,21,1:48.692,+ 0:11.706,233.19,6
+D Mansell,1 True Champions,22,2:00.456,+ 0:14.024,210.42,25
+D Mansell,1 True Champions,PIT,2.7 seconds / Soft tyres,,,
+D Mansell,1 True Champions,23,1:55.035,+ 0:19.199,220.33,29
+D Mansell,1 True Champions,24,1:49.186,+ 0:16.701,232.14,24
+D Mansell,1 True Champions,25,1:48.608,+ 0:16.795,233.37,14
+D Mansell,1 True Champions,26,1:48.241,+ 0:16.079,234.16,12
+D Mansell,1 True Champions,27,1:48.375,+ 0:12.584,233.87,11
+D Mansell,1 True Champions,28,1:48.631,+ 0:12.272,233.32,8
+D Mansell,1 True Champions,29,1:58.064,+ 0:13.720,214.68,22
+D Mansell,1 True Champions,PIT,3.1 seconds / Soft tyres,,,
+D Mansell,1 True Champions,30,1:54.980,+ 0:17.595,220.44,26
+D Mansell,1 True Champions,31,1:47.951,+ 0:14.134,234.79,20
+D Mansell,1 True Champions,32,1:48.433,+ 0:13.619,233.75,11
+D Mansell,1 True Champions,33,1:48.005,+ 0:12.683,234.68,10
+D Mansell,1 True Champions,34,1:47.713,+ 0:12.111,235.31,9
+D Mansell,1 True Champions,35,1:47.091,+ 0:10.473,236.68,5
+D Mansell,1 True Champions,36,1:57.717,+ 0:10.942,215.31,21
+D Mansell,1 True Champions,PIT,2.7 seconds / Soft tyres,,,
+D Mansell,1 True Champions,37,1:54.179,+ 0:15.439,221.99,18
+D Mansell,1 True Champions,38,1:47.397,+ 0:09.706,236.00,14
+D Mansell,1 True Champions,39,1:49.036,+ 0:11.290,232.46,8
+D Mansell,1 True Champions,40,1:48.061,+ 0:11.579,234.55,11
+D Mansell,1 True Champions,41,1:48.016,+ 0:12.093,234.65,14
+D Mansell,1 True Champions,42,1:48.306,+ 0:12.573,234.02,15
+D Mansell,1 True Champions,43,1:42.639,+ 0:10.844,246.95,11
+O Girard,14 Williams,START,Soft tyres,,,20
+O Girard,14 Williams,1,1:54.914,+ 0:04.313,220.57,19
+O Girard,14 Williams,2,1:53.380,+ 0:06.320,223.55,19
+O Girard,14 Williams,3,1:51.342,+ 0:07.275,227.64,19
+O Girard,14 Williams,4,1:50.639,+ 0:06.899,229.09,17
+O Girard,14 Williams,5,1:51.241,+ 0:02.366,227.85,3
+O Girard,14 Williams,6,1:53.056,+ 0:04.082,224.19,6
+O Girard,14 Williams,7,1:51.354,+ 0:03.849,227.62,5
+O Girard,14 Williams,8,2:00.694,+ 0:09.917,210.00,23
+O Girard,14 Williams,PIT,3.5 seconds / Soft tyres,,,
+O Girard,14 Williams,9,1:57.405,+ 0:17.394,215.89,28
+O Girard,14 Williams,10,1:51.056,+ 0:15.844,228.23,25
+O Girard,14 Williams,11,1:50.229,+ 0:10.787,229.94,14
+O Girard,14 Williams,12,1:50.050,+ 0:11.326,230.32,13
+O Girard,14 Williams,13,1:50.121,+ 0:08.555,230.17,14
+O Girard,14 Williams,14,1:50.716,+ 0:09.143,228.93,13
+O Girard,14 Williams,15,1:51.187,+ 0:05.266,227.96,12
+O Girard,14 Williams,16,2:00.413,+ 0:15.683,210.49,25
+O Girard,14 Williams,PIT,3.2 seconds / Soft tyres,,,
+O Girard,14 Williams,17,1:57.542,+ 0:20.059,215.64,29
+O Girard,14 Williams,18,1:49.778,+ 0:20.059,230.89,26
+O Girard,14 Williams,19,1:49.562,+ 0:20.469,231.34,24
+O Girard,14 Williams,20,1:49.128,+ 0:20.031,232.26,23
+O Girard,14 Williams,21,1:49.231,+ 0:19.521,232.04,24
+O Girard,14 Williams,22,1:49.191,+ 0:10.573,232.13,21
+O Girard,14 Williams,23,1:49.864,+ 0:10.577,230.71,18
+O Girard,14 Williams,24,1:59.091,+ 0:17.985,212.83,26
+O Girard,14 Williams,PIT,3.1 seconds / Soft tyres,,,
+O Girard,14 Williams,25,1:56.373,+ 0:25.844,217.80,27
+O Girard,14 Williams,26,1:49.550,+ 0:26.437,231.37,26
+O Girard,14 Williams,27,1:48.232,+ 0:22.799,234.18,25
+O Girard,14 Williams,28,1:49.281,+ 0:23.137,231.94,25
+O Girard,14 Williams,29,1:48.283,+ 0:14.804,234.07,25
+O Girard,14 Williams,30,1:48.871,+ 0:12.571,232.81,19
+O Girard,14 Williams,31,1:59.766,+ 0:20.924,211.63,27
+O Girard,14 Williams,PIT,3.2 seconds / Soft tyres,,,
+O Girard,14 Williams,32,1:55.650,+ 0:27.625,219.16,27
+O Girard,14 Williams,33,1:49.296,+ 0:27.980,231.90,27
+O Girard,14 Williams,34,1:49.108,+ 0:28.804,232.30,27
+O Girard,14 Williams,35,1:48.989,+ 0:29.064,232.56,26
+O Girard,14 Williams,36,1:49.219,+ 0:21.035,232.07,26
+O Girard,14 Williams,37,1:48.297,+ 0:19.650,234.04,25
+O Girard,14 Williams,38,1:57.541,+ 0:24.060,215.64,26
+O Girard,14 Williams,PIT,2.9 seconds / Super soft tyres,,,
+O Girard,14 Williams,39,1:54.301,+ 0:30.908,221.75,28
+O Girard,14 Williams,40,1:46.508,+ 0:29.644,237.97,27
+O Girard,14 Williams,41,1:46.808,+ 0:28.950,237.31,26
+O Girard,14 Williams,42,1:47.115,+ 0:28.240,236.63,25
+O Girard,14 Williams,43,1:46.513,+ 0:30.384,237.96,26
+M Vass,17 Slow Cooking,START,Soft tyres,,,21
+M Vass,17 Slow Cooking,1,1:55.433,+ 0:04.932,219.57,23
+M Vass,17 Slow Cooking,2,1:54.123,+ 0:07.681,222.10,23
+M Vass,17 Slow Cooking,3,1:51.933,+ 0:09.227,226.44,24
+M Vass,17 Slow Cooking,4,1:51.181,+ 0:09.393,227.97,23
+M Vass,17 Slow Cooking,5,1:51.236,+ 0:04.855,227.86,9
+M Vass,17 Slow Cooking,6,1:51.513,+ 0:05.028,227.29,9
+M Vass,17 Slow Cooking,7,1:51.558,+ 0:05.000,227.20,7
+M Vass,17 Slow Cooking,8,2:01.051,+ 0:11.424,209.38,27
+M Vass,17 Slow Cooking,PIT,2.9 seconds / Soft tyres,,,
+M Vass,17 Slow Cooking,9,1:56.695,+ 0:18.191,217.20,29
+M Vass,17 Slow Cooking,10,1:50.373,+ 0:15.958,229.64,26
+M Vass,17 Slow Cooking,11,1:49.149,+ 0:09.821,232.22,12
+M Vass,17 Slow Cooking,12,1:49.519,+ 0:09.829,231.43,10
+M Vass,17 Slow Cooking,13,1:49.770,+ 0:06.707,230.90,8
+M Vass,17 Slow Cooking,14,1:49.420,+ 0:06.000,231.64,5
+M Vass,17 Slow Cooking,15,2:00.140,+ 0:11.075,210.97,25
+M Vass,17 Slow Cooking,PIT,2.9 seconds / Soft tyres,,,
+M Vass,17 Slow Cooking,16,1:57.217,+ 0:18.296,216.23,28
+M Vass,17 Slow Cooking,17,1:49.488,+ 0:14.618,231.50,22
+M Vass,17 Slow Cooking,18,1:48.674,+ 0:13.515,233.23,14
+M Vass,17 Slow Cooking,19,1:49.717,+ 0:14.079,231.01,12
+M Vass,17 Slow Cooking,20,1:48.630,+ 0:13.143,233.33,10
+M Vass,17 Slow Cooking,21,1:49.286,+ 0:12.688,231.93,9
+M Vass,17 Slow Cooking,22,1:58.482,+ 0:13.032,213.92,22
+M Vass,17 Slow Cooking,PIT,2.9 seconds / Soft tyres,,,
+M Vass,17 Slow Cooking,23,1:55.154,+ 0:18.326,220.11,27
+M Vass,17 Slow Cooking,24,1:48.062,+ 0:14.704,234.55,18
+M Vass,17 Slow Cooking,25,1:48.284,+ 0:14.475,234.07,10
+M Vass,17 Slow Cooking,26,1:49.389,+ 0:14.906,231.71,10
+M Vass,17 Slow Cooking,27,1:47.741,+ 0:10.776,235.25,7
+M Vass,17 Slow Cooking,28,1:49.546,+ 0:11.379,231.37,6
+M Vass,17 Slow Cooking,29,1:57.912,+ 0:12.675,214.96,21
+M Vass,17 Slow Cooking,PIT,3 seconds / Soft tyres,,,
+M Vass,17 Slow Cooking,30,1:55.074,+ 0:16.644,220.26,24
+M Vass,17 Slow Cooking,31,1:47.858,+ 0:13.089,235.00,18
+M Vass,17 Slow Cooking,32,1:47.600,+ 0:11.741,235.56,8
+M Vass,17 Slow Cooking,33,1:48.836,+ 0:11.636,232.88,8
+M Vass,17 Slow Cooking,34,1:47.526,+ 0:10.878,235.72,7
+M Vass,17 Slow Cooking,35,1:47.612,+ 0:09.761,235.53,4
+M Vass,17 Slow Cooking,36,1:57.386,+ 0:09.900,215.92,18
+M Vass,17 Slow Cooking,PIT,3.4 seconds / Soft tyres,,,
+M Vass,17 Slow Cooking,37,1:55.688,+ 0:15.905,219.09,19
+M Vass,17 Slow Cooking,38,1:47.722,+ 0:10.496,235.29,15
+M Vass,17 Slow Cooking,39,1:47.432,+ 0:10.476,235.93,5
+M Vass,17 Slow Cooking,40,1:49.117,+ 0:11.821,232.28,13
+M Vass,17 Slow Cooking,41,1:47.783,+ 0:12.101,235.16,15
+M Vass,17 Slow Cooking,42,1:48.572,+ 0:12.847,233.45,16
+M Vass,17 Slow Cooking,43,1:45.596,+ 0:14.075,240.03,16
+P Riccardi,24 Nintendo,START,Soft tyres,,,22
+P Riccardi,24 Nintendo,1,1:54.956,+ 0:04.510,220.49,20
+P Riccardi,24 Nintendo,2,1:53.645,+ 0:06.781,223.03,20
+P Riccardi,24 Nintendo,3,1:51.468,+ 0:07.862,227.39,20
+P Riccardi,24 Nintendo,4,1:50.926,+ 0:07.773,228.50,18
+P Riccardi,24 Nintendo,5,1:50.756,+ 0:02.755,228.85,4
+P Riccardi,24 Nintendo,6,1:50.403,+ 0:01.818,229.58,3
+P Riccardi,24 Nintendo,7,1:50.995,+ 0:01.226,228.35,2
+P Riccardi,24 Nintendo,8,2:00.864,+ 0:07.463,209.71,17
+P Riccardi,24 Nintendo,PIT,3.5 seconds / Soft tyres,,,
+P Riccardi,24 Nintendo,9,1:58.519,+ 0:16.055,213.86,24
+P Riccardi,24 Nintendo,10,1:50.005,+ 0:13.452,230.41,17
+P Riccardi,24 Nintendo,11,1:49.590,+ 0:07.756,231.28,6
+P Riccardi,24 Nintendo,12,1:51.380,+ 0:09.625,227.57,9
+P Riccardi,24 Nintendo,13,1:50.293,+ 0:07.026,229.81,9
+P Riccardi,24 Nintendo,14,1:50.279,+ 0:07.178,229.84,7
+P Riccardi,24 Nintendo,15,1:49.950,+ 0:02.063,230.52,3
+P Riccardi,24 Nintendo,16,1:59.410,+ 0:11.477,212.26,20
+P Riccardi,24 Nintendo,PIT,3.2 seconds / Soft tyres,,,
+P Riccardi,24 Nintendo,17,1:55.534,+ 0:13.845,219.38,20
+P Riccardi,24 Nintendo,18,1:49.081,+ 0:13.149,232.36,13
+P Riccardi,24 Nintendo,19,1:48.659,+ 0:12.656,233.26,9
+P Riccardi,24 Nintendo,20,1:50.322,+ 0:13.413,229.75,11
+P Riccardi,24 Nintendo,21,1:48.956,+ 0:12.628,232.63,8
+P Riccardi,24 Nintendo,22,1:48.935,+ 0:03.425,232.67,4
+P Riccardi,24 Nintendo,23,1:50.960,+ 0:04.525,228.43,6
+P Riccardi,24 Nintendo,24,1:59.400,+ 0:12.241,212.28,15
 P Riccardi,24 Nintendo,PIT,2.9 seconds / Soft tyres,,,
-P Riccardi,24 Nintendo,19,1:39.310,+ 0:19.117,187.12,24
-P Riccardi,24 Nintendo,20,1:34.849,+ 0:14.093,195.92,20
-P Riccardi,24 Nintendo,21,1:37.314,+ 0:13.860,190.96,19
-P Riccardi,24 Nintendo,22,1:37.001,+ 0:05.333,191.58,7
-P Riccardi,24 Nintendo,23,1:36.763,+ 0:04.550,192.05,7
-P Riccardi,24 Nintendo,24,1:37.263,+ 0:04.381,191.06,4
-P Riccardi,24 Nintendo,25,1:37.998,+ 0:04.791,189.63,4
-P Riccardi,24 Nintendo,26,1:36.794,+ 0:01.100,191.99,2
-P Riccardi,24 Nintendo,27,1:51.499,+ 0:15.150,166.67,16
-P Riccardi,24 Nintendo,PIT,2.7 seconds / Soft tyres,,,
-P Riccardi,24 Nintendo,28,1:39.549,+ 0:17.523,186.67,20
-P Riccardi,24 Nintendo,29,1:37.453,+ 0:17.465,190.69,19
-P Riccardi,24 Nintendo,30,1:36.863,+ 0:06.691,191.85,10
-P Riccardi,24 Nintendo,31,1:36.589,+ 0:06.422,192.39,8
-P Riccardi,24 Nintendo,32,1:36.139,+ 0:05.321,193.30,4
-P Riccardi,24 Nintendo,33,1:36.484,+ 0:04.269,192.60,4
-P Riccardi,24 Nintendo,34,1:36.894,+ 0:01.093,191.79,2
-P Riccardi,24 Nintendo,35,1:37.194,+ 0:01.470,191.20,3
-P Riccardi,24 Nintendo,36,1:51.908,+ 0:17.089,166.06,18
-P Riccardi,24 Nintendo,PIT,2.8 seconds / Soft tyres,,,
-P Riccardi,24 Nintendo,37,1:38.732,+ 0:18.950,188.22,21
-P Riccardi,24 Nintendo,38,1:36.395,+ 0:08.311,192.78,11
-P Riccardi,24 Nintendo,39,1:36.393,+ 0:07.727,192.79,9
-P Riccardi,24 Nintendo,40,1:36.073,+ 0:04.772,193.43,4
-P Riccardi,24 Nintendo,41,1:35.892,+ 0:03.696,193.79,4
-P Riccardi,24 Nintendo,42,1:36.388,+ 0:01.291,192.80,2
-P Riccardi,24 Nintendo,43,1:37.197,+ 0:02.565,191.19,3
-P Riccardi,24 Nintendo,44,1:37.793,+ 0:04.258,190.03,4
-P Riccardi,24 Nintendo,45,1:51.295,+ 0:19.129,166.97,17
-P Riccardi,24 Nintendo,PIT,2.9 seconds / Soft tyres,,,
-P Riccardi,24 Nintendo,46,1:38.636,+ 0:10.718,188.40,10
-P Riccardi,24 Nintendo,47,1:36.381,+ 0:10.456,192.81,9
-P Riccardi,24 Nintendo,48,1:35.836,+ 0:05.355,193.91,3
-P Riccardi,24 Nintendo,49,1:36.127,+ 0:05.429,193.32,3
-P Riccardi,24 Nintendo,50,1:34.974,+ 0:04.558,195.67,3
-P Riccardi,24 Nintendo,51,1:35.813,+ 0:04.755,193.95,3
-P Riccardi,24 Nintendo,52,1:36.957,+ 0:05.827,191.66,3
-P Riccardi,24 Nintendo,53,1:37.248,+ 0:06.921,191.09,4
-P Riccardi,24 Nintendo,54,1:37.772,+ 0:08.946,190.07,4
-J Turunen,50 BMW,START,Soft tyres,,,26
-J Turunen,50 BMW,1,1:43.188,+ 0:05.112,180.09,26
-J Turunen,50 BMW,2,1:41.274,+ 0:07.623,183.49,26
-J Turunen,50 BMW,3,1:39.611,+ 0:09.041,186.56,26
-J Turunen,50 BMW,4,1:39.277,+ 0:09.647,187.19,26
-J Turunen,50 BMW,5,1:38.838,+ 0:09.339,188.02,25
-J Turunen,50 BMW,6,1:39.582,+ 0:02.316,186.61,5
-J Turunen,50 BMW,7,1:39.758,+ 0:02.463,186.28,5
-J Turunen,50 BMW,8,1:39.836,+ 0:02.479,186.14,5
-J Turunen,50 BMW,9,1:55.007,+ 0:16.415,161.58,27
+P Riccardi,24 Nintendo,25,1:54.970,+ 0:18.697,220.46,19
+P Riccardi,24 Nintendo,26,1:48.547,+ 0:18.286,233.50,17
+P Riccardi,24 Nintendo,27,1:48.501,+ 0:14.917,233.60,16
+P Riccardi,24 Nintendo,28,1:48.272,+ 0:14.245,234.10,14
+P Riccardi,24 Nintendo,29,1:48.010,+ 0:05.639,234.67,7
+P Riccardi,24 Nintendo,30,1:48.058,+ 0:02.593,234.56,5
+P Riccardi,24 Nintendo,31,1:58.488,+ 0:09.668,213.91,11
+P Riccardi,24 Nintendo,PIT,3.1 seconds / Soft tyres,,,
+P Riccardi,24 Nintendo,32,1:54.924,+ 0:15.643,220.55,16
+P Riccardi,24 Nintendo,33,1:48.300,+ 0:15.002,234.04,16
+P Riccardi,24 Nintendo,34,1:47.974,+ 0:14.691,234.74,16
+P Riccardi,24 Nintendo,35,1:47.719,+ 0:13.681,235.30,14
+P Riccardi,24 Nintendo,36,1:47.698,+ 0:04.132,235.35,8
+P Riccardi,24 Nintendo,37,1:48.292,+ 0:02.741,234.05,6
+P Riccardi,24 Nintendo,38,1:57.272,+ 0:06.883,216.13,10
+P Riccardi,24 Nintendo,PIT,2.5 seconds / Super soft tyres,,,
+P Riccardi,24 Nintendo,39,1:52.620,+ 0:12.051,225.06,11
+P Riccardi,24 Nintendo,40,1:46.512,+ 0:10.790,237.97,9
+P Riccardi,24 Nintendo,41,1:47.007,+ 0:10.295,236.86,9
+P Riccardi,24 Nintendo,42,1:47.025,+ 0:09.494,236.83,6
+P Riccardi,24 Nintendo,43,1:45.179,+ 0:10.305,240.98,7
+T Jansen,19 Kp Racing Team,START,Soft tyres,,,23
+T Jansen,19 Kp Racing Team,1,1:55.093,+ 0:04.736,220.22,22
+T Jansen,19 Kp Racing Team,2,1:53.993,+ 0:07.355,222.35,22
+T Jansen,19 Kp Racing Team,3,1:51.823,+ 0:08.791,226.66,23
+T Jansen,19 Kp Racing Team,4,1:51.135,+ 0:08.911,228.07,21
+T Jansen,19 Kp Racing Team,5,1:50.763,+ 0:03.900,228.83,6
+T Jansen,19 Kp Racing Team,6,1:51.023,+ 0:03.582,228.30,5
+T Jansen,19 Kp Racing Team,7,2:00.046,+ 0:12.042,211.14,24
+T Jansen,19 Kp Racing Team,PIT,3.1 seconds / Soft tyres,,,
+T Jansen,19 Kp Racing Team,8,1:58.408,+ 0:15.824,214.06,30
+T Jansen,19 Kp Racing Team,9,1:50.738,+ 0:16.634,228.88,25
+T Jansen,19 Kp Racing Team,10,1:50.102,+ 0:14.129,230.21,19
+T Jansen,19 Kp Racing Team,11,1:50.082,+ 0:08.925,230.25,9
+T Jansen,19 Kp Racing Team,12,1:49.776,+ 0:09.190,230.89,6
+T Jansen,19 Kp Racing Team,13,1:51.371,+ 0:07.669,227.58,11
+T Jansen,19 Kp Racing Team,14,1:59.091,+ 0:16.632,212.83,28
+T Jansen,19 Kp Racing Team,PIT,2.6 seconds / Super soft tyres,,,
+T Jansen,19 Kp Racing Team,15,1:56.402,+ 0:17.970,217.75,30
+T Jansen,19 Kp Racing Team,16,1:47.614,+ 0:15.588,235.53,24
+T Jansen,19 Kp Racing Team,17,1:49.001,+ 0:11.423,232.53,16
+T Jansen,19 Kp Racing Team,18,1:50.301,+ 0:11.946,229.79,12
+T Jansen,19 Kp Racing Team,19,1:57.684,+ 0:20.478,215.38,25
+T Jansen,19 Kp Racing Team,PIT,2.6 seconds / Soft tyres,,,
+T Jansen,19 Kp Racing Team,20,1:56.728,+ 0:27.640,217.14,30
+T Jansen,19 Kp Racing Team,21,1:50.081,+ 0:27.981,230.25,30
+T Jansen,19 Kp Racing Team,22,1:49.524,+ 0:19.367,231.42,30
+T Jansen,19 Kp Racing Team,23,1:49.504,+ 0:19.010,231.46,28
+T Jansen,19 Kp Racing Team,24,1:49.028,+ 0:16.355,232.47,23
+T Jansen,19 Kp Racing Team,25,1:49.229,+ 0:17.070,232.05,15
+T Jansen,19 Kp Racing Team,26,1:58.869,+ 0:26.982,213.23,27
+T Jansen,19 Kp Racing Team,PIT,2.7 seconds / Super soft tyres,,,
+T Jansen,19 Kp Racing Team,27,1:54.633,+ 0:29.745,221.11,30
+T Jansen,19 Kp Racing Team,28,1:47.896,+ 0:28.698,234.91,30
+T Jansen,19 Kp Racing Team,29,1:47.360,+ 0:19.441,236.09,29
+T Jansen,19 Kp Racing Team,30,1:46.942,+ 0:15.279,237.01,22
+T Jansen,19 Kp Racing Team,31,1:56.963,+ 0:20.828,216.70,26
+T Jansen,19 Kp Racing Team,PIT,2.4 seconds / Super soft tyres,,,
+T Jansen,19 Kp Racing Team,32,1:53.996,+ 0:25.876,222.34,26
+T Jansen,19 Kp Racing Team,33,1:48.017,+ 0:24.952,234.65,26
+T Jansen,19 Kp Racing Team,34,1:47.997,+ 0:24.665,234.69,25
+T Jansen,19 Kp Racing Team,35,1:48.270,+ 0:24.207,234.10,25
+T Jansen,19 Kp Racing Team,36,1:57.642,+ 0:24.601,215.45,29
+T Jansen,19 Kp Racing Team,PIT,2.8 seconds / Soft tyres,,,
+T Jansen,19 Kp Racing Team,37,1:55.526,+ 0:30.444,219.40,30
+T Jansen,19 Kp Racing Team,38,1:47.983,+ 0:25.296,234.72,28
+T Jansen,19 Kp Racing Team,39,1:48.493,+ 0:26.337,233.62,25
+T Jansen,19 Kp Racing Team,40,1:48.533,+ 0:27.098,233.53,25
+T Jansen,19 Kp Racing Team,41,1:48.957,+ 0:28.553,232.63,25
+T Jansen,19 Kp Racing Team,42,1:48.939,+ 0:29.666,232.66,28
+T Jansen,19 Kp Racing Team,43,1:45.068,+ 0:30.366,241.24,25
+J Turunen,50 BMW,START,Soft tyres,,,24
+J Turunen,50 BMW,1,1:55.436,+ 0:05.163,219.57,24
+J Turunen,50 BMW,2,1:53.970,+ 0:07.759,222.39,24
+J Turunen,50 BMW,3,1:52.203,+ 0:09.576,225.90,25
+J Turunen,50 BMW,4,1:51.350,+ 0:09.910,227.63,24
+J Turunen,50 BMW,5,1:51.149,+ 0:05.286,228.04,13
+J Turunen,50 BMW,6,1:51.399,+ 0:05.345,227.53,10
+J Turunen,50 BMW,7,1:52.115,+ 0:05.872,226.07,9
+J Turunen,50 BMW,8,2:01.377,+ 0:12.623,208.82,29
+J Turunen,50 BMW,PIT,3.6 seconds / Soft tyres,,,
+J Turunen,50 BMW,9,1:56.582,+ 0:19.277,217.41,30
+J Turunen,50 BMW,10,1:50.465,+ 0:17.135,229.45,28
+J Turunen,50 BMW,11,1:51.047,+ 0:12.896,228.25,20
+J Turunen,50 BMW,12,1:50.354,+ 0:13.739,229.68,19
+J Turunen,50 BMW,13,1:50.105,+ 0:10.952,230.20,19
+J Turunen,50 BMW,14,1:50.620,+ 0:11.444,229.13,19
+J Turunen,50 BMW,15,1:51.277,+ 0:07.656,227.78,18
+J Turunen,50 BMW,16,2:01.023,+ 0:18.683,209.43,29
+J Turunen,50 BMW,PIT,3.2 seconds / Soft tyres,,,
+J Turunen,50 BMW,17,1:56.946,+ 0:22.463,216.73,30
+J Turunen,50 BMW,18,1:48.802,+ 0:21.488,232.96,28
+J Turunen,50 BMW,19,1:49.578,+ 0:21.914,231.31,27
+J Turunen,50 BMW,20,1:49.197,+ 0:21.545,232.11,25
+J Turunen,50 BMW,21,1:48.952,+ 0:20.756,232.64,25
+J Turunen,50 BMW,22,1:50.909,+ 0:13.527,228.53,23
+J Turunen,50 BMW,23,1:50.205,+ 0:13.873,229.99,22
+J Turunen,50 BMW,24,2:00.054,+ 0:22.243,211.12,30
+J Turunen,50 BMW,PIT,2.9 seconds / Soft tyres,,,
+J Turunen,50 BMW,25,1:56.246,+ 0:29.975,218.04,30
+J Turunen,50 BMW,26,1:48.933,+ 0:29.950,232.68,29
+J Turunen,50 BMW,27,1:48.691,+ 0:26.771,233.19,27
+J Turunen,50 BMW,28,1:50.017,+ 0:27.844,230.38,29
+J Turunen,50 BMW,29,1:48.849,+ 0:20.077,232.86,30
+J Turunen,50 BMW,30,1:49.517,+ 0:18.490,231.44,30
+J Turunen,50 BMW,31,1:58.614,+ 0:25.692,213.69,30
+J Turunen,50 BMW,PIT,2.9 seconds / Soft tyres,,,
+J Turunen,50 BMW,32,1:55.773,+ 0:32.516,218.93,30
+J Turunen,50 BMW,33,1:47.027,+ 0:30.602,236.82,29
+J Turunen,50 BMW,34,1:48.224,+ 0:30.542,234.20,28
+J Turunen,50 BMW,35,1:49.297,+ 0:31.110,231.90,30
+J Turunen,50 BMW,36,1:49.272,+ 0:23.134,231.96,28
+J Turunen,50 BMW,37,1:49.681,+ 0:23.132,231.09,28
+J Turunen,50 BMW,38,1:59.788,+ 0:29.790,211.59,29
 J Turunen,50 BMW,PIT,3 seconds / Soft tyres,,,
-J Turunen,50 BMW,10,1:40.821,+ 0:17.629,184.32,27
-J Turunen,50 BMW,11,1:38.812,+ 0:17.121,188.07,27
-J Turunen,50 BMW,12,1:38.869,+ 0:14.719,187.96,23
-J Turunen,50 BMW,13,1:38.508,+ 0:14.707,188.65,23
-J Turunen,50 BMW,14,1:37.364,+ 0:11.656,190.86,11
-J Turunen,50 BMW,15,1:37.933,+ 0:06.345,189.75,9
-J Turunen,50 BMW,16,1:38.225,+ 0:07.094,189.19,8
-J Turunen,50 BMW,17,1:38.711,+ 0:08.098,188.26,10
-J Turunen,50 BMW,18,1:52.838,+ 0:18.516,164.69,26
-J Turunen,50 BMW,PIT,2.6 seconds / Soft tyres,,,
-J Turunen,50 BMW,19,1:40.441,+ 0:20.814,185.02,26
-J Turunen,50 BMW,20,1:37.596,+ 0:18.538,190.41,24
-J Turunen,50 BMW,21,1:36.173,+ 0:17.164,193.23,22
-J Turunen,50 BMW,22,1:36.164,+ 0:07.799,193.24,12
-J Turunen,50 BMW,23,1:36.956,+ 0:07.209,191.67,11
-J Turunen,50 BMW,24,1:37.146,+ 0:06.922,191.29,6
-J Turunen,50 BMW,25,1:38.120,+ 0:07.454,189.39,8
-J Turunen,50 BMW,26,1:38.006,+ 0:04.975,189.61,7
-J Turunen,50 BMW,27,1:52.142,+ 0:19.668,165.71,24
-J Turunen,50 BMW,PIT,2.9 seconds / Soft tyres,,,
-J Turunen,50 BMW,28,1:39.685,+ 0:22.177,186.42,24
-J Turunen,50 BMW,29,1:38.065,+ 0:22.731,189.50,25
-J Turunen,50 BMW,30,1:37.005,+ 0:12.099,191.57,16
-J Turunen,50 BMW,31,1:37.168,+ 0:12.409,191.25,16
-J Turunen,50 BMW,32,1:36.623,+ 0:11.791,192.33,9
-J Turunen,50 BMW,33,1:37.777,+ 0:12.032,190.06,11
-J Turunen,50 BMW,34,1:36.948,+ 0:08.910,191.68,9
-J Turunen,50 BMW,35,1:37.767,+ 0:09.861,190.08,11
-J Turunen,50 BMW,36,1:53.064,+ 0:26.635,164.36,25
-J Turunen,50 BMW,PIT,2.9 seconds / Soft tyres,,,
-J Turunen,50 BMW,37,1:39.026,+ 0:28.790,187.66,25
-J Turunen,50 BMW,38,1:37.397,+ 0:19.153,190.80,23
-J Turunen,50 BMW,39,1:36.702,+ 0:18.877,192.17,22
-J Turunen,50 BMW,40,1:36.622,+ 0:16.472,192.33,17
-J Turunen,50 BMW,41,1:36.510,+ 0:16.014,192.55,16
-J Turunen,50 BMW,42,1:36.835,+ 0:14.056,191.91,15
-J Turunen,50 BMW,43,1:37.322,+ 0:15.455,190.95,17
-J Turunen,50 BMW,44,1:37.347,+ 0:16.703,190.90,18
-J Turunen,50 BMW,45,1:52.929,+ 0:33.207,164.56,26
-J Turunen,50 BMW,PIT,2.8 seconds / Soft tyres,,,
-J Turunen,50 BMW,46,1:38.366,+ 0:24.526,188.92,23
-J Turunen,50 BMW,47,1:36.842,+ 0:24.725,191.89,24
-J Turunen,50 BMW,48,1:36.359,+ 0:20.147,192.85,24
-J Turunen,50 BMW,49,1:36.399,+ 0:20.493,192.77,22
-J Turunen,50 BMW,50,1:36.295,+ 0:20.943,192.98,23
-J Turunen,50 BMW,51,1:36.328,+ 0:21.655,192.92,23
-J Turunen,50 BMW,52,1:37.643,+ 0:23.413,190.32,24
-J Turunen,50 BMW,53,1:37.036,+ 0:24.295,191.51,24
-J Turunen,50 BMW,54,1:38.691,+ 0:27.238,188.30,25
-P Schäufler,92 Alfa Romeo,START,Soft tyres,,,27
-P Schäufler,92 Alfa Romeo,1,1:43.047,+ 0:05.072,180.34,25
-P Schäufler,92 Alfa Romeo,2,1:41.079,+ 0:07.387,183.85,25
-P Schäufler,92 Alfa Romeo,3,1:39.647,+ 0:08.840,186.49,25
-P Schäufler,92 Alfa Romeo,4,1:39.121,+ 0:09.290,187.48,25
-P Schäufler,92 Alfa Romeo,5,1:39.001,+ 0:09.146,187.71,24
-P Schäufler,92 Alfa Romeo,6,1:39.341,+ 0:01.882,187.06,4
-P Schäufler,92 Alfa Romeo,7,1:39.511,+ 0:01.782,186.75,4
-P Schäufler,92 Alfa Romeo,8,1:39.862,+ 0:01.824,186.09,3
-P Schäufler,92 Alfa Romeo,9,1:54.729,+ 0:15.482,161.97,24
-P Schäufler,92 Alfa Romeo,PIT,3 seconds / Soft tyres,,,
-P Schäufler,92 Alfa Romeo,10,1:40.884,+ 0:16.759,184.20,25
-P Schäufler,92 Alfa Romeo,11,1:37.855,+ 0:15.294,189.91,24
-P Schäufler,92 Alfa Romeo,12,1:38.081,+ 0:12.105,189.47,19
-P Schäufler,92 Alfa Romeo,13,1:38.260,+ 0:11.844,189.12,18
-P Schäufler,92 Alfa Romeo,14,1:37.950,+ 0:09.380,189.72,7
-P Schäufler,92 Alfa Romeo,15,1:36.884,+ 0:03.020,191.81,4
-P Schäufler,92 Alfa Romeo,16,1:38.172,+ 0:03.716,189.29,3
-P Schäufler,92 Alfa Romeo,17,1:38.315,+ 0:04.324,189.02,3
-P Schäufler,92 Alfa Romeo,18,1:55.123,+ 0:17.026,161.42,24
-P Schäufler,92 Alfa Romeo,PIT,3 seconds / Medium tyres,,,
-P Schäufler,92 Alfa Romeo,19,1:41.470,+ 0:20.354,183.14,25
-P Schäufler,92 Alfa Romeo,20,1:38.809,+ 0:19.290,188.07,25
-P Schäufler,92 Alfa Romeo,21,1:38.326,+ 0:20.068,189.00,26
-P Schäufler,92 Alfa Romeo,22,1:36.966,+ 0:11.506,191.65,18
-P Schäufler,92 Alfa Romeo,23,1:37.457,+ 0:11.417,190.68,18
-P Schäufler,92 Alfa Romeo,24,1:37.242,+ 0:11.226,191.10,13
-P Schäufler,92 Alfa Romeo,25,1:37.316,+ 0:10.954,190.96,12
-P Schäufler,92 Alfa Romeo,26,1:36.746,+ 0:07.215,192.08,9
-P Schäufler,92 Alfa Romeo,27,1:50.569,+ 0:20.335,168.07,25
-P Schäufler,92 Alfa Romeo,PIT,3 seconds / Soft tyres,,,
-P Schäufler,92 Alfa Romeo,28,1:39.431,+ 0:22.591,186.90,25
-P Schäufler,92 Alfa Romeo,29,1:36.874,+ 0:21.953,191.83,23
-P Schäufler,92 Alfa Romeo,30,1:37.489,+ 0:11.805,190.62,15
-P Schäufler,92 Alfa Romeo,31,1:36.074,+ 0:11.021,193.43,14
-P Schäufler,92 Alfa Romeo,32,1:36.563,+ 0:10.343,192.45,8
-P Schäufler,92 Alfa Romeo,33,1:37.045,+ 0:09.852,191.49,8
-P Schäufler,92 Alfa Romeo,34,1:37.634,+ 0:07.416,190.34,7
-P Schäufler,92 Alfa Romeo,35,1:38.401,+ 0:09.000,188.85,9
-P Schäufler,92 Alfa Romeo,36,1:53.518,+ 0:26.228,163.70,24
+J Turunen,50 BMW,39,1:56.334,+ 0:38.671,217.87,29
+J Turunen,50 BMW,40,1:49.514,+ 0:40.412,231.44,29
+J Turunen,50 BMW,41,1:49.118,+ 0:42.028,232.28,29
+J Turunen,50 BMW,42,1:48.902,+ 0:43.105,232.74,29
+J Turunen,50 BMW,43,1:48.643,+ 0:47.380,233.30,29
+V Aznabaev,8 Benetton,START,Soft tyres,,,25
+V Aznabaev,8 Benetton,1,1:55.596,+ 0:05.385,219.27,25
+V Aznabaev,8 Benetton,2,1:54.051,+ 0:08.063,222.24,25
+V Aznabaev,8 Benetton,3,1:50.761,+ 0:08.436,228.84,21
+V Aznabaev,8 Benetton,4,1:50.994,+ 0:08.416,228.36,20
+V Aznabaev,8 Benetton,5,1:50.734,+ 0:03.376,228.89,5
+V Aznabaev,8 Benetton,6,1:50.999,+ 0:03.034,228.35,4
+V Aznabaev,8 Benetton,7,1:51.108,+ 0:02.555,228.12,3
+V Aznabaev,8 Benetton,8,2:00.345,+ 0:08.274,210.61,20
+V Aznabaev,8 Benetton,PIT,2.9 seconds / Soft tyres,,,
+V Aznabaev,8 Benetton,9,1:57.303,+ 0:15.649,216.07,23
+V Aznabaev,8 Benetton,10,1:52.333,+ 0:15.375,225.63,22
+V Aznabaev,8 Benetton,11,1:50.363,+ 0:10.452,229.66,13
+V Aznabaev,8 Benetton,12,1:50.027,+ 0:10.968,230.36,12
+V Aznabaev,8 Benetton,13,1:49.907,+ 0:07.983,230.61,12
+V Aznabaev,8 Benetton,14,1:50.723,+ 0:08.579,228.92,11
+V Aznabaev,8 Benetton,15,1:50.515,+ 0:04.029,229.35,7
+V Aznabaev,8 Benetton,16,1:59.606,+ 0:13.639,211.91,23
+V Aznabaev,8 Benetton,PIT,3.3 seconds / Soft tyres,,,
+V Aznabaev,8 Benetton,17,1:55.954,+ 0:16.427,218.59,26
+V Aznabaev,8 Benetton,18,1:49.801,+ 0:16.451,230.84,19
+V Aznabaev,8 Benetton,19,1:48.982,+ 0:16.281,232.57,16
+V Aznabaev,8 Benetton,20,1:48.929,+ 0:15.643,232.69,15
+V Aznabaev,8 Benetton,21,1:49.088,+ 0:14.990,232.35,14
+V Aznabaev,8 Benetton,22,1:49.805,+ 0:06.658,230.83,11
+V Aznabaev,8 Benetton,23,1:50.137,+ 0:06.935,230.13,11
+V Aznabaev,8 Benetton,24,1:59.585,+ 0:14.836,211.95,19
+V Aznabaev,8 Benetton,PIT,2.8 seconds / Soft tyres,,,
+V Aznabaev,8 Benetton,25,1:54.950,+ 0:21.272,220.50,22
+V Aznabaev,8 Benetton,26,1:48.022,+ 0:20.337,234.64,20
+V Aznabaev,8 Benetton,27,1:48.676,+ 0:17.142,233.23,19
+V Aznabaev,8 Benetton,28,1:48.239,+ 0:16.438,234.17,18
+V Aznabaev,8 Benetton,29,1:48.085,+ 0:07.906,234.50,13
+V Aznabaev,8 Benetton,30,1:48.488,+ 0:05.290,233.63,10
+V Aznabaev,8 Benetton,31,1:57.765,+ 0:11.642,215.23,14
+V Aznabaev,8 Benetton,PIT,2.8 seconds / Soft tyres,,,
+V Aznabaev,8 Benetton,32,1:54.245,+ 0:16.939,221.86,17
+V Aznabaev,8 Benetton,33,1:47.968,+ 0:15.965,234.76,17
+V Aznabaev,8 Benetton,34,1:47.985,+ 0:15.666,234.72,17
+V Aznabaev,8 Benetton,35,1:47.627,+ 0:14.565,235.50,15
+V Aznabaev,8 Benetton,36,1:47.775,+ 0:05.092,235.18,10
+V Aznabaev,8 Benetton,37,1:48.036,+ 0:03.446,234.61,7
+V Aznabaev,8 Benetton,38,1:57.237,+ 0:07.553,216.20,11
+V Aznabaev,8 Benetton,PIT,2.4 seconds / Super soft tyres,,,
+V Aznabaev,8 Benetton,39,1:53.058,+ 0:13.158,224.19,15
+V Aznabaev,8 Benetton,40,1:46.841,+ 0:12.227,237.23,14
+V Aznabaev,8 Benetton,41,1:46.399,+ 0:11.124,238.22,11
+V Aznabaev,8 Benetton,42,1:47.376,+ 0:10.674,236.05,10
+V Aznabaev,8 Benetton,43,1:44.236,+ 0:10.543,243.16,9
+R Jones,34 Mercedes Petronas,START,Medium tyres,,,26
+R Jones,34 Mercedes Petronas,1,1:56.088,+ 0:06.013,218.34,28
+R Jones,34 Mercedes Petronas,2,1:54.592,+ 0:09.231,221.19,28
+R Jones,34 Mercedes Petronas,3,1:52.513,+ 0:11.357,225.27,28
+R Jones,34 Mercedes Petronas,4,1:51.701,+ 0:12.043,226.91,28
+R Jones,34 Mercedes Petronas,5,1:50.404,+ 0:06.674,229.58,17
+R Jones,34 Mercedes Petronas,6,1:51.112,+ 0:06.445,228.11,11
+R Jones,34 Mercedes Petronas,7,1:51.310,+ 0:06.168,227.71,10
+R Jones,34 Mercedes Petronas,8,1:51.019,+ 0:02.561,228.31,5
+R Jones,34 Mercedes Petronas,9,2:01.345,+ 0:13.978,208.88,21
+R Jones,34 Mercedes Petronas,PIT,3.3 seconds / Soft tyres,,,
+R Jones,34 Mercedes Petronas,10,1:58.464,+ 0:19.835,213.96,29
+R Jones,34 Mercedes Petronas,11,1:50.734,+ 0:15.283,228.89,25
+R Jones,34 Mercedes Petronas,12,1:50.421,+ 0:16.193,229.54,24
+R Jones,34 Mercedes Petronas,13,1:49.990,+ 0:13.292,230.44,23
+R Jones,34 Mercedes Petronas,14,1:50.116,+ 0:13.280,230.18,23
+R Jones,34 Mercedes Petronas,15,1:50.766,+ 0:08.981,228.83,22
+R Jones,34 Mercedes Petronas,16,1:50.406,+ 0:09.391,229.57,13
+R Jones,34 Mercedes Petronas,17,2:00.322,+ 0:16.546,210.65,27
+R Jones,34 Mercedes Petronas,PIT,2.6 seconds / Soft tyres,,,
+R Jones,34 Mercedes Petronas,18,1:56.287,+ 0:23.056,217.96,29
+R Jones,34 Mercedes Petronas,19,1:50.987,+ 0:24.890,228.37,30
+R Jones,34 Mercedes Petronas,20,1:49.882,+ 0:25.205,230.67,29
+R Jones,34 Mercedes Petronas,21,1:49.222,+ 0:24.686,232.06,29
+R Jones,34 Mercedes Petronas,22,1:48.916,+ 0:15.464,232.71,28
+R Jones,34 Mercedes Petronas,23,1:49.108,+ 0:14.712,232.30,24
+R Jones,34 Mercedes Petronas,24,1:58.655,+ 0:21.684,213.61,28
+R Jones,34 Mercedes Petronas,PIT,2.8 seconds / Soft tyres,,,
+R Jones,34 Mercedes Petronas,25,1:55.836,+ 0:29.006,218.81,28
+R Jones,34 Mercedes Petronas,26,1:50.499,+ 0:30.548,229.38,30
+R Jones,34 Mercedes Petronas,27,1:49.140,+ 0:27.817,232.24,29
+R Jones,34 Mercedes Petronas,28,1:48.367,+ 0:27.240,233.89,28
+R Jones,34 Mercedes Petronas,29,1:48.085,+ 0:18.709,234.50,27
+R Jones,34 Mercedes Petronas,30,1:50.325,+ 0:17.930,229.74,27
+R Jones,34 Mercedes Petronas,31,1:58.241,+ 0:24.758,214.36,29
+R Jones,34 Mercedes Petronas,PIT,3 seconds / Soft tyres,,,
+R Jones,34 Mercedes Petronas,32,1:56.299,+ 0:32.108,217.94,29
+R Jones,34 Mercedes Petronas,33,1:48.320,+ 0:31.487,233.99,30
+R Jones,34 Mercedes Petronas,34,1:48.307,+ 0:31.509,234.02,30
+R Jones,34 Mercedes Petronas,35,1:48.062,+ 0:30.842,234.55,29
+R Jones,34 Mercedes Petronas,36,1:48.216,+ 0:21.810,234.22,27
+R Jones,34 Mercedes Petronas,37,1:48.374,+ 0:20.501,233.88,27
+R Jones,34 Mercedes Petronas,38,1:57.098,+ 0:24.468,216.45,27
+R Jones,34 Mercedes Petronas,PIT,2.4 seconds / Super soft tyres,,,
+R Jones,34 Mercedes Petronas,39,1:53.356,+ 0:30.372,223.60,27
+R Jones,34 Mercedes Petronas,40,1:47.812,+ 0:30.411,235.10,28
+R Jones,34 Mercedes Petronas,41,1:46.590,+ 0:29.499,237.79,28
+R Jones,34 Mercedes Petronas,42,1:47.401,+ 0:29.075,236.00,27
+R Jones,34 Mercedes Petronas,43,1:45.813,+ 0:30.520,239.54,27
+D Girard,93 Brawn GP,START,Medium tyres,,,27
+D Girard,93 Brawn GP,1,1:55.521,+ 0:05.492,219.41,27
+D Girard,93 Brawn GP,2,1:54.510,+ 0:08.628,221.34,27
+D Girard,93 Brawn GP,3,1:52.138,+ 0:10.380,226.03,27
+D Girard,93 Brawn GP,4,1:51.482,+ 0:10.847,227.36,26
+D Girard,93 Brawn GP,5,1:50.825,+ 0:05.898,228.70,15
+D Girard,93 Brawn GP,6,1:49.978,+ 0:04.535,230.47,8
+D Girard,93 Brawn GP,7,1:50.283,+ 0:03.231,229.83,4
+D Girard,93 Brawn GP,8,1:58.603,+ 0:07.208,213.71,16
+D Girard,93 Brawn GP,PIT,3 seconds / Soft tyres,,,
+D Girard,93 Brawn GP,9,1:56.908,+ 0:14.188,216.80,22
+D Girard,93 Brawn GP,10,1:48.204,+ 0:09.785,234.24,10
+D Girard,93 Brawn GP,11,1:49.333,+ 0:03.832,231.83,4
+D Girard,93 Brawn GP,12,1:49.548,+ 0:03.870,231.37,3
+D Girard,93 Brawn GP,13,1:49.022,-,232.49,1
+D Girard,93 Brawn GP,14,1:50.128,-,230.15,1
+D Girard,93 Brawn GP,15,1:59.547,+ 0:04.482,212.02,9
+D Girard,93 Brawn GP,PIT,2.8 seconds / Soft tyres,,,
+D Girard,93 Brawn GP,16,1:56.002,+ 0:10.488,218.50,18
+D Girard,93 Brawn GP,17,1:48.971,+ 0:06.292,232.60,7
+D Girard,93 Brawn GP,18,1:50.665,+ 0:07.180,229.04,7
+D Girard,93 Brawn GP,19,1:48.378,+ 0:06.406,233.87,5
+D Girard,93 Brawn GP,20,1:49.973,+ 0:06.813,230.48,4
+D Girard,93 Brawn GP,21,1:48.599,+ 0:05.670,233.39,3
+D Girard,93 Brawn GP,22,1:59.196,+ 0:06.728,212.64,13
+D Girard,93 Brawn GP,PIT,3 seconds / Soft tyres,,,
+D Girard,93 Brawn GP,23,1:56.626,+ 0:13.494,217.33,21
+D Girard,93 Brawn GP,24,1:48.602,+ 0:10.412,233.39,11
+D Girard,93 Brawn GP,25,1:48.081,+ 0:09.979,234.51,6
+D Girard,93 Brawn GP,26,1:49.369,+ 0:10.390,231.75,7
+D Girard,93 Brawn GP,27,1:48.018,+ 0:06.538,234.65,3
+D Girard,93 Brawn GP,28,1:49.927,+ 0:07.521,230.57,4
+D Girard,93 Brawn GP,29,1:59.088,+ 0:09.993,212.84,18
+D Girard,93 Brawn GP,PIT,4.8 seconds / Soft tyres,,,
+D Girard,93 Brawn GP,30,1:59.307,+ 0:18.195,212.45,28
+D Girard,93 Brawn GP,31,1:51.414,+ 0:18.196,227.50,23
+D Girard,93 Brawn GP,32,1:51.184,+ 0:20.431,227.97,24
+D Girard,93 Brawn GP,33,1:50.809,+ 0:22.299,228.74,25
+D Girard,93 Brawn GP,34,1:51.908,+ 0:25.923,226.49,26
+D Girard,93 Brawn GP,35,1:52.625,+ 0:29.819,225.05,27
+D Girard,93 Brawn GP,36,1:52.512,+ 0:25.084,225.28,30
+D Girard,93 Brawn GP,37,1:54.070,+ 0:29.471,222.20,29
+D Girard,93 Brawn GP,38,1:55.547,+ 0:31.887,219.36,30
+D Girard,93 Brawn GP,39,1:55.810,+ 0:40.245,218.86,30
+D Girard,93 Brawn GP,40,1:55.143,+ 0:47.615,220.13,30
+D Girard,93 Brawn GP,41,1:55.526,+ 0:55.638,219.40,30
+D Girard,93 Brawn GP,42,1:56.462,+ 1:04.275,217.63,30
+D Girard,93 Brawn GP,43,2:03.573,+ 1:23.480,205.11,30
+N Smith,29 Bentley Racing,START,Hard tyres,,,28
+N Smith,29 Bentley Racing,1,1:55.401,+ 0:05.428,219.64,26
+N Smith,29 Bentley Racing,2,1:54.269,+ 0:08.324,221.81,26
+N Smith,29 Bentley Racing,3,1:51.898,+ 0:09.835,226.51,26
+N Smith,29 Bentley Racing,4,1:51.433,+ 0:10.253,227.46,25
+N Smith,29 Bentley Racing,5,1:59.968,+ 0:14.447,211.27,30
+N Smith,29 Bentley Racing,PIT,2.7 seconds / Super soft tyres,,,
+N Smith,29 Bentley Racing,6,1:55.142,+ 0:18.249,220.13,30
+N Smith,29 Bentley Racing,7,1:48.935,+ 0:15.598,232.67,30
+N Smith,29 Bentley Racing,8,1:49.151,+ 0:10.122,232.21,24
+N Smith,29 Bentley Racing,9,1:49.573,+ 0:09.768,231.32,17
+N Smith,29 Bentley Racing,10,1:58.242,+ 0:15.403,214.36,23
+N Smith,29 Bentley Racing,PIT,3 seconds / Soft tyres,,,
+N Smith,29 Bentley Racing,11,1:56.974,+ 0:17.091,216.68,28
+N Smith,29 Bentley Racing,12,1:50.077,+ 0:17.657,230.26,27
+N Smith,29 Bentley Racing,13,1:49.727,+ 0:14.493,230.99,26
+N Smith,29 Bentley Racing,14,1:49.506,+ 0:13.872,231.46,25
+N Smith,29 Bentley Racing,15,1:49.694,+ 0:08.501,231.06,21
+N Smith,29 Bentley Racing,16,1:49.933,+ 0:08.438,230.56,12
+N Smith,29 Bentley Racing,17,1:58.846,+ 0:14.118,213.27,21
+N Smith,29 Bentley Racing,PIT,3 seconds / Soft tyres,,,
+N Smith,29 Bentley Racing,18,1:56.058,+ 0:20.398,218.39,27
+N Smith,29 Bentley Racing,19,1:49.517,+ 0:20.762,231.44,26
+N Smith,29 Bentley Racing,20,1:49.170,+ 0:20.366,232.17,24
+N Smith,29 Bentley Racing,21,1:48.361,+ 0:18.987,233.91,23
+N Smith,29 Bentley Racing,22,1:48.780,+ 0:09.629,233.00,20
+N Smith,29 Bentley Racing,23,1:49.223,+ 0:08.992,232.06,15
+N Smith,29 Bentley Racing,24,1:58.611,+ 0:15.919,213.69,22
+N Smith,29 Bentley Racing,PIT,3.1 seconds / Soft tyres,,,
+N Smith,29 Bentley Racing,25,1:55.686,+ 0:23.091,219.09,26
+N Smith,29 Bentley Racing,26,1:48.618,+ 0:22.752,233.35,24
+N Smith,29 Bentley Racing,27,1:48.383,+ 0:19.264,233.86,24
+N Smith,29 Bentley Racing,28,1:48.202,+ 0:18.523,234.25,22
+N Smith,29 Bentley Racing,29,1:48.286,+ 0:10.193,234.07,19
+N Smith,29 Bentley Racing,30,1:48.590,+ 0:07.678,233.41,15
+N Smith,29 Bentley Racing,31,1:58.079,+ 0:14.345,214.65,21
+N Smith,29 Bentley Racing,PIT,2.9 seconds / Super soft tyres,,,
+N Smith,29 Bentley Racing,32,1:53.823,+ 0:19.219,222.68,20
+N Smith,29 Bentley Racing,33,1:47.141,+ 0:17.420,236.57,19
+N Smith,29 Bentley Racing,34,1:47.172,+ 0:16.308,236.50,18
+N Smith,29 Bentley Racing,35,1:47.529,+ 0:15.108,235.71,16
+N Smith,29 Bentley Racing,36,1:56.840,+ 0:14.700,216.93,23
+N Smith,29 Bentley Racing,PIT,2.9 seconds / Soft tyres,,,
+N Smith,29 Bentley Racing,37,1:54.814,+ 0:19.832,220.76,26
+N Smith,29 Bentley Racing,38,1:48.024,+ 0:14.725,234.63,22
+N Smith,29 Bentley Racing,39,1:47.763,+ 0:15.036,235.20,20
+N Smith,29 Bentley Racing,40,1:47.602,+ 0:14.865,235.56,20
+N Smith,29 Bentley Racing,41,1:47.393,+ 0:14.756,236.01,20
+N Smith,29 Bentley Racing,42,1:48.050,+ 0:14.980,234.58,20
+N Smith,29 Bentley Racing,43,1:46.468,+ 0:17.080,238.06,19
+H Kowalski,69 Shadow,START,Hard tyres,,,29
+H Kowalski,69 Shadow,1,1:56.751,+ 0:06.924,217.10,30
+H Kowalski,69 Shadow,2,1:54.887,+ 0:10.437,220.62,30
+H Kowalski,69 Shadow,3,1:52.836,+ 0:12.885,224.63,30
+H Kowalski,69 Shadow,4,1:51.871,+ 0:13.742,226.57,30
+H Kowalski,69 Shadow,5,1:51.214,+ 0:09.182,227.90,23
+H Kowalski,69 Shadow,6,1:53.412,+ 0:11.254,223.49,19
+H Kowalski,69 Shadow,7,1:51.589,+ 0:11.256,227.14,22
+H Kowalski,69 Shadow,8,1:51.190,+ 0:07.820,227.95,19
+H Kowalski,69 Shadow,9,1:51.030,+ 0:08.922,228.28,15
+H Kowalski,69 Shadow,10,2:00.367,+ 0:16.682,210.57,27
+H Kowalski,69 Shadow,PIT,2.7 seconds / Soft tyres,,,
+H Kowalski,69 Shadow,11,1:57.167,+ 0:18.563,216.33,30
+H Kowalski,69 Shadow,12,1:50.098,+ 0:19.150,230.21,29
+H Kowalski,69 Shadow,13,1:49.115,+ 0:15.373,232.29,27
+H Kowalski,69 Shadow,14,1:49.268,+ 0:14.513,231.96,26
+H Kowalski,69 Shadow,15,1:48.905,+ 0:08.354,232.74,20
+H Kowalski,69 Shadow,16,1:49.535,+ 0:07.892,231.40,11
+H Kowalski,69 Shadow,17,1:58.301,+ 0:13.027,214.25,19
+H Kowalski,69 Shadow,PIT,2.4 seconds / Soft tyres,,,
+H Kowalski,69 Shadow,18,1:56.210,+ 0:19.460,218.11,25
+H Kowalski,69 Shadow,19,1:49.271,+ 0:19.579,231.96,23
+H Kowalski,69 Shadow,20,1:49.172,+ 0:19.184,232.17,22
+H Kowalski,69 Shadow,21,1:48.222,+ 0:17.666,234.21,20
+H Kowalski,69 Shadow,22,1:48.351,+ 0:07.879,233.93,16
+H Kowalski,69 Shadow,23,1:49.177,+ 0:07.196,232.16,12
+H Kowalski,69 Shadow,24,1:58.687,+ 0:14.199,213.55,17
+H Kowalski,69 Shadow,PIT,3.1 seconds / Soft tyres,,,
+H Kowalski,69 Shadow,25,1:56.018,+ 0:21.703,218.47,23
+H Kowalski,69 Shadow,26,1:48.196,+ 0:20.941,234.26,21
+H Kowalski,69 Shadow,27,1:48.548,+ 0:17.619,233.50,20
+H Kowalski,69 Shadow,28,1:48.111,+ 0:16.787,234.45,19
+H Kowalski,69 Shadow,29,1:48.540,+ 0:08.711,233.52,15
+H Kowalski,69 Shadow,30,1:48.330,+ 0:05.936,233.97,12
+H Kowalski,69 Shadow,31,1:57.775,+ 0:12.298,215.21,16
+H Kowalski,69 Shadow,PIT,2.7 seconds / Soft tyres,,,
+H Kowalski,69 Shadow,32,1:55.218,+ 0:18.567,219.98,19
+H Kowalski,69 Shadow,33,1:48.031,+ 0:17.657,234.62,20
+H Kowalski,69 Shadow,34,1:47.979,+ 0:17.352,234.73,20
+H Kowalski,69 Shadow,35,1:47.803,+ 0:16.426,235.12,18
+H Kowalski,69 Shadow,36,1:47.862,+ 0:07.040,234.99,12
+H Kowalski,69 Shadow,37,1:47.477,+ 0:04.835,235.83,9
+H Kowalski,69 Shadow,38,1:57.449,+ 0:09.153,215.81,13
+H Kowalski,69 Shadow,PIT,2.4 seconds / Super soft tyres,,,
+H Kowalski,69 Shadow,39,1:53.302,+ 0:15.002,223.70,19
+H Kowalski,69 Shadow,40,1:46.552,+ 0:13.781,237.88,18
+H Kowalski,69 Shadow,41,1:46.629,+ 0:12.907,237.70,16
+H Kowalski,69 Shadow,42,1:46.815,+ 0:11.897,237.29,13
+H Kowalski,69 Shadow,43,1:45.703,+ 0:13.232,239.79,14
+P Schäufler,92 Alfa Romeo,START,Hard tyres,,,30
+P Schäufler,92 Alfa Romeo,1,1:56.156,+ 0:06.407,218.21,29
+P Schäufler,92 Alfa Romeo,2,1:54.817,+ 0:09.850,220.75,29
+P Schäufler,92 Alfa Romeo,3,1:52.772,+ 0:12.235,224.76,29
+P Schäufler,92 Alfa Romeo,4,1:51.631,+ 0:12.852,227.05,29
+P Schäufler,92 Alfa Romeo,5,1:53.095,+ 0:10.173,224.11,28
+P Schäufler,92 Alfa Romeo,6,1:51.839,+ 0:10.671,226.63,17
+P Schäufler,92 Alfa Romeo,7,1:51.333,+ 0:10.417,227.66,19
+P Schäufler,92 Alfa Romeo,8,1:51.089,+ 0:06.879,228.16,14
+P Schäufler,92 Alfa Romeo,9,2:00.027,+ 0:16.978,211.17,26
+P Schäufler,92 Alfa Romeo,PIT,3.1 seconds / Soft tyres,,,
+P Schäufler,92 Alfa Romeo,10,1:57.543,+ 0:21.914,215.63,30
+P Schäufler,92 Alfa Romeo,11,1:50.115,+ 0:16.744,230.18,27
+P Schäufler,92 Alfa Romeo,12,1:49.840,+ 0:17.073,230.76,26
+P Schäufler,92 Alfa Romeo,13,1:49.710,+ 0:13.892,231.03,25
+P Schäufler,92 Alfa Romeo,14,1:49.797,+ 0:13.562,230.85,24
+P Schäufler,92 Alfa Romeo,15,1:49.541,+ 0:08.038,231.39,19
+P Schäufler,92 Alfa Romeo,16,1:58.849,+ 0:16.891,213.26,26
 P Schäufler,92 Alfa Romeo,PIT,3.2 seconds / Soft tyres,,,
-P Schäufler,92 Alfa Romeo,37,1:39.927,+ 0:29.283,185.97,26
-P Schäufler,92 Alfa Romeo,38,1:36.431,+ 0:18.681,192.71,21
-P Schäufler,92 Alfa Romeo,39,1:36.870,+ 0:18.573,191.84,21
-P Schäufler,92 Alfa Romeo,40,1:36.588,+ 0:16.135,192.40,16
-P Schäufler,92 Alfa Romeo,41,1:36.539,+ 0:15.706,192.49,15
-P Schäufler,92 Alfa Romeo,42,1:36.539,+ 0:13.453,192.49,14
-P Schäufler,92 Alfa Romeo,43,1:36.952,+ 0:14.482,191.67,14
-P Schäufler,92 Alfa Romeo,44,1:37.213,+ 0:15.595,191.16,16
-P Schäufler,92 Alfa Romeo,45,1:53.631,+ 0:32.802,163.54,25
-P Schäufler,92 Alfa Romeo,PIT,3.3 seconds / Soft tyres,,,
-P Schäufler,92 Alfa Romeo,46,1:39.442,+ 0:25.197,186.87,25
-P Schäufler,92 Alfa Romeo,47,1:35.710,+ 0:24.264,194.16,23
-P Schäufler,92 Alfa Romeo,48,1:36.272,+ 0:19.599,193.03,22
-P Schäufler,92 Alfa Romeo,49,1:36.547,+ 0:20.093,192.48,20
-P Schäufler,92 Alfa Romeo,50,1:36.456,+ 0:20.704,192.66,22
-P Schäufler,92 Alfa Romeo,51,1:37.090,+ 0:22.178,191.40,24
-P Schäufler,92 Alfa Romeo,52,1:36.487,+ 0:22.780,192.60,23
-P Schäufler,92 Alfa Romeo,53,1:37.120,+ 0:23.746,191.34,23
-P Schäufler,92 Alfa Romeo,54,1:37.259,+ 0:25.258,191.07,23
-L Huett,13 Cappuccino,START,Hard tyres,,,28
-L Huett,13 Cappuccino,1,1:44.095,+ 0:06.280,178.52,28
-L Huett,13 Cappuccino,2,1:42.416,+ 0:09.932,181.45,28
-L Huett,13 Cappuccino,3,1:38.888,+ 0:10.627,187.92,27
-L Huett,13 Cappuccino,4,1:39.866,+ 0:11.820,186.08,28
-L Huett,13 Cappuccino,5,1:38.278,+ 0:10.954,189.09,27
-L Huett,13 Cappuccino,6,1:39.381,+ 0:03.729,186.99,7
-L Huett,13 Cappuccino,7,1:39.674,+ 0:03.792,186.44,7
-L Huett,13 Cappuccino,8,1:40.224,+ 0:04.196,185.42,6
-L Huett,13 Cappuccino,9,1:38.536,+ 0:01.662,188.59,2
-L Huett,13 Cappuccino,10,1:40.683,+ 0:02.738,184.57,4
-L Huett,13 Cappuccino,11,1:40.546,+ 0:03.963,184.82,6
-L Huett,13 Cappuccino,12,1:55.869,+ 0:18.561,160.38,28
-L Huett,13 Cappuccino,PIT,2.7 seconds / Soft tyres,,,
-L Huett,13 Cappuccino,13,1:41.083,+ 0:21.124,183.84,28
-L Huett,13 Cappuccino,14,1:38.204,+ 0:18.913,189.23,25
-L Huett,13 Cappuccino,15,1:38.226,+ 0:13.895,189.19,18
-L Huett,13 Cappuccino,16,1:37.756,+ 0:14.175,190.10,15
-L Huett,13 Cappuccino,17,1:38.167,+ 0:14.634,189.30,15
-L Huett,13 Cappuccino,18,1:37.407,+ 0:09.621,190.78,9
-L Huett,13 Cappuccino,19,1:39.313,+ 0:10.791,187.12,12
-L Huett,13 Cappuccino,20,1:53.592,+ 0:24.511,163.60,27
-L Huett,13 Cappuccino,PIT,3 seconds / Full wet tyres,,,
-A Sanchez,96 Rothmans Williams Renault,START,Hard tyres,,,29
-A Sanchez,96 Rothmans Williams Renault,1,1:43.575,+ 0:05.822,179.42,27
-A Sanchez,96 Rothmans Williams Renault,2,1:41.898,+ 0:08.957,182.37,27
-A Sanchez,96 Rothmans Williams Renault,3,1:40.206,+ 0:10.970,185.45,28
-A Sanchez,96 Rothmans Williams Renault,4,1:39.057,+ 0:11.355,187.60,27
-A Sanchez,96 Rothmans Williams Renault,5,1:37.965,+ 0:10.175,189.69,26
-A Sanchez,96 Rothmans Williams Renault,6,1:39.222,+ 0:02.792,187.29,6
-A Sanchez,96 Rothmans Williams Renault,7,1:39.650,+ 0:02.830,186.48,6
-A Sanchez,96 Rothmans Williams Renault,8,1:39.140,+ 0:02.150,187.44,4
-A Sanchez,96 Rothmans Williams Renault,9,1:38.920,-,187.86,1
-A Sanchez,96 Rothmans Williams Renault,10,1:39.606,-,186.57,1
-A Sanchez,96 Rothmans Williams Renault,11,1:54.457,+ 0:15.136,162.36,23
-A Sanchez,96 Rothmans Williams Renault,PIT,2.8 seconds / Soft tyres,,,
-A Sanchez,96 Rothmans Williams Renault,12,1:40.438,+ 0:14.304,185.02,22
-A Sanchez,96 Rothmans Williams Renault,13,1:38.075,+ 0:13.859,189.48,21
-A Sanchez,96 Rothmans Williams Renault,14,1:37.695,+ 0:11.139,190.22,10
-A Sanchez,96 Rothmans Williams Renault,15,1:37.858,+ 0:05.753,189.90,8
-A Sanchez,96 Rothmans Williams Renault,16,1:37.907,+ 0:06.185,189.80,7
-A Sanchez,96 Rothmans Williams Renault,17,1:37.858,+ 0:06.335,189.90,7
-A Sanchez,96 Rothmans Williams Renault,18,1:38.496,+ 0:02.411,188.67,3
-A Sanchez,96 Rothmans Williams Renault,19,1:39.358,+ 0:03.627,187.03,6
-A Sanchez,96 Rothmans Williams Renault,20,1:53.200,+ 0:16.954,164.16,23
-A Sanchez,96 Rothmans Williams Renault,PIT,3 seconds / Soft tyres,,,
-A Sanchez,96 Rothmans Williams Renault,21,1:40.522,+ 0:19.928,184.87,25
-A Sanchez,96 Rothmans Williams Renault,22,1:36.196,+ 0:10.596,193.18,17
-A Sanchez,96 Rothmans Williams Renault,23,1:37.775,+ 0:10.825,190.06,17
-A Sanchez,96 Rothmans Williams Renault,24,1:37.326,+ 0:10.717,190.94,12
-A Sanchez,96 Rothmans Williams Renault,25,1:37.241,+ 0:10.371,191.10,11
-A Sanchez,96 Rothmans Williams Renault,26,1:37.930,+ 0:07.816,189.76,10
-A Sanchez,96 Rothmans Williams Renault,27,1:37.870,+ 0:08.236,189.88,6
-A Sanchez,96 Rothmans Williams Renault,28,1:38.589,+ 0:09.649,188.49,5
-A Sanchez,96 Rothmans Williams Renault,29,1:52.940,+ 0:25.079,164.54,26
-A Sanchez,96 Rothmans Williams Renault,PIT,2.8 seconds / Soft tyres,,,
-A Sanchez,96 Rothmans Williams Renault,30,1:39.759,+ 0:17.200,186.28,24
-A Sanchez,96 Rothmans Williams Renault,31,1:36.879,+ 0:17.221,191.82,21
-A Sanchez,96 Rothmans Williams Renault,32,1:37.681,+ 0:17.661,190.24,18
-A Sanchez,96 Rothmans Williams Renault,33,1:36.962,+ 0:17.087,191.65,16
-A Sanchez,96 Rothmans Williams Renault,34,1:36.270,+ 0:13.287,193.03,14
-A Sanchez,96 Rothmans Williams Renault,35,1:37.469,+ 0:13.939,190.66,15
-A Sanchez,96 Rothmans Williams Renault,36,1:37.184,+ 0:14.834,191.22,13
-A Sanchez,96 Rothmans Williams Renault,37,1:37.685,+ 0:15.648,190.24,13
-A Sanchez,96 Rothmans Williams Renault,38,1:52.600,+ 0:21.214,165.04,24
-A Sanchez,96 Rothmans Williams Renault,PIT,2.7 seconds / Soft tyres,,,
-A Sanchez,96 Rothmans Williams Renault,39,1:39.323,+ 0:23.558,187.10,25
-A Sanchez,96 Rothmans Williams Renault,40,1:36.604,+ 0:21.136,192.36,24
-A Sanchez,96 Rothmans Williams Renault,41,1:36.440,+ 0:20.608,192.69,22
-A Sanchez,96 Rothmans Williams Renault,42,1:36.746,+ 0:18.561,192.08,22
-A Sanchez,96 Rothmans Williams Renault,43,1:36.526,+ 0:19.163,192.52,21
-A Sanchez,96 Rothmans Williams Renault,44,1:36.191,+ 0:19.254,193.19,20
-A Sanchez,96 Rothmans Williams Renault,45,1:37.560,+ 0:20.390,190.48,20
-A Sanchez,96 Rothmans Williams Renault,46,1:53.186,+ 0:26.529,164.18,26
-A Sanchez,96 Rothmans Williams Renault,PIT,2.6 seconds / Soft tyres,,,
-A Sanchez,96 Rothmans Williams Renault,47,1:39.324,+ 0:29.210,187.10,26
-A Sanchez,96 Rothmans Williams Renault,48,1:36.382,+ 0:24.656,192.81,26
-A Sanchez,96 Rothmans Williams Renault,49,1:36.062,+ 0:24.664,193.45,25
-A Sanchez,96 Rothmans Williams Renault,50,1:35.893,+ 0:24.713,193.79,25
-A Sanchez,96 Rothmans Williams Renault,51,1:35.690,+ 0:24.787,194.20,25
-A Sanchez,96 Rothmans Williams Renault,52,1:36.154,+ 0:25.056,193.26,25
-A Sanchez,96 Rothmans Williams Renault,53,1:36.796,+ 0:25.698,191.98,25
-A Sanchez,96 Rothmans Williams Renault,54,1:36.905,+ 0:26.856,191.77,24
+P Schäufler,92 Alfa Romeo,17,1:55.323,+ 0:19.047,219.78,28
+P Schäufler,92 Alfa Romeo,18,1:49.605,+ 0:18.875,231.25,24
+P Schäufler,92 Alfa Romeo,19,1:49.461,+ 0:19.183,231.55,22
+P Schäufler,92 Alfa Romeo,20,1:49.196,+ 0:18.813,232.12,21
+P Schäufler,92 Alfa Romeo,21,1:48.974,+ 0:18.046,232.59,22
+P Schäufler,92 Alfa Romeo,22,1:48.946,+ 0:08.854,232.65,18
+P Schäufler,92 Alfa Romeo,23,1:58.179,+ 0:17.172,214.47,26
+P Schäufler,92 Alfa Romeo,PIT,3.1 seconds / Soft tyres,,,
+P Schäufler,92 Alfa Romeo,24,1:56.655,+ 0:22.144,217.27,29
+P Schäufler,92 Alfa Romeo,25,1:49.114,+ 0:22.744,232.29,25
+P Schäufler,92 Alfa Romeo,26,1:48.098,+ 0:21.885,234.47,23
+P Schäufler,92 Alfa Romeo,27,1:48.491,+ 0:18.506,233.62,22
+P Schäufler,92 Alfa Romeo,28,1:48.352,+ 0:17.914,233.92,21
+P Schäufler,92 Alfa Romeo,29,1:48.616,+ 0:09.914,233.36,17
+P Schäufler,92 Alfa Romeo,30,1:57.365,+ 0:16.175,215.96,23
+P Schäufler,92 Alfa Romeo,PIT,2.9 seconds / Soft tyres,,,
+P Schäufler,92 Alfa Romeo,31,1:56.012,+ 0:20.774,218.48,25
+P Schäufler,92 Alfa Romeo,32,1:47.998,+ 0:19.824,234.69,22
+P Schäufler,92 Alfa Romeo,33,1:48.284,+ 0:19.168,234.07,22
+P Schäufler,92 Alfa Romeo,34,1:47.790,+ 0:18.673,235.14,22
+P Schäufler,92 Alfa Romeo,35,1:47.877,+ 0:17.821,234.95,21
+P Schäufler,92 Alfa Romeo,36,1:48.391,+ 0:08.964,233.84,15
+P Schäufler,92 Alfa Romeo,37,1:57.937,+ 0:17.219,214.91,21
+P Schäufler,92 Alfa Romeo,PIT,2.7 seconds / Soft tyres,,,
+P Schäufler,92 Alfa Romeo,38,1:54.009,+ 0:18.097,222.32,23
+P Schäufler,92 Alfa Romeo,39,1:46.703,+ 0:17.348,237.54,21
+P Schäufler,92 Alfa Romeo,40,1:48.296,+ 0:17.871,234.05,24
+P Schäufler,92 Alfa Romeo,41,1:46.750,+ 0:17.119,237.44,24
+P Schäufler,92 Alfa Romeo,42,1:46.941,+ 0:16.234,237.01,23
+P Schäufler,92 Alfa Romeo,43,1:46.848,+ 0:18.714,237.22,21

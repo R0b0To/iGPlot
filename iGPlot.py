@@ -20,7 +20,7 @@ def clear_terminal():
 background_color = '#31333b'
 font_size = 12 
 default_color = 'white'
-labels_config = 3 # 1=team 2=driver 3=both
+labels_config = 3 # 1=team 2=driver 3=both  || this will be used for the labels
 
 
 
@@ -203,22 +203,28 @@ class OvertakesWindow(QWidget):
             img_path = f'downloaded_images/{driver}.png'  
             try:
                 label_color = self.ax.get_yticklabels()[i].get_color()
-                img = plt.imread(img_path)
-                imagebox = OffsetImage(img, zoom=0.15)
+                
                 if sorted_values[i]<0:
-                    ab = AnnotationBbox(imagebox, (sorted_values[i], i), frameon=False,box_alignment=(0,0.5))
                     self.ax.text(0, i, "P"+str(sorted_qualilist[i]), va='center', ha= "left", color=label_color, fontsize=font_size,weight='bold')
                     self.ax.text(sorted_values[i], i, "P"+str(sorted_endlaplist[i]), va='center', ha= "right", color=label_color,fontsize=font_size,weight='bold')
                     self.ax.text(sorted_values[i]/2, i, ">"*abs(sorted_values[i]), va='center', ha= "center", color=label_color,fontsize=font_size,weight='bold')
-                elif sorted_values[i]>0:  
-                    ab = AnnotationBbox(imagebox, (sorted_values[i], i), frameon=False,box_alignment=(1,0.5))
+                    img = plt.imread(img_path)
+                    imagebox = OffsetImage(img, zoom=0.15)
+                    ab = AnnotationBbox(imagebox, (sorted_values[i], i), frameon=False,box_alignment=(0,0.5))
+                elif sorted_values[i]>0:                      
                     self.ax.text(0, i, "P"+str(sorted_qualilist[i]), va='center', ha= "right", color=label_color,fontsize=font_size,weight='bold')
                     self.ax.text(sorted_values[i], i, "P"+str(sorted_endlaplist[i]), va='center', ha= "left", color=label_color,fontsize=font_size,weight='bold')
                     self.ax.text(sorted_values[i]/2, i, "<"*abs(sorted_values[i]), va='center', ha= "center", color=label_color,fontsize=font_size,weight='bold')
+                    img = plt.imread(img_path)
+                    imagebox = OffsetImage(img, zoom=0.15)
+                    ab = AnnotationBbox(imagebox, (sorted_values[i], i), frameon=False,box_alignment=(1,0.5))
                 else:
+                    img = plt.imread(img_path)
+                    imagebox = OffsetImage(img, zoom=0.15)
                     ab = AnnotationBbox(imagebox, (sorted_values[i], i), frameon=False,box_alignment=(0,0.5))  
                 self.ax.add_artist(ab)
             except FileNotFoundError:
+                print('image not found')
                 pass 
         
         plt.xlim(sorted_values[-1]-1, sorted_values[0]+1)
