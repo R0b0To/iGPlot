@@ -274,6 +274,9 @@ class PitTimesWindow():
             medians = {name: int(sorted(driver_data[name]["Box Time Lost"])[len(driver_data[name]["Box Time Lost"]) // 2]* 10) / 10.0 for name in driver_data}
         
         elif(option ==2):
+            keys_to_remove = [name for name, data in driver_data.items() if not data["PitStop"]]
+            for key in keys_to_remove:
+                del driver_data[key]
             medians = {name: int(sorted(driver_data[name]["PitStop"])[len(driver_data[name]["PitStop"]) // 2]* 10) / 10.0 for name in driver_data}
         
         sorted_data = dict(sorted(driver_data.items(), key=lambda item: medians[item[0]]))
