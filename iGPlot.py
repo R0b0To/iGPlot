@@ -66,6 +66,11 @@ def get_brightness(rgba_color):
     r, g, b, _ = rgba_color
     brightness = 0.299 * r + 0.587 * g + 0.114 * b
     return brightness
+def hex_to_rgba(hex_color, alpha=1.0):
+    hex_color = hex_color.lstrip('#')
+    rgb_tuple = tuple(int(hex_color[i:i+2], 16) for i in (0, 2, 4))
+    return rgb_tuple + (alpha,)
+#read report file. store the data in driver_data
 with open('full_report.csv', 'r',encoding='utf-8') as csv_file:
     csv_reader = csv.reader(csv_file)
 
@@ -94,7 +99,7 @@ with open('full_report.csv', 'r',encoding='utf-8') as csv_file:
                     if(row[4]=="-"):row[4]='0'
                     driver_data[driver_name]["Gap"].append(row[4])
                     driver_data[driver_name]["Average Speed"].append(row[5])
-                    driver_data[driver_name]["Race Position"].append(row[6])
+                    driver_data[driver_name]["Race Position"].append(int(row[6]))
                
          else:
                 # If the driver doesn't exist, create a new entry with the driver's data as a list
@@ -104,7 +109,7 @@ with open('full_report.csv', 'r',encoding='utf-8') as csv_file:
                     "Gap":["Q"],
                     "Average Speed":["Q"], 
                     "Lap": [["0",row[3]]],
-                    "Race Position": [row[6]],
+                    "Race Position": [int(row[6])],
                     "PitStop":[]
                 }
     for driver, test in driver_data.items():
@@ -285,7 +290,7 @@ class PitTimesWindow():
 
         names = list(sorted_data)
 
-        
+
         label_colors = [color_mapping.get(name,default_color) for name in names]
         if (option == 1):
             times = [sorted_data[name]["Box Time Lost"] for name in names]
@@ -626,10 +631,54 @@ class RaceVisualized():
         plt.tight_layout()
         plt.show()
         self.ani.save('orbita.mp4', writer='ffmpeg', fps=24)
+class RaceRecap():
+    def __init__(self):
+        super().__init__()
+        self.initUI()
+
+    def initUI(self):
+        self.figure, self.ax = basic_graph()
+        self.ax.xaxis.set_ticks_position('top')
+        self.ax.xaxis.set_label_position('top')
         
+  
+    def plot_graph(self):
+        # Plotting line charts for each label
 
 
-        
+        print(color_mapping)
+        for label, values in driver_data.items():
+            laps_values = values['Race Position']
+            color = color_mapping.get(label, default_color)  # Use specified color or default to black
+            brightness = get_brightness(hex_to_rgba(color,alpha=1))
+            team = construct_label_string(driver_data[label]["Team"],label,labels_config)
+            text_color = 'black'
+            if brightness < 100: 
+                text_color='white'
+            else:
+                text_color='black'
+           
+            last_value = laps_values[-1]
+            first_value = laps_values[0]
+            bbox_props = dict(boxstyle="round,pad=0.3", edgecolor='none', facecolor= color, alpha=1)
+            self.ax.annotate(f'{label}', xy=(len(laps_values) - 1, last_value),
+                xytext=(-1, first_value),
+                ha='left', va='center', bbox=bbox_props, color= text_color,fontsize=font_size-2,weight='bold')
+            
+            bbox_props = dict(boxstyle="round,pad=0.3", edgecolor='none', facecolor= color, alpha=1)
+            self.ax.annotate(f'{team}', xy=(len(laps_values) - 1, last_value),
+                xytext=(len(laps_values) - 1, last_value),
+                ha='left', va='center', bbox=bbox_props, color= text_color,fontsize=font_size-2,weight='bold')
+            self.ax.plot(laps_values, label=label, color=color)
+
+        race_laps = max(len(driver["Race Position"]) for driver in driver_data.values())
+        plt.xticks(np.arange(race_laps,step=1))
+        self.ax.set_yticks(range(1, len(driver_data) + 1))
+       # self.ax.set_yticklabels(list(driver_data.keys()))
+        plt.ylim(self.ax.get_ylim()[::-1])
+       
+        plt.show()
+       
 class MainWindow(QWidget):
     def __init__(self):
         super().__init__()
@@ -643,6 +692,7 @@ class MainWindow(QWidget):
         button2 = QPushButton('pit time loss', self)
         button6 = QPushButton('pit stop time', self)
         button4 = QPushButton('manual overtakes', self)
+        button7 = QPushButton('race recap', self)
         #button5 = QPushButton('Race visualized', self)
         
 
@@ -658,6 +708,7 @@ class MainWindow(QWidget):
         vbox = QVBoxLayout()
 
         vbox.addWidget(button3)
+        vbox.addWidget(button7)
         vbox.addLayout(button1_layout)
         vbox.addWidget(button2)
         vbox.addWidget(button6)
@@ -670,6 +721,7 @@ class MainWindow(QWidget):
         button3.clicked.connect(lambda: self.open_graph_window_pit_recap())
         button4.clicked.connect(lambda: self.open_graph_window_overtakes())
         button6.clicked.connect(lambda: self.open_graph_window_stationary_pit_times())
+        button7.clicked.connect(lambda: self.open_graph_window_race_recap())
         #button5.clicked.connect(lambda: self.open_graph_race())
         self.setLayout(vbox)
 
@@ -694,6 +746,9 @@ class MainWindow(QWidget):
     def open_graph_race(self):
         self.graph_window = RaceVisualized()
         self.graph_window.plot_graph()
+    def open_graph_window_race_recap(self):
+        self.graph_window = RaceRecap()
+        self.graph_window.plot_graph()    
      
 if __name__ == '__main__':
     app = QApplication(sys.argv)
