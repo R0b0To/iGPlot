@@ -1,6 +1,6 @@
 var separator = '	'
 var tier = 'elite'
-var leagueType = document.getElementById(tier).querySelector('h2').textContent.split('/')[1]
+var leagueType = parseInt(document.getElementById(tier).querySelector('h2').textContent.split('/')[1])
 var table = document.querySelector(`#${tier} > table > tbody`);
 var csv=`Team${separator}Manager${separator}Driver${separator}Livery${separator}Talent${separator}Grade${separator}Special${separator}Rating${separator}FavTrack${separator}Height${separator}BMI${separator}Color\n`;
 
@@ -10,7 +10,12 @@ async function fetchManager(manager){
 }
 const managers = [];
 for (var i = 0; i < table.rows.length; i++) {
-  managers.push({team:table.rows[i].childNodes[1].childNodes[5].textContent,color:/#([0-9A-Fa-f]{3,6})\b/.exec(table.rows[i].firstChild.outerHTML)[0],name:table.rows[i].childNodes[1].childNodes[3].textContent.substring(1),id:table.rows[i].childNodes[1].childNodes[1].href.match(/\d+/)[0]});
+  const match = /#([0-9A-Fa-f]{3,6})\b/.exec(table.rows[i].firstChild.outerHTML);
+  const color = match ? match[0] : "#000000";
+  managers.push({team:table.rows[i].childNodes[1].childNodes[5].textContent,
+                 color:color,
+                 name:table.rows[i].childNodes[1].childNodes[3].textContent.substring(1),
+                 id:table.rows[i].childNodes[1].childNodes[1].href.match(/\d+/)[0]});
 }
 Promise.all(
   managers.map(async (manager) => {
@@ -20,6 +25,7 @@ Promise.all(
     driverId.d1 = /\d+/.exec(managerData.vars.driver1)[0];
     if(leagueType == 16)
       driverId.d2 = /\d+/.exec(managerData.vars.driver2)[0];
+    let stat =[];
     for(id in driverId)
     {
      const response = await fetch(`https://igpmanager.com/index.php?action=fetch&d=driver&id=${driverId[id]}&csrfName=&csrfToken=`)
@@ -31,8 +37,9 @@ Promise.all(
      const bmi ={"red":"❌","orange":"❎","green":"✅"};
      const special={specialA0:"",specialA1:"Common",specialA2:"Rare",specialA3:"Legendary"}
      const string =(`${manager.team}${separator}${manager.name}${separator}${driver.dName}${separator}${imgLink}${separator}${driver.sTalent}${separator}${special[driver.sSpecial.grade]}${separator}${driver.sSpecial.name}${separator}${driver.starRating}${separator}${driver.favTrack}${separator}${driver.sHeight}${separator}${bmi[driver.sBmi]}${separator}${manager.color}`);
-     manager.stat = string;
+     stat.push(string);
     }
+    manager.stat = stat.join('\n ');
   }),
 ).then(()=>{
   const managerStats = managers.map(manager => manager.stat);
