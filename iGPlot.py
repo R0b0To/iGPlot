@@ -39,12 +39,15 @@ default_border_settings = {
     'figure.subplot.top': 0.960,
 }
 plt.rcParams.update(default_border_settings)
-with open("colors.txt", "r",encoding='utf-8') as file:
-    for line in file:
-        line = line.strip()
-        if line:
-            name, color_hex = line.split(":")
-            color_mapping[name.strip()] = color_hex.strip()
+try:
+    with open("colors.txt", "r",encoding='utf-8') as file:
+        for line in file:
+            line = line.strip()
+            if line:
+                name, color_hex = line.split(":")
+                color_mapping[name.strip()] = color_hex.strip()
+except FileNotFoundError:
+    print("File not found.")                
 def toMs(time_duration):
     match = re.match(r'\+ (\d+):(\d+\.\d+)', time_duration)
     if match:
@@ -207,9 +210,9 @@ class OvertakesWindow(QWidget):
         for i, driver in enumerate(sorted_names):
             label_color = self.ax.get_yticklabels()[i].get_color()
             try:
-                img = plt.imread(f'downloaded_images/{driver}.png' )
+                img = plt.imread(f'assets/cars/{driver}.png' )
             except FileNotFoundError:
-                img =  plt.imread(f'default_car.png' )
+                img =  plt.imread(f'assets/default_car.png' )
                 
             imagebox = OffsetImage(img, zoom=0.15)
             if sorted_values[i]<0:
@@ -411,7 +414,7 @@ class PitRecap():
               
                 bottoms[driver_list.index(label)] += size
                 text_x = -size + bottoms[driver_list.index(label)]
-                img_path = f'tyres/{color}.png'
+                img_path = f'assets/tyres/{color}.png'
                 image = plt.imread(img_path)
                 
 
