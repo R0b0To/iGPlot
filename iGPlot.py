@@ -492,7 +492,7 @@ class Overtakes():
 
                
         for i, driver in enumerate(names):
-            img_path = f'downloaded_images/{driver}.png'  
+            img_path = f'assets/cars/{driver}.png'  
             try:
                 label_color = self.ax.get_yticklabels()[i].get_color()
                 img = plt.imread(img_path)
