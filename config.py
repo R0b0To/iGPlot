@@ -109,18 +109,18 @@ class MainWindow(QWidget):
             response = self.session.get(url)
             return response.json()
         def save_colors(managers):
-            with open('colors.txt', 'w') as file:
+            with open('colors.txt', 'w',encoding='utf-8') as file:
                 for item in managers:
                     for driver in item['drivers']:
                         file.write(f"{driver['abbr_name']}:{item['color']}\n")
         def save_liveries_links(managers):
-            with open('cars.txt', 'w') as file:
+            with open('cars.txt', 'w',encoding='utf-8') as file:
                 for item in managers:
                     for driver in item['drivers']:
                         file.write(f"{driver['abbr_name']},{driver['livery']}\n")
             download_cars()        
         def save_full_stats(managers): 
-              with open('Managers&Drivers.txt', 'w') as file:
+              with open('Managers&Drivers.txt', 'w',encoding='utf-8') as file:
                 file.write(f"Team,Manager,Country,Driver,Abbr,Livery,Talent,Grade,Special,Rating,FavTrack,Height,Age,BMI,Color\n")              
                 for item in managers:
                     for driver in item['drivers']:
