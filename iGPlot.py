@@ -1,4 +1,5 @@
 import csv,sys,re
+import random
 import numpy as np
 import matplotlib.pyplot as plt
 from datetime import timedelta
@@ -19,10 +20,9 @@ def clear_terminal():
 #config
 background_color = '#31333b'
 font_size = 12 
-default_color = 'white'
+default_color = '#ffffff'
+random_default_color = True
 labels_config = 3 # 1=team 2=driver 3=both  || this will be used for the labels
-
-
 
 
 # Initialize variables to store data
@@ -69,6 +69,16 @@ def get_brightness(rgba_color):
     r, g, b, _ = rgba_color
     brightness = 0.299 * r + 0.587 * g + 0.114 * b
     return brightness
+def generate_random_hex_color():
+    if random_default_color:
+        red = random.randint(0, 255)
+        green = random.randint(0, 255)
+        blue = random.randint(0, 255)
+
+        hex_color = "#{:02x}{:02x}{:02x}".format(red, green, blue)
+    else:
+         hex_color = default_color
+    return hex_color
 def hex_to_rgba(hex_color, alpha=1.0):
     hex_color = hex_color.lstrip('#')
     rgb_tuple = tuple(int(hex_color[i:i+2], 16) for i in (0, 2, 4))
@@ -192,7 +202,7 @@ class OvertakesWindow(QWidget):
         sorted_endlaplist = np.array(endlaplist)[int_array1.argsort()][::-1]
         sorted_names= np.array(names)[int_array1.argsort()][::-1]
         sorted_teams = np.array(teams)[int_array1.argsort()][::-1]
-        label_colors = [color_mapping.get(name,default_color) for name in sorted_names]
+        label_colors = [color_mapping.get(name,generate_random_hex_color()) for name in sorted_names]
         label_text = [construct_label_string(x, y, labels_config) for x, y in zip(sorted_teams, sorted_names)]
         plt.barh(label_text, sorted_values, color=label_colors)
        
@@ -265,8 +275,7 @@ class OvertakesWindow(QWidget):
         ax2.spines['left'].set_visible(False)
         plt.tight_layout()
         plt.subplots_adjust(left=0.222,bottom=0.044)
-        plt.show()
-
+   
 class PitTimesWindow():
     def __init__(self):
         super().__init__()
@@ -294,7 +303,7 @@ class PitTimesWindow():
         names = list(sorted_data)
 
 
-        label_colors = [color_mapping.get(name,default_color) for name in names]
+        label_colors = [color_mapping.get(name,generate_random_hex_color()) for name in names]
         if (option == 1):
             times = [sorted_data[name]["Box Time Lost"] for name in names]
         elif(option ==2):    
@@ -346,10 +355,8 @@ class PitTimesWindow():
         self.ax.set_yticklabels(label_text,fontweight='bold')
         
         plt.tight_layout()
-        plt.subplots_adjust(left=0.222,bottom=0.044)
-        plt.show()
-        
-        
+        plt.subplots_adjust(left = 0.17, top = 0.95, right = 0.99, bottom = 0.06, hspace = 0.5, wspace = 0.5)
+              
 class PitRecap():
     def __init__(self):
         super().__init__()
@@ -424,7 +431,7 @@ class PitRecap():
                 self.ax.add_artist(ab)
                 self.ax.text(text_x, bar[0].get_y() + bar[0].get_height() / 2, str(size), ha='center', va='center', color='white', weight="bold",fontsize=10)
             
-        label_colors = [color_mapping.get(name,default_color) for name in driver_list]
+        label_colors = [color_mapping.get(name,generate_random_hex_color()) for name in driver_list]
 
         for label, color in zip(self.ax.get_yticklabels(), label_colors):
             label.set_bbox({'facecolor': color, 'pad': 0.2, 'edgecolor': 'none', 'boxstyle': 'round'})
@@ -447,8 +454,8 @@ class PitRecap():
                 
         self.ax.invert_yaxis()
         plt.tight_layout()
-        plt.subplots_adjust(left=0.222,bottom=0.044)
-        plt.show()
+        plt.subplots_adjust(left = 0.2, top = 0.95, right = 0.98, bottom = 0, hspace = 0.5, wspace = 0.5)
+  
 class Overtakes():
     def __init__(self):
         super().__init__()
@@ -476,7 +483,7 @@ class Overtakes():
         names =  np.array([item[0] for item in self.sorted_items])
         sorted_values = np.array([item[1] for item in self.sorted_items])
 
-        label_colors = [color_mapping.get(name,default_color) for name in names]
+        label_colors = [color_mapping.get(name,generate_random_hex_color()) for name in names]
 
         plt.barh(names, sorted_values, color=label_colors)
        
@@ -543,7 +550,7 @@ class Overtakes():
         ax2.spines['bottom'].set_visible(False)
         ax2.spines['left'].set_visible(False)
     
-        plt.show()
+
 class RaceVisualized():
     def __init__(self):
         self.fig, self.ax = plt.subplots(figsize=(14, 8))
@@ -632,7 +639,7 @@ class RaceVisualized():
         
         self.ani= FuncAnimation(plt.gcf(), update, frames=len(interpolated_data), repeat=False, interval=100,blit=True)
         plt.tight_layout()
-        plt.show()
+    
         self.ani.save('orbita.mp4', writer='ffmpeg', fps=24)
 class RaceRecap():
     def __init__(self):
@@ -648,11 +655,10 @@ class RaceRecap():
     def plot_graph(self):
         # Plotting line charts for each label
 
-
-        print(color_mapping)
         for label, values in driver_data.items():
             laps_values = values['Race Position']
-            color = color_mapping.get(label, default_color)  # Use specified color or default to black
+
+            color = color_mapping.get(label, generate_random_hex_color())  # Use specified color or default to black
             brightness = get_brightness(hex_to_rgba(color,alpha=1))
             team = construct_label_string(driver_data[label]["Team"],label,labels_config)
             text_color = 'black'
@@ -679,8 +685,8 @@ class RaceRecap():
         self.ax.set_yticks(range(1, len(driver_data) + 1))
        # self.ax.set_yticklabels(list(driver_data.keys()))
         plt.ylim(self.ax.get_ylim()[::-1])
-       
-        plt.show()
+        plt.subplots_adjust(left = 0.03, top = 0.95, right = 0.9, bottom = 0, hspace = 0.5, wspace = 0.5)
+        
        
 class MainWindow(QWidget):
     def __init__(self):
