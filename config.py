@@ -121,10 +121,10 @@ class MainWindow(QWidget):
             download_cars()        
         def save_full_stats(managers): 
               with open('Managers&Drivers.txt', 'w',encoding='utf-8') as file:
-                file.write(f"Team,Manager,Country,Driver,Abbr,Livery,Talent,Grade,Special,Rating,FavTrack,Height,Age,BMI,Color\n")              
+                file.write(f"Team,Manager,Country,Driver,Abbr,Livery,Talent,Grade,Special,Rating,FavTrack,Height,Age,BMI,Color,AccLevel\n")              
                 for item in managers:
                     for driver in item['drivers']:
-                        file.write(f"{item['team']},{item['name']},{driver['country']},{driver['dName']},{driver['abbr_name']},{driver['livery']},{driver['sTalent']},{driver['special']},{driver['sSpecial']['name']},{driver['starRating']},{driver['favTrack']},{driver['sHeight']},{driver['sAge']},{driver['sBmi']},{item['color']}\n")              
+                        file.write(f"{item['team']},{item['name']},{driver['country']},{driver['dName']},{driver['abbr_name']},{driver['livery']},{driver['sTalent']},{driver['special']},{driver['sSpecial']['name']},{driver['starRating']},{driver['favTrack']},{driver['sHeight']},{driver['sAge']},{driver['sBmi']},{item['color']},{driver['level']}\n")              
         if not self.login_completed:
              time.sleep(5)
              self.on_confirm_button()
@@ -160,6 +160,7 @@ class MainWindow(QWidget):
                 driver_id ={}
                 soup = BeautifulSoup(manager_result['vars']['driver1'], 'html.parser')
                 self.progress_bar.setValue(int(i/managers_number*70))
+                manager_level = manager_result['vars']['level']
                 i+=1
                 #using driver id as key and the abbr name as value
                 driver_id[re.findall(r'\d+',soup.a['href'])[0]] = soup.text.strip()
@@ -191,6 +192,7 @@ class MainWindow(QWidget):
                    
                    driver_attr['livery'] = livery
                    driver_attr['special'] = special[driver_attr['sSpecial']['grade']]
+                   driver_attr['level'] = manager_level
                    manager_driver_stats.append(driver_attr)
                 manager['drivers'] = manager_driver_stats 
             
