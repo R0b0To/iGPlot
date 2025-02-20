@@ -1,10 +1,7 @@
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QRadioButton, QPushButton, QLabel,QLineEdit,QProgressBar 
 from PyQt5.QtCore import QThread, pyqtSignal
 from bs4 import BeautifulSoup
-import requests
-import time
-import sys
-import re
+import requests, urllib.parse, time,sys,re,os
 
 class WorkerThread(QThread):
     # Define a signal to update the progress bar
@@ -96,14 +93,15 @@ class MainWindow(QWidget):
             lines_number_progress = int(1/len(lines)*30)
             for line in lines:
                 name, url = line.strip().split(',')
-                file_name = f"{name}.png"
                 response = requests.get(url)
                 if response.status_code == 200:
-                    with open(('assets/cars/'+file_name), 'wb') as image_file:
+                    parsed_url = urllib.parse.urlparse(url)
+                    ext = os.path.splitext(parsed_url.path)[-1]
+                    with open(('assets/cars/'+f"{name}{ext}"), 'wb') as image_file:
                         image_file.write(response.content)
                     self.progress_bar.setValue(lines_number_progress+self.progress_bar.value())
                 else:
-                    print(f"Failed to download {file_name} from {url} (Status code: {response.status_code})")        
+                    print(f"Failed to download {name} from {url} (Status code: {response.status_code})")        
         def fetch_driver(driverId):
             url = f"https://igpmanager.com/index.php?action=fetch&d=driver&id={driverId}&csrfName=&csrfToken="
             response = self.session.get(url)
@@ -164,7 +162,7 @@ class MainWindow(QWidget):
                 i+=1
                 #using driver id as key and the abbr name as value
                 driver_id[re.findall(r'\d+',soup.a['href'])[0]] = soup.text.strip()
-
+                
                 #add second driver if league is 2 cars
                 if league_max_cars == 16:
                     soup = BeautifulSoup(manager_result['vars']['driver2'], 'html.parser')
@@ -180,11 +178,11 @@ class MainWindow(QWidget):
                    'sTalent' : BeautifulSoup(result['vars']['sTalent'], 'html.parser').text.strip(),
                    'sHeight' : result['vars']['sHeight'],
                    'sAge' : BeautifulSoup(result['vars']['sAge'], 'html.parser').text.strip(),
-                   'country': BeautifulSoup(result['vars']['dName'], 'html.parser').img['class'][1][2:],
-                   'starRating' : BeautifulSoup(result['vars']['starRating'], 'html.parser').contents[1].text.strip(" '()"),
+                   'country': BeautifulSoup(result['vars']['type'], 'html.parser').img['class'][1][2:],
+                   'starRating' : "",
                    'sBmi' : BeautifulSoup(result['vars']['sBmi'], 'html.parser').span['class'][1].split('-')[1],
                    'tName' : BeautifulSoup(result['vars']['tName'], 'html.parser').text.strip(),
-                   'sSpecial' : { 'name': BeautifulSoup(result['vars']['sSpecial'], 'html.parser').text.strip(), 'grade': BeautifulSoup(result['vars']['sSpecial'], 'html.parser').span['class'][0] }
+                   'sSpecial' : {'name': (span := BeautifulSoup(result['vars']['type'], 'html.parser').find('span')).get_text(strip=True), 'grade': span['class'][0] if span and 'class' in span.attrs else None} 
                    }
                    livery = BeautifulSoup(manager_result['vars']['liveryS'], 'html.parser').img['src']
                    special={'specialA0':"",'specialA1':"Common",'specialA2':"Rare",'specialA3':"Legendary"}

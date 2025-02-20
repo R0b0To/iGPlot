@@ -220,7 +220,11 @@ class OvertakesWindow(QWidget):
         for i, driver in enumerate(sorted_names):
             label_color = self.ax.get_yticklabels()[i].get_color()
             try:
-                img = plt.imread(f'assets/cars/{driver}.png' )
+                for ext in ['png', 'webp']:
+                    file_path = f"assets/cars/{driver}.{ext}"
+                    if os.path.exists(file_path):
+                        img = plt.imread(file_path)
+                        break
             except FileNotFoundError:
                 img =  plt.imread(f'assets/default_car.png' )
                 
