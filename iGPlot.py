@@ -226,7 +226,7 @@ class OvertakesWindow(QWidget):
                         img = plt.imread(file_path)
                         break
             except FileNotFoundError:
-                img =  plt.imread(f'assets/default_car.png' )
+                img =  plt.imread(f'assets/cars/default_car.png' )
                 
             imagebox = OffsetImage(img, zoom=0.15)
             if sorted_values[i]<0:
