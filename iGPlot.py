@@ -100,23 +100,25 @@ with open('full_report.csv', 'r',encoding='utf-8') as csv_file:
     for row in csv_reader:
         if len(row) >= 1:
          driver_name = row[0]
-         if driver_name in driver_data:
+         team_name = row[1]
+         key = (driver_name, team_name)
+         if key  in driver_data:
                 if(row[2] == "PIT"):                  
                     pit_info = row[3].split("/")
 
-                    driver_data[driver_name]["PitStop"].append(float(pit_info[0].strip().split(' ',1)[0]))
-                    driver_data[driver_name]["Lap"][-1] = [driver_data[driver_name]["Lap"][-1],pit_info[1].strip(),pit_info[0].strip()]
+                    driver_data[key]["PitStop"].append(float(pit_info[0].strip().split(' ',1)[0]))
+                    driver_data[key]["Lap"][-1] = [driver_data[key]["Lap"][-1],pit_info[1].strip(),pit_info[0].strip()]
                 else:
-                    driver_data[driver_name]["Lap"].append(row[2])
-                    driver_data[driver_name]["Lap Time"].append(row[3])
+                    driver_data[key]["Lap"].append(row[2])
+                    driver_data[key]["Lap Time"].append(row[3])
                     if(row[4]=="-"):row[4]='0'
-                    driver_data[driver_name]["Gap"].append(row[4])
-                    driver_data[driver_name]["Average Speed"].append(row[5])
-                    driver_data[driver_name]["Race Position"].append(int(row[6]))
+                    driver_data[key]["Gap"].append(row[4])
+                    driver_data[key]["Average Speed"].append(row[5])
+                    driver_data[key]["Race Position"].append(int(row[6]))
                
          else:
                 # If the driver doesn't exist, create a new entry with the driver's data as a list
-                driver_data[driver_name] = {
+                driver_data[key] = {
                     "Team": row[1],
                     "Lap Time":["Q"], #Q is for qualifying
                     "Gap":["Q"],
@@ -202,8 +204,9 @@ class OvertakesWindow(QWidget):
         sorted_endlaplist = np.array(endlaplist)[int_array1.argsort()][::-1]
         sorted_names= np.array(names)[int_array1.argsort()][::-1]
         sorted_teams = np.array(teams)[int_array1.argsort()][::-1]
-        label_colors = [color_mapping.get(name,generate_random_hex_color()) for name in sorted_names]
-        label_text = [construct_label_string(x, y, labels_config) for x, y in zip(sorted_teams, sorted_names)]
+
+        label_colors = [color_mapping.get(name[0],generate_random_hex_color()) for name in sorted_names]
+        label_text = [construct_label_string(x, y[0], labels_config) for x, y in zip(sorted_teams, sorted_names)]
         plt.barh(label_text, sorted_values, color=label_colors)
        
         for label, color in zip(self.ax.get_yticklabels(), label_colors):
@@ -221,10 +224,12 @@ class OvertakesWindow(QWidget):
             label_color = self.ax.get_yticklabels()[i].get_color()
             try:
                 for ext in ['png', 'webp']:
-                    file_path = f"assets/cars/{driver}.{ext}"
+                    file_path = f"assets/cars/{driver[0]}.{ext}"
                     if os.path.exists(file_path):
                         img = plt.imread(file_path)
                         break
+                else:
+                    img = plt.imread('assets/cars/default_car.png')
             except FileNotFoundError:
                 img =  plt.imread(f'assets/cars/default_car.png' )
                 
@@ -250,6 +255,7 @@ class OvertakesWindow(QWidget):
         self.ax.set_yticks(np.arange(len(sorted_names)))
         self.ax.get_xaxis().set_visible(False)
         ax2 = self.ax.twinx()
+        sorted_names = [key[0] for key in sorted_names]
         ax2.barh(sorted_names, sorted_values, alpha=0) 
         ax2.spines['right'].set_position(('axes',0))  
    
@@ -307,12 +313,13 @@ class PitTimesWindow():
         names = list(sorted_data)
 
 
-        label_colors = [color_mapping.get(name,generate_random_hex_color()) for name in names]
+        label_colors = [color_mapping.get(name[0],generate_random_hex_color()) for name in names]
         if (option == 1):
             times = [sorted_data[name]["Box Time Lost"] for name in names]
         elif(option ==2):    
             times = [sorted_data[name]["PitStop"] for name in names]
         teams = [sorted_data[name]["Team"] for name in names]
+        names =  [key[0] for key in sorted_data]
         label_text = [construct_label_string(x, y, labels_config) for x, y in zip(teams, names)]
         boxes =plt.boxplot(times, labels=label_text, vert=False, patch_artist=True)
         ax2 = plt.twinx()
@@ -419,7 +426,7 @@ class PitRecap():
             for item in data:
                 size, color = item
 
-                team = construct_label_string(sorted_driver_data[label]["Team"],label,labels_config)
+                team = construct_label_string(sorted_driver_data[label]["Team"],label[0],labels_config)
 
                 bar = self.ax.barh(team, size, color=color, left=bottoms[driver_list.index(label)],height=0.5)
               
@@ -435,7 +442,7 @@ class PitRecap():
                 self.ax.add_artist(ab)
                 self.ax.text(text_x, bar[0].get_y() + bar[0].get_height() / 2, str(size), ha='center', va='center', color='white', weight="bold",fontsize=10)
             
-        label_colors = [color_mapping.get(name,generate_random_hex_color()) for name in driver_list]
+        label_colors = [color_mapping.get(name[0],generate_random_hex_color()) for name in driver_list]
 
         for label, color in zip(self.ax.get_yticklabels(), label_colors):
             label.set_bbox({'facecolor': color, 'pad': 0.2, 'edgecolor': 'none', 'boxstyle': 'round'})
@@ -487,7 +494,7 @@ class Overtakes():
         names =  np.array([item[0] for item in self.sorted_items])
         sorted_values = np.array([item[1] for item in self.sorted_items])
 
-        label_colors = [color_mapping.get(name,generate_random_hex_color()) for name in names]
+        label_colors = [color_mapping.get(name[0],generate_random_hex_color()) for name in names]
 
         plt.barh(names, sorted_values, color=label_colors)
        
@@ -662,9 +669,9 @@ class RaceRecap():
         for label, values in driver_data.items():
             laps_values = values['Race Position']
 
-            color = color_mapping.get(label, generate_random_hex_color())  # Use specified color or default to black
+            color = color_mapping.get(label[0], generate_random_hex_color())  # Use specified color or default to black
             brightness = get_brightness(hex_to_rgba(color,alpha=1))
-            team = construct_label_string(driver_data[label]["Team"],label,labels_config)
+            team = construct_label_string(driver_data[label]["Team"],label[0],labels_config)
             text_color = 'black'
             if brightness < 100: 
                 text_color='white'
@@ -674,7 +681,7 @@ class RaceRecap():
             last_value = laps_values[-1]
             first_value = laps_values[0]
             bbox_props = dict(boxstyle="round,pad=0.3", edgecolor='none', facecolor= color, alpha=1)
-            self.ax.annotate(f'{label}', xy=(len(laps_values) - 1, last_value),
+            self.ax.annotate(f'{label[0]}', xy=(len(laps_values) - 1, last_value),
                 xytext=(-1, first_value),
                 ha='left', va='center', bbox=bbox_props, color= text_color,fontsize=font_size-2,weight='bold')
             
